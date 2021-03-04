@@ -1,0 +1,9 @@
+uuid: 76b1879e-eb4a-461c-b50a-491b5ec59c8c
+langcode: en
+status: true
+dependencies: {  }
+id: FI-sv
+label: 'Finland - Swedish'
+direction: ltr
+weight: 11
+locked: false

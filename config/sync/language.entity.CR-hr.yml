@@ -1,0 +1,9 @@
+uuid: 693fb602-b9d1-4b79-aa0f-89bcd3d84f76
+langcode: en
+status: true
+dependencies: {  }
+id: CR-hr
+label: 'Croatia - Croatian'
+direction: ltr
+weight: 5
+locked: false

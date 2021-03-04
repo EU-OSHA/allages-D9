@@ -1,0 +1,37 @@
+uuid: eda14ca2-a491-44d2-9482-78589f93d0fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.themes.body
+    - field.field.node.themes.field_more_info
+    - field.field.node.themes.field_order
+    - field.field.node.themes.field_profile
+    - field.field.node.themes.field_sections
+    - field.field.node.themes.field_theme_image
+    - node.type.themes
+  module:
+    - text
+    - user
+id: node.themes.teaser
+targetEntityType: node
+bundle: themes
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_more_info: true
+  field_order: true
+  field_profile: true
+  field_sections: true
+  field_theme_image: true
+  langcode: true
+  links: true

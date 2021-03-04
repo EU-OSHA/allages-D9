@@ -1,0 +1,9 @@
+uuid: 2ecccaa2-a416-4deb-9401-5faf89c2a156
+langcode: en
+status: true
+dependencies: {  }
+id: LT-lt
+label: 'Lithuania - Lithuanian'
+direction: ltr
+weight: 20
+locked: false

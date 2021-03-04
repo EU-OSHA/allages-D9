@@ -1,0 +1,8 @@
+uuid: 0502eb75-1b1f-4b72-a784-b78c45d05cc6
+langcode: en
+status: true
+dependencies: {  }
+name: Profile
+vid: profile
+description: 'Profiles of the Web'
+weight: 0

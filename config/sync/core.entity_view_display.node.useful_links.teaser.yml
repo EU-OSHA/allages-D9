@@ -1,0 +1,37 @@
+uuid: c4d722c7-b8b4-4f97-b1a2-04b183cbaca5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.useful_links.body
+    - field.field.node.useful_links.field_category
+    - field.field.node.useful_links.field_link
+    - field.field.node.useful_links.field_theme
+    - node.type.useful_links
+  module:
+    - text
+    - user
+id: node.useful_links.teaser
+targetEntityType: node
+bundle: useful_links
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_category: true
+  field_link: true
+  field_theme: true
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: 3607dbc9-a87d-4759-8fd8-aafbaae85f20
+langcode: en
+status: true
+dependencies: {  }
+id: GE-de
+label: 'Germany - German'
+direction: ltr
+weight: 13
+locked: false

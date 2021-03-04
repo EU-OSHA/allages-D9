@@ -1,0 +1,9 @@
+uuid: 13720739-666f-4660-9c24-ed8993310e4e
+langcode: en
+status: true
+dependencies: {  }
+id: CY-el
+label: 'Cyprus - Greek'
+direction: ltr
+weight: 6
+locked: false

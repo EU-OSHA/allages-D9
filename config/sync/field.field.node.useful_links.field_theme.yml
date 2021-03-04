@@ -1,0 +1,29 @@
+uuid: 033978f6-a03b-4001-b1b8-879628fd3760
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theme
+    - node.type.themes
+    - node.type.useful_links
+id: node.useful_links.field_theme
+field_name: field_theme
+entity_type: node
+bundle: useful_links
+label: Theme
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      themes: themes
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

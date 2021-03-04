@@ -1,0 +1,23 @@
+uuid: 8c5d7d67-4648-4671-9909-57dfa4a6bc12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.themes
+id: node.themes.field_order
+field_name: field_order
+entity_type: node
+bundle: themes
+label: Order
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

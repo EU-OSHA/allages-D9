@@ -1,0 +1,9 @@
+uuid: fd762f80-2f59-4001-a660-777eb29f6799
+langcode: en
+status: true
+dependencies: {  }
+id: LB-de
+label: 'Luxembourg - German'
+direction: ltr
+weight: 22
+locked: false

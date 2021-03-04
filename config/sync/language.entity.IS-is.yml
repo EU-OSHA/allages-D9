@@ -1,0 +1,9 @@
+uuid: 8730caf6-6f6c-4b86-aa94-48fc1065bfa7
+langcode: en
+status: true
+dependencies: {  }
+id: IS-is
+label: 'Iceland - Icelandic'
+direction: ltr
+weight: 16
+locked: false

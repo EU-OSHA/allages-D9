@@ -1,0 +1,9 @@
+uuid: f75164c5-a19d-4201-b60f-7f3ba53f5baf
+langcode: en
+status: true
+dependencies: {  }
+id: SWZ-fr
+label: 'Switzerland - French'
+direction: ltr
+weight: 34
+locked: false

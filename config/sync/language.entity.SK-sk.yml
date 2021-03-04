@@ -1,0 +1,9 @@
+uuid: e2cda7f4-625e-4467-a6c8-e56947b95ecb
+langcode: en
+status: true
+dependencies: {  }
+id: SK-sk
+label: 'Slovakia - Slovak'
+direction: ltr
+weight: 30
+locked: false

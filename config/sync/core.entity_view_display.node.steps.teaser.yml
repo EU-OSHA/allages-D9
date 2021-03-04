@@ -1,0 +1,25 @@
+uuid: 4ab906c3-bc31-45e0-a717-1bb998e40d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.steps.field_image_step
+    - field.field.node.steps.field_profile
+    - field.field.node.steps.field_text_1
+    - field.field.node.steps.field_text_2
+    - node.type.steps
+  module:
+    - user
+id: node.steps.teaser
+targetEntityType: node
+bundle: steps
+mode: teaser
+content: {  }
+hidden:
+  field_image_step: true
+  field_profile: true
+  field_text_1: true
+  field_text_2: true
+  langcode: true
+  links: true

@@ -1,0 +1,9 @@
+uuid: 14cd70d8-af5c-4a85-aef2-f7b458879691
+langcode: en
+status: true
+dependencies: {  }
+id: LB-fr
+label: 'Luxembourg - French'
+direction: ltr
+weight: 21
+locked: false

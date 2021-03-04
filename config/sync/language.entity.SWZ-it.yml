@@ -1,0 +1,9 @@
+uuid: 76e2d606-00b1-4d53-80fb-8176a05acdf3
+langcode: en
+status: true
+dependencies: {  }
+id: SWZ-it
+label: 'Switzerland - Italian'
+direction: ltr
+weight: 36
+locked: false

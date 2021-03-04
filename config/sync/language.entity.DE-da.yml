@@ -1,0 +1,9 @@
+uuid: bc047ba5-830c-4587-8133-e60d9dd09939
+langcode: en
+status: true
+dependencies: {  }
+id: DE-da
+label: 'Denmark - Danish'
+direction: ltr
+weight: 8
+locked: false

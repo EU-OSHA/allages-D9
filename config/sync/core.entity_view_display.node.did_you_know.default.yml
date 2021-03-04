@@ -1,0 +1,44 @@
+uuid: 3956578c-baf9-4985-9d87-722cffbbabe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.did_you_know.field_image_step
+    - field.field.node.did_you_know.field_sources
+    - field.field.node.did_you_know.field_text
+    - node.type.did_you_know
+  module:
+    - media
+    - text
+    - user
+id: node.did_you_know.default
+targetEntityType: node
+bundle: did_you_know
+mode: default
+content:
+  field_image_step:
+    type: media_thumbnail
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_sources:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  langcode: true
+  links: true

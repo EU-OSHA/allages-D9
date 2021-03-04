@@ -1,0 +1,9 @@
+uuid: ee3cc97f-32b1-4388-8dae-ae3c2c281dd7
+langcode: en
+status: true
+dependencies: {  }
+id: CZ-cs
+label: 'Czech Republic - Czech'
+direction: ltr
+weight: 7
+locked: false

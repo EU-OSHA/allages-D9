@@ -1,0 +1,21 @@
+uuid: cdbe159c-3535-44e2-97b1-30fc82289ee5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_more_info
+    - node.type.themes
+  module:
+    - text
+id: node.themes.field_more_info
+field_name: field_more_info
+entity_type: node
+bundle: themes
+label: 'More Info'
+description: 'The text shown in the more info div of each theme'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

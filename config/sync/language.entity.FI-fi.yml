@@ -1,0 +1,9 @@
+uuid: b4604cc4-9552-463d-9daf-2e37ac97f3ff
+langcode: en
+status: true
+dependencies: {  }
+id: FI-fi
+label: 'FInland - FInnish'
+direction: ltr
+weight: 10
+locked: false

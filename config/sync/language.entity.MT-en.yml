@@ -1,0 +1,9 @@
+uuid: 0cc4c1eb-6d3b-49db-acb6-d2e629a0b51d
+langcode: en
+status: true
+dependencies: {  }
+id: MT-en
+label: 'Malta - English'
+direction: ltr
+weight: 23
+locked: false
