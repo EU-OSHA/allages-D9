@@ -1,0 +1,9 @@
+uuid: f1957c4e-0b6d-4d20-b11c-cda4b149b4cf
+langcode: en
+status: true
+dependencies: {  }
+id: ET-et
+label: 'Estonia - Estonian'
+direction: ltr
+weight: 9
+locked: false

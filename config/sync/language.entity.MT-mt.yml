@@ -1,0 +1,9 @@
+uuid: 794c0f58-5714-4269-80f6-8dd5809a61dc
+langcode: en
+status: true
+dependencies: {  }
+id: MT-mt
+label: 'Malta - Maltese'
+direction: ltr
+weight: 24
+locked: false

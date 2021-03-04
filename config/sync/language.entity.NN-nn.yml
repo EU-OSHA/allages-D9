@@ -1,0 +1,9 @@
+uuid: 93d54794-b14d-4203-88a0-213c55fec377
+langcode: en
+status: true
+dependencies: {  }
+id: NN-nn
+label: 'Norway - Norwegian'
+direction: ltr
+weight: 26
+locked: false

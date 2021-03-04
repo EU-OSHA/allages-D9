@@ -1,0 +1,18 @@
+uuid: 91ddaa32-0dd4-415d-8ed7-32303b5beb42
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Did you know'
+type: did_you_know
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

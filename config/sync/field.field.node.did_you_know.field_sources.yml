@@ -1,0 +1,21 @@
+uuid: e4b7bcc7-d7a7-4e39-8888-ab573ecdd3c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sources
+    - node.type.did_you_know
+  module:
+    - text
+id: node.did_you_know.field_sources
+field_name: field_sources
+entity_type: node
+bundle: did_you_know
+label: Sources
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: f4daf9e9-011d-4411-8a53-0d73b9878ae2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Useful links'
+type: useful_links
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

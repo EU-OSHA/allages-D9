@@ -1,0 +1,29 @@
+uuid: 8250369b-5718-450e-a45b-8f1dbb31a4be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile
+    - node.type.themes
+    - taxonomy.vocabulary.profile
+id: node.themes.field_profile
+field_name: field_profile
+entity_type: node
+bundle: themes
+label: Profile
+description: 'You must select the profile for the theme.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      profile: profile
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

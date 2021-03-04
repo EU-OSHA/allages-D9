@@ -1,0 +1,29 @@
+uuid: cec14cfd-85e6-4006-aff7-87bae8d9385a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theme_image
+    - media.type.image
+    - node.type.themes
+id: node.themes.field_theme_image
+field_name: field_theme_image
+entity_type: node
+bundle: themes
+label: 'Theme Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

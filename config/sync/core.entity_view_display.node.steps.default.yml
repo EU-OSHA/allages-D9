@@ -1,0 +1,46 @@
+uuid: 8e968374-8390-43ab-af16-ce2eef7869af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.steps.field_image_step
+    - field.field.node.steps.field_profile
+    - field.field.node.steps.field_text_1
+    - field.field.node.steps.field_text_2
+    - node.type.steps
+  module:
+    - media
+    - text
+    - user
+id: node.steps.default
+targetEntityType: node
+bundle: steps
+mode: default
+content:
+  field_image_step:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: media_thumbnail
+    region: content
+  field_text_1:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_text_2:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_profile: true
+  langcode: true
+  links: true

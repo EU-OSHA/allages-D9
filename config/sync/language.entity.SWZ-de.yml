@@ -1,0 +1,9 @@
+uuid: a9767579-675e-4ef0-85ca-4288894c00b7
+langcode: en
+status: true
+dependencies: {  }
+id: SWZ-de
+label: 'Switzerland - German'
+direction: ltr
+weight: 35
+locked: false

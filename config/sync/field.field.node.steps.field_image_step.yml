@@ -1,0 +1,29 @@
+uuid: 2fc9a03d-e95c-4cb6-b310-22bcf787ff18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_step
+    - media.type.image
+    - node.type.steps
+id: node.steps.field_image_step
+field_name: field_image_step
+entity_type: node
+bundle: steps
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

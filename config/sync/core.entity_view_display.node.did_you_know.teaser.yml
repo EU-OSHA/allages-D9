@@ -1,0 +1,23 @@
+uuid: 83dd1960-3069-482b-9506-3956c72b026b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.did_you_know.field_image_step
+    - field.field.node.did_you_know.field_sources
+    - field.field.node.did_you_know.field_text
+    - node.type.did_you_know
+  module:
+    - user
+id: node.did_you_know.teaser
+targetEntityType: node
+bundle: did_you_know
+mode: teaser
+content: {  }
+hidden:
+  field_image_step: true
+  field_sources: true
+  field_text: true
+  langcode: true
+  links: true

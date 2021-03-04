@@ -1,0 +1,21 @@
+uuid: a40c6892-5167-484b-9d43-e0325ac05819
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_1
+    - node.type.steps
+  module:
+    - text
+id: node.steps.field_text_1
+field_name: field_text_1
+entity_type: node
+bundle: steps
+label: 'Text 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,31 @@
+uuid: 4842d05b-f851-42e9-8807-34cb659f6b9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.quiz
+    - node.type.steps
+    - node.type.themes
+id: node.themes.field_sections
+field_name: field_sections
+entity_type: node
+bundle: themes
+label: Sections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      steps: steps
+      quiz: quiz
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: steps
+field_type: entity_reference

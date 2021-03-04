@@ -1,0 +1,9 @@
+uuid: 88346f26-0d06-4496-9026-6824c45c9c04
+langcode: en
+status: true
+dependencies: {  }
+id: IR-en
+label: 'Ireland - English'
+direction: ltr
+weight: 17
+locked: false

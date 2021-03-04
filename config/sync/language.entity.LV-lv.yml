@@ -1,0 +1,9 @@
+uuid: 79df70de-37dd-48ed-85b0-2cda316bca8a
+langcode: en
+status: true
+dependencies: {  }
+id: LV-lv
+label: 'Latvia - Latvian'
+direction: ltr
+weight: 19
+locked: false
