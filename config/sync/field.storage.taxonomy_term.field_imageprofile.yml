@@ -1,19 +1,20 @@
-uuid: 0b1c2aad-cc38-46eb-812a-e2017ceb1cd4
+uuid: e07153b9-b094-463b-b6cd-6db9206c63fd
 langcode: en
 status: true
 dependencies:
   module:
     - field_permissions
-    - node
+    - media
+    - taxonomy
 third_party_settings:
   field_permissions:
     permission_type: public
-id: node.field_short_text
-field_name: field_short_text
-entity_type: node
-type: string_long
+id: taxonomy_term.field_imageprofile
+field_name: field_imageprofile
+entity_type: taxonomy_term
+type: entity_reference
 settings:
-  case_sensitive: false
+  target_type: media
 module: core
 locked: false
 cardinality: 1

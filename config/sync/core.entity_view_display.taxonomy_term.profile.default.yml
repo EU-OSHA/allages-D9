@@ -1,0 +1,33 @@
+uuid: 10602620-aed7-4eee-ab01-652d81b8d6ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.profile.field_imageprofile
+    - taxonomy.vocabulary.profile
+  module:
+    - text
+id: taxonomy_term.profile.default
+targetEntityType: taxonomy_term
+bundle: profile
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_imageprofile:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

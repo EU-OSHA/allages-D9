@@ -1,0 +1,11 @@
+uuid: 6b7c0ca4-a783-4d0f-8733-a5764369791a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.steps
+id: node.steps
+target_entity_type_id: node
+target_bundle: steps
+default_langcode: site_default
+language_alterable: true

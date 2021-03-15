@@ -38,7 +38,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
+    type: string_textarea
     region: content
   field_text:
     weight: 10
@@ -46,7 +46,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
+    type: text_textarea
     region: content
   field_theme:
     weight: 11

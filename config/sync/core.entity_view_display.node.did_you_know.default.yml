@@ -37,8 +37,9 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: text_default
     region: content
 hidden:
   langcode: true
   links: true
+  search_api_excerpt: true

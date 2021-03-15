@@ -1,0 +1,11 @@
+uuid: 972fb5f8-1b80-4292-8061-03f34380411b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.good_practices
+id: node.good_practices
+target_entity_type_id: node
+target_bundle: good_practices
+default_langcode: site_default
+language_alterable: true
