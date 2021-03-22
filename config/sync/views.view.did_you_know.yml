@@ -1,6 +1,6 @@
 uuid: e33d98ef-002f-483b-9c01-408325aa8919
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - field.storage.node.field_image_step
@@ -13,6 +13,7 @@ dependencies:
     - node
     - text
     - user
+    - views_infinite_scroll
 id: did_you_know
 label: 'Did you know'
 module: views
@@ -53,7 +54,7 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: infinite_scroll
         options:
           items_per_page: 6
           offset: 0
@@ -70,6 +71,10 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          views_infinite_scroll:
+            button_text: 'Load More'
+            automatically_load_content: true
+            initially_load_all_pages: true
       style:
         type: default
         options:
@@ -219,7 +224,7 @@ display:
           group_type: group
           admin_label: ''
           label: ''
-          exclude: true
+          exclude: false
           alter:
             alter_text: false
             text: ''
@@ -430,6 +435,29 @@ display:
       display_extenders:
         metatag_display_extender: {  }
       use_ajax: true
+      show_admin_links: false
+      title: 'Did you know...?'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_image_step'
+        - 'config:field.storage.node.field_sources'
+        - 'config:field.storage.node.field_text'
+  page:
+    display_plugin: page
+    id: page
+    display_title: Page
+    position: 1
+    display_options:
+      display_extenders:
+        metatag_display_extender: {  }
+      path: did-you-know
     cache_metadata:
       max-age: -1
       contexts:

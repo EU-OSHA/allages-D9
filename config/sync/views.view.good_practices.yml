@@ -6,10 +6,12 @@ dependencies:
     - field.storage.node.field_image_step
     - field.storage.node.field_short_text
     - node.type.good_practices
+    - system.menu.main
   module:
     - media
     - node
     - user
+    - views_infinite_scroll
 id: good_practices
 label: 'good practices'
 module: views
@@ -50,15 +52,15 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: infinite_scroll
         options:
           items_per_page: 6
           offset: 0
           id: 0
           total_pages: null
           tags:
-            previous: ‹‹
-            next: ››
+            previous: '‹ Previous'
+            next: 'Next ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -67,6 +69,10 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          views_infinite_scroll:
+            button_text: 'Load More'
+            automatically_load_content: true
+            initially_load_all_pages: true
       style:
         type: default
         options:
@@ -352,6 +358,36 @@ display:
         metatag_display_extender: {  }
       title: 'good practices'
       show_admin_links: false
+      use_ajax: true
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_image_step'
+        - 'config:field.storage.node.field_short_text'
+  page:
+    display_plugin: page
+    id: page
+    display_title: Page
+    position: 1
+    display_options:
+      display_extenders:
+        metatag_display_extender: {  }
+      path: good-practices
+      menu:
+        type: normal
+        title: 'Good practices'
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 2
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:

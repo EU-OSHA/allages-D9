@@ -1,4 +1,4 @@
-uuid: 45ea58c0-d4bd-459b-b278-08f840e67f05
+uuid: fa69ed02-723c-4262-ab30-9eded5bd1c2b
 langcode: en
 status: false
 dependencies:
@@ -9,8 +9,8 @@ dependencies:
     - user
 _core:
   default_config_hash: Z1Lg95xnf11BTHIugkzple_pdxZdECiqLRcrLVo3bcw
-id: glossary_duplicated
-label: 'Glossary Duplicated'
+id: glossary_1
+label: Glossary
 module: node
 description: 'All content, by letter.'
 tag: default

@@ -1,0 +1,24 @@
+uuid: d36039b6-feef-473d-acfa-e98ed6427228
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.question
+    - field.field.node.did_you_know.field_image_step
+    - field.field.node.did_you_know.field_sources
+    - field.field.node.did_you_know.field_text
+    - node.type.did_you_know
+  module:
+    - user
+id: node.did_you_know.question
+targetEntityType: node
+bundle: did_you_know
+mode: question
+content: {  }
+hidden:
+  field_image_step: true
+  field_sources: true
+  field_text: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

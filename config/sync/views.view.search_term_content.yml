@@ -9,7 +9,7 @@ dependencies:
     - text
     - user
 id: search_term_content
-label: 'Search term content OK'
+label: 'Search term content'
 module: views
 description: ''
 tag: ''

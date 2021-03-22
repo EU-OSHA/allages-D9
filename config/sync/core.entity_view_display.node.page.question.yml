@@ -1,25 +1,28 @@
-uuid: b29970ea-ec86-4691-ad09-4edd98e38a65
+uuid: ff445173-82fe-4929-aba6-762dd40ce183
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.quiz.body
-    - node.type.quiz
+    - core.entity_view_mode.node.question
+    - field.field.node.page.body
+    - node.type.page
   module:
     - text
     - user
-id: node.quiz.default
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.question
 targetEntityType: node
-bundle: quiz
-mode: default
+bundle: page
+mode: question
 content:
   body:
     label: hidden
     type: text_default
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   langcode: true
   links: true

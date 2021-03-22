@@ -1,0 +1,30 @@
+uuid: baa33468-b96c-4276-bdbe-64739020947f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.question
+    - field.field.node.themes.body
+    - field.field.node.themes.field_more_info
+    - field.field.node.themes.field_order
+    - field.field.node.themes.field_profile
+    - field.field.node.themes.field_sections
+    - field.field.node.themes.field_theme_image
+    - node.type.themes
+  module:
+    - user
+id: node.themes.question
+targetEntityType: node
+bundle: themes
+mode: question
+content: {  }
+hidden:
+  body: true
+  field_more_info: true
+  field_order: true
+  field_profile: true
+  field_sections: true
+  field_theme_image: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

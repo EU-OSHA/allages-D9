@@ -1,9 +1,9 @@
-uuid: 5e6db190-ceb1-418c-953c-fbc2ccf8a2bd
+uuid: c6179f2d-2571-48e4-887f-bb248d69d9a6
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.question
     - field.field.node.good_practices.field_image_step
     - field.field.node.good_practices.field_short_text
     - field.field.node.good_practices.field_text
@@ -11,10 +11,10 @@ dependencies:
     - node.type.good_practices
   module:
     - user
-id: node.good_practices.teaser
+id: node.good_practices.question
 targetEntityType: node
 bundle: good_practices
-mode: teaser
+mode: question
 content: {  }
 hidden:
   field_image_step: true

@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
+    - path
     - text
 _core:
   default_config_hash: AD_lefuYmjsKeH3OQApsyP_nLj6ZnGaALznLQSQ0Z_o
@@ -31,6 +32,19 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   title:
     type: string_textfield
     weight: 0
@@ -41,8 +55,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  path: true
   promote: true
-  status: true
   sticky: true
   uid: true
