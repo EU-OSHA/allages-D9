@@ -1,0 +1,22 @@
+uuid: f6c29322-da11-4967-823f-0143e6ead646
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.question
+    - node.type.webform
+  module:
+    - user
+id: node.webform.question
+targetEntityType: node
+bundle: webform
+mode: question
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

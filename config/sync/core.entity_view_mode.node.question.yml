@@ -1,0 +1,10 @@
+uuid: c3d4a93c-020d-4411-99cf-2c40899ea2b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.question
+label: Question
+targetEntityType: node
+cache: true

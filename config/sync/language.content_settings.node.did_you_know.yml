@@ -1,0 +1,11 @@
+uuid: f9bd4dd0-8661-4337-9370-b1f11f5f5fa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know
+target_entity_type_id: node
+target_bundle: did_you_know
+default_langcode: site_default
+language_alterable: true

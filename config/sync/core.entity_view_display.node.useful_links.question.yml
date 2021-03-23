@@ -1,0 +1,26 @@
+uuid: cdd70b2a-0e15-4289-9f76-5487947c6f26
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.question
+    - field.field.node.useful_links.body
+    - field.field.node.useful_links.field_category
+    - field.field.node.useful_links.field_link
+    - field.field.node.useful_links.field_theme
+    - node.type.useful_links
+  module:
+    - user
+id: node.useful_links.question
+targetEntityType: node
+bundle: useful_links
+mode: question
+content: {  }
+hidden:
+  body: true
+  field_category: true
+  field_link: true
+  field_theme: true
+  langcode: true
+  links: true
+  search_api_excerpt: true
