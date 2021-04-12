@@ -11,12 +11,19 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  csv_serialization: 0
+  ctools: 0
+  custom_migrations: 0
   date_popup: 0
   datetime: 0
+  datetime_range: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
+  entity_reference_revisions: 0
   field: 0
+  field_group: 0
   field_permissions: 0
   field_ui: 0
   file: 0
@@ -25,22 +32,36 @@ module:
   history: 0
   image: 0
   language: 0
+  languagefield: 0
   link: 0
+  locale: 0
   media: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
   metatag: 0
   metatag_views: 0
+  migrate: 0
+  migrate_drupal: 0
+  migrate_file_to_media: 0
+  migrate_file_to_media_example: 0
+  migrate_plus: 0
+  migrate_tools: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
   quickedit: 0
+  quiz: 0
+  quiz_multichoice: 0
+  range: 0
   rdf: 0
+  rest: 0
+  rules: 0
   search: 0
   search_api: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -48,11 +69,17 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  typed_data: 0
   update: 0
   user: 0
+  views_bulk_operations: 0
+  views_data_export: 0
   views_infinite_scroll: 0
   views_ui: 0
+  pathauto: 1
+  content_translation: 10
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   bartik: 0

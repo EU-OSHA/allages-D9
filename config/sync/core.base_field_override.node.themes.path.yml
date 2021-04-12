@@ -1,0 +1,20 @@
+uuid: ecd9d74b-6f40-4c11-a314-921e88eca70d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.themes
+  module:
+    - path
+id: node.themes.path
+field_name: path
+entity_type: node
+bundle: themes
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

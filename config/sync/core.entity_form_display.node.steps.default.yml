@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.steps.field_image_step
+    - field.field.node.steps.field_metatags
     - field.field.node.steps.field_profile
     - field.field.node.steps.field_text_1
     - field.field.node.steps.field_text_2
     - node.type.steps
   module:
+    - metatag
     - path
     - text
 id: node.steps.default
@@ -31,6 +33,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_metatags:
+    weight: 125
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_profile:
     weight: 121
@@ -100,6 +109,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 5

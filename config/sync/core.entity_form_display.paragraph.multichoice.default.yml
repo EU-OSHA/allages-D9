@@ -1,0 +1,89 @@
+uuid: 8d8ce30a-76f5-4e53-a1c9-75521535cb05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.multichoice.multichoice_answer
+    - field.field.paragraph.multichoice.multichoice_correct
+    - field.field.paragraph.multichoice.multichoice_feedback_chosen
+    - field.field.paragraph.multichoice.multichoice_feedback_not_chosen
+    - field.field.paragraph.multichoice.multichoice_score_chosen
+    - field.field.paragraph.multichoice.multichoice_score_not_chosen
+    - paragraphs.paragraphs_type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_feedback:
+      children:
+        - multichoice_feedback_chosen
+        - multichoice_feedback_not_chosen
+      parent_name: ''
+      weight: 20
+      format_type: details
+      format_settings:
+        label: Feedback
+        required_fields: true
+        id: ''
+        classes: ''
+        open: false
+      label: Feedback
+_core:
+  default_config_hash: 0eWtPRNbJfhUyGbkPZUjjwDThaFPdrlyHR_MAqU2_0A
+id: paragraph.multichoice.default
+targetEntityType: paragraph
+bundle: multichoice
+mode: default
+content:
+  multichoice_answer:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  multichoice_correct:
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  multichoice_feedback_chosen:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  multichoice_feedback_not_chosen:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  multichoice_score_chosen:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  multichoice_score_not_chosen:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,37 @@
+uuid: b15d0748-947e-47b2-bfe6-cf42d793c117
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 00ptV1IRhc81YO0w1Mj9kK5MTheMxnYahVlK7l83qJY
+id: migrate_file_to_media_example_article_images_step2
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: media
+label: 'Article Images Mapping'
+source:
+  plugin: 'content_entity:node'
+  bundle: article
+  include_translations: false
+process:
+  nid: nid
+  type:
+    plugin: default_value
+    default_value: article
+  field_image_media:
+    plugin: file_id_lookup
+    source: field_image
+    migration: migrate_file_to_media_example_article_images_step1
+    no_stub: true
+  field_image2_media:
+    plugin: file_id_lookup
+    source: field_image2
+    migration: migrate_file_to_media_example_article_images_step1
+    no_stub: true
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  optional:
+    - migrate_file_to_media_example_article_images_step1

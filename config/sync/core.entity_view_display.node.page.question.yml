@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.question
     - field.field.node.page.body
+    - field.field.node.page.field_metatags
     - node.type.page
   module:
     - text
@@ -24,6 +25,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_metatags: true
   langcode: true
   links: true
   search_api_excerpt: true

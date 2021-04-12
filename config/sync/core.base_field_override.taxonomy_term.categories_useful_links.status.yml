@@ -1,0 +1,22 @@
+uuid: 506de49d-6740-4db0-ac00-11b26c6dadeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categories_useful_links
+id: taxonomy_term.categories_useful_links.status
+field_name: status
+entity_type: taxonomy_term
+bundle: categories_useful_links
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

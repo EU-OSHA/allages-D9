@@ -1,0 +1,22 @@
+uuid: 1b1554b5-6c35-4d27-97ac-2d18e64247ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.good_practices
+id: node.good_practices.sticky
+field_name: sticky
+entity_type: node
+bundle: good_practices
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

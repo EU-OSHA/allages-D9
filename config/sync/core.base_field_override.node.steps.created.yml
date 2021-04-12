@@ -1,0 +1,18 @@
+uuid: eff9db3a-4005-4170-95a3-2bf5958b26f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.steps
+id: node.steps.created
+field_name: created
+entity_type: node
+bundle: steps
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,22 @@
+uuid: bce67f67-6f93-4057-9623-d13f2a89d753
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.status
+field_name: status
+entity_type: node
+bundle: did_you_know
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

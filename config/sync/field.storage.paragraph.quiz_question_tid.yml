@@ -1,0 +1,26 @@
+uuid: a0b31e49-d6a7-4f3d-b588-240fa9baf5ec
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz
+      - taxonomy
+  module:
+    - paragraphs
+    - taxonomy
+_core:
+  default_config_hash: JCqDxGKprfi500s8jhu0FBuCkIkhFcZAH8-Q6ZrqytE
+id: paragraph.quiz_question_tid
+field_name: quiz_question_tid
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

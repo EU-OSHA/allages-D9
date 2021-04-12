@@ -1,0 +1,18 @@
+uuid: 70c44ba2-305e-46b2-a44a-64c209a2d06b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.themes
+id: node.themes.changed
+field_name: changed
+entity_type: node
+bundle: themes
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

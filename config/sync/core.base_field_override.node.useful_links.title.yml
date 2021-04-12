@@ -1,0 +1,18 @@
+uuid: 321da438-2859-4024-a93f-f30870ce4fbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.useful_links
+id: node.useful_links.title
+field_name: title
+entity_type: node
+bundle: useful_links
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

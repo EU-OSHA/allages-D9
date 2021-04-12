@@ -1,0 +1,81 @@
+uuid: ea93cec5-9525-4e0f-9c81-29c65d94ac82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.quiz_question.multichoice.alternatives
+    - field.field.quiz_question.multichoice.choice_boolean
+    - field.field.quiz_question.multichoice.choice_multi
+    - field.field.quiz_question.multichoice.choice_random
+    - quiz.question.type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: MNDI7e0g4EYDdRj9C7kOwCNgYPZIpG9YK81wtD25Bco
+id: quiz_question.multichoice.default
+targetEntityType: quiz_question
+bundle: multichoice
+mode: default
+content:
+  alternatives:
+    type: entity_reference_paragraphs
+    weight: 5
+    region: content
+    settings:
+      title: alternative
+      title_plural: Alternatives
+      edit_mode: open
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: multichoice
+    third_party_settings: {  }
+  body:
+    type: text_textarea
+    region: content
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  choice_boolean:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  choice_multi:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  choice_random:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  feedback:
+    type: text_textarea
+    region: content
+    weight: 26
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    region: content
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

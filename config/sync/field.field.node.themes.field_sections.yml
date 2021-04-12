@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_sections
-    - node.type.quiz
     - node.type.steps
     - node.type.themes
 id: node.themes.field_sections
@@ -22,7 +21,6 @@ settings:
   handler_settings:
     target_bundles:
       steps: steps
-      quiz: quiz
     sort:
       field: _none
       direction: ASC

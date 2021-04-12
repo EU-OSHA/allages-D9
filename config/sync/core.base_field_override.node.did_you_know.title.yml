@@ -1,0 +1,18 @@
+uuid: 25f9bec7-00d2-4d7d-83db-dcc8b1b13c40
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.title
+field_name: title
+entity_type: node
+bundle: did_you_know
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

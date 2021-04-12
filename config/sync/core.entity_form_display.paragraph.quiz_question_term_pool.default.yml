@@ -1,0 +1,47 @@
+uuid: be51c388-a16e-431a-b6ff-7f18daa5ea3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quiz_question_term_pool.quiz_question_max_score
+    - field.field.paragraph.quiz_question_term_pool.quiz_question_number
+    - field.field.paragraph.quiz_question_term_pool.quiz_question_tid
+    - paragraphs.paragraphs_type.quiz_question_term_pool
+  enforced:
+    module:
+      - quiz
+      - taxonomy
+_core:
+  default_config_hash: 2sjJOvPkm-4nIH03CQTLNCJiM1sg15LIxinTV-__zUo
+id: paragraph.quiz_question_term_pool.default
+targetEntityType: paragraph
+bundle: quiz_question_term_pool
+mode: default
+content:
+  quiz_question_max_score:
+    weight: 2
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  quiz_question_number:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  quiz_question_tid:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

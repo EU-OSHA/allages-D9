@@ -6,10 +6,12 @@ dependencies:
     - field.field.node.useful_links.body
     - field.field.node.useful_links.field_category
     - field.field.node.useful_links.field_link
+    - field.field.node.useful_links.field_metatags
     - field.field.node.useful_links.field_theme
     - node.type.useful_links
   module:
     - link
+    - metatag
     - path
 id: node.useful_links.default
 targetEntityType: node
@@ -39,6 +41,13 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_metatags:
+    weight: 26
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_theme:
     weight: 4
@@ -92,6 +101,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 5

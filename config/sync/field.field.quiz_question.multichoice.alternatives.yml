@@ -1,0 +1,39 @@
+uuid: a5ce9382-c361-4a73-84c5-09a0192055bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_question.alternatives
+    - paragraphs.paragraphs_type.multichoice
+    - quiz.question.type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: OckYB-GK7ho30FdRWDPLhfer-LCq35ly8OK_49pDN_Q
+id: quiz_question.multichoice.alternatives
+field_name: alternatives
+entity_type: quiz_question
+bundle: multichoice
+label: Alternatives
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      multichoice: multichoice
+    target_bundles_drag_drop:
+      multichoice:
+        enabled: true
+        weight: 3
+      quiz_result_feedback:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,47 @@
+uuid: feb850f5-b9bd-4e9c-9044-05452a012b73
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: m8zQpDtusaTgsrV1Yy4n1AXXiCgBO-5ZSrqffO83S8s
+id: migrate_file_to_media_example_article_images_step1_de
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: media
+label: 'Article Images Media'
+source:
+  plugin: media_entity_generator
+  entity_type: node
+  bundle: article
+  langcode: de
+  field_names:
+    - field_image
+    - field_image2
+process:
+  bundle:
+    plugin: default_value
+    default_value: image
+  mid:
+    plugin: migration_lookup
+    migration: migrate_file_to_media_example_article_images_step1
+    source: target_id
+    no_stub: true
+  name:
+    plugin: media_name
+    source: file_name
+  existing_media_file:
+    plugin: check_media_duplicate
+    source: target_id
+  unique_file_id:
+    plugin: check_duplicate
+    source: target_id
+  field_media_image/target_id: target_id
+  field_media_image/alt: alt
+  field_media_image/title: title
+  langcode: langcode
+destination:
+  plugin: 'entity:media'
+  translations: true
+migration_dependencies: null

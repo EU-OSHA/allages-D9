@@ -1,0 +1,35 @@
+uuid: 20fcb101-5f0b-4a74-b0c9-8ba72f14d728
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.quiz_result_answer.multichoice.multichoice_answer
+    - quiz.result.answer.type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+_core:
+  default_config_hash: cqIUAH_EAn0-o7sag2DhnjNr4y06j5BdYrVvU33FQ3c
+id: quiz_result_answer.multichoice.default
+targetEntityType: quiz_result_answer
+bundle: multichoice
+mode: default
+content:
+  table:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  answer_feedback: true
+  attempt: true
+  choice: true
+  correct: true
+  multichoice_answer: true
+  question_feedback: true
+  quiz_feedback: true
+  quiz_question_view_full: true
+  quiz_question_view_question: true
+  score: true
+  search_api_excerpt: true
+  solution: true

@@ -1,0 +1,18 @@
+uuid: 2f8f85e3-7db2-4973-a463-df87264074ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.created
+field_name: created
+entity_type: node
+bundle: did_you_know
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

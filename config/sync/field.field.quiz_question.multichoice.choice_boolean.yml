@@ -1,0 +1,26 @@
+uuid: c12566c5-935e-484c-bf1c-aabc41ab439b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_question.choice_boolean
+    - quiz.question.type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+_core:
+  default_config_hash: l6a-fgU3lH6qSiM-CqKmXzQuJlN6j6N1DJ7nurgeFoA
+id: quiz_question.multichoice.choice_boolean
+field_name: choice_boolean
+entity_type: quiz_question
+bundle: multichoice
+label: 'Simple scoring'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

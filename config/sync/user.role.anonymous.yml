@@ -5,13 +5,19 @@ dependencies: {  }
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
-label: 'Anonymous user'
+label: 'anonymous user'
 weight: 0
 is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access site-wide contact form'
+  - 'access lexicon'
+  - 'access pruebas search_api_page'
+  - 'access quiz'
+  - 'access site map'
+  - 'display EU Cookie Compliance popup'
+  - 'execute php code'
   - 'search content'
-  - 'use text format restricted_html'
-  - 'view media'
+  - 'use php in custom breadcrumbs'
+  - 'use search_api_autocomplete for search_api_page_pruebas'
+  - 'use text format filtered_html'

@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.did_you_know.field_image_step
+    - field.field.node.did_you_know.field_metatags
     - field.field.node.did_you_know.field_sources
     - field.field.node.did_you_know.field_text
     - node.type.did_you_know
   module:
     - media
+    - metatag
     - text
     - user
 id: node.did_you_know.default
@@ -24,6 +26,13 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
+    region: content
+  field_metatags:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_sources:
     weight: 2

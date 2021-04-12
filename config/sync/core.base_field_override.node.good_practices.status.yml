@@ -1,0 +1,22 @@
+uuid: baa607f4-9ef7-4292-b5b3-c69b13c455e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.good_practices
+id: node.good_practices.status
+field_name: status
+entity_type: node
+bundle: good_practices
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

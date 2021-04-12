@@ -1,0 +1,54 @@
+uuid: b191055c-1b58-441d-a9fe-772757eb3f79
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_migrations
+  enforced:
+    module:
+      - custom_migrations
+id: allages_node_themes_media_images_1
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: allages_migrate_media
+label: 'Themes: Step 1'
+source:
+  key: migrate
+  langcode: und
+  plugin: media_entity_generator_d7
+  entity_type: node
+  bundle: themes
+  d7_file_url: 'https://eguides.osha.europa.eu/all-ages/sites/default/files/'
+  field_names:
+    - field_theme_image
+process:
+  bundle:
+    plugin: default_value
+    default_value: image
+  name:
+    plugin: media_name
+    source: file_name
+  existing_media_file:
+    plugin: check_media_duplicate
+    source: target_id
+  unique_file_id:
+    plugin: check_duplicate
+    source: target_id
+  field_media_image/alt: alt
+  field_media_image/title: title
+  field_media_description: field_file_description
+  field_media_image/target_id:
+    plugin: media_file_copy
+    move: true
+    reuse: true
+    path: 'public://images/themes/'
+    source: file_path
+  langcode: langcode
+  uid:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'entity:media'
+migration_dependencies: null

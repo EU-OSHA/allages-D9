@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.question
     - field.field.node.themes.body
+    - field.field.node.themes.field_metatags
     - field.field.node.themes.field_more_info
     - field.field.node.themes.field_order
     - field.field.node.themes.field_profile
@@ -20,6 +21,7 @@ mode: question
 content: {  }
 hidden:
   body: true
+  field_metatags: true
   field_more_info: true
   field_order: true
   field_profile: true

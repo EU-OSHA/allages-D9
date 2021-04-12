@@ -1,0 +1,18 @@
+uuid: 59598b75-b35e-417a-a9c0-8e7805efcb4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.metatag
+field_name: metatag
+entity_type: node
+bundle: did_you_know
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

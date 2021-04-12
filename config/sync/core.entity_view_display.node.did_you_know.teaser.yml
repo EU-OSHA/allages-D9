@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.did_you_know.field_image_step
+    - field.field.node.did_you_know.field_metatags
     - field.field.node.did_you_know.field_sources
     - field.field.node.did_you_know.field_text
     - node.type.did_you_know
@@ -17,6 +18,7 @@ mode: teaser
 content: {  }
 hidden:
   field_image_step: true
+  field_metatags: true
   field_sources: true
   field_text: true
   langcode: true

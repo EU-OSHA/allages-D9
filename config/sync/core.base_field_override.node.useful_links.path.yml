@@ -1,0 +1,20 @@
+uuid: f61cad2f-d6d5-4110-bb70-60cde0210380
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.useful_links
+  module:
+    - path
+id: node.useful_links.path
+field_name: path
+entity_type: node
+bundle: useful_links
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

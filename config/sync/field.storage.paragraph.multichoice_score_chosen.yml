@@ -1,0 +1,25 @@
+uuid: 2d7daa3c-2c33-4430-981c-15907671dfd7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - paragraphs
+_core:
+  default_config_hash: WfxrOSrRlPonNJpu6YJZKPZ5i_dxvX-72kOLa-Ymuu0
+id: paragraph.multichoice_score_chosen
+field_name: multichoice_score_chosen
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

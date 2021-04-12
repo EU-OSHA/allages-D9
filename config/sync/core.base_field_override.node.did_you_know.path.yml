@@ -1,0 +1,20 @@
+uuid: e1d16aa1-ee3a-4ef4-83f7-cdc2f68ec130
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+  module:
+    - path
+id: node.did_you_know.path
+field_name: path
+entity_type: node
+bundle: did_you_know
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

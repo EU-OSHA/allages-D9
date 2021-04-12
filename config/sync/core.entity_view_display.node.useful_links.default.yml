@@ -6,10 +6,12 @@ dependencies:
     - field.field.node.useful_links.body
     - field.field.node.useful_links.field_category
     - field.field.node.useful_links.field_link
+    - field.field.node.useful_links.field_metatags
     - field.field.node.useful_links.field_theme
     - node.type.useful_links
   module:
     - link
+    - metatag
     - user
 id: node.useful_links.default
 targetEntityType: node
@@ -35,6 +37,13 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
+  field_metatags:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_theme:
     weight: 2

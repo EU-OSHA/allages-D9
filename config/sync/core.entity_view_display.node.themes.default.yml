@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.themes.body
+    - field.field.node.themes.field_metatags
     - field.field.node.themes.field_more_info
     - field.field.node.themes.field_order
     - field.field.node.themes.field_profile
@@ -12,6 +13,7 @@ dependencies:
     - node.type.themes
   module:
     - media
+    - metatag
     - text
     - user
 id: node.themes.default
@@ -25,6 +27,13 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_metatags:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_more_info:
     weight: 5

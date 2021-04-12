@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.did_you_know.field_image_step
+    - field.field.node.did_you_know.field_metatags
     - field.field.node.did_you_know.field_sources
     - field.field.node.did_you_know.field_text
     - node.type.did_you_know
   module:
     - media_library
+    - metatag
     - path
     - text
 id: node.did_you_know.default
@@ -28,6 +30,13 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+    region: content
+  field_metatags:
+    weight: 26
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
     region: content
   field_sources:
     weight: 10
@@ -87,6 +96,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 2

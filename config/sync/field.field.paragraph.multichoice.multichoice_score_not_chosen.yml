@@ -1,0 +1,28 @@
+uuid: af82aa10-2c98-4f16-8a98-cd8f9d7ca44b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.multichoice_score_not_chosen
+    - paragraphs.paragraphs_type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+_core:
+  default_config_hash: zKP-J5k3q5r31gDmxvKa_hTgFFNxvX4mpi1ITh0Dj1o
+id: paragraph.multichoice.multichoice_score_not_chosen
+field_name: multichoice_score_not_chosen
+entity_type: paragraph
+bundle: multichoice
+label: 'Score if not chosen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

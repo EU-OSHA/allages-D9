@@ -1,0 +1,22 @@
+uuid: e2681a1f-1053-494a-8c26-8bad7354e9ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.themes
+id: node.themes.status
+field_name: status
+entity_type: node
+bundle: themes
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

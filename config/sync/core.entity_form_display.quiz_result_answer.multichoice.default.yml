@@ -1,0 +1,35 @@
+uuid: 3853ee93-c856-423a-bb57-86d1212c90fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.quiz_result_answer.multichoice.multichoice_answer
+    - quiz.result.answer.type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - text
+_core:
+  default_config_hash: fr-tYC3bozkDCinuJBbtwNliCM_DsDO-WfYigrSseC0
+id: quiz_result_answer.multichoice.default
+targetEntityType: quiz_result_answer
+bundle: multichoice
+mode: default
+content:
+  answer_feedback:
+    type: text_textarea
+    region: content
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  multichoice_answer:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden: {  }

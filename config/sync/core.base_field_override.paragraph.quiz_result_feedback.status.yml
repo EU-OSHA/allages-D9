@@ -1,0 +1,22 @@
+uuid: 00fe3034-6654-48a1-8316-7b586210600a
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.quiz_result_feedback
+id: paragraph.quiz_result_feedback.status
+field_name: status
+entity_type: paragraph
+bundle: quiz_result_feedback
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

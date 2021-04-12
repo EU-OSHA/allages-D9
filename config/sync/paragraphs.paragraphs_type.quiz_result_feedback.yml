@@ -1,0 +1,15 @@
+uuid: 172d37a6-1650-4cc3-8a97-bef1baf0fff8
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz
+_core:
+  default_config_hash: 7uE6Cyxvdkz-E8DsQ7zk5VlIzLAMhXOf0Tu5axozb18
+id: quiz_result_feedback
+label: 'Quiz result feedback'
+icon_uuid: null
+icon_default: null
+description: 'Configuration for Quiz result feedback'
+behavior_plugins: {  }

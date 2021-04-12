@@ -1,0 +1,11 @@
+uuid: 2576fd94-eaa5-428d-8964-fc8828000405
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz
+_core:
+  default_config_hash: TlSNLaE3I39UrzwrGBe_onvQLf1dei-h9ETVbil4hzI
+id: quiz
+label: Quiz

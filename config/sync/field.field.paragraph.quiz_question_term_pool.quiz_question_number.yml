@@ -1,0 +1,29 @@
+uuid: d568878d-fbcf-49a2-8882-59d588150b15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.quiz_question_number
+    - paragraphs.paragraphs_type.quiz_question_term_pool
+  enforced:
+    module:
+      - quiz
+      - taxonomy
+_core:
+  default_config_hash: FL6h5e_wpwKty_JMRvQGyItYfU3TJYDigNvmaN6U9I4
+id: paragraph.quiz_question_term_pool.quiz_question_number
+field_name: quiz_question_number
+entity_type: paragraph
+bundle: quiz_question_term_pool
+label: 'Number of questions'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

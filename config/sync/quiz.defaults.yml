@@ -1,0 +1,12 @@
+backwards_navigation: true
+repeat_until_correct: false
+show_attempt_stats: true
+allow_skipping: true
+allow_resume: true
+allow_jumping: false
+allow_change: true
+allow_change_blank: false
+show_passed: true
+mark_doubtful: false
+_core:
+  default_config_hash: ZFTCmdPVqlOUNklXW517s0EpMUnqdjCEqUhHOc-Wpkk

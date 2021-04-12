@@ -1,0 +1,28 @@
+uuid: c3f06b03-e48a-4a07-918c-7a3719ee9aad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.multichoice_score_chosen
+    - paragraphs.paragraphs_type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+_core:
+  default_config_hash: '-ZmRq4aBjN1UwbE_pLysmZKSH7DWlzYWArohmoK8ABI'
+id: paragraph.multichoice.multichoice_score_chosen
+field_name: multichoice_score_chosen
+entity_type: paragraph
+bundle: multichoice
+label: 'Score if chosen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
