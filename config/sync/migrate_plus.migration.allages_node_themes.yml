@@ -1,4 +1,4 @@
-uuid: a473b8a8-9b7d-4939-9077-e20a563ab09f
+uuid: f4dace65-3497-44eb-88c1-b193442d2f86
 langcode: en
 status: true
 dependencies:
@@ -16,6 +16,7 @@ source:
   plugin: d7_node
   node_type: themes
 process:
+  nid: tnid
   type:
     -
       plugin: default_value
@@ -24,7 +25,7 @@ process:
     plugin: default_value
     source: language
     default_value: und
-  title: title
+  title: 'titleddev . drush migrate:file-media-fields node good_practices image image -l allages'
   body: body
   uid: node_uid
   status: status
@@ -49,9 +50,13 @@ process:
       plugin: migration_lookup
       migration: allages_node_lessons
       source: field_sections
+  field_theme_image:
+    plugin: file_id_lookup
+    source: field_theme_image
+    migration: allages_node_themes_field_image_media
+    no_stub: true
 destination:
   plugin: 'entity:node'
 migration_dependencies:
   required:
     - d7_user
-    - allages_taxonomy_profile

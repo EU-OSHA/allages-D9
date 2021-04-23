@@ -10,9 +10,56 @@ dependencies:
     - image.style.thumbnail
     - node.type.article
   module:
+    - field_group
     - image
     - path
     - text
+third_party_settings:
+  field_group:
+    group_info:
+      children:
+        - group_general
+        - group_image
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      region: content
+      format_settings:
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: Info
+    group_general:
+      children:
+        - title
+        - body
+      parent_name: group_info
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: General
+    group_image:
+      children:
+        - field_image
+        - field_image2
+        - field_tags
+      parent_name: group_info
+      weight: 21
+      format_type: tab
+      region: hidden
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Image
 _core:
   default_config_hash: SNFf1Qt9suTddZ0w3miwppMWMrBgzUAwWZB2eif1t9M
 id: node.article.default
@@ -22,29 +69,30 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 1
+    weight: 2
     region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   field_image:
     type: image_image
-    weight: 4
+    weight: 5
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_image2:
-    weight: 121
+    weight: 6
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -53,23 +101,24 @@ content:
     region: content
   field_tags:
     type: entity_reference_autocomplete_tags
-    weight: 3
+    weight: 8
     region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 1
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -77,26 +126,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 4
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 7
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 5
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60
@@ -107,11 +156,12 @@ content:
     region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 2
     region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
 hidden: {  }

@@ -1,4 +1,4 @@
-uuid: 34d733a6-b092-4ce9-9dd3-1ac55c0ef33e
+uuid: 1426e75b-8f1a-4630-9970-9d8442c3dd52
 langcode: en
 status: true
 dependencies:
@@ -16,6 +16,7 @@ source:
   plugin: d7_node
   node_type: steps
 process:
+  nid: tnid
   type:
     -
       plugin: default_value
@@ -36,7 +37,11 @@ process:
   revision_log: log
   revision_timestamp: timestamp
   field_text_1: field_text_1
-  field_text_2: field_text_2
+  field_text_2/value: field_text_2
+  field_text_2/format:
+    -
+      plugin: default_value
+      default_value: restricted_html
   field_profile:
     -
       plugin: sub_process
@@ -45,6 +50,11 @@ process:
         target_id:
           plugin: get
           source: tid
+  field_image_step:
+    plugin: file_id_lookup
+    source: field_image_step
+    migration: allages_node_lessons_field_image_media
+    no_stub: true
 destination:
   plugin: 'entity:node'
 migration_dependencies:

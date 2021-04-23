@@ -1,4 +1,4 @@
-uuid: db341555-8389-4670-8226-d25f1dba9d88
+uuid: 18e265bd-5cf2-4006-9784-514c618cf1f2
 langcode: en
 status: true
 dependencies:
@@ -16,6 +16,7 @@ source:
   plugin: d7_node
   node_type: did_you_know
 process:
+  nid: tnid
   type:
     -
       plugin: default_value
@@ -37,6 +38,11 @@ process:
   revision_timestamp: timestamp
   field_text: field_text
   field_sources: field_sources
+  field_image_step:
+    plugin: file_id_lookup
+    source: field_image_step
+    migration: allages_node_did_you_know_field_image_media
+    no_stub: true
 destination:
   plugin: 'entity:node'
 migration_dependencies:

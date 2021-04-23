@@ -9,10 +9,57 @@ dependencies:
     - field.field.node.did_you_know.field_text
     - node.type.did_you_know
   module:
+    - field_group
     - media_library
     - metatag
     - path
     - text
+third_party_settings:
+  field_group:
+    group_info:
+      children:
+        - group_general
+        - group_media
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Info
+    group_general:
+      children:
+        - title
+        - langcode
+        - field_text
+        - field_sources
+      parent_name: group_info
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: General
+    group_media:
+      children:
+        - field_image_step
+      parent_name: group_info
+      weight: 21
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Media
 id: node.did_you_know.default
 targetEntityType: node
 bundle: did_you_know
@@ -26,20 +73,20 @@ content:
     third_party_settings: {  }
   field_image_step:
     type: media_library_widget
-    weight: 8
+    weight: 9
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   field_metatags:
-    weight: 26
+    weight: 9
     settings:
       sidebar: true
     third_party_settings: {  }
     type: metatag_firehose
     region: content
   field_sources:
-    weight: 10
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
@@ -47,7 +94,7 @@ content:
     type: text_textarea
     region: content
   field_text:
-    weight: 9
+    weight: 3
     settings:
       rows: 5
       placeholder: ''
@@ -56,7 +103,7 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 1
+    weight: 2
     region: content
     settings:
       include_locked: true
@@ -90,17 +137,17 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 10
+    weight: 8
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 2

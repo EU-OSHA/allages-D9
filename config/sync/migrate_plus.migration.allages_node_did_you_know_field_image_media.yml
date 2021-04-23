@@ -1,4 +1,4 @@
-uuid: b191055c-1b58-441d-a9fe-772757eb3f79
+uuid: f670b301-f07d-4ada-ac0d-72b1c6f9e6b7
 langcode: en
 status: true
 dependencies:
@@ -7,22 +7,21 @@ dependencies:
   enforced:
     module:
       - custom_migrations
-id: allages_node_themes_media_images_1
+id: allages_node_did_you_know_field_image_media
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags: null
-migration_group: allages_migrate_media
-label: 'Themes: Step 1'
+migration_group: allages_migrate_node_media
+label: 'Did you know: Media Image'
 source:
-  key: migrate
-  langcode: und
   plugin: media_entity_generator_d7
   entity_type: node
-  bundle: themes
+  bundle: did_you_know
+  langcode: und
   d7_file_url: 'https://eguides.osha.europa.eu/all-ages/sites/default/files/'
   field_names:
-    - field_theme_image
+    - field_image_step
 process:
   bundle:
     plugin: default_value
@@ -38,12 +37,12 @@ process:
     source: target_id
   field_media_image/alt: alt
   field_media_image/title: title
-  field_media_description: field_file_description
+  field_description: field_file_description
   field_media_image/target_id:
     plugin: media_file_copy
     move: true
     reuse: true
-    path: 'public://images/themes/'
+    path: 'public://'
     source: file_path
   langcode: langcode
   uid:
