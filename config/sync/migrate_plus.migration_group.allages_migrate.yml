@@ -1,0 +1,15 @@
+uuid: dc14dd0f-a52c-424b-8fc7-9c1182b93a03
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrations
+id: allages_migrate
+label: 'Migrate Allages Taxonomies'
+description: 'Migration Taxonomies from D7 to Drupal 8'
+source_type: 'Drupal 7'
+module: null
+shared_configuration:
+  source:
+    key: migrate

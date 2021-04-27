@@ -1,0 +1,20 @@
+uuid: e10537f2-af36-45df-8b02-7f33f27edac5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.good_practices
+id: node.good_practices.menu_link
+field_name: menu_link
+entity_type: node
+bundle: good_practices
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

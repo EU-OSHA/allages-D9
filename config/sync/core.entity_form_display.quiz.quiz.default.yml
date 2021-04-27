@@ -1,0 +1,231 @@
+uuid: bbd288fb-4db6-4e74-830b-7ea320f3b130
+langcode: en
+status: true
+dependencies:
+  config:
+    - quiz.type.quiz
+  enforced:
+    module:
+      - quiz
+  module:
+    - datetime_range
+    - paragraphs
+    - text
+_core:
+  default_config_hash: 3TE8dLXP6K2dJOkiS6Ck2afgSZggWjIcz3unekOZlV8
+id: quiz.quiz.default
+targetEntityType: quiz
+bundle: quiz
+mode: default
+content:
+  allow_change:
+    type: boolean_checkbox
+    region: content
+    weight: 18
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  allow_change_blank:
+    type: boolean_checkbox
+    region: content
+    weight: 19
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  allow_jumping:
+    type: boolean_checkbox
+    region: content
+    weight: 17
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  allow_resume:
+    type: boolean_checkbox
+    region: content
+    weight: 16
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  allow_skipping:
+    type: boolean_checkbox
+    region: content
+    weight: 15
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  backwards_navigation:
+    type: boolean_checkbox
+    region: content
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  body:
+    type: text_textarea
+    region: content
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  build_on_last:
+    type: options_buttons
+    region: content
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+  keep_results:
+    type: options_buttons
+    weight: 26
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  mark_doubtful:
+    type: boolean_checkbox
+    region: content
+    weight: 20
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  max_score_for_random:
+    type: number
+    region: content
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  number_of_random_questions:
+    type: number
+    region: content
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  pass_rate:
+    type: number
+    region: content
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  quiz_always:
+    type: boolean_checkbox
+    region: content
+    weight: 12
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  quiz_close:
+    type: datetime_timestamp
+    region: content
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+  quiz_date:
+    type: daterange_default
+    region: content
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+  quiz_open:
+    type: datetime_timestamp
+    region: content
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+  quiz_terms:
+    type: entity_reference_paragraphs
+    region: content
+    weight: 28
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+  randomization:
+    type: options_buttons
+    weight: 25
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  repeat_until_correct:
+    type: boolean_checkbox
+    region: content
+    weight: 9
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  result_options:
+    type: entity_reference_paragraphs
+    region: content
+    weight: 24
+    settings:
+      title: 'Result range'
+      title_plural: 'Result ranges'
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+  result_type:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  show_attempt_stats:
+    type: boolean_checkbox
+    region: content
+    weight: 21
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  show_passed:
+    type: boolean_checkbox
+    region: content
+    weight: 22
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  summary_default:
+    type: text_textarea
+    region: content
+    weight: 7
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  summary_pass:
+    type: text_textarea
+    region: content
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  takes:
+    type: number
+    region: content
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  time_limit:
+    type: number
+    region: content
+    weight: 11
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

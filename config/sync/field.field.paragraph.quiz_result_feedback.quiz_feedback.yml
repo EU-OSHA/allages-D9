@@ -1,0 +1,26 @@
+uuid: 11ce8ef3-7709-48e0-b62c-5f69c5497183
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.quiz_feedback
+    - paragraphs.paragraphs_type.quiz_result_feedback
+  enforced:
+    module:
+      - quiz
+  module:
+    - text
+_core:
+  default_config_hash: L-5U7-BQ6ma2_sX1cL2wGOZdaEHkWZ30LL74IfAzDPA
+id: paragraph.quiz_result_feedback.quiz_feedback
+field_name: quiz_feedback
+entity_type: paragraph
+bundle: quiz_result_feedback
+label: Feedback
+description: 'This is the text that will be displayed when the user''s score falls in this range.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: 8b2c687d-3c7a-475e-9fb8-4753b22298d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.good_practices
+id: node.good_practices.changed
+field_name: changed
+entity_type: node
+bundle: good_practices
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

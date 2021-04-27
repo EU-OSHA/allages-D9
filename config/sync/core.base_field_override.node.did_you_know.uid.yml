@@ -1,0 +1,20 @@
+uuid: ea36d350-af64-45f1-a842-9f175f659021
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.uid
+field_name: uid
+entity_type: node
+bundle: did_you_know
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

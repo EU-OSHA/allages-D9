@@ -1,0 +1,40 @@
+uuid: 744737ba-edd2-4c35-9d31-70d7f14d741c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.quiz_feedback_range
+    - paragraphs.paragraphs_type.quiz_result_feedback
+  enforced:
+    module:
+      - quiz
+  module:
+    - range
+_core:
+  default_config_hash: 6Kh1jc5Us3GchkHyxwTPjvChwh_LWICdyiAks-wl01w
+id: paragraph.quiz_result_feedback.quiz_feedback_range
+field_name: quiz_feedback_range
+entity_type: paragraph
+bundle: quiz_result_feedback
+label: 'Grade range'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  from:
+    prefix: ''
+    suffix: ''
+  to:
+    prefix: ''
+    suffix: ''
+  field:
+    prefix: ''
+    suffix: ''
+  combined:
+    prefix: ''
+    suffix: ''
+field_type: range_integer

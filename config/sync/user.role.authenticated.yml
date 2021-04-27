@@ -5,16 +5,28 @@ dependencies: {  }
 _core:
   default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
 id: authenticated
-label: 'Authenticated user'
+label: 'authenticated user'
 weight: 1
 is_admin: false
 permissions:
+  - 'access administration menu'
   - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
+  - 'access content overview'
+  - 'access dashboard'
+  - 'access lexicon'
+  - 'access overlay'
+  - 'access pruebas search_api_page'
+  - 'access site map'
+  - 'access toolbar'
+  - 'administer filters'
+  - 'administer nodes'
+  - 'display EU Cookie Compliance popup'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
-  - 'use text format basic_html'
-  - 'view media'
+  - 'translate content'
+  - 'use search_api_autocomplete for search_api_page_pruebas'
+  - 'use text format filtered_html'
+  - 'use text format full_html'
+  - 'use text format php_code'

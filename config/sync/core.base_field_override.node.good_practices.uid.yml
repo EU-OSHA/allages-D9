@@ -1,0 +1,20 @@
+uuid: f48901b9-7fdf-4249-8510-30419be56fc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.good_practices
+id: node.good_practices.uid
+field_name: uid
+entity_type: node
+bundle: good_practices
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

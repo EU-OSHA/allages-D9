@@ -1,0 +1,18 @@
+uuid: 31be5045-5c5d-4225-96c1-b9e3cf547e0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.themes
+id: node.themes.created
+field_name: created
+entity_type: node
+bundle: themes
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

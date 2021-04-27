@@ -1,0 +1,18 @@
+uuid: dfdbdaff-23c2-4542-ab8e-5c73935d3aae
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.themes
+id: node.themes.title
+field_name: title
+entity_type: node
+bundle: themes
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

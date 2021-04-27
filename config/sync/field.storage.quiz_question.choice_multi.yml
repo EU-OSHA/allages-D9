@@ -1,0 +1,23 @@
+uuid: 6381bb3b-8caa-470c-95cc-0ff29698a0dc
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - quiz
+_core:
+  default_config_hash: ksV9qcC8IkvgerNpl2ZEjfQBDC_QjZjvJ22IsPKnyjY
+id: quiz_question.choice_multi
+field_name: choice_multi
+entity_type: quiz_question
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

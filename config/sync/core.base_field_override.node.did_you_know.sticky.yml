@@ -1,0 +1,22 @@
+uuid: f8e43f29-19ab-4f82-937a-36b6c1925f89
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.sticky
+field_name: sticky
+entity_type: node
+bundle: did_you_know
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 58888a05-65a0-4a86-a355-b35b60af3eb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categories_useful_links
+id: taxonomy_term.categories_useful_links.name
+field_name: name
+entity_type: taxonomy_term
+bundle: categories_useful_links
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 946a9ed5-25df-484e-88d1-84bc52778575
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.did_you_know
+id: node.did_you_know.menu_link
+field_name: menu_link
+entity_type: node
+bundle: did_you_know
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

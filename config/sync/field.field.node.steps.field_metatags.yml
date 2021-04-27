@@ -1,0 +1,21 @@
+uuid: 7c494f4e-6e1a-42ad-b025-45222ee3b43d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.steps
+  module:
+    - metatag
+id: node.steps.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: steps
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

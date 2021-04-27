@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.themes.body
+    - field.field.node.themes.field_metatags
     - field.field.node.themes.field_more_info
     - field.field.node.themes.field_order
     - field.field.node.themes.field_profile
@@ -11,9 +12,74 @@ dependencies:
     - field.field.node.themes.field_theme_image
     - node.type.themes
   module:
+    - field_group
     - media_library
+    - metatag
     - path
     - text
+third_party_settings:
+  field_group:
+    group_info:
+      children:
+        - group_general
+        - group_image
+        - group_related_information
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Info
+    group_image:
+      children:
+        - field_theme_image
+      parent_name: group_info
+      weight: 22
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Image
+    group_general:
+      children:
+        - title
+        - langcode
+        - body
+        - field_more_info
+        - field_order
+      parent_name: group_info
+      weight: 21
+      format_type: tab
+      region: hidden
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: General
+    group_related_information:
+      children:
+        - field_profile
+        - field_sections
+      parent_name: group_info
+      weight: 23
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: 'Related Information'
 id: node.themes.default
 targetEntityType: node
 bundle: themes
@@ -21,7 +87,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 10
+    weight: 3
     settings:
       rows: 9
       summary_rows: 3
@@ -31,12 +97,19 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_metatags:
+    weight: 16
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_more_info:
-    weight: 11
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
@@ -44,14 +117,14 @@ content:
     type: text_textarea
     region: content
   field_order:
-    weight: 12
+    weight: 5
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_profile:
-    weight: 2
+    weight: 3
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -61,7 +134,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_sections:
-    weight: 13
+    weight: 4
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -72,21 +145,21 @@ content:
     region: content
   field_theme_image:
     type: media_library_widget
-    weight: 9
+    weight: 10
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   langcode:
     type: language_select
-    weight: 1
+    weight: 2
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 7
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -94,34 +167,39 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 5
+    weight: 6
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
+    weight: 9
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60

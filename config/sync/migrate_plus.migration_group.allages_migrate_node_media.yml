@@ -1,0 +1,10 @@
+uuid: caf95812-fc14-4429-aa30-5ce967e4a4bf
+langcode: en
+status: true
+dependencies: {  }
+id: allages_migrate_node_media
+label: allages_migrate_node_media
+description: ''
+source_type: null
+module: null
+shared_configuration: null

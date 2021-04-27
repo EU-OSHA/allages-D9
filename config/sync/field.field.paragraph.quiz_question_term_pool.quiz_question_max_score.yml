@@ -1,0 +1,29 @@
+uuid: 0c500caf-f975-48c7-90c4-7163a8a64101
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.quiz_question_max_score
+    - paragraphs.paragraphs_type.quiz_question_term_pool
+  enforced:
+    module:
+      - quiz
+      - taxonomy
+_core:
+  default_config_hash: hhm4PUQq8zj3uu-UAaDjooId3xoScyZ5UPdgqLPf_O4
+id: paragraph.quiz_question_term_pool.quiz_question_max_score
+field_name: quiz_question_max_score
+entity_type: paragraph
+bundle: quiz_question_term_pool
+label: 'Max score per question'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

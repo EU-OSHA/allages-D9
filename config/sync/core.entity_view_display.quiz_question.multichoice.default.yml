@@ -1,0 +1,36 @@
+uuid: fb9ea174-bcac-41e0-a513-0854b8598150
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.quiz_question.multichoice.alternatives
+    - field.field.quiz_question.multichoice.choice_boolean
+    - field.field.quiz_question.multichoice.choice_multi
+    - field.field.quiz_question.multichoice.choice_random
+    - quiz.question.type.multichoice
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - text
+_core:
+  default_config_hash: Ch-V7tJVZokGMeGkj8wWu7oyqgrVY3wwNZuYv4sLG9I
+id: quiz_question.multichoice.default
+targetEntityType: quiz_question
+bundle: multichoice
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  alternatives: true
+  choice_boolean: true
+  choice_multi: true
+  choice_random: true
+  field_choices: true
+  search_api_excerpt: true

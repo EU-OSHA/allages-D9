@@ -1,0 +1,30 @@
+revisioning: false
+durod: true
+default_close: 0
+use_passfail: true
+autotitle_length: 128
+pager_start: 50
+pager_siblings: 5
+time_limit_buffer: 5
+admin_review_options_question:
+  attempt: 0
+  choice: 0
+  correct: 0
+  score: 0
+  answer_feedback: 0
+  question_feedback: 0
+  solution: 0
+  quiz_feedback: 0
+admin_review_options_end:
+  attempt: attempt
+  choice: choice
+  correct: correct
+  score: score
+  answer_feedback: answer_feedback
+  question_feedback: question_feedback
+  solution: solution
+  quiz_feedback: quiz_feedback
+has_timer: true
+remove_invalid_quiz_record: 86400
+_core:
+  default_config_hash: gktW1OA7CfkPDUxnCX9Bv9hQCSjbrNaaQS3AKjcn-JU

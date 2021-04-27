@@ -13,7 +13,7 @@ bundle: themes
 label: Profile
 description: 'You must select the profile for the theme.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

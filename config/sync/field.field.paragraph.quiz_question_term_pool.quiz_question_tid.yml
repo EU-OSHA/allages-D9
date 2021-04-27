@@ -1,0 +1,33 @@
+uuid: a0eefe98-5e1a-43e5-9d8f-b66204580f2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.quiz_question_tid
+    - paragraphs.paragraphs_type.quiz_question_term_pool
+  enforced:
+    module:
+      - quiz
+      - taxonomy
+_core:
+  default_config_hash: vQo23fHKmxa4QV4Q30KkJR30k7ArU5P98MHiFrmZdag
+id: paragraph.quiz_question_term_pool.quiz_question_tid
+field_name: quiz_question_tid
+entity_type: paragraph
+bundle: quiz_question_term_pool
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

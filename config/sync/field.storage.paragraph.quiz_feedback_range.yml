@@ -1,0 +1,24 @@
+uuid: 51f7b3e4-524f-42e3-8f92-c5c06c227d9f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz
+  module:
+    - paragraphs
+    - range
+_core:
+  default_config_hash: Iw1fTLv2PkUfMCSNnFLar2x1Z4msbqLpMN8nfUQf9aA
+id: paragraph.quiz_feedback_range
+field_name: quiz_feedback_range
+entity_type: paragraph
+type: range_integer
+settings: {  }
+module: range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

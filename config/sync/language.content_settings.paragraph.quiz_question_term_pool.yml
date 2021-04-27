@@ -1,0 +1,18 @@
+uuid: 020eff5b-fbeb-45e1-9fd6-d2bd3836504c
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.quiz_question_term_pool
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.quiz_question_term_pool
+target_entity_type_id: paragraph
+target_bundle: quiz_question_term_pool
+default_langcode: site_default
+language_alterable: false

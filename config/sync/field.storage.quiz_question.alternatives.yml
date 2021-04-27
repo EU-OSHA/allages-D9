@@ -1,0 +1,26 @@
+uuid: 2f12df02-0b3f-49dc-947f-71997a027dcd
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_multichoice
+  module:
+    - entity_reference_revisions
+    - paragraphs
+    - quiz
+_core:
+  default_config_hash: 7Uxl6huGBQvrkXCsAEE6YMD2RSXjG08mdPAUWPZndRA
+id: quiz_question.alternatives
+field_name: alternatives
+entity_type: quiz_question
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: 33851900-d22f-4811-abbb-974a215ed712
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.quiz_question_term_pool
+id: paragraph.quiz_question_term_pool.created
+field_name: created
+entity_type: paragraph
+bundle: quiz_question_term_pool
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

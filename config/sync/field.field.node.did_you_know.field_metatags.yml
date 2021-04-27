@@ -1,0 +1,21 @@
+uuid: 3444715f-63a6-4b98-a3ee-18a7bcd648c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.did_you_know
+  module:
+    - metatag
+id: node.did_you_know.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: did_you_know
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

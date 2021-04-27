@@ -1,0 +1,22 @@
+uuid: 57abbc7f-b15c-453a-bf79-fb9966889cad
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.themes
+id: node.themes.sticky
+field_name: sticky
+entity_type: node
+bundle: themes
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

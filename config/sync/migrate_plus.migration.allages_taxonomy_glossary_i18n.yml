@@ -1,0 +1,92 @@
+uuid: fb5df3d4-b6b1-4090-8f5a-f71896ddc9c2
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrations
+id: allages_taxonomy_glossary_i18n
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: allages_migrate
+label: 'Terms: glossary Translations'
+source:
+  plugin: d7_locale_terms
+  bundle: glossary
+  translations: true
+process:
+  tid:
+    plugin: migration_lookup
+    migration: allages_taxonomy_glossary
+    source: tid
+  langcode:
+    plugin: static_map
+    bypass: true
+    source: ltlanguage
+    map:
+      AU_de: AU-de
+      BE_nl: BE-nl
+      BE_fr: BE-fr
+      BU_bg: BU-bg
+      CR_hr: CR-hr
+      CY_el: CY-el
+      CZ_cs: CZ-cs
+      DE_da: DE-da
+      ET_et: ET-et
+      FI_fi: FI-fi
+      FI_sv: FI-sv
+      FR_fr: FR-fr
+      GE_de: GE-de
+      GR_el: GR-el
+      HU_hu: HU-hu
+      IS_is: IS-is
+      IR_en: IR-en
+      IT_it: IT-it
+      LV_lv: LV-lv
+      LT_lt: LT-lt
+      LB_fr: LB-fr
+      LB_de: LB-de
+      MT_en: MT-en
+      MT_mt: MT-mt
+      NE_nl: NE-nl
+      NN_nn: NN-nn
+      PL_pl: PL-pl
+      PT_pt: PT-pt
+      RO_ro: RO-ro
+      SK_sk: SK-sk
+      SL_sl: SL-sl
+      ES_es: ES-es
+      SV_sv: SV-sv
+      SWZ_fr: SWZ-fr
+      SWZ_de: SWZ-de
+      SWZ_it: SWZ-it
+      UK_en: UK-en
+  vid:
+    -
+      plugin: default_value
+      default_value: glossary
+  name: name_field_value
+  description/value: description_field_value
+  description/format: format
+  parent_id:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: parent
+    -
+      plugin: migration_lookup
+      migration: allages_taxonomy_glossary
+  parent:
+    plugin: default_value
+    default_value: 0
+    source: '@parent_id'
+  forum_container: is_container
+  changed: timestamp
+destination:
+  plugin: 'entity:taxonomy_term'
+  translations: true
+migration_dependencies:
+  required:
+    - allages_taxonomy_glossary

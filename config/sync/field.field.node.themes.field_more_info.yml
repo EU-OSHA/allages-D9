@@ -14,7 +14,7 @@ bundle: themes
 label: 'More Info'
 description: 'The text shown in the more info div of each theme'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
