@@ -1,0 +1,73 @@
+uuid: b71f3087-fea4-4c46-8740-2fc2635a7fb3
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - language
+    - taxonomy
+id: url_pattern_for_taxonomy
+label: 'URL Pattern for Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:vocabulary]/[term:name]'
+selection_criteria:
+  0d3b9578-4388-4707-b32b-331397897224:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      categories_useful_links: categories_useful_links
+      glossary: glossary
+      profile: profile
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 0d3b9578-4388-4707-b32b-331397897224
+  ccc8b58f-7533-4d1f-b922-191cb14dc8f4:
+    id: language
+    langcodes:
+      en: en
+      AU-de: AU-de
+      BE-nl: BE-nl
+      BE-fr: BE-fr
+      BU-bg: BU-bg
+      CR-hr: CR-hr
+      CY-el: CY-el
+      CZ-cs: CZ-cs
+      DE-da: DE-da
+      ET-et: ET-et
+      FI-fi: FI-fi
+      FI-sv: FI-sv
+      FR-fr: FR-fr
+      GE-de: GE-de
+      GR-el: GR-el
+      HU-hu: HU-hu
+      IS-is: IS-is
+      IR-en: IR-en
+      IT-it: IT-it
+      LV-lv: LV-lv
+      LT-lt: LT-lt
+      LB-fr: LB-fr
+      LB-de: LB-de
+      MT-en: MT-en
+      MT-mt: MT-mt
+      NE-nl: NE-nl
+      NN-nn: NN-nn
+      PL-pl: PL-pl
+      PT-pt: PT-pt
+      RO-ro: RO-ro
+      SK-sk: SK-sk
+      SL-sl: SL-sl
+      ES-es: ES-es
+      SV-sv: SV-sv
+      SWZ-fr: SWZ-fr
+      SWZ-de: SWZ-de
+      SWZ-it: SWZ-it
+      UK-en: UK-en
+    negate: false
+    context_mapping:
+      language: 'taxonomy_term:langcode:language'
+    uuid: ccc8b58f-7533-4d1f-b922-191cb14dc8f4
+selection_logic: and
+weight: -10
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Language

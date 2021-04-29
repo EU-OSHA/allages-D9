@@ -575,7 +575,8 @@ display:
           group_type: group
           admin_label: ''
           operator: in
-          value: {  }
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
           group: 1
           exposed: true
           expose:
