@@ -1,0 +1,75 @@
+uuid: 1452b3e9-77ae-4423-83d7-4d5b02803a56
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: url_pattern_for_nodes
+label: 'URL Pattern for Nodes'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  af2c0c74-8a56-4847-a8b5-2ba68ec411e2:
+    id: node_type
+    bundles:
+      did_you_know: did_you_know
+      good_practices: good_practices
+      page: page
+      steps: steps
+      themes: themes
+      useful_links: useful_links
+    negate: false
+    context_mapping:
+      node: node
+    uuid: af2c0c74-8a56-4847-a8b5-2ba68ec411e2
+  7fd782b0-1f6a-45cb-9071-bd72fd6f5790:
+    id: language
+    langcodes:
+      en: en
+      AU-de: AU-de
+      BE-nl: BE-nl
+      BE-fr: BE-fr
+      BU-bg: BU-bg
+      CR-hr: CR-hr
+      CY-el: CY-el
+      CZ-cs: CZ-cs
+      DE-da: DE-da
+      ET-et: ET-et
+      FI-fi: FI-fi
+      FI-sv: FI-sv
+      FR-fr: FR-fr
+      GE-de: GE-de
+      GR-el: GR-el
+      HU-hu: HU-hu
+      IS-is: IS-is
+      IR-en: IR-en
+      IT-it: IT-it
+      LV-lv: LV-lv
+      LT-lt: LT-lt
+      LB-fr: LB-fr
+      LB-de: LB-de
+      MT-en: MT-en
+      MT-mt: MT-mt
+      NE-nl: NE-nl
+      NN-nn: NN-nn
+      PL-pl: PL-pl
+      PT-pt: PT-pt
+      RO-ro: RO-ro
+      SK-sk: SK-sk
+      SL-sl: SL-sl
+      ES-es: ES-es
+      SV-sv: SV-sv
+      SWZ-fr: SWZ-fr
+      SWZ-de: SWZ-de
+      SWZ-it: SWZ-it
+      UK-en: UK-en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 7fd782b0-1f6a-45cb-9071-bd72fd6f5790
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

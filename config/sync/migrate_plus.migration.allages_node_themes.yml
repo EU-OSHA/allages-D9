@@ -1,4 +1,4 @@
-uuid: f4dace65-3497-44eb-88c1-b193442d2f86
+uuid: aa457300-3cc7-4cef-82c9-036bdb864fef
 langcode: en
 status: true
 dependencies:
@@ -25,7 +25,7 @@ process:
     plugin: default_value
     source: language
     default_value: und
-  title: 'titleddev . drush migrate:file-media-fields node good_practices image image -l allages'
+  title: title
   body: body
   uid: node_uid
   status: status
