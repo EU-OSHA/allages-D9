@@ -1,15 +1,15 @@
-uuid: 011f5f12-63ed-428a-8cc7-553623dfc540
+uuid: aa949be3-8371-49b3-a619-83584ee36d92
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - allages_theme
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: bartik_branding
-theme: bartik
+id: allages_theme_branding
+theme: allages_theme
 region: header
 weight: 0
 provider: null

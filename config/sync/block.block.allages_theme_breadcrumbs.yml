@@ -1,0 +1,22 @@
+uuid: 0aa859ad-5b1f-4f3b-aaf9-973549c04f74
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - allages_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: allages_theme_breadcrumbs
+theme: allages_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

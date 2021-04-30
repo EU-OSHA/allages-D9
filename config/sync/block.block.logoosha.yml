@@ -1,0 +1,25 @@
+uuid: 2a219761-70bf-4ebb-9cf8-08b43b3207e3
+langcode: UK-en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:57106bd9-bd75-45f8-8d36-47f9182f3b6b'
+  module:
+    - block_content
+  theme:
+    - allages_theme
+id: logoosha
+theme: allages_theme
+region: top_header
+weight: 0
+provider: null
+plugin: 'block_content:57106bd9-bd75-45f8-8d36-47f9182f3b6b'
+settings:
+  id: 'block_content:57106bd9-bd75-45f8-8d36-47f9182f3b6b'
+  label: Logo-OSHA
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

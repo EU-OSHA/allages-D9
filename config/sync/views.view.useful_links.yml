@@ -53,7 +53,7 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 10
+          items_per_page: 0
           offset: 0
           id: 0
           total_pages: null
@@ -69,15 +69,20 @@ display:
             offset: false
             offset_label: Offset
       style:
-        type: default
+        type: grid
         options:
           grouping:
             -
               field: field_category
               rendered: true
-              rendered_strip: false
-          row_class: ''
-          default_row_class: true
+              rendered_strip: true
+          columns: 12
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: 'views-col col-12 col-md-3'
+          row_class_default: false
+          row_class_custom: row
       row:
         type: fields
         options:
@@ -272,6 +277,48 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
       sorts:
         field_category_target_id:
           id: field_category_target_id
@@ -345,6 +392,28 @@ display:
         metatag_display_extender: {  }
       use_ajax: true
       show_admin_links: false
+      title: 'Useful Links'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_category'
+        - 'config:field.storage.node.field_link'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: 1
+    display_options:
+      display_extenders:
+        metatag_display_extender: {  }
+      path: useful-links
     cache_metadata:
       max-age: -1
       contexts:
