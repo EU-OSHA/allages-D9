@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"allages-global.css"}
+{"version":3,"sourceRoot":"","sources":["../src/sass/layout/body.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAKA;EACE;;AAEF;EACE","file":"allages-global.css"}
