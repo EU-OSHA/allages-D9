@@ -1,0 +1,93 @@
+.header{
+  >.container{
+  }
+  .logos{
+    float:left;
+    .field--type-text-with-summary{
+      span{
+        display:inline-block;
+        vertical-align: middle;
+        &:not(:first-of-type){
+          margin-left:1rem;
+        }
+        &:nth-child(1){
+          img{
+            max-width:108px;
+          }
+        }
+        &:nth-child(2){
+          img{
+            max-width:48px;
+          }
+        }
+        &:nth-child(3){
+          img{
+            max-width:47px;
+          }
+        }
+      }
+    }
+  }
+  #navbar{
+    float:left;
+  }
+  .push-right{
+    float:right;
+  }
+  .nav{
+    &-item{
+      background: none;
+      margin-left: 0.625rem;
+      margin-right: 0.625rem;
+      border:2px solid $text-color-white;
+      &:hover{
+        border:2px solid $text-color-blue;
+        .nav-link{
+          color:$text-color-blue;
+        }
+        .dropdown-menu{
+            display:block;
+        }
+      }
+    }
+    &-link{
+      padding: 0.375rem;
+      font-weight: bold;
+      color:$text-color-dark-grey;
+      font-size:0.75rem;
+      text-decoration: none;
+    }
+  }
+  .dropdown{
+    &-toggle{
+      &:after{
+        display:none;
+      }
+    }
+    &-menu{
+      padding:0rem;
+      background: none;
+      background-color: $bg-color-grey-blue;
+      border-radius: 0px;
+      border:none;
+      margin-left: -3px;
+    }
+    &-item{
+      padding:0;
+      &:hover{
+        background: url(/sites/napo/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% $bg-color-blue-hover;
+        border-radius: 0px;
+      }
+      a{
+        color:$text-color-white;
+        font-size:0.75rem;
+        padding: 0.75rem 1.125rem;
+        font-weight: bold;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
