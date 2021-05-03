@@ -40,6 +40,18 @@ img {
   font-size: inherit;
 }
 
+.breadcrumb {
+  background-color: #2d559a;
+  color: #FFF;
+  font-size: 0.9em;
+  padding: 0.125rem 0.875rem 0.125rem 8.325rem;
+  clear: both;
+}
+.breadcrumb-item.active,
+.breadcrumb-item a {
+  color: #FFF;
+}
+
 .push-right {
   margin-left: auto;
   margin-right: 30px;
@@ -92,6 +104,17 @@ img {
 .header .nav-item:hover .dropdown-menu {
   display: block;
 }
+.header .nav-item:first-of-type:hover {
+  border: 2px solid #FFF;
+}
+.header .nav-item:first-of-type .nav-link {
+  text-indent: 0px;
+  color: transparent;
+  width: 41px;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/homeIco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .header .nav-link {
   padding: 0.375rem;
   font-weight: bold;
@@ -113,8 +136,8 @@ img {
 .header .dropdown-item {
   padding: 0;
 }
-.header .dropdown-item:hover {
-  background: url(/sites/napo/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% #133b80;
+.header .dropdown-item:hover, .header .dropdown-item.active {
+  background: url(/sites/allages/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% #133b80;
   border-radius: 0px;
 }
 .header .dropdown-item a {
@@ -122,6 +145,7 @@ img {
   font-size: 0.75rem;
   padding: 0.75rem 1.125rem;
   font-weight: bold;
+  display: block;
 }
 .header .dropdown-item a:hover {
   text-decoration: none;

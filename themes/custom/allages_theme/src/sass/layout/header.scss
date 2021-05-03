@@ -49,6 +49,22 @@
             display:block;
         }
       }
+      &:first-of-type{
+        &:hover{
+          border:2px solid $text-color-white;
+        }
+        .nav-link{
+          text-indent: 0px;
+          color:transparent;
+          width:41px;
+          background-image: url(/sites/allages/themes/custom/allages_theme/images/homeIco.png);
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      &.active{
+        
+      }
     }
     &-link{
       padding: 0.375rem;
@@ -72,10 +88,12 @@
       border:none;
       margin-left: -3px;
     }
+
     &-item{
       padding:0;
-      &:hover{
-        background: url(/sites/napo/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% $bg-color-blue-hover;
+      &:hover,
+      &.active{
+        background: url(/sites/allages/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% $bg-color-blue-hover;
         border-radius: 0px;
       }
       a{
@@ -83,6 +101,7 @@
         font-size:0.75rem;
         padding: 0.75rem 1.125rem;
         font-weight: bold;
+        display:block;
         &:hover{
           text-decoration: none;
         }
