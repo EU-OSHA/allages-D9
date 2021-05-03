@@ -56,6 +56,7 @@ module:
   quickedit: 0
   quiz: 0
   quiz_multichoice: 0
+  quiz_truefalse: 0
   range: 0
   rdf: 0
   rest: 0

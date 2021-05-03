@@ -1,0 +1,26 @@
+uuid: 945972b0-4c5a-4a01-aea7-e99f70711183
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_result_answer.truefalse_answer
+    - quiz.result.answer.type.truefalse
+  enforced:
+    module:
+      - quiz_truefalse
+  module:
+    - options
+_core:
+  default_config_hash: tjqAlr6SPBMGadrAegBF5W408FRkuryzDJfxzp1H2KA
+id: quiz_result_answer.truefalse.truefalse_answer
+field_name: truefalse_answer
+entity_type: quiz_result_answer
+bundle: truefalse
+label: truefalse_answer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

@@ -1,0 +1,32 @@
+uuid: 72f096e8-0b75-46c8-99d8-12ea7e4876d2
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_truefalse
+  module:
+    - options
+    - quiz
+_core:
+  default_config_hash: zCWWSezFvzp-YmtLJFST-m8qRBwMLjTc73f7m0DyXNM
+id: quiz_result_answer.truefalse_answer
+field_name: truefalse_answer
+entity_type: quiz_result_answer
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: 'True'
+    -
+      value: 0
+      label: 'False'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
