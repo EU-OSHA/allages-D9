@@ -1,4 +1,4 @@
-uuid: bff24213-c076-4b18-be34-fed8ae7f5e8f
+uuid: eb8f8ae3-860d-4288-b052-79d2af80b498
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - allages_theme
 _core:
   default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
-id: bartik_account_menu
-theme: bartik
+id: allages_theme_account_menu
+theme: allages_theme
 region: secondary_menu
 weight: 0
 provider: null

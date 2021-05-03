@@ -1,0 +1,22 @@
+uuid: 9df99cdb-625b-4bfd-93e6-18b5ad2d4b45
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - allages_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: allages_theme_help
+theme: allages_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

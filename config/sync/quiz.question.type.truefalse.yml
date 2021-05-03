@@ -1,0 +1,11 @@
+uuid: f79bf2cf-a604-4d1a-bb2b-de703afa1432
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_truefalse
+_core:
+  default_config_hash: _ZjUKUwnF8Liv-veAR4TmChq1bUrp5Ks3nquKJA09RY
+id: truefalse
+label: 'True/false question'

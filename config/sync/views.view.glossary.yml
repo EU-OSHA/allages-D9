@@ -2,6 +2,8 @@ uuid: e3a2a4ba-522a-4d4b-8f35-e57d796921e9
 langcode: en
 status: true
 dependencies:
+  config:
+    - taxonomy.vocabulary.glossary
   module:
     - taxonomy
     - text
@@ -67,13 +69,13 @@ display:
         type: grid
         options:
           grouping: {  }
-          columns: 1
-          automatic_width: true
+          columns: 12
+          automatic_width: false
           alignment: horizontal
-          col_class_default: true
-          col_class_custom: ''
-          row_class_default: true
-          row_class_custom: ''
+          col_class_default: false
+          col_class_custom: 'views-col col-12'
+          row_class_default: false
+          row_class_custom: row
       row:
         type: fields
         options:
@@ -272,7 +274,18 @@ display:
           plugin_id: language
       sorts: {  }
       title: Glossary
-      header: {  }
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content: 'Select a letter: '
+          plugin_id: text_custom
       footer: {  }
       empty: {  }
       relationships: {  }
@@ -324,6 +337,10 @@ display:
           plugin_id: string
       display_extenders: {  }
       show_admin_links: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:
@@ -372,17 +389,11 @@ display:
           description: ''
           columns:
             name: name
-            description__value: description__value
             changed: changed
           info:
             name:
               sortable: true
               default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            description__value:
               align: ''
               separator: ''
               empty_column: false
@@ -809,11 +820,117 @@ display:
         fields: false
         pager: false
         arguments: false
+        header: false
+        filters: false
+        filter_groups: false
       pager:
         type: none
         options:
           offset: 0
       arguments: {  }
+      header: {  }
+      filters:
+        status:
+          value: '1'
+          table: taxonomy_term_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: taxonomy_term
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+          group: 1
+        langcode:
+          id: langcode
+          table: taxonomy_term_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: taxonomy_term
+          entity_field: langcode
+          plugin_id: language
+        vid:
+          id: vid
+          table: taxonomy_term_field_data
+          field: vid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            glossary: glossary
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: taxonomy_term
+          entity_field: vid
+          plugin_id: bundle
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:
