@@ -2,10 +2,11 @@
   background-color: $text-color-blue-2;
   color: $text-color-white;
   font-size: 0.9em;
-  padding: 0.125rem 0.875rem 0.125rem 8.325rem;
+  padding: 0.125rem 0.875rem 0.125rem 5.325rem;
   clear: both;
   &-item{
     &.active,
+    & + &:before,
     a{
       color: $text-color-white;
     }

@@ -32,3 +32,10 @@ img{
   margin: 0px;
   font-size:inherit;
 }
+
+button{
+  &:focus{
+    outline:none;
+    box-shadow: none;
+  }
+}

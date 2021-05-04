@@ -1,1 +1,38 @@
 
+.site-footer{
+  &__bottom{
+    background-color: $bg-color-blue;
+    color: $text-color-white;
+    font-size: 0.875rem;
+    overflow: hidden;
+    padding: 0.325rem 5.325rem;
+    clear: both;
+
+  }
+  h2{
+    display:none;
+  }
+  .nav{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    &-item{}
+    &-link{
+      color:$text-color-white;
+      margin:0rem 0.625rem;
+      font-size:0.75rem;
+
+    }
+  }
+  span.nav-link {
+    font-size:0.875rem;
+  }
+  a.nav-link {
+    text-decoration: underline;
+  }
+  .block,
+  .region{
+    margin:0;
+    padding:0;
+  }
+}

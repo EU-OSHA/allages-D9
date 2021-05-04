@@ -40,16 +40,25 @@ img {
   font-size: inherit;
 }
 
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .breadcrumb {
   background-color: #2d559a;
   color: #FFF;
   font-size: 0.9em;
-  padding: 0.125rem 0.875rem 0.125rem 8.325rem;
+  padding: 0.125rem 0.875rem 0.125rem 5.325rem;
   clear: both;
 }
-.breadcrumb-item.active,
+.breadcrumb-item.active, .breadcrumb-item + .breadcrumb-item:before,
 .breadcrumb-item a {
   color: #FFF;
+}
+
+.form-group {
+  margin: 0rem;
 }
 
 .push-right {
@@ -62,6 +71,39 @@ img {
 }
 .view-useful-links .views-col {
   border: 1px solid #CCC;
+}
+
+.site-footer__bottom {
+  background-color: #003399;
+  color: #FFF;
+  font-size: 0.875rem;
+  overflow: hidden;
+  padding: 0.325rem 5.325rem;
+  clear: both;
+}
+.site-footer h2 {
+  display: none;
+}
+.site-footer .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.site-footer .nav-link {
+  color: #FFF;
+  margin: 0rem 0.625rem;
+  font-size: 0.75rem;
+}
+.site-footer span.nav-link {
+  font-size: 0.875rem;
+}
+.site-footer a.nav-link {
+  text-decoration: underline;
+}
+.site-footer .block,
+.site-footer .region {
+  margin: 0;
+  padding: 0;
 }
 
 .header .logos {
@@ -88,6 +130,10 @@ img {
 }
 .header .push-right {
   float: right;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: baseline;
 }
 .header .nav-item {
   background: none;
@@ -148,6 +194,39 @@ img {
   display: block;
 }
 .header .dropdown-item a:hover {
+  text-decoration: none;
+}
+.header .search-custom-block {
+  width: calc(100% - 95px);
+}
+.header .search-custom-block .form-type-search {
+  width: calc(100% - 22px);
+}
+.header .search-custom-block .form-actions .form-submit {
+  height: 20px;
+  width: 20px;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_search.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding: 0;
+  color: transparent;
+  border: none;
+}
+.header #search-block-form {
+  flex-direction: row;
+  align-items: baseline;
+}
+.header .font-size-print .a_small {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #003399;
+}
+.header .font-size-print .a_big {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #000;
+}
+.header .font-size-print .a:hover {
   text-decoration: none;
 }
 
