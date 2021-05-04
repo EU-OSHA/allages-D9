@@ -1,0 +1,18 @@
+uuid: 6494d4ee-1642-43bf-a466-a26c190bcc20
+langcode: UK-en
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.title
+field_name: title
+entity_type: node
+bundle: article
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
