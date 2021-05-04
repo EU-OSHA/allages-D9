@@ -1,0 +1,30 @@
+uuid: 41a49b1b-4956-4001-b25f-a15e0f9790ff
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4fd8e6bb-4f04-44e3-a8a8-9e125bb0aa78'
+  module:
+    - block_content
+    - system
+  theme:
+    - allages_theme
+id: healthyworkplacesforallages
+theme: allages_theme
+region: front_content
+weight: -7
+provider: null
+plugin: 'block_content:4fd8e6bb-4f04-44e3-a8a8-9e125bb0aa78'
+settings:
+  id: 'block_content:4fd8e6bb-4f04-44e3-a8a8-9e125bb0aa78'
+  label: 'Healthy Workplaces for all Ages'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

@@ -1,0 +1,18 @@
+uuid: 2a7f0a1b-0565-48d9-bff6-526f2a078547
+langcode: UK-en
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.created
+field_name: created
+entity_type: node
+bundle: article
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
