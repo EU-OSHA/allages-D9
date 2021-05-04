@@ -1,0 +1,40 @@
+.attachment{
+  background: $bg-color-grey-warm ;
+  margin-bottom: 4rem;
+  padding: 1.75rem 0rem;
+  text-transform: uppercase;
+  .view-glossary{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: baseline;
+    color:$text-color-grey-2;
+    .count{
+      display:none;
+    }
+    .row{
+      margin:0;
+    }
+  }
+  .view-header{
+    font-style: italic;
+    color: $text-color-blue ;
+    margin-right: 0.5rem;
+    text-transform: none;
+    font-weight: bold;
+    padding:0.375rem;
+  }
+  .views-summary{
+    a{
+      color: $text-color-blue ;
+      text-decoration: none;
+      font-weight: bold;
+      margin:0.375rem;
+      &.is-active{
+        background-color: $bg-color-green-2;
+        color: $text-color-white;
+        padding: 0.25rem 0.375rem;
+      }
+    }
+  }
+}

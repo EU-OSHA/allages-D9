@@ -9,6 +9,7 @@
 @import 'components/buttons';
 @import 'components/form-fields';
 @import 'components/grid';
+@import 'components/headings';
 @import 'components/helper';
 @import 'components/links';
 @import 'components/modal';
@@ -18,6 +19,8 @@
 @import 'layout/header';
 @import 'layout/menu';
 @import 'layout/section';
+
+@import 'display/attachment';
 
 @import 'responsive/common/common-responsive';
 @import 'responsive/mobile/mobile-responsive';
