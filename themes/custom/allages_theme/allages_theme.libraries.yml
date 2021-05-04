@@ -2,6 +2,7 @@ global-styling:
   version: VERSION
   js:
     js/global.js: {}
+    js/mapOrList.js: {}
   css:
     component:
       css/allages-global.css: {}

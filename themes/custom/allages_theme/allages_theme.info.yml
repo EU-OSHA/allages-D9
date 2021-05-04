@@ -19,5 +19,6 @@ regions:
   page_top: 'Page top'
   highlighted: 'Highlighted'
   breadcrumb: 'Breadcrumb'
+  front_content: 'Front page content'
   content: 'Content'
   footer_end: 'Footer end'
