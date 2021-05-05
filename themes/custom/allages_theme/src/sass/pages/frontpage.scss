@@ -1,5 +1,6 @@
 .page-view-frontpage{
   #block-healthyworkplacesforallages {
+    width:100%;
     .field--name-body {
       background: $bg-color-blue;
       color: $text-color-white;
@@ -38,7 +39,7 @@
           background-color:$bg-color-white;
           background-repeat: no-repeat;
           background-position: 15px 19px;
-          color: #333;
+          color: $text-color-dark-grey-2;
           font-size: 0.875rem;
           line-height: 20px;
           max-width: 66%;
@@ -57,8 +58,53 @@
           }
         }
 
-        &Div {
+      }
+    }
+    #moreInfoDiv {
+      background: url(/sites/allages/themes/custom/allages_theme/images/backgroundMoreInfo.jpg) no-repeat 0 0 $bg-color-white;
+      position: absolute;
+      background-color: $bg-color-white;
+      z-index: 9999;
+      color: $text-color-dark-grey-2;
+      width: 541px;
+      left:50%;
+      transform:translateX(-50%);
+      .closeMoreInfo{
+        cursor: pointer;
+        min-height: 9rem;
+        .moreinfotitle{
+          color:  $text-color-white;
+          float: left;
+          font-size: 22px ;
+          padding: 0;
+          line-height: 1rem;
+          font-weight: bold;
+          margin: 0rem 0rem 1rem;
+          margin-top: 3.5rem ;
         }
+        .close{}
+      }
+      .contentMoreInfo{
+
+        color: $text-color-dark-grey-2;
+
+        margin: 2rem 0;
+        overflow-y: scroll;
+        max-height: 22rem;
+        clear: both;
+        padding: 0 2rem;
+
+
+        h3{
+          padding: 0;
+          line-height: 1rem;
+          font-weight: bold;
+          color: $text-color-blue;
+          font-size: 1.25rem;
+          margin: 0em 0 1rem;
+        }
+        p{}
+        ul{}
       }
     }
   }
@@ -66,7 +112,6 @@
     display:flex;
     flex-direction: row;
     margin: 0 auto;
-    //overflow: auto;
     width: 47.5rem;
     font-size: 1.375rem;
     text-align: center;
@@ -135,10 +180,26 @@
       }
     }
   }
+  .containerC{
+    max-width: 970px;
+    margin: auto;
+    text-align: center;
+  }
   #listText{
+    margin: 1.75rem 0;
     >ul{
+      columns: 4;
+      list-style: none;
+      margin: 0;
+      padding: 0;
       >li{
-        >a{}
+        text-align: left;
+        font-size: 1.125rem;
+        line-height: 2.25rem;
+        >a{
+          text-decoration: none;
+          color: $text-color-black;
+        }
       }
     }
   }
