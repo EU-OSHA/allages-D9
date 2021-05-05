@@ -20,5 +20,6 @@ regions:
   highlighted: 'Highlighted'
   breadcrumb: 'Breadcrumb'
   front_content: 'Front page content'
+  allages_title: 'Allages Title'
   content: 'Content'
   footer_end: 'Footer end'
