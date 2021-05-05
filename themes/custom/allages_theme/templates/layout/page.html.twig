@@ -1,6 +1,6 @@
 {% extends "@bootstrap_barrio/layout/page.html.twig" %}
 {% block head %}
-  <div class="container">
+  <div>
     <div class="logos">
       {{ page.top_header }}
     </div>
@@ -37,24 +37,18 @@
 {% endblock %}
 
 {% block content %}
-  <div class="container">
-    {{ page.breadcrumb }}
-  </div>
-  <div class="container">
-    <section class="section container">
-      <a id="main-content" tabindex="-1"></a>
-      {{ page.content }}
-    </section>
-  </div>
+  {{ page.breadcrumb }}
+  <section class="section container">
+    <a id="main-content" tabindex="-1"></a>
+    {{ page.content }}
+  </section>
 {% endblock %}
 
 {% block footer %}
-  <div class="{{ container }}" >
-    {% if page.footer_end %}
-      <div class="site-footer__bottom">
-        {{ page.footer_end }}
-      </div>
-    {% endif %}
-  </div>
+  {% if page.footer_end %}
+    <div class="site-footer__bottom">
+      {{ page.footer_end }}
+    </div>
+  {% endif %}
 {% endblock %}
 
