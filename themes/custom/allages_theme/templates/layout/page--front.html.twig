@@ -3,7 +3,7 @@
 {% block head %}
   <!-- Add vmap libraty (js and css)-->
   {{ attach_library('allages_theme/vmap-library') }}
-  <div class="container">
+  <div class="content-header">
     <div class="logos">
       {{ page.top_header }}
     </div>
@@ -21,10 +21,10 @@
 {% endblock %}
 
 {% block content %}
-  <div class="container">
-    {{ page.front_content }}
-  </div>
-  <div class="container">
+
+  {{ page.front_content }}
+
+  <div class="content-map-list">
     <!-- Start of the lenguage section -->
     <div id="langselect">
       <div id ="langheader">
@@ -220,12 +220,12 @@
 {% endblock %}
 
 {% block footer %}
-  <div class="{{ container }}" >
-    {% if page.footer_end %}
-      <div class="site-footer__bottom">
-        {{ page.footer_end }}
-      </div>
-    {% endif %}
-  </div>
+
+  {% if page.footer_end %}
+    <div class="site-footer__bottom">
+      {{ page.footer_end }}
+    </div>
+  {% endif %}
+
 {% endblock %}
 
