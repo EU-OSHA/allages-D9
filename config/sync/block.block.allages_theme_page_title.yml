@@ -10,7 +10,7 @@ _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: allages_theme_page_title
 theme: allages_theme
-region: content
+region: allages_title
 weight: -7
 provider: null
 plugin: page_title_block
