@@ -1,5 +1,7 @@
 {% extends "@bootstrap_barrio/layout/page.html.twig" %}
+
 {% block head %}
+  {{ attach_library('allages_theme/vmap-library') }}
   <div class="container">
     <div class="logos">
       {{ page.top_header }}
