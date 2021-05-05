@@ -12,15 +12,19 @@
     padding: 1.125rem 0;
     font-size: 1.125rem;
     line-height: 1.5rem;
+    width:100%;
   }
   .views-field-field-link{
     display:block;
     width:100%;
-    height:100%;
+    // height:100%;
+    border:1px solid red;
     .field-content{
       display:block;
       width:100%;
-      height:100%;
+      border:1px solid blue;
+    // height:100%;
+      padding: 0 0.75rem 0.875rem 0;
       a{
         background: $bg-color-green url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png) no-repeat scroll 95% 88%;
         color: $text-color-white;
@@ -28,14 +32,18 @@
         font-size: 0.875rem;
         font-weight: bold;
         height: 120px;
-        margin: 0 1% 0.875rem 0;
+        // margin: 0 0.75rem 0.875rem 0;
         padding: 0.875rem 1.25rem 1.125rem 0.875rem;
         text-decoration: none;
         width: 180px;
         display:block;
         width:100%;
-        height:100%;
+        //height:100%;
+        border:1px solid green;
       }
     }
+  }
+  .views-col{
+    padding:0;
   }
 }

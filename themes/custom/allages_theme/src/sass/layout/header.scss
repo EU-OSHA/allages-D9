@@ -4,6 +4,9 @@
   }
   .logos{
     float:left;
+    .row{
+      margin:0;
+    }
     .field--type-text-with-summary{
       span{
         display:inline-block;
