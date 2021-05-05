@@ -1,0 +1,16 @@
+.breadcrumb{
+  background-color: $text-color-blue-2;
+  color: $text-color-white;
+  font-size: 0.9em;
+  padding: 0.125rem 0.875rem 0.125rem 5.325rem;
+  clear: both;
+  margin:0rem;
+  border-radius:0;
+  &-item{
+    &.active,
+    & + &:before,
+    a{
+      color: $text-color-white;
+    }
+  }
+}
