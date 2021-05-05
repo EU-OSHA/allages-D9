@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.napo_theme = {
+  Drupal.behaviors.allages_theme = {
     attach: function (context, settings) {
 
     }
