@@ -140,6 +140,11 @@ body {
   margin: 0;
   padding: 0;
 }
+.site-footer .region-footer-end {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/logoEurope.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
 
 .header {
   padding-top: 1rem;
@@ -433,6 +438,60 @@ body {
 }
 .view-useful-links .views-col {
   padding: 0;
+}
+
+.page-view-frontpage #block-healthyworkplacesforallages .field--name-body {
+  background: #003399;
+  color: #FFF;
+}
+.page-view-frontpage #block-healthyworkplacesforallages .containerC {
+  max-width: 970px;
+  margin: auto;
+  text-align: center;
+  padding: 1.75rem 0rem;
+}
+.page-view-frontpage #block-healthyworkplacesforallages .containerC h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding: 0.75rem 0;
+  line-height: 2.5rem;
+}
+.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfo .content-message {
+  background: #003399;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  display: none;
+}
+.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfo .messageInfo {
+  border: 1px solid #FFF;
+  display: block;
+  padding: 1rem 2rem 1rem 4rem;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+  border-radius: 0;
+  text-align: left;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/info-ico.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 15px 19px;
+  color: #333;
+  font-size: 0.875rem;
+  line-height: 20px;
+  max-width: 66%;
+  margin: 0 auto;
+}
+.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfoBut {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfoBut .greenButton {
+  background: #acc700;
+  color: #FFF;
+  cursor: pointer;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=allages-global.css.map */
