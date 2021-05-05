@@ -30,39 +30,42 @@
   })
 
 
-
-  $(window).on('load', function() {
-
-  });
-
-
-
-  /** ACCORDION **/
-  jQuery(document).ready(function () {
-
-    function accordionOpen(elem){
-      let contentDiv = jQuery(elem).next();
-      let parentDiv = jQuery(elem).closest('.accordion-item');
-
-      if ( parentDiv.hasClass("active")) {
-        jQuery(contentDiv).slideUp(600).fadeOut(600);
-        jQuery(parentDiv).removeClass('active');
-        jQuery(elem).removeClass('active');
-      } else {
-        jQuery('.accordion-item').removeClass('active');
-        jQuery('.accordion-item .field__label').removeClass('active');
-        jQuery('.accordion-item .field__item').slideUp(600);
-        jQuery(contentDiv).slideDown(600).fadeIn(600);
-        jQuery(parentDiv).addClass('active');
-        jQuery(elem).addClass('active');
-      }
-    }
-
-    jQuery('.accordion-item .field__label').click(function () {
-      accordionOpen( this );
+  // ACCORDION
+  $('.page-view-glossary .views-field-name').each(function(){
+    $(this).on('click', function(e){
+      e.preventDefault();
+      $(this).toggleClass('selected');
+      $(this).siblings('.views-field-description__value').stop().slideToggle();
     });
   });
 
+
+  //URL parameters when clicked on Front page Map
+  var origin_url   = window.location.origin;
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+      sURLVariables = sPageURL.split('&'),
+      sParameterName,
+      i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+      sParameterName = sURLVariables[i].split('=');
+
+      if (sParameterName[0] === sParam) {
+        return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+      }
+    }
+    return false;
+  };
+
+  var param1 = getUrlParameter('c');
+  var param2 = getUrlParameter('l');
+  var newUrl = origin_url + '/all-ages/' + param1 + '_' + param2 + '/select-your-profile';
+
+  //redirect to new page
+  if (param1 != '0'){
+    window.location = newUrl;
+  }
 })(jQuery, Drupal);
 
 

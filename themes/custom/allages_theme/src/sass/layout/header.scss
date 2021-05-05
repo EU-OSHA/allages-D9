@@ -71,7 +71,10 @@
         }
       }
       &.active{
-
+        border-color:$text-color-green;
+        .nav-link{
+          color:$text-color-green;
+        }
       }
     }
     &-link{
@@ -80,6 +83,7 @@
       color:$text-color-dark-grey;
       font-size:0.75rem;
       text-decoration: none;
+      cursor:pointer;
     }
   }
   .dropdown{
@@ -98,20 +102,23 @@
     }
 
     &-item{
-      padding:0;
-      &:hover,
+      &,
       &.active{
-        background: url(/sites/allages/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% $bg-color-blue-hover;
-        border-radius: 0px;
-      }
-      a{
-        color:$text-color-white;
-        font-size:0.75rem;
-        padding: 0.75rem 1.125rem;
-        font-weight: bold;
-        display:block;
+        padding:0;
+        background-color:transparent;
         &:hover{
-          text-decoration: none;
+          background: url(/sites/allages/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% $bg-color-blue-hover;
+          border-radius: 0px;
+        }
+        a{
+          color:$text-color-white;
+          font-size:0.75rem;
+          padding: 0.75rem 1.125rem;
+          font-weight: bold;
+          display:block;
+          &:hover{
+            text-decoration: none;
+          }
         }
       }
     }

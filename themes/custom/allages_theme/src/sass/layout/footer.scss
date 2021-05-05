@@ -1,5 +1,6 @@
 
 .site-footer{
+  padding:0;
   &__bottom{
     background-color: $bg-color-blue;
     color: $text-color-white;
@@ -7,7 +8,6 @@
     overflow: hidden;
     padding: 0.325rem 5.325rem;
     clear: both;
-
   }
   h2{
     display:none;
@@ -34,5 +34,10 @@
   .region{
     margin:0;
     padding:0;
+  }
+  .region-footer-end{
+    background-image:url(/sites/allages/themes/custom/allages_theme/images/logoEurope.png);
+    background-repeat: no-repeat;
+    background-position: center right;
   }
 }
