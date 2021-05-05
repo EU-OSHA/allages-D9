@@ -342,7 +342,7 @@ body {
   padding: 0.25rem 0.375rem;
 }
 
-.view-glossary .views-view-grid {
+.view-glossary .item-list {
   border-top: 1px solid #c9c9c9;
   border-left: 1px solid #c9c9c9;
   border-right: 1px solid #c9c9c9;
@@ -351,11 +351,15 @@ body {
   padding: 0;
   margin: 0 auto;
   max-width: 880px;
+  width: 100%;
 }
-.view-glossary .views-view-grid .views-col {
+.view-glossary .item-list > ul > li {
   padding: 0;
 }
-.view-glossary .views-view-grid .row {
+.view-glossary .item-list .views-col {
+  padding: 0;
+}
+.view-glossary .item-list .row {
   margin: 0;
 }
 .view-glossary .views-field-name {
@@ -391,8 +395,12 @@ body {
   border-bottom: 1px solid #c9c9c9;
   display: none;
 }
-.view-glossary .views-field-description__value ol, .view-glossary .views-field-description__value ul {
+.view-glossary .views-field-description__value ul {
   padding: 3px 0 0 14px;
+  list-style: disc;
+}
+.view-glossary .views-field-description__value ul li {
+  padding: 0;
 }
 
 .view-useful-links {
