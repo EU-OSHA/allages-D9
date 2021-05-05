@@ -2,7 +2,6 @@ global-styling:
   version: VERSION
   js:
     js/global.js: {}
-    js/mapOrList.js: {}
   css:
     component:
       css/allages-global.css: {}
@@ -29,3 +28,13 @@ color.preview:
     color/preview.js: {}
   dependencies:
     - color/drupal.color
+vmap-library:
+  css:
+    theme:
+      css/jqvmap.css: {}
+  js:
+    js/manifestinteractive-jqvmap-1044285/jqvmap/jquery.vmap.js: {}
+    js/manifestinteractive-jqvmap-1044285/jqvmap/maps/jquery.vmap.europe.js: {}
+    js/mapOrList.js: {}
+  dependencies:
+    - core/jquery
