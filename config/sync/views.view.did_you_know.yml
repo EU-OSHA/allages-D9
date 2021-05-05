@@ -226,8 +226,8 @@ display:
           label: ''
           exclude: false
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: "<div class=\"field-content sourceLink\">\r\n<div class=\"buttonViewSource views-row-first views-row-odd\">\r\n<a class=\"viewSource\" href=\"#\">Source</a>\r\n</div>\r\n\r\n<div class=\"pop-up-content\">\r\n<div class=\"pop-up-title\">{{ 'Source' | trans }}</div><div class=\"pop-up-close\">X</div>\r\n <p>{{ field_sources }}</p>\r\n </div>\r\n\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -330,7 +330,7 @@ display:
           type: number_integer
           settings:
             thousand_separator: ''
-            prefix_suffix: true
+            prefix_suffix: false
           group_column: value
           group_columns: {  }
           group_rows: true
