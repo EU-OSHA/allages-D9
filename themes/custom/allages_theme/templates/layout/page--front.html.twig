@@ -1,6 +1,7 @@
 {% extends "@bootstrap_barrio/layout/page.html.twig" %}
 
 {% block head %}
+  <!-- Add vmap libraty (js and css)-->
   {{ attach_library('allages_theme/vmap-library') }}
   <div class="container">
     <div class="logos">
@@ -41,170 +42,172 @@
       </div>
 
       <!-- This is the List -->
-      <div id="listText">
-        <ul>
-          <li><a href="select-language?c=AU&amp;l=DE">Austria</a>
-            <ul class="at">
-              <li class="LanHid"><a href="select-language?c=AU&amp;l=DE">German</a></li>
-            </ul>
-          </li>
-          <li>Belgium
-            <ul class="be">
-              <li><a href="select-language?c=BE&amp;l=FR" class="moreItems">French</a></li>
-              <li><a href="select-language?c=BE&amp;l=NL">Dutch</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=BU&amp;l=BG">Bulgaria</a>
-            <ul class="bg">
-              <li class="LanHid"><a href="select-language?c=BU&amp;l=BG">Bulgarian</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=CR&amp;l=HR">Croatia</a>
-            <ul class="hr">
-              <li class="LanHid"><a href="select-language?c=CR&amp;l=HR">Croatian</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=CY&amp;l=EL">Cyprus</a>
-            <ul class="cy">
-              <li class="LanHid"><a href="select-language?c=CY&amp;l=EL">Greek</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=CZ&amp;l=CS">Czech Republic</a>
-            <ul class="cz">
-              <li class="LanHid"><a href="select-language?c=CZ&amp;l=CS">Czech</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=DE&amp;l=DA">Denmark</a>
-            <ul class="dk">
-              <li class="LanHid"><a href="select-language?c=DE&amp;l=DA">Danish</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=ET&amp;l=ET">Estonia</a>
-            <ul class="ee">
-              <li class="LanHid"><a href="select-language?c=ET&amp;l=ET">Estonian</a></li>
-            </ul>
-          </li>
-          <li>Finland
-            <ul class="fi">
-              <li><a href="select-language?c=FI&amp;l=FI" class="moreItems">Finnish</a></li>
-              <li><a href="select-language?c=FI&amp;l=SV">Swedish</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=FR&amp;l=FR">France</a>
-            <ul class="fr">
-              <li class="LanHid"><a href="select-language?c=FR&amp;l=FR">French</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=GE&amp;l=DE">Germany</a>
-            <ul class="de">
-              <li class="LanHid"><a href="select-language?c=GE&amp;l=DE">German</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=GR&amp;l=EL">Greece</a>
-            <ul class="gr">
-              <li class="LanHid"><a href="select-language?c=GR&amp;l=EL">Greek</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=HU&amp;l=HU">Hungary</a>
-            <ul class="hu">
-              <li class="LanHid"><a href="select-language?c=HU&amp;l=HU">Hungarian</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=IR&amp;l=EN">Ireland</a>
-            <ul class="ie">
-              <li class="LanHid"><a href="select-language?c=IR&amp;l=EN">English</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=IT&amp;l=IT">Italy</a>
-            <ul class="it">
-              <li class="LanHid"><a href="select-language?c=IT&amp;l=IT">Italian</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=LV&amp;l=LV">Latvia</a>
-            <ul class="lv">
-              <li class="LanHid"><a href="select-language?c=LV&amp;l=LV">Latvian</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=LT&amp;l=LT">Lithuania</a>
-            <ul class="lt">
-              <li class="LanHid"><a href="select-language?c=LT&amp;l=LT">Lithuanian</a></li>
-            </ul>
-          </li>
-          <li>Luxembourg
-            <ul class="lu">
-              <li><a href="select-language?c=LB&amp;l=FR" class="moreItems">French</a></li>
-              <li><a href="select-language?c=LB&amp;l=DE" class="moreItems">German</a></li>
-            </ul>
-          </li>
-          <li>Malta
-            <ul class="mt">
-              <li><a href="select-language?c=MT&amp;l=MT" class="moreItems">Maltese</a></li>
-              <li><a href="select-language?c=MT&amp;l=EN">English</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=NE&amp;l=NL">Netherlands</a>
-            <ul class="nl">
-              <li class="LanHid"><a href="select-language?c=NE&amp;l=NL">Dutch</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=PL&amp;l=PL">Poland</a>
-            <ul class="pl">
-              <li class="LanHid"><a href="select-language?c=PL&amp;l=PL">Polish</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=PT&amp;l=PT">Portugal</a>
-            <ul class="pt">
-              <li class="LanHid"><a href="select-language?c=PT&amp;l=PT">Portuguese</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=RO&amp;l=RO">Romania</a>
-            <ul class="ro">
-              <li class="LanHid"><a href="select-language?c=RO&amp;l=RO">Romanian</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=SK&amp;l=SK">Slovakia</a>
-            <ul class="sk">
-              <li class="LanHid"><a href="select-language?c=SK&amp;l=SK">Slovak</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=SL&amp;l=SL">Slovenia</a>
-            <ul class="si">
-              <li class="LanHid"><a href="select-language?c=SL&amp;l=SL">Slovene</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=ES&amp;l=ES">Spain</a>
-            <ul class="es LanHid">
-              <li class="LanHid"><a href="select-language?c=ES&amp;l=ES">Spanish</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=SV&amp;l=SV">Sweden</a>
-            <ul class="se LanHid">
-              <li class="LanHid"><a href="select-language?c=SV&amp;l=SV">Swedish</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=UK&amp;l=EN">United Kingdom</a>
-            <ul class="gb">
-              <li class="LanHid"><a href="select-language?c=UK&amp;l=EN">English</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=IS&amp;l=IS">Iceland</a>
-            <ul class="is">
-              <li class="LanHid"><a href="select-language?c=IS&amp;l=IS">Icelandic</a></li>
-            </ul>
-          </li>
-          <li><a href="select-language?c=NN&amp;l=NN">Norway</a>
-            <ul class="no">
-              <li class="LanHid"><a href="select-language?c=NN&amp;l=NN">Norwegian</a></li>
-            </ul>
-          </li>
-          <li>Switzerland
-            <ul class="ch">
-              <li><a href="select-language?c=SWZ&amp;l=DE" class="moreItems">German</a></li>
-              <li><a href="select-language?c=SWZ&amp;l=FR" class="moreItems">French </a></li>
-              <li><a href="select-language?c=SWZ&amp;l=IT">Italian</a></li>
-            </ul>
-          </li>
-        </ul>
+      <div class="containerC">
+        <div id="listText">
+          <ul>
+            <li><a href="select-language?c=AU&amp;l=DE">Austria</a>
+              <ul class="at">
+                <li class="LanHid"><a href="select-language?c=AU&amp;l=DE">German</a></li>
+              </ul>
+            </li>
+            <li>Belgium
+              <ul class="be">
+                <li><a href="select-language?c=BE&amp;l=FR" class="moreItems">French</a></li>
+                <li><a href="select-language?c=BE&amp;l=NL">Dutch</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=BU&amp;l=BG">Bulgaria</a>
+              <ul class="bg">
+                <li class="LanHid"><a href="select-language?c=BU&amp;l=BG">Bulgarian</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=CR&amp;l=HR">Croatia</a>
+              <ul class="hr">
+                <li class="LanHid"><a href="select-language?c=CR&amp;l=HR">Croatian</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=CY&amp;l=EL">Cyprus</a>
+              <ul class="cy">
+                <li class="LanHid"><a href="select-language?c=CY&amp;l=EL">Greek</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=CZ&amp;l=CS">Czech Republic</a>
+              <ul class="cz">
+                <li class="LanHid"><a href="select-language?c=CZ&amp;l=CS">Czech</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=DE&amp;l=DA">Denmark</a>
+              <ul class="dk">
+                <li class="LanHid"><a href="select-language?c=DE&amp;l=DA">Danish</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=ET&amp;l=ET">Estonia</a>
+              <ul class="ee">
+                <li class="LanHid"><a href="select-language?c=ET&amp;l=ET">Estonian</a></li>
+              </ul>
+            </li>
+            <li>Finland
+              <ul class="fi">
+                <li><a href="select-language?c=FI&amp;l=FI" class="moreItems">Finnish</a></li>
+                <li><a href="select-language?c=FI&amp;l=SV">Swedish</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=FR&amp;l=FR">France</a>
+              <ul class="fr">
+                <li class="LanHid"><a href="select-language?c=FR&amp;l=FR">French</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=GE&amp;l=DE">Germany</a>
+              <ul class="de">
+                <li class="LanHid"><a href="select-language?c=GE&amp;l=DE">German</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=GR&amp;l=EL">Greece</a>
+              <ul class="gr">
+                <li class="LanHid"><a href="select-language?c=GR&amp;l=EL">Greek</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=HU&amp;l=HU">Hungary</a>
+              <ul class="hu">
+                <li class="LanHid"><a href="select-language?c=HU&amp;l=HU">Hungarian</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=IR&amp;l=EN">Ireland</a>
+              <ul class="ie">
+                <li class="LanHid"><a href="select-language?c=IR&amp;l=EN">English</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=IT&amp;l=IT">Italy</a>
+              <ul class="it">
+                <li class="LanHid"><a href="select-language?c=IT&amp;l=IT">Italian</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=LV&amp;l=LV">Latvia</a>
+              <ul class="lv">
+                <li class="LanHid"><a href="select-language?c=LV&amp;l=LV">Latvian</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=LT&amp;l=LT">Lithuania</a>
+              <ul class="lt">
+                <li class="LanHid"><a href="select-language?c=LT&amp;l=LT">Lithuanian</a></li>
+              </ul>
+            </li>
+            <li>Luxembourg
+              <ul class="lu">
+                <li><a href="select-language?c=LB&amp;l=FR" class="moreItems">French</a></li>
+                <li><a href="select-language?c=LB&amp;l=DE" class="moreItems">German</a></li>
+              </ul>
+            </li>
+            <li>Malta
+              <ul class="mt">
+                <li><a href="select-language?c=MT&amp;l=MT" class="moreItems">Maltese</a></li>
+                <li><a href="select-language?c=MT&amp;l=EN">English</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=NE&amp;l=NL">Netherlands</a>
+              <ul class="nl">
+                <li class="LanHid"><a href="select-language?c=NE&amp;l=NL">Dutch</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=PL&amp;l=PL">Poland</a>
+              <ul class="pl">
+                <li class="LanHid"><a href="select-language?c=PL&amp;l=PL">Polish</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=PT&amp;l=PT">Portugal</a>
+              <ul class="pt">
+                <li class="LanHid"><a href="select-language?c=PT&amp;l=PT">Portuguese</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=RO&amp;l=RO">Romania</a>
+              <ul class="ro">
+                <li class="LanHid"><a href="select-language?c=RO&amp;l=RO">Romanian</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=SK&amp;l=SK">Slovakia</a>
+              <ul class="sk">
+                <li class="LanHid"><a href="select-language?c=SK&amp;l=SK">Slovak</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=SL&amp;l=SL">Slovenia</a>
+              <ul class="si">
+                <li class="LanHid"><a href="select-language?c=SL&amp;l=SL">Slovene</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=ES&amp;l=ES">Spain</a>
+              <ul class="es LanHid">
+                <li class="LanHid"><a href="select-language?c=ES&amp;l=ES">Spanish</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=SV&amp;l=SV">Sweden</a>
+              <ul class="se LanHid">
+                <li class="LanHid"><a href="select-language?c=SV&amp;l=SV">Swedish</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=UK&amp;l=EN">United Kingdom</a>
+              <ul class="gb">
+                <li class="LanHid"><a href="select-language?c=UK&amp;l=EN">English</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=IS&amp;l=IS">Iceland</a>
+              <ul class="is">
+                <li class="LanHid"><a href="select-language?c=IS&amp;l=IS">Icelandic</a></li>
+              </ul>
+            </li>
+            <li><a href="select-language?c=NN&amp;l=NN">Norway</a>
+              <ul class="no">
+                <li class="LanHid"><a href="select-language?c=NN&amp;l=NN">Norwegian</a></li>
+              </ul>
+            </li>
+            <li>Switzerland
+              <ul class="ch">
+                <li><a href="select-language?c=SWZ&amp;l=DE" class="moreItems">German</a></li>
+                <li><a href="select-language?c=SWZ&amp;l=FR" class="moreItems">French </a></li>
+                <li><a href="select-language?c=SWZ&amp;l=IT">Italian</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
       <!--This is the start of the map -->
       <div id="mapImg">
