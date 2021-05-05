@@ -76,12 +76,16 @@ display:
             automatically_load_content: true
             initially_load_all_pages: true
       style:
-        type: default
+        type: grid
         options:
           grouping: {  }
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
+          columns: 12
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: 'col-md-4 col-12 views-col'
+          row_class_default: false
+          row_class_custom: ''
       row:
         type: fields
         options:
@@ -226,8 +230,8 @@ display:
           label: ''
           exclude: false
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: "<div class=\"field-content sourceLink\">\r\n<div class=\"buttonViewSource views-row-first views-row-odd\">\r\n<a class=\"viewSource\" href=\"#\">Source</a>\r\n</div>\r\n\r\n<div class=\"pop-up-content\">\r\n<div class=\"pop-up-title\">{{ 'Source' | trans }}</div><div class=\"pop-up-close\">X</div>\r\n <p>{{ field_sources }}</p>\r\n </div>\r\n\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -330,7 +334,7 @@ display:
           type: number_integer
           settings:
             thousand_separator: ''
-            prefix_suffix: true
+            prefix_suffix: false
           group_column: value
           group_columns: {  }
           group_rows: true
