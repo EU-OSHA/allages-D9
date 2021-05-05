@@ -9,7 +9,7 @@ _core:
 id: allages_theme_local_actions
 theme: allages_theme
 region: content
-weight: -20
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

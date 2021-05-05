@@ -2,6 +2,8 @@ uuid: 54abe029-d78b-4ae4-bf27-c80f2b205851
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - allages_theme
 _core:
@@ -9,7 +11,7 @@ _core:
 id: allages_theme_page_title
 theme: allages_theme
 region: content
-weight: -50
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,8 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
