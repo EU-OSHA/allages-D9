@@ -1,0 +1,52 @@
+{% extends "page.html.twig" %}
+
+{% block content %}
+
+  {{ page.front_content }}
+  <div class="BarStartTour">
+    <div class="imgStart"></div>
+    <div class="startText">{{ 'How does this e-guide work?' | trans }}</div>
+    <div class="butonTour">
+      <a id="tour">{{ 'Start tour' | trans }}</a>
+    </div>
+  </div>
+  <div class="subStartTour">{{ 'Please select your profile:' | trans }}</div>
+  <div class="half center br">
+    <div class="whiteBg">
+      <div class="img-employer"></div>
+      <div class="text">{{ 'I am an employer' | trans }}</div>
+      <div class="button">
+        <a href="profile?prof=2">{{ 'Start' | trans }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="half center br">
+    <div class="whiteBg">
+      <div class="img-worker"></div>
+      <div class="text">{{ 'I am a worker' | trans }}</div>
+      <div class="button">
+        <a href="profile?prof=1">{{ 'Start' | trans }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="half center br">
+    <div class="whiteBg">
+      <div class="img-employer"></div>
+      <div class="text">{{ 'I am a HR Manager' | trans }}</div>
+      <div class="button">
+        <a href="profile?prof=5">{{ 'Start' | trans }}</a>
+      </div>
+    </div>
+  </div>
+  <div class="half center">
+    <div class="whiteBg">
+      <div class="img-professional"></div>
+      <div class="text">{{ 'I am an OSH Professional' | trans }}</div>
+      <div class="button">
+        <a href="profile?prof=6">{{ 'Start' | trans }}</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+
