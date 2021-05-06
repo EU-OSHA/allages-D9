@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - ctools
     - system
   theme:
     - allages_theme
@@ -23,18 +22,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: "<front>\r\n/good-practices\r\n/good-practices/*"
     negate: true
-  'entity_bundle:node':
-    id: 'entity_bundle:node'
-    bundles:
-      article: article
-      did_you_know: did_you_know
-      page: page
-      steps: steps
-      themes: themes
-      useful_links: useful_links
-      webform: webform
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'

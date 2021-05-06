@@ -1,28 +1,24 @@
-uuid: 1452b3e9-77ae-4423-83d7-4d5b02803a56
+uuid: 51511578-3d08-4175-b429-df3520604a98
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - node
-id: url_pattern_for_nodes
-label: 'URL Pattern for Nodes'
+id: url_pattern_for_good_practices
+label: 'URL Pattern for Good practices'
 type: 'canonical_entities:node'
-pattern: '/[node:title]'
+pattern: '/good-practices/[node:title]'
 selection_criteria:
-  2952721c-1cfe-4235-bd29-151501905197:
+  9dee6098-d0c2-4e0b-b2b7-decc4cafd66e:
     id: node_type
     bundles:
-      did_you_know: did_you_know
-      page: page
-      steps: steps
-      themes: themes
-      useful_links: useful_links
+      good_practices: good_practices
     negate: false
     context_mapping:
       node: node
-    uuid: 2952721c-1cfe-4235-bd29-151501905197
-  de2ad754-c006-4905-8d18-6ae39365ccdd:
+    uuid: 9dee6098-d0c2-4e0b-b2b7-decc4cafd66e
+  fa04e71e-fce9-48bb-87db-d294ee89c70a:
     id: language
     langcodes:
       en: en
@@ -66,7 +62,7 @@ selection_criteria:
     negate: false
     context_mapping:
       language: 'node:langcode:language'
-    uuid: de2ad754-c006-4905-8d18-6ae39365ccdd
+    uuid: fa04e71e-fce9-48bb-87db-d294ee89c70a
 selection_logic: and
 weight: -10
 relationships:
