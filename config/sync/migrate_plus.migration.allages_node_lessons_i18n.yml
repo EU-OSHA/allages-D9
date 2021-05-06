@@ -74,8 +74,11 @@ process:
   content_translation_source: source
   content_translation_outdated: translate
   field_text_1: field_text_1
-  field_text_2/value: field_text_2
-  field_text_2/format:
+  field_text_2:
+    -
+      plugin: get
+      source: field_text_2
+  field_text_2/0/format:
     -
       plugin: default_value
       default_value: restricted_html

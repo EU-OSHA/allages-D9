@@ -16,6 +16,7 @@ source:
   plugin: d7_node
   node_type: page
 process:
+  nid: tnid
   type:
     -
       plugin: default_value
@@ -35,6 +36,7 @@ process:
   revision_uid: revision_uid
   revision_log: log
   revision_timestamp: timestamp
+  field_summary: field_summary
 destination:
   plugin: 'entity:node'
 migration_dependencies:

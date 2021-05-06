@@ -73,6 +73,10 @@ process:
   revision_timestamp: timestamp
   content_translation_source: source
   content_translation_outdated: translate
+  field_summary:
+    -
+      plugin: strip_tags
+      source: field_summary/0/value
 destination:
   plugin: 'entity:node'
   translations: true
