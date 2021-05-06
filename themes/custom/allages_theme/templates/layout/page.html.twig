@@ -1,6 +1,6 @@
 {% extends "@bootstrap_barrio/layout/page.html.twig" %}
 {% block head %}
-  <div>
+  <div  class="content-header">
     <div class="logos">
       {{ page.top_header }}
     </div>
@@ -39,7 +39,7 @@
 {% block content %}
   {{ page.breadcrumb }}
   {{ page.allages_title }}
-  <section class="section container">
+  <section class="section">
     <a id="main-content" tabindex="-1"></a>
     {{ page.content }}
   </section>

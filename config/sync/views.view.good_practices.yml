@@ -74,12 +74,16 @@ display:
             automatically_load_content: true
             initially_load_all_pages: true
       style:
-        type: default
+        type: grid
         options:
           grouping: {  }
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
+          columns: 12
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: 'col-md-4 col-12 views-col'
+          row_class_default: true
+          row_class_custom: ''
       row:
         type: fields
         options:
