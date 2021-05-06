@@ -395,7 +395,20 @@ display:
             label: ''
           granularity: second
           plugin_id: date
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<div id=\"block-allages-theme-page-title\" class=\"contextual-region block block-core block-page-title-block\">\r\n      <div class=\"content\">\r\n        <h1 class=\"js-quickedit-page-title title\">\r\n          <span class=\"field field--name-title field--type-string field--label-hidden quickedit-field\">\r\n            Good practices\r\n          </span>\r\n        </h1>\r\n      </div>\r\n    </div>"
+            format: full_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }
