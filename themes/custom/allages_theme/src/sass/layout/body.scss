@@ -14,3 +14,20 @@ body{
   max-width: 1366px;
   margin:  0 auto;
 }
+
+.overlay-custom-background{
+  background-color: $bg-color-blue;
+  position:fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  opacity:0.7;
+  width:100vw;
+  height:100vh;
+}
+
+section{
+  &.row{
+    margin:0;
+  }
+}

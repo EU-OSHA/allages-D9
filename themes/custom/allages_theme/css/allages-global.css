@@ -49,6 +49,10 @@ button:focus {
   padding: 0px;
 }
 
+ul {
+  padding-left: 0.875rem;
+}
+
 .breadcrumb {
   background-color: #2d559a;
   color: #FFF;
@@ -105,6 +109,21 @@ body {
   margin: 0 auto;
 }
 
+.overlay-custom-background {
+  background-color: #003399;
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  width: 100vw;
+  height: 100vh;
+}
+
+section.row {
+  margin: 0;
+}
+
 .site-footer {
   padding: 0;
 }
@@ -115,6 +134,8 @@ body {
   overflow: hidden;
   padding: 0.325rem 5.325rem;
   clear: both;
+  margin: 0rem;
+  border: none;
 }
 .site-footer h2 {
   display: none;
@@ -342,6 +363,59 @@ body {
   padding: 0.25rem 0.375rem;
 }
 
+.view-did-you-know {
+  margin-top: 40px;
+}
+.view-did-you-know .views-view-grid .views-col {
+  float: left;
+  border: 1px solid #ccc;
+  min-height: 355px;
+  margin-bottom: 20px;
+  margin-right: 19px;
+  max-width: calc(33.333333% - 19px);
+  padding: 0;
+  height: 393px;
+}
+.view-did-you-know .views-view-grid .views-field-field-image-step {
+  height: 10rem;
+  overflow: hidden;
+}
+.view-did-you-know .views-view-grid .views-field-field-image-step img {
+  width: 100%;
+}
+.view-did-you-know .views-view-grid .views-field-field-text {
+  color: #585858;
+  line-height: 1.75rem;
+  margin: 1em;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.view-did-you-know .views-view-grid .views-field-field-text .field-content {
+  height: 171px;
+}
+.view-did-you-know .views-view-grid .buttonViewSource {
+  text-align: right;
+}
+.view-did-you-know .views-view-grid .viewSource {
+  background: url(/sites/allages/themes/custom/allages_theme/images/i-_source.png) no-repeat scroll 0.75rem center;
+  border: 1px solid #003399;
+  color: #003399;
+  font-weight: bold;
+  padding: 0.75rem 1rem 0.75rem 3rem;
+  text-decoration: none;
+}
+.view-did-you-know .pop-up-content {
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  transform: translateX(-50%);
+  width: 34.5rem;
+  background-color: #fff;
+  color: #000;
+}
+
 .view-glossary .item-list {
   border-top: 1px solid #c9c9c9;
   border-left: 1px solid #c9c9c9;
@@ -349,7 +423,8 @@ body {
   margin-bottom: 2.5rem;
   margin-top: 0.25rem;
   padding: 0;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 880px;
   width: 100%;
 }
@@ -448,6 +523,9 @@ body {
   padding: 0;
 }
 
+.page-view-frontpage #block-healthyworkplacesforallages {
+  width: 100%;
+}
 .page-view-frontpage #block-healthyworkplacesforallages .field--name-body {
   background: #003399;
   color: #FFF;
@@ -500,6 +578,61 @@ body {
   padding: 1rem;
   text-decoration: none;
   font-weight: bolder;
+}
+.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv {
+  display: none;
+  background: url(/sites/allages/themes/custom/allages_theme/images/backgroundMoreInfo.jpg) no-repeat 0 0 #fff;
+  position: fixed;
+  background-color: #fff;
+  z-index: 9999;
+  color: #333;
+  width: 541px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .closeMoreInfo {
+  cursor: pointer;
+  min-height: 7.625rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .closeMoreInfo .moreinfotitle {
+  color: #FFF;
+  float: left;
+  font-size: 22px;
+  padding: 0;
+  line-height: 1rem;
+  font-weight: bold;
+  margin: 3.5rem 0rem 1rem 2rem;
+}
+.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .closeMoreInfo .close {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  color: #FFF;
+  background-color: #98b400;
+  font-weight: bold;
+  font-size: 1.75rem;
+  text-shadow: none;
+  opacity: 1;
+}
+.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .contentMoreInfo {
+  color: #333;
+  margin: 1.375rem 0 2rem 0;
+  overflow-y: scroll;
+  max-height: 22rem;
+  clear: both;
+  padding: 0 2rem;
+}
+.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .contentMoreInfo h3 {
+  padding: 0;
+  line-height: 1rem;
+  font-weight: bold;
+  color: #003399;
+  font-size: 1.25rem;
+  margin: 0em 0 1rem;
 }
 .page-view-frontpage #langheader {
   display: flex;
@@ -572,6 +705,29 @@ body {
   background: url(/sites/allages/themes/custom/allages_theme/images/icoListSelected.png) no-repeat scroll 0.375rem center #acc700;
   color: #FFF;
   cursor: default;
+}
+.page-view-frontpage .containerC {
+  max-width: 970px;
+  margin: auto;
+  text-align: center;
+}
+.page-view-frontpage #listText {
+  margin: 1.75rem 0;
+}
+.page-view-frontpage #listText > ul {
+  columns: 4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-view-frontpage #listText > ul > li {
+  text-align: left;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+}
+.page-view-frontpage #listText > ul > li > a {
+  text-decoration: none;
+  color: #000;
 }
 
 /*# sourceMappingURL=allages-global.css.map */

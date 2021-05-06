@@ -39,6 +39,22 @@
     });
   });
 
+  // Frontpage More-Info modal
+
+  $('#moreInfoBut').on('click', 'a', function(e){
+    e.preventDefault();
+    $('#moreInfoDiv').stop().slideDown();
+    $('body').append('<div class="overlay-custom-background"></div>');
+  })
+  $('#moreInfoDiv').on('click', '.close', function(e){
+    e.preventDefault();
+    $('#moreInfoDiv').stop().slideUp();
+    setTimeout(function(){
+      $('body').find('.overlay-custom-background').remove();
+    }, 400);
+
+  })
+
 
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;

@@ -1,0 +1,59 @@
+.view-did-you-know{
+  margin-top:40px;
+
+  .views-view-grid{
+    .views-col {
+      float: left;
+      border: 1px solid $text-color-grey-5;
+      min-height: 355px;
+      margin-bottom: 20px;
+      margin-right: 19px;
+      max-width: calc(33.333333% - 19px);
+      padding:0;
+      height: 393px;
+    }
+    .views-field-field{
+      &-image-step{
+        height: 10rem;
+        overflow: hidden;
+        img{
+          width:100%;
+        }
+      }
+      &-text{
+        color: $text-color-dark-grey-3;
+        line-height: 1.75rem;
+        margin: 1em;
+        font-size: 0.875rem;
+        font-weight: bold;
+        .field-content{
+          height:171px;
+        }
+      }
+    }
+    .buttonViewSource{
+      text-align:right;
+    }
+    .viewSource{
+      background: url(/sites/allages/themes/custom/allages_theme/images/i-_source.png) no-repeat scroll 0.75rem center;
+      border: 1px solid $text-color-blue;
+      color: $text-color-blue;
+      font-weight: bold;
+      padding: 0.75rem 1rem 0.75rem 3rem;
+      text-decoration: none;
+    }
+  }
+
+
+  .pop-up-content{
+    position:fixed;
+    z-index: 9999;
+    left:50%;
+    margin-top:auto;
+    margin-bottom:auto;
+    transform:translateX(-50%);
+    width:34.5rem;
+    background-color:$bg-color-white;
+    color:$text-color-black;
+  }
+}
