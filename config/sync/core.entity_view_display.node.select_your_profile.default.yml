@@ -1,0 +1,47 @@
+uuid: 3e10a29c-b68d-4fb2-9373-cbd9b85ee8b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.select_your_profile.body
+    - node.type.select_your_profile
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - body
+id: node.select_your_profile.default
+targetEntityType: node
+bundle: select_your_profile
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: ds_content
+hidden:
+  langcode: true
+  links: true
+  search_api_excerpt: true

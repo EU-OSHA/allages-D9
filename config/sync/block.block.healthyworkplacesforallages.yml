@@ -26,5 +26,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: "<front>\r\n/select-your-profile"
     negate: false
