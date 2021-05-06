@@ -483,6 +483,7 @@ display:
       use_ajax: true
       show_admin_links: false
       title: 'Did you know...?'
+      css_class: container
     cache_metadata:
       max-age: -1
       contexts:
