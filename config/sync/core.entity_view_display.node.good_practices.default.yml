@@ -10,9 +10,32 @@ dependencies:
     - field.field.node.good_practices.field_theme
     - node.type.good_practices
   module:
+    - ds
     - media
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_image_step
+        - field_short_text
+        - field_text
 id: node.good_practices.default
 targetEntityType: node
 bundle: good_practices
@@ -26,18 +49,18 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: media_thumbnail
-    region: content
+    region: ds_content
   field_short_text:
     weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
-    region: content
+    region: ds_content
   field_text:
     type: text_default
     weight: 2
-    region: content
+    region: ds_content
     label: hidden
     settings: {  }
     third_party_settings: {  }
