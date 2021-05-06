@@ -1,0 +1,17 @@
+uuid: 962b5b17-dd17-4492-b538-f41450c4bcd9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Select your profile'
+type: select_your_profile
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
