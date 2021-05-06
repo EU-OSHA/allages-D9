@@ -1,0 +1,39 @@
+.view-good-practices {
+  .views-view-grid {
+    .views-col{
+      background-color: $bg-color-grey-light-3 ;
+      margin-right: 1.25rem;
+      margin-bottom: 1.25rem;
+      padding: 1.5rem;
+      min-height: 380px;
+      height:494.36px;
+      max-width: calc(33.333333% - 1.25rem);
+    }
+  }
+  .views-field{
+    &-field-image-step{
+      text-align:center;
+      height:2.5rem;
+      img{
+        margin:auto;
+      }
+    }
+    &-title{
+      color: $text-color-blue;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 0.5rem 0 1.5rem;
+      a{
+        color: $text-color-blue;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    &-field-short-text{
+      color: $text-color-dark-grey-3;
+      font-size: 1.125rem;
+    }
+  }
+
+}

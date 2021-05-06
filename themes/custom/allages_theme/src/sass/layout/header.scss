@@ -183,3 +183,126 @@
   }
 }
 
+.node--type-select-your-profile,
+.page-view-frontpage {
+  #block-healthyworkplacesforallages {
+    .field--name-body {
+      background: $bg-color-blue;
+      color: $text-color-white;
+    }
+  }
+
+  .containerC {
+    max-width: 970px;
+    margin: auto;
+    text-align: center;
+    padding: 1.75rem 0rem;
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: bold;
+      padding: 0.75rem 0;
+      line-height: 2.5rem;
+    }
+
+    #moreInfo {
+      .content-message{
+        background:$bg-color-blue;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+        display: none;
+      }
+      .messageInfo{
+        border: 1px solid $text-color-white;
+        display: block;
+        padding: 1rem 2rem 1rem 4rem;
+        width: 100%;
+        height: auto;
+        z-index: 9999;
+        border-radius: 0;
+        text-align: left;
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/info-ico.png);
+        background-color:$bg-color-white;
+        background-repeat: no-repeat;
+        background-position: 15px 19px;
+        color: $text-color-dark-grey-2;
+        font-size: 0.875rem;
+        line-height: 20px;
+        max-width: 66%;
+        margin: 0 auto;
+      }
+      &But {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        .greenButton{
+          background: $bg-color-green-2;
+          color: $text-color-white;
+          cursor: pointer;
+          padding: 1rem;
+          text-decoration: none;
+          font-weight: bolder;
+        }
+      }
+
+    }
+  }
+  #moreInfoDiv {
+    display:none;
+    background: url(/sites/allages/themes/custom/allages_theme/images/backgroundMoreInfo.jpg) no-repeat 0 0 $bg-color-white;
+    position: fixed;
+    background-color: $bg-color-white;
+    z-index: 9999;
+    color: $text-color-dark-grey-2;
+    width: 541px;
+    left:50%;
+    transform:translateX(-50%);
+    .closeMoreInfo{
+      cursor: pointer;
+      min-height: 7.625rem;
+      background-color: rgba($bg-color-black,0.3);
+      .moreinfotitle{
+        color:  $text-color-white;
+        float: left;
+        font-size: 22px ;
+        padding: 0;
+        line-height: 1rem;
+        font-weight: bold;
+        margin: 3.5rem  0rem 1rem 2rem;
+      }
+      .close{
+        display:inline-flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:46px;
+        height:46px;
+        color:$text-color-white;
+        background-color: $bg-color-green;
+        font-weight:bold;
+        font-size:1.75rem;
+        text-shadow:none;
+        opacity:1;
+
+      }
+    }
+    .contentMoreInfo{
+      color: $text-color-dark-grey-2;
+      margin: 1.375rem 0 2rem 0;
+      overflow-y: scroll;
+      max-height: 22rem;
+      clear: both;
+      padding: 0 2rem;
+
+      h3{
+        padding: 0;
+        line-height: 1rem;
+        font-weight: bold;
+        color: $text-color-blue;
+        font-size: 1.25rem;
+        margin: 0em 0 1rem;
+      }
+      p{}
+      ul{}
+    }
+  }
+}

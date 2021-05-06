@@ -1,0 +1,96 @@
+.node--type-select-your-profile{
+  #block-healthyworkplacesforallages{
+    width:100%;
+  }
+  .BarStartTour{
+    background: $bg-color-blue-4;
+    height: 4.125rem;
+    color:$text-color-white;
+    .imgStart{
+      background-image:url(/sites/allages/themes/custom/allages_theme/images/startTour.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-top: -50px;
+      height: 115px;
+      width:126px;
+      margin-left: 25rem;
+      position:absolute;
+    }
+    .startText{
+      float: left;
+      font-size: 1.25rem;
+      margin-top: 1rem;
+      margin-left: calc(25rem + 126px);
+    }
+    .butonTour{
+      padding-top: 1rem;
+      #tour{
+        cursor: pointer;
+        background-color:$bg-color-white;
+        color:$text-color-blue;
+        font-weight: bold;
+        margin-left: 1.25rem;
+        padding: 0.625rem;
+        text-decoration: none;
+      }
+    }
+  }
+  .subStartTour{
+    background-color:$bg-color-white;
+    color:$text-color-blue;
+    font-size: 1.375rem;
+    font-weight: bold;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    text-align: center;
+  }
+  .half{
+    float: left;
+    width: 25%;
+    background: url(/sites/allages/themes/custom/allages_theme/images/c6c6c8.png) repeat-y right 0 $bg-color-grey-light-3;
+    .whiteBg{
+      padding: 2.5rem 0;
+      min-height: 21.5rem;
+      .img-employer,
+      .img-worker,
+      .img-professional,
+      .img-manager{
+        display:inline-block;
+        width:197px;
+        height:134px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+
+      .img-employer{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/imEmployer.png);
+      }
+      .img-worker{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/imEmployee.png);
+      }
+      .img-professional{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/imOSHProfessional.png);
+      }
+      .img-manager{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/imHRManager.png);
+      }
+      .text{
+        color: $text-color-dark-grey-3;
+        font-size: 1.25rem;
+        padding: 0.5rem 0rem;
+      }
+      .button{
+        margin: 1.1rem 0rem 0rem;
+        a{
+          text-decoration: none;
+          background-color: $bg-color-green-2;
+          color: $text-color-white;
+          font-size: 1.25rem;
+          padding: 0.5rem 1.75rem;
+        }
+      }
+    }
+  }
+}

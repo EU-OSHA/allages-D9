@@ -46,6 +46,7 @@
 
 
   .pop-up-content{
+    display:none;
     position:fixed;
     z-index: 9999;
     left:50%;
@@ -55,5 +56,36 @@
     width:34.5rem;
     background-color:$bg-color-white;
     color:$text-color-black;
+
+    .pop-up-title{
+      background: url(/sites/allages/themes/custom/allages_theme/images/i-_source.png) no-repeat scroll 0 center;
+      color: $text-color-blue;
+      display: block;
+      font-size: 1.1rem;
+      margin: 1rem 2.75rem 0rem;
+      padding: 0.5rem 2.75rem;
+    }
+    .pop-up-close{
+      display:inline-flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      width:46px;
+      height:46px;
+      color:$text-color-white;
+      background-color: $bg-color-green;
+      font-weight:bold;
+      font-size:1.75rem;
+      text-shadow:none;
+      opacity:1;
+      cursor:pointer;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    p{
+      padding:1rem;
+      color:$text-color-dark-grey-2;
+    }
   }
 }
