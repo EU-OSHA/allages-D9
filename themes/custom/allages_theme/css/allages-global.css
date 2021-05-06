@@ -53,6 +53,10 @@ ul {
   padding-left: 0.875rem;
 }
 
+.center {
+  text-align: center;
+}
+
 .breadcrumb {
   background-color: #2d559a;
   color: #FFF;
@@ -324,6 +328,127 @@ section.row {
   text-decoration: none;
 }
 
+.node--type-select-your-profile #block-healthyworkplacesforallages .field--name-body,
+.page-view-frontpage #block-healthyworkplacesforallages .field--name-body {
+  background: #003399;
+  color: #FFF;
+}
+.node--type-select-your-profile .containerC,
+.page-view-frontpage .containerC {
+  max-width: 970px;
+  margin: auto;
+  text-align: center;
+  padding: 1.75rem 0rem;
+}
+.node--type-select-your-profile .containerC h1,
+.page-view-frontpage .containerC h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding: 0.75rem 0;
+  line-height: 2.5rem;
+}
+.node--type-select-your-profile .containerC #moreInfo .content-message,
+.page-view-frontpage .containerC #moreInfo .content-message {
+  background: #003399;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  display: none;
+}
+.node--type-select-your-profile .containerC #moreInfo .messageInfo,
+.page-view-frontpage .containerC #moreInfo .messageInfo {
+  border: 1px solid #FFF;
+  display: block;
+  padding: 1rem 2rem 1rem 4rem;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+  border-radius: 0;
+  text-align: left;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/info-ico.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 15px 19px;
+  color: #333;
+  font-size: 0.875rem;
+  line-height: 20px;
+  max-width: 66%;
+  margin: 0 auto;
+}
+.node--type-select-your-profile .containerC #moreInfoBut,
+.page-view-frontpage .containerC #moreInfoBut {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.node--type-select-your-profile .containerC #moreInfoBut .greenButton,
+.page-view-frontpage .containerC #moreInfoBut .greenButton {
+  background: #acc700;
+  color: #FFF;
+  cursor: pointer;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.node--type-select-your-profile #moreInfoDiv,
+.page-view-frontpage #moreInfoDiv {
+  display: none;
+  background: url(/sites/allages/themes/custom/allages_theme/images/backgroundMoreInfo.jpg) no-repeat 0 0 #fff;
+  position: fixed;
+  background-color: #fff;
+  z-index: 9999;
+  color: #333;
+  width: 541px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.node--type-select-your-profile #moreInfoDiv .closeMoreInfo,
+.page-view-frontpage #moreInfoDiv .closeMoreInfo {
+  cursor: pointer;
+  min-height: 7.625rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.node--type-select-your-profile #moreInfoDiv .closeMoreInfo .moreinfotitle,
+.page-view-frontpage #moreInfoDiv .closeMoreInfo .moreinfotitle {
+  color: #FFF;
+  float: left;
+  font-size: 22px;
+  padding: 0;
+  line-height: 1rem;
+  font-weight: bold;
+  margin: 3.5rem 0rem 1rem 2rem;
+}
+.node--type-select-your-profile #moreInfoDiv .closeMoreInfo .close,
+.page-view-frontpage #moreInfoDiv .closeMoreInfo .close {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  color: #FFF;
+  background-color: #98b400;
+  font-weight: bold;
+  font-size: 1.75rem;
+  text-shadow: none;
+  opacity: 1;
+}
+.node--type-select-your-profile #moreInfoDiv .contentMoreInfo,
+.page-view-frontpage #moreInfoDiv .contentMoreInfo {
+  color: #333;
+  margin: 1.375rem 0 2rem 0;
+  overflow-y: scroll;
+  max-height: 22rem;
+  clear: both;
+  padding: 0 2rem;
+}
+.node--type-select-your-profile #moreInfoDiv .contentMoreInfo h3,
+.page-view-frontpage #moreInfoDiv .contentMoreInfo h3 {
+  padding: 0;
+  line-height: 1rem;
+  font-weight: bold;
+  color: #003399;
+  font-size: 1.25rem;
+  margin: 0em 0 1rem;
+}
 .attachment {
   background: #f7f7f7;
   margin-bottom: 4rem;
@@ -405,6 +530,7 @@ section.row {
   text-decoration: none;
 }
 .view-did-you-know .pop-up-content {
+  display: none;
   position: fixed;
   z-index: 9999;
   left: 50%;
@@ -414,6 +540,36 @@ section.row {
   width: 34.5rem;
   background-color: #fff;
   color: #000;
+}
+.view-did-you-know .pop-up-content .pop-up-title {
+  background: url(/sites/allages/themes/custom/allages_theme/images/i-_source.png) no-repeat scroll 0 center;
+  color: #003399;
+  display: block;
+  font-size: 1.1rem;
+  margin: 1rem 2.75rem 0rem;
+  padding: 0.5rem 2.75rem;
+}
+.view-did-you-know .pop-up-content .pop-up-close {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  color: #FFF;
+  background-color: #98b400;
+  font-weight: bold;
+  font-size: 1.75rem;
+  text-shadow: none;
+  opacity: 1;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.view-did-you-know .pop-up-content p {
+  padding: 1rem;
+  color: #333;
 }
 
 .view-glossary .item-list {
@@ -478,6 +634,74 @@ section.row {
   padding: 0;
 }
 
+.node--type-good-practices .container {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.node--type-good-practices .left-column {
+  background-color: #ececec;
+  margin-bottom: 1.25rem;
+  padding: 1.5rem;
+  min-height: 380px;
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 27.5%;
+  flex: 0 0 27.5;
+}
+.node--type-good-practices .left-column h2 {
+  order: 2;
+  color: #003399;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0 1.5rem;
+  text-align: center;
+}
+.node--type-good-practices .left-column .field--type-entity-reference {
+  order: 1;
+}
+.node--type-good-practices .right-column {
+  width: 100%;
+  max-width: calc(72.5% - 2.5rem);
+  flex: 0 0 72.5;
+}
+
+.view-good-practices .views-view-grid .views-col {
+  background-color: #ececec;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 1.5rem;
+  min-height: 380px;
+  height: 494.36px;
+  max-width: calc(33.333333% - 1.25rem);
+}
+.view-good-practices .views-field-field-image-step {
+  text-align: center;
+  height: 2.5rem;
+}
+.view-good-practices .views-field-field-image-step img {
+  margin: auto;
+}
+.view-good-practices .views-field-title {
+  color: #003399;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0 1.5rem;
+}
+.view-good-practices .views-field-title a {
+  color: #003399;
+}
+.view-good-practices .views-field-title a:hover {
+  text-decoration: none;
+}
+.view-good-practices .views-field-field-short-text {
+  color: #585858;
+  font-size: 1.125rem;
+}
+
 .view-useful-links {
   max-width: 1204px;
   margin: 0 auto;
@@ -525,114 +749,6 @@ section.row {
 
 .page-view-frontpage #block-healthyworkplacesforallages {
   width: 100%;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .field--name-body {
-  background: #003399;
-  color: #FFF;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .containerC {
-  max-width: 970px;
-  margin: auto;
-  text-align: center;
-  padding: 1.75rem 0rem;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .containerC h1 {
-  font-size: 2.25rem;
-  font-weight: bold;
-  padding: 0.75rem 0;
-  line-height: 2.5rem;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfo .content-message {
-  background: #003399;
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  display: none;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfo .messageInfo {
-  border: 1px solid #FFF;
-  display: block;
-  padding: 1rem 2rem 1rem 4rem;
-  width: 100%;
-  height: auto;
-  z-index: 9999;
-  border-radius: 0;
-  text-align: left;
-  background-image: url(/sites/allages/themes/custom/allages_theme/images/info-ico.png);
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: 15px 19px;
-  color: #333;
-  font-size: 0.875rem;
-  line-height: 20px;
-  max-width: 66%;
-  margin: 0 auto;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfoBut {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.page-view-frontpage #block-healthyworkplacesforallages .containerC #moreInfoBut .greenButton {
-  background: #acc700;
-  color: #FFF;
-  cursor: pointer;
-  padding: 1rem;
-  text-decoration: none;
-  font-weight: bolder;
-}
-.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv {
-  display: none;
-  background: url(/sites/allages/themes/custom/allages_theme/images/backgroundMoreInfo.jpg) no-repeat 0 0 #fff;
-  position: fixed;
-  background-color: #fff;
-  z-index: 9999;
-  color: #333;
-  width: 541px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .closeMoreInfo {
-  cursor: pointer;
-  min-height: 7.625rem;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .closeMoreInfo .moreinfotitle {
-  color: #FFF;
-  float: left;
-  font-size: 22px;
-  padding: 0;
-  line-height: 1rem;
-  font-weight: bold;
-  margin: 3.5rem 0rem 1rem 2rem;
-}
-.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .closeMoreInfo .close {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 46px;
-  height: 46px;
-  color: #FFF;
-  background-color: #98b400;
-  font-weight: bold;
-  font-size: 1.75rem;
-  text-shadow: none;
-  opacity: 1;
-}
-.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .contentMoreInfo {
-  color: #333;
-  margin: 1.375rem 0 2rem 0;
-  overflow-y: scroll;
-  max-height: 22rem;
-  clear: both;
-  padding: 0 2rem;
-}
-.page-view-frontpage #block-healthyworkplacesforallages #moreInfoDiv .contentMoreInfo h3 {
-  padding: 0;
-  line-height: 1rem;
-  font-weight: bold;
-  color: #003399;
-  font-size: 1.25rem;
-  margin: 0em 0 1rem;
 }
 .page-view-frontpage #langheader {
   display: flex;
@@ -728,6 +844,100 @@ section.row {
 .page-view-frontpage #listText > ul > li > a {
   text-decoration: none;
   color: #000;
+}
+
+.node--type-select-your-profile #block-healthyworkplacesforallages {
+  width: 100%;
+}
+.node--type-select-your-profile .BarStartTour {
+  background: #4d72a6;
+  height: 4.125rem;
+  color: #FFF;
+}
+.node--type-select-your-profile .BarStartTour .imgStart {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/startTour.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: -50px;
+  height: 115px;
+  width: 126px;
+  margin-left: 25rem;
+  position: absolute;
+}
+.node--type-select-your-profile .BarStartTour .startText {
+  float: left;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-left: calc(25rem + 126px);
+}
+.node--type-select-your-profile .BarStartTour .butonTour {
+  padding-top: 1rem;
+}
+.node--type-select-your-profile .BarStartTour .butonTour #tour {
+  cursor: pointer;
+  background-color: #fff;
+  color: #003399;
+  font-weight: bold;
+  margin-left: 1.25rem;
+  padding: 0.625rem;
+  text-decoration: none;
+}
+.node--type-select-your-profile .subStartTour {
+  background-color: #fff;
+  color: #003399;
+  font-size: 1.375rem;
+  font-weight: bold;
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  text-align: center;
+}
+.node--type-select-your-profile .half {
+  float: left;
+  width: 25%;
+  background: url(/sites/allages/themes/custom/allages_theme/images/c6c6c8.png) repeat-y right 0 #ececec;
+}
+.node--type-select-your-profile .half .whiteBg {
+  padding: 2.5rem 0;
+  min-height: 21.5rem;
+}
+.node--type-select-your-profile .half .whiteBg .img-employer,
+.node--type-select-your-profile .half .whiteBg .img-worker,
+.node--type-select-your-profile .half .whiteBg .img-professional,
+.node--type-select-your-profile .half .whiteBg .img-manager {
+  display: inline-block;
+  width: 197px;
+  height: 134px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.node--type-select-your-profile .half .whiteBg .img-employer {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/imEmployer.png);
+}
+.node--type-select-your-profile .half .whiteBg .img-worker {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/imEmployee.png);
+}
+.node--type-select-your-profile .half .whiteBg .img-professional {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/imOSHProfessional.png);
+}
+.node--type-select-your-profile .half .whiteBg .img-manager {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/imHRManager.png);
+}
+.node--type-select-your-profile .half .whiteBg .text {
+  color: #585858;
+  font-size: 1.25rem;
+  padding: 0.5rem 0rem;
+}
+.node--type-select-your-profile .half .whiteBg .button {
+  margin: 1.1rem 0rem 0rem;
+}
+.node--type-select-your-profile .half .whiteBg .button a {
+  text-decoration: none;
+  background-color: #acc700;
+  color: #FFF;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.75rem;
 }
 
 /*# sourceMappingURL=allages-global.css.map */

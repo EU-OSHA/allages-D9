@@ -39,7 +39,7 @@
     });
   });
 
-  // Frontpage More-Info modal
+  // More-Info modal in Frontpage and Select-your-profile
 
   $('#moreInfoBut').on('click', 'a', function(e){
     e.preventDefault();
@@ -55,6 +55,22 @@
 
   })
 
+
+  // Did-you-know Source modal
+
+  $('.buttonViewSource').on('click', '.viewSource', function(e){
+    e.preventDefault();
+    $(this).closest('.sourceLink').find('.pop-up-content').stop().slideDown();
+    $('body').append('<div class="overlay-custom-background"></div>');
+  })
+  $('.pop-up-content').on('click', '.pop-up-close', function(e){
+    e.preventDefault();
+    $('.pop-up-content').stop().slideUp();
+    setTimeout(function(){
+      $('body').find('.overlay-custom-background').remove();
+    }, 400);
+
+  })
 
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
