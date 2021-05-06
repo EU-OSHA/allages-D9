@@ -36,8 +36,11 @@ process:
   revision_uid: revision_uid
   revision_log: log
   revision_timestamp: timestamp
-  field_text/value: field_text
-  field_text/format:
+  field_text:
+    -
+      plugin: get
+      source: field_text
+  field_text/0/format:
     -
       plugin: default_value
       default_value: restricted_html
