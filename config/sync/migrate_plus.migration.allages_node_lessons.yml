@@ -38,7 +38,7 @@ process:
   revision_timestamp: timestamp
   field_text_1: field_text_1
   field_text_2/value: field_text_2
-  field_text_2/format:
+  field_tet_2/format:
     -
       plugin: default_value
       default_value: restricted_html

@@ -14,7 +14,7 @@ migration_group: allages_migrate_node
 label: 'Node: Basic Page i18n'
 source:
   plugin: d7_node_entity_translation
-  node_type: basic_page
+  node_type: page
 process:
   nid: entity_id
   type: type
@@ -73,6 +73,7 @@ process:
   revision_timestamp: timestamp
   content_translation_source: source
   content_translation_outdated: translate
+  field_summary: body_summary
 destination:
   plugin: 'entity:node'
   translations: true
