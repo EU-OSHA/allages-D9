@@ -96,241 +96,9 @@ ul {
   color: #FFF;
 }
 
-body {
-  background: #f9f9fa;
-  overflow-x: hidden;
-}
-
-#page-wrapper {
-  max-width: 1366px;
-  margin: 10px auto 0 auto;
-  background: #fff;
-  padding: 12px 5px 5px 5px;
-}
-
-.region-allages-title {
-  max-width: 1366px;
-  margin: 0 auto;
-}
-
-.overlay-custom-background {
-  background-color: #003399;
-  position: fixed;
-  z-index: 9998;
-  top: 0;
-  left: 0;
-  opacity: 0.7;
-  width: 100vw;
-  height: 100vh;
-}
-
-section.row {
-  margin: 0;
-}
-
-.site-footer {
-  padding: 0;
-}
-.site-footer__bottom {
-  background-color: #003399;
-  color: #FFF;
-  font-size: 0.875rem;
-  overflow: hidden;
-  padding: 0.325rem 5.325rem;
-  clear: both;
-  margin: 0rem;
-  border: none;
-}
-.site-footer h2 {
-  display: none;
-}
-.site-footer .nav {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-.site-footer .nav-link {
-  color: #FFF;
-  margin: 0rem 0.625rem;
-  font-size: 0.75rem;
-}
-.site-footer span.nav-link {
-  font-size: 0.875rem;
-}
-.site-footer a.nav-link {
-  text-decoration: underline;
-}
-.site-footer .block,
-.site-footer .region {
-  margin: 0;
-  padding: 0;
-}
-.site-footer .region-footer-end {
-  background-image: url(/sites/allages/themes/custom/allages_theme/images/logoEurope.png);
-  background-repeat: no-repeat;
-  background-position: center right;
-}
-
-.header {
-  padding-top: 1rem;
-}
-.header .logos {
-  float: left;
-}
-.header .logos .row {
-  margin: 0;
-}
-.header .logos .field--type-text-with-summary span {
-  display: inline-block;
-  vertical-align: middle;
-}
-.header .logos .field--type-text-with-summary span:not(:first-of-type) {
-  margin-left: 1rem;
-}
-.header .logos .field--type-text-with-summary span:nth-child(1) img {
-  max-width: 108px;
-}
-.header .logos .field--type-text-with-summary span:nth-child(2) img {
-  max-width: 48px;
-}
-.header .logos .field--type-text-with-summary span:nth-child(3) img {
-  max-width: 47px;
-}
-.header #navbar {
-  float: left;
-}
-.header .push-right {
-  float: right;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  align-items: baseline;
-}
-.header .nav-item {
-  background: none;
-  margin-left: 0.625rem;
-  margin-right: 0.625rem;
-  border: 2px solid #FFF;
-}
-.header .nav-item:hover {
-  border: 2px solid #003399;
-}
-.header .nav-item:hover .nav-link {
-  color: #003399;
-}
-.header .nav-item:hover .dropdown-menu {
-  display: block;
-}
-.header .nav-item:first-of-type:hover {
-  border: 2px solid #FFF;
-}
-.header .nav-item:first-of-type .nav-link {
-  text-indent: 0px;
-  color: transparent;
-  width: 41px;
-  background-image: url(/sites/allages/themes/custom/allages_theme/images/homeIco.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.header .nav-item.active {
-  border-color: #98b400;
-}
-.header .nav-item.active .nav-link {
-  color: #98b400;
-}
-.header .nav-link {
-  padding: 0.375rem;
-  font-weight: bold;
-  color: #555555;
-  font-size: 0.75rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-.header .dropdown-toggle:after {
-  display: none;
-}
-.header .dropdown-menu {
-  padding: 0rem;
-  background: none;
-  background-color: #8a9cc0;
-  border-radius: 0px;
-  border: none;
-  margin-left: -3px;
-}
-.header .dropdown-item, .header .dropdown-item.active {
-  padding: 0;
-  background-color: transparent;
-}
-.header .dropdown-item:hover, .header .dropdown-item.active:hover {
-  background: url(/sites/allages/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% #133b80;
-  border-radius: 0px;
-}
-.header .dropdown-item a, .header .dropdown-item.active a {
-  color: #FFF;
-  font-size: 0.75rem;
-  padding: 0.75rem 1.125rem;
-  font-weight: bold;
-  display: block;
-}
-.header .dropdown-item a:hover, .header .dropdown-item.active a:hover {
-  text-decoration: none;
-}
-.header .search-custom-block {
-  width: calc(100% - 95px);
-  flex: 1;
-}
-.header .search-custom-block .row {
-  margin: 0rem;
-}
-.header .search-custom-block .form-type-search {
-  width: calc(100% - 22px);
-}
-.header .search-custom-block .form-search {
-  border: 1px solid #FFF;
-  font-size: 0.75rem;
-  font-weight: normal;
-  border-radius: 0;
-  padding: 0rem 1.75rem 0rem 0rem;
-  border-bottom: 1px solid #336699;
-}
-.header .search-custom-block .form-actions .form-submit {
-  height: 20px;
-  width: 20px;
-  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_search.png);
-  background-repeat: no-repeat;
-  background-color: #fff;
-  padding: 0;
-  color: transparent;
-  border: none;
-}
-.header #search-block-form {
-  flex-direction: row;
-  align-items: baseline;
-}
-.header .font-size-print {
-  margin-left: 1.25rem;
-}
-.header .font-size-print #_biggify,
-.header .font-size-print #_smallify {
-  cursor: pointer;
-}
-.header .font-size-print .a_small {
-  font-size: 0.875rem;
-  font-weight: bold;
-  color: #003399;
-}
-.header .font-size-print .a_big {
-  font-size: 1.125rem;
-  font-weight: bold;
-  color: #000;
-}
-.header .font-size-print .a:hover {
-  text-decoration: none;
-}
-
 .node--type-select-your-profile #block-healthyworkplacesforallages .field--name-body,
 .page-view-frontpage #block-healthyworkplacesforallages .field--name-body {
-  background: #003399;
+  background: #003386;
   color: #FFF;
 }
 .node--type-select-your-profile .containerC,
@@ -449,6 +217,265 @@ section.row {
   font-size: 1.25rem;
   margin: 0em 0 1rem;
 }
+.page-view-good-practices .block-page-title-block,
+.node--type-good-practices .block-page-title-block {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/goodPractices.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-view-useful-links .block-page-title-block {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/usefulLinksBanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-view-glossary .block-page-title-block {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/glossaryBanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-view-did-you-know .block-page-title-block {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/didYouKnowBanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: #f9f9fa;
+  overflow-x: hidden;
+}
+
+#page-wrapper {
+  max-width: 1366px;
+  margin: 10px auto 0 auto;
+  background: #fff;
+  padding: 12px 5px 5px 5px;
+}
+
+.region-allages-title {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.overlay-custom-background {
+  background-color: #003399;
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  width: 100vw;
+  height: 100vh;
+}
+
+section.row {
+  margin: 0;
+}
+
+.site-footer {
+  padding: 0;
+}
+.site-footer__bottom {
+  background-color: #003399;
+  color: #FFF;
+  font-size: 0.875rem;
+  overflow: hidden;
+  padding: 0.325rem 5.325rem;
+  clear: both;
+  margin: 0rem;
+  border: none;
+}
+.site-footer h2 {
+  display: none;
+}
+.site-footer .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.site-footer .nav-link {
+  color: #FFF;
+  margin: 0rem 0.625rem;
+  font-size: 0.75rem;
+}
+.site-footer span.nav-link {
+  font-size: 0.875rem;
+}
+.site-footer a.nav-link {
+  text-decoration: underline;
+}
+.site-footer .block,
+.site-footer .region {
+  margin: 0;
+  padding: 0;
+}
+.site-footer .region-footer-end {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/logoEurope.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.header {
+  padding-top: 1rem;
+}
+.header .logos {
+  float: left;
+}
+.header .logos .row {
+  margin: 0;
+}
+.header .logos .field--type-text-with-summary span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .logos .field--type-text-with-summary span:not(:first-of-type) {
+  margin-left: 1rem;
+}
+.header .logos .field--type-text-with-summary span:nth-child(1) img {
+  max-width: 108px;
+}
+.header .logos .field--type-text-with-summary span:nth-child(2) img {
+  max-width: 48px;
+}
+.header .logos .field--type-text-with-summary span:nth-child(3) img {
+  max-width: 47px;
+}
+.header #navbar {
+  float: left;
+}
+.header .push-right {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: baseline;
+  margin-right: 56px;
+}
+.header .nav-item {
+  background: none;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  border: 2px solid #FFF;
+}
+.header .nav-item:hover {
+  border: 2px solid #003399;
+}
+.header .nav-item:hover .nav-link {
+  color: #003399;
+}
+.header .nav-item:hover .dropdown-menu {
+  display: block;
+}
+.header .nav-item:first-of-type:hover {
+  border: 2px solid #FFF;
+}
+.header .nav-item:first-of-type .nav-link {
+  text-indent: 0px;
+  color: transparent;
+  width: 41px;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/homeIco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header .nav-item.active {
+  border-color: #98b400;
+}
+.header .nav-item.active .nav-link {
+  color: #98b400;
+}
+.header .nav-link {
+  padding: 0.375rem;
+  font-weight: bold;
+  color: #555555;
+  font-size: 0.75rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header .dropdown-toggle:after {
+  display: none;
+}
+.header .dropdown-menu {
+  padding: 0rem;
+  background: none;
+  background-color: #8a9cc0;
+  border-radius: 0px;
+  border: none;
+  margin-left: -3px;
+}
+.header .dropdown-item, .header .dropdown-item.active {
+  padding: 0;
+  background-color: transparent;
+}
+.header .dropdown-item:hover, .header .dropdown-item.active:hover {
+  background: url(/sites/allages/themes/custom/allages_theme/images/menu-child-hover.png) no-repeat 90% #133b80;
+  border-radius: 0px;
+}
+.header .dropdown-item a, .header .dropdown-item.active a {
+  color: #FFF;
+  font-size: 0.75rem;
+  padding: 0.75rem 1.125rem;
+  font-weight: bold;
+  display: block;
+}
+.header .dropdown-item a:hover, .header .dropdown-item.active a:hover {
+  text-decoration: none;
+}
+.header .search-custom-block {
+  width: calc(100% - 95px);
+  flex: 1;
+}
+.header .search-custom-block .row {
+  margin: 0rem;
+}
+.header .search-custom-block .form-type-search {
+  width: calc(100% - 22px);
+}
+.header .search-custom-block .form-search {
+  border: 1px solid #FFF;
+  font-size: 0.75rem;
+  font-weight: normal;
+  border-radius: 0;
+  padding: 0rem 1.75rem 0rem 0rem;
+  border-bottom: 1px solid #336699;
+  height: auto;
+}
+.header .search-custom-block .form-actions .form-submit {
+  height: 20px;
+  width: 20px;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_search.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding: 0;
+  color: transparent;
+  border: none;
+}
+.header #search-block-form {
+  flex-direction: row;
+  align-items: baseline;
+}
+.header .font-size-print {
+  margin-left: 1.25rem;
+}
+.header .font-size-print #_biggify,
+.header .font-size-print #_smallify {
+  cursor: pointer;
+}
+.header .font-size-print .a_small {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #003399;
+}
+.header .font-size-print .a_big {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #000;
+}
+.header .font-size-print .a:hover {
+  text-decoration: none;
+}
+
 .attachment {
   background: #f7f7f7;
   margin-bottom: 4rem;
@@ -502,7 +529,6 @@ section.row {
   height: 393px;
 }
 .view-did-you-know .views-view-grid .views-field-field-image-step {
-  height: 10rem;
   overflow: hidden;
 }
 .view-did-you-know .views-view-grid .views-field-field-image-step img {
@@ -510,13 +536,13 @@ section.row {
 }
 .view-did-you-know .views-view-grid .views-field-field-text {
   color: #585858;
-  line-height: 1.75rem;
+  line-height: 1.6875rem;
   margin: 1em;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: bold;
 }
 .view-did-you-know .views-view-grid .views-field-field-text .field-content {
-  height: 171px;
+  height: 189px;
 }
 .view-did-you-know .views-view-grid .buttonViewSource {
   text-align: right;
@@ -546,7 +572,7 @@ section.row {
   color: #003399;
   display: block;
   font-size: 1.1rem;
-  margin: 1rem 2.75rem 0rem;
+  margin: 1rem 2.75rem 0rem 1rem;
   padding: 0.5rem 2.75rem;
 }
 .view-did-you-know .pop-up-content .pop-up-close {
@@ -736,6 +762,7 @@ section.row {
   font-size: 1.125rem;
   line-height: 1.5rem;
   width: 100%;
+  font-weight: bold;
 }
 .view-useful-links .views-field-field-link {
   display: block;
@@ -769,13 +796,15 @@ section.row {
   width: 100%;
 }
 .page-view-frontpage #langheader {
+  text-align: center;
+  border-bottom: 1px solid #003399;
+}
+.page-view-frontpage #langheader .content-lang-header {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
   width: 47.5rem;
   font-size: 1.375rem;
-  text-align: center;
-  border-bottom: 1px solid #003399;
 }
 .page-view-frontpage #langheader .lan-sel,
 .page-view-frontpage #langheader .MapSC,
@@ -845,6 +874,9 @@ section.row {
   margin: auto;
   text-align: center;
 }
+.page-view-frontpage #langselect .containerC {
+  padding: 0;
+}
 .page-view-frontpage #listText {
   margin: 1.75rem 0;
 }
@@ -888,6 +920,44 @@ section.row {
 .page-view-frontpage #listText > ul > li ul > li:not(:last-child) a:hover {
   background-color: #acc700;
   text-decoration: none;
+}
+.page-view-frontpage #containerPopLanguages {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  padding: 0.75rem;
+  position: absolute;
+  color: #FFF;
+}
+.page-view-frontpage #containerPopLanguages #countryPop {
+  float: left;
+  margin-right: 1rem;
+}
+.page-view-frontpage #containerPopLanguages #languageCountriesMap {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+.page-view-frontpage #containerPopLanguages #languageCountriesMap li {
+  float: left;
+  width: auto;
+  margin: 0 2px;
+}
+.page-view-frontpage #containerPopLanguages #languageCountriesMap li a {
+  color: #FFF;
+  background: #003399;
+  padding: 0.375rem;
+  text-decoration: none;
+}
+.page-view-frontpage #containerPopLanguages #languageCountriesMap li a:hover {
+  background-color: #acc700;
+  text-decoration: none;
+}
+.page-view-frontpage #arrowPop {
+  background: url(/sites/allages/themes/custom/allages_theme/images/arrowPop.png) 0 0 no-repeat;
+  width: 23px;
+  height: 14px;
+  position: absolute;
+  opacity: 0.85;
 }
 
 .node--type-select-your-profile #block-healthyworkplacesforallages {
