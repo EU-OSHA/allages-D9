@@ -1,0 +1,113 @@
+page_title: 'Site map'
+message:
+  value: ''
+  format: plain_text
+plugins:
+  frontpage:
+    enabled: false
+    weight: -50
+    settings:
+      title: 'Front page'
+      rss: /rss.xml
+  book:
+    enabled: false
+    weight: -49
+  'vocabulary:categories_useful_links':
+    enabled: false
+    weight: -48
+    settings:
+      title: 'Categories useful links'
+      show_description: false
+      show_count: false
+      term_depth: 9
+      term_count_threshold: 0
+      customize_link: false
+      term_link: entity.taxonomy_term.canonical|taxonomy_term
+      always_link: false
+      enable_rss: false
+      rss_link: view.taxonomy_term.feed_1|arg_0
+      rss_depth: 9
+  'vocabulary:glossary':
+    enabled: false
+    weight: -47
+    settings:
+      title: Glossary
+      show_description: false
+      show_count: false
+      term_depth: 9
+      term_count_threshold: 0
+      customize_link: false
+      term_link: entity.taxonomy_term.canonical|taxonomy_term
+      always_link: false
+      enable_rss: false
+      rss_link: view.taxonomy_term.feed_1|arg_0
+      rss_depth: 9
+  'vocabulary:profile':
+    enabled: false
+    weight: -46
+    settings:
+      title: Profile
+      show_description: false
+      show_count: false
+      term_depth: 9
+      term_count_threshold: 0
+      customize_link: false
+      term_link: entity.taxonomy_term.canonical|taxonomy_term
+      always_link: false
+      enable_rss: false
+      rss_link: view.taxonomy_term.feed_1|arg_0
+      rss_depth: 9
+  'vocabulary:tags':
+    enabled: false
+    weight: -45
+    settings:
+      title: Tags
+      show_description: false
+      show_count: false
+      term_depth: 9
+      term_count_threshold: 0
+      customize_link: false
+      term_link: entity.taxonomy_term.canonical|taxonomy_term
+      always_link: false
+      enable_rss: false
+      rss_link: view.taxonomy_term.feed_1|arg_0
+      rss_depth: 9
+  'menu:account':
+    enabled: false
+    weight: -44
+    settings:
+      title: 'User account menu'
+      show_disabled: false
+  'menu:admin':
+    enabled: false
+    weight: -43
+    settings:
+      title: Administration
+      show_disabled: false
+  'menu:devel':
+    enabled: false
+    weight: -42
+    settings:
+      title: Development
+      show_disabled: false
+  'menu:main':
+    enabled: true
+    weight: -41
+    settings:
+      title: ''
+      show_disabled: false
+  'menu:footer':
+    enabled: true
+    weight: -40
+    settings:
+      title: ''
+      show_disabled: false
+  'menu:tools':
+    enabled: false
+    weight: -39
+    settings:
+      title: Tools
+      show_disabled: false
+include_css: true
+_core:
+  default_config_hash: xu0yG13sSQJcXrOJJqsn44W_hUWAIFHVlphrzxT2ycU
