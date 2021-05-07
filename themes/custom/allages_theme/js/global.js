@@ -40,7 +40,6 @@
   });
 
   // More-Info modal in Frontpage and Select-your-profile
-
   $('#moreInfoBut').on('click', 'a', function(e){
     e.preventDefault();
     $('#moreInfoDiv').stop().slideDown();
@@ -55,15 +54,45 @@
 
   })
 
+  // Glossary active class by default
+  $('.view-glossary').each(function(){
+    if($(this).find('.views-summary .is-active').length==0){
+      $(this).find('.views-summary').eq(0).find('a').addClass('is-active');
+    }
+  });
+
+
+  // Add index letter to the glossary
+  $('.view-glossary').each(function(){
+    if($(this).find('.views-summary .is-active').length>0){
+      // let glossaryIndex= $(this).find('.views-summary .is-active').clone();
+      // alert(glossaryIndex.html());
+      // if($('.item-list').siblings('.glossary-index-custom').length==0) {
+      //   $('.item-list').before(glossaryIndex);
+      //   $('.item-list').siblings('.is-active').addClass('glossary-index-custom');
+      // }
+
+
+      let glossaryActiveIndex= $(this).find('.views-summary .is-active').html();
+      let glossaryIndex='<div class="glossary-index-custom"><span>'+glossaryActiveIndex+'</span></div>';
+      if($('.item-list').siblings('.glossary-index-custom').length==0) {
+        $('.item-list').before(glossaryIndex);
+      }
+    }
+
+  });
 
   // Did-you-know Source modal
-
-  $('.buttonViewSource').on('click', '.viewSource', function(e){
+  $('.view-did-you-know').on('click', '.viewSource', function(e){
     e.preventDefault();
+    let windowHeight=$(window).height();
+    let modalHeight=$(this).closest('.sourceLink').find('.pop-up-content').outerHeight();
+    let modalPosition=(windowHeight-modalHeight)/2 + 'px';
+    $(this).closest('.sourceLink').find('.pop-up-content').css({'top':modalPosition});
     $(this).closest('.sourceLink').find('.pop-up-content').stop().slideDown();
     $('body').append('<div class="overlay-custom-background"></div>');
   })
-  $('.pop-up-content').on('click', '.pop-up-close', function(e){
+  $('.view-did-you-know').on('click', '.pop-up-close', function(e){
     e.preventDefault();
     $('.pop-up-content').stop().slideUp();
     setTimeout(function(){

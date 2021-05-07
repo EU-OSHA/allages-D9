@@ -577,12 +577,15 @@ section.row {
   border-left: 1px solid #c9c9c9;
   border-right: 1px solid #c9c9c9;
   margin-bottom: 2.5rem;
-  margin-top: 0.25rem;
+  margin-top: 0rem;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   max-width: 880px;
   width: 100%;
+}
+.view-glossary .item-list > ul {
+  margin: 0;
 }
 .view-glossary .item-list > ul > li {
   padding: 0;
@@ -632,6 +635,21 @@ section.row {
 }
 .view-glossary .views-field-description__value ul li {
   padding: 0;
+}
+.view-glossary .glossary-index-custom {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 880px;
+  width: 100%;
+}
+.view-glossary .glossary-index-custom span {
+  background-color: #acc700;
+  color: #FFF;
+  padding: 0.25rem 0.625rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 2.625rem;
+  display: inline-block;
 }
 
 .node--type-good-practices .container {
@@ -845,6 +863,32 @@ section.row {
   text-decoration: none;
   color: #000;
 }
+.page-view-frontpage #listText > ul > li ul {
+  background-color: #fff;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+}
+.page-view-frontpage #listText > ul > li ul > li {
+  float: left;
+}
+.page-view-frontpage #listText > ul > li ul > li > a {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: #FFF;
+  background-color: #003399;
+}
+.page-view-frontpage #listText > ul > li ul > li > a:hover {
+  background-color: #acc700;
+  text-decoration: none;
+}
+.page-view-frontpage #listText > ul > li ul > li:not(:last-child) a {
+  background: url(/sites/allages/themes/custom/allages_theme/images/languageSeparator.png) right center no-repeat #003399;
+}
+.page-view-frontpage #listText > ul > li ul > li:not(:last-child) a:hover {
+  background-color: #acc700;
+  text-decoration: none;
+}
 
 .node--type-select-your-profile #block-healthyworkplacesforallages {
   width: 100%;
@@ -906,8 +950,8 @@ section.row {
 .node--type-select-your-profile .half .whiteBg .img-professional,
 .node--type-select-your-profile .half .whiteBg .img-manager {
   display: inline-block;
-  width: 197px;
-  height: 134px;
+  width: 237px;
+  height: 194px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
