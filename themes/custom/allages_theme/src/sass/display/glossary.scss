@@ -4,13 +4,14 @@
     border-left: 1px solid $text-color-grey-light-2;
     border-right: 1px solid $text-color-grey-light-2;
     margin-bottom: 2.5rem;
-    margin-top: 0.25rem;
+    margin-top: 0rem;
     padding:0;
     margin-left:  auto;
     margin-right:  auto;
     max-width: 880px;
     width:100%;
     >ul{
+      margin:0;
       >li{
         padding:0;
       }
@@ -63,4 +64,22 @@
       }
     }
   }
+  .glossary-index-custom{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 880px;
+    width: 100%;
+    span{
+      background-color: $bg-color-green-2;
+      color: $text-color-white;
+      padding: 0.25rem 0.625rem;
+      font-weight: bold;
+      font-size:1.5rem;
+      height: 2.625rem;
+      display: inline-block;
+    }
+  }
+
 }
+
+

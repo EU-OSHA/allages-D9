@@ -14,7 +14,6 @@
     }
     .views-field-field{
       &-image-step{
-        height: 10rem;
         overflow: hidden;
         img{
           width:100%;
@@ -22,12 +21,12 @@
       }
       &-text{
         color: $text-color-dark-grey-3;
-        line-height: 1.75rem;
+        line-height: 1.6875rem;
         margin: 1em;
-        font-size: 0.875rem;
+        font-size: 0.9375rem;
         font-weight: bold;
         .field-content{
-          height:171px;
+          height:189px;
         }
       }
     }
@@ -62,7 +61,7 @@
       color: $text-color-blue;
       display: block;
       font-size: 1.1rem;
-      margin: 1rem 2.75rem 0rem;
+      margin: 1rem 2.75rem 0rem 1rem;
       padding: 0.5rem 2.75rem;
     }
     .pop-up-close{
