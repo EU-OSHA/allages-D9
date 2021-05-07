@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
     - field.field.node.page.field_metatags
+    - field.field.node.page.field_summary
     - node.type.page
   module:
     - text
@@ -27,6 +28,7 @@ content:
     third_party_settings: {  }
 hidden:
   field_metatags: true
+  field_summary: true
   langcode: true
   links: true
   search_api_excerpt: true
