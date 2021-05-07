@@ -40,7 +40,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Search
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -52,7 +52,14 @@ display:
         options:
           offset: 0
       style:
-        type: default
+        type: html_list
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          type: ul
+          wrapper_class: item-list
+          class: ''
       row:
         type: fields
       fields:
@@ -323,6 +330,7 @@ display:
       arguments: {  }
       display_extenders: {  }
       show_admin_links: false
+      css_class: container
     cache_metadata:
       max-age: -1
       contexts:
