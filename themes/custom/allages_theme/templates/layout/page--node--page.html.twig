@@ -2,7 +2,12 @@
 
 {% block content %}
   {{ page.allages_title }}
-  <div class="container">
+  {% if node.id == '70' %}
+  {#If node is About this e-guide#}
+  <div class="container-fluid-allages">
+  {% else %}
+    <div class="container">
+  {% endif %}
     {{ page.content }}
   </div>
 {% endblock %}
