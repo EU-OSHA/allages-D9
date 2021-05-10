@@ -1,0 +1,46 @@
+.view-search-term-content{
+  overflow: auto;
+  text-align: center;
+  padding: 2rem 1rem;
+
+  .item-list{
+    ul{
+    }
+    li{}
+    .views-field{
+      &-name{
+        background: $bg-color-grey-4;
+        color: $text-color-blue;
+        font-weight: bold;
+        padding: 0.27rem 1rem;
+        margin: 4px 0 0;
+        border-top: 1px solid $text-color-grey-light-2;
+        border-left: 1px solid $text-color-grey-light-2;
+        border-right: 1px solid $text-color-grey-light-2;
+        width: 60%;
+        text-align: left;
+        margin: 2rem auto 0;
+        .field-content{}
+      }
+      &-description__value{
+        background: $bg-color-grey-3 none repeat scroll 0 0;
+        margin: 0;
+        padding: 1rem;
+        border-bottom: 1px solid $text-color-grey-light-2;
+        border-left: 1px solid $text-color-grey-light-2;
+        border-right: 1px solid $text-color-grey-light-2;
+        width: 60%;
+        text-align: left;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        .field-content{
+
+          ul{
+            list-style: disc;
+            padding-left: 0.875rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -247,7 +247,8 @@ table tr td {
   background-repeat: no-repeat;
 }
 
-.page-view-glossary .block-page-title-block {
+.page-view-glossary .block-page-title-block,
+.page-view-search-term-content .block-page-title-block {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/glossaryBanner.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -263,6 +264,18 @@ table tr td {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/aboutUsBanner.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.path-sitemap .block-page-title-block {
+  padding: 0;
+  background-color: #003386;
+}
+.path-sitemap .block-page-title-block h1.title {
+  font-size: 2.625rem;
+  font-weight: bold;
+  padding: 1.25rem 0;
+  margin: 0;
+  line-height: 1.5rem;
 }
 
 body {
@@ -701,6 +714,39 @@ section.row {
   display: inline-block;
 }
 
+.view-good-practices .views-view-grid .views-col {
+  background-color: #ececec;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding: 1.5rem;
+  min-height: 380px;
+  height: 494.36px;
+  max-width: calc(33.333333% - 1.25rem);
+}
+.view-good-practices .views-field-field-image-step {
+  text-align: center;
+  height: 2.5rem;
+}
+.view-good-practices .views-field-field-image-step img {
+  margin: auto;
+}
+.view-good-practices .views-field-title {
+  color: #003399;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0 1.5rem;
+}
+.view-good-practices .views-field-title a {
+  color: #003399;
+}
+.view-good-practices .views-field-title a:hover {
+  text-decoration: none;
+}
+.view-good-practices .views-field-field-short-text {
+  color: #585858;
+  font-size: 1.125rem;
+}
+
 .node--type-good-practices .container {
   margin-top: 2.5rem;
   display: flex;
@@ -736,37 +782,39 @@ section.row {
   flex: 0 0 72.5;
 }
 
-.view-good-practices .views-view-grid .views-col {
-  background-color: #ececec;
-  margin-right: 1.25rem;
-  margin-bottom: 1.25rem;
-  padding: 1.5rem;
-  min-height: 380px;
-  height: 494.36px;
-  max-width: calc(33.333333% - 1.25rem);
-}
-.view-good-practices .views-field-field-image-step {
+.view-search-term-content {
+  overflow: auto;
   text-align: center;
-  height: 2.5rem;
+  padding: 2rem 1rem;
 }
-.view-good-practices .views-field-field-image-step img {
-  margin: auto;
-}
-.view-good-practices .views-field-title {
+.view-search-term-content .item-list .views-field-name {
+  background: #dde2ed;
   color: #003399;
-  font-size: 1.5rem;
   font-weight: bold;
-  padding: 0.5rem 0 1.5rem;
+  padding: 0.27rem 1rem;
+  margin: 4px 0 0;
+  border-top: 1px solid #c9c9c9;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  width: 60%;
+  text-align: left;
+  margin: 2rem auto 0;
 }
-.view-good-practices .views-field-title a {
-  color: #003399;
+.view-search-term-content .item-list .views-field-description__value {
+  background: #f7f5fc none repeat scroll 0 0;
+  margin: 0;
+  padding: 1rem;
+  border-bottom: 1px solid #c9c9c9;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
-.view-good-practices .views-field-title a:hover {
-  text-decoration: none;
-}
-.view-good-practices .views-field-field-short-text {
-  color: #585858;
-  font-size: 1.125rem;
+.view-search-term-content .item-list .views-field-description__value .field-content ul {
+  list-style: disc;
+  padding-left: 0.875rem;
 }
 
 .view-useful-links {
@@ -1014,18 +1062,22 @@ section.row {
   opacity: 0.85;
 }
 
-.page-view-glossary .selectCountry {
+.page-view-glossary .selectCountry,
+.page-view-search-term-content .selectCountry {
   border-bottom: 1px solid #003399;
+  background-color: #fff;
 }
-.page-view-glossary .containerSmall {
+.page-view-glossary .containerSmall,
+.page-view-search-term-content .containerSmall {
   margin: 0 auto;
-  width: 34rem;
+  width: 47.5rem;
   font-size: 1.375rem;
   text-align: center;
   display: flex;
   flex-direction: row;
 }
-.page-view-glossary .textGlossary {
+.page-view-glossary .textGlossary,
+.page-view-search-term-content .textGlossary {
   flex: 0 0 50%;
   padding: 0.625rem;
   font-size: 20px;
@@ -1034,7 +1086,9 @@ section.row {
   font-style: italic;
 }
 .page-view-glossary .searchGlossary,
-.page-view-glossary .filterGlossary {
+.page-view-glossary .filterGlossary,
+.page-view-search-term-content .searchGlossary,
+.page-view-search-term-content .filterGlossary {
   flex: 0 0 25%;
   padding: 0.625rem;
   font-size: 20px;
@@ -1046,18 +1100,24 @@ section.row {
   cursor: pointer;
 }
 .page-view-glossary .searchGlossary a,
-.page-view-glossary .filterGlossary a {
+.page-view-glossary .filterGlossary a,
+.page-view-search-term-content .searchGlossary a,
+.page-view-search-term-content .filterGlossary a {
   color: #003399;
   text-decoration: none;
 }
 .page-view-glossary .searchGlossary.selected,
-.page-view-glossary .filterGlossary.selected {
+.page-view-glossary .filterGlossary.selected,
+.page-view-search-term-content .searchGlossary.selected,
+.page-view-search-term-content .filterGlossary.selected {
   background: #acc700;
   cursor: default;
   position: relative;
 }
 .page-view-glossary .searchGlossary.selected:after,
-.page-view-glossary .filterGlossary.selected:after {
+.page-view-glossary .filterGlossary.selected:after,
+.page-view-search-term-content .searchGlossary.selected:after,
+.page-view-search-term-content .filterGlossary.selected:after {
   content: "";
   display: inline-block;
   background: url(/sites/allages/themes/custom/allages_theme/images/arrow.png) no-repeat scroll 0 0;
@@ -1070,14 +1130,26 @@ section.row {
   transform: translate(-50%, 0%);
 }
 .page-view-glossary .searchGlossary.selected a,
-.page-view-glossary .filterGlossary.selected a {
+.page-view-glossary .filterGlossary.selected a,
+.page-view-search-term-content .searchGlossary.selected a,
+.page-view-search-term-content .filterGlossary.selected a {
   color: #FFF;
 }
-.page-view-glossary .searchGlossary {
-  background: url(/sites/allages/themes/custom/allages_theme/images/icoSearchGlossay.png) no-repeat scroll 0.2rem center;
+.page-view-glossary .searchGlossary,
+.page-view-search-term-content .searchGlossary {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/icoSearchGlossay.png);
+  background-position: 0.2rem center;
+  background-repeat: no-repeat;
 }
-.page-view-glossary .searchGlossary.selected {
-  background: url(/sites/allages/themes/custom/allages_theme/images/icoSearchGlossaySelected.png) no-repeat scroll 0.2rem center;
+.page-view-glossary .searchGlossary.selected,
+.page-view-search-term-content .searchGlossary.selected {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/icoSearchGlossaySelected.png);
+  background-position: 0.2rem center;
+  background-repeat: no-repeat;
+}
+
+.page-view-search-term-content #block-allages-theme-content {
+  background-color: #f7f5fc;
 }
 
 .page-node-1049 .block-system.block-system-main-block {
@@ -1085,7 +1157,6 @@ section.row {
   margin: 1rem auto;
   padding: 0 1rem 1rem 1rem;
   background: #f9f9fa;
-  max-width: 800px;
 }
 .page-node-1049 h2 {
   color: #2d559a;
@@ -1187,6 +1258,43 @@ section.row {
   color: #FFF;
   font-size: 1.25rem;
   padding: 0.5rem 1.75rem;
+}
+
+.path-sitemap .sitemap-item {
+  padding-left: 3rem;
+}
+.path-sitemap .sitemap-item .nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.path-sitemap .sitemap-item .nav-item {
+  border-bottom: 1px solid #ccc;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  padding: 0.275rem 0 1rem;
+}
+.path-sitemap .sitemap-item .nav-item.menu-item--expanded {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.path-sitemap .sitemap-item .nav-item span.nav-link {
+  display: none;
+}
+.path-sitemap .sitemap-item .nav-item ul {
+  padding-left: 0;
+  list-style: none;
+}
+.path-sitemap .sitemap-item .nav-link {
+  padding: 0;
+  color: #3b3b3b;
+}
+.path-sitemap .sitemap-item .nav-link:after {
+  content: " >";
+}
+.path-sitemap .sitemap-item .nav-link:hover {
+  color: #003386;
 }
 
 /*# sourceMappingURL=allages-global.css.map */

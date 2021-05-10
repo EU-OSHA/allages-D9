@@ -25,8 +25,9 @@
 @import 'display/attachment';
 @import 'display/did-you-know';
 @import 'display/glossary';
-@import 'display/node-good-practices';
 @import 'display/good-practices';
+@import 'display/node-good-practices';
+@import 'display/search-term';
 @import 'display/useful-links';
 
 
@@ -36,6 +37,7 @@
 @import 'pages/glossary';
 @import 'pages/privacy-polici';
 @import 'pages/select-your-profile';
+@import 'pages/sitemap';
 
 @import 'responsive/common/common-responsive';
 @import 'responsive/mobile/mobile-responsive';
