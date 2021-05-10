@@ -141,7 +141,8 @@
   }
 }
 
-.page-view-glossary{
+.page-view-glossary,
+.page-view-search-term-content{
   .block-page-title-block{
     background-image: url(/sites/allages/themes/custom/allages_theme/images/glossaryBanner.png);
     background-position: center;
@@ -161,5 +162,21 @@
     background-image: url(/sites/allages/themes/custom/allages_theme/images/aboutUsBanner.png);
     background-position: center;
     background-repeat: no-repeat;
+  }
+}
+
+.path-sitemap{
+  .block-page-title-block{
+    padding:0;
+    background-color: $bg-color-blue-5;
+    h1{
+      &.title{
+        font-size: 2.625rem;
+        font-weight: bold;
+        padding: 1.25rem 0;
+        margin: 0;
+        line-height: 1.5rem;
+      }
+    }
   }
 }
