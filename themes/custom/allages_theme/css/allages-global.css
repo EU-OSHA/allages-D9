@@ -907,6 +907,13 @@ section.row {
   padding: 0;
 }
 
+.page-node-70 .centerText {
+  margin-bottom: 2rem;
+}
+.page-node-70 .contentText {
+  width: 1011px;
+  margin: 0 auto;
+}
 .page-node-70 .contentText a {
   text-decoration: underline;
   color: #acc700;
