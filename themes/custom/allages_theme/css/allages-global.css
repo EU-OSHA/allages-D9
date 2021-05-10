@@ -1,6 +1,5 @@
 /* D9 - Variables NCW */
 /*Font Family*/
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @font-face {
   font-family: "Ubuntu", sans-serif;
 }
@@ -53,7 +52,8 @@ ul {
   padding-left: 0.875rem;
 }
 
-.center {
+.center,
+.centerText {
   text-align: center;
 }
 
@@ -94,6 +94,23 @@ ul {
   line-height: 3.325rem;
   font-weight: bold;
   color: #FFF;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+table tr {
+  padding: 0;
+  background: #fff;
+}
+table tr td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 0.25rem;
 }
 
 .node--type-select-your-profile #block-healthyworkplacesforallages .field--name-body,
@@ -238,6 +255,12 @@ ul {
 
 .page-view-did-you-know .block-page-title-block {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/didYouKnowBanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-node-70 .block-page-title-block {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/aboutUsBanner.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -792,6 +815,37 @@ section.row {
   padding: 0;
 }
 
+.page-node-70 .contentText a {
+  text-decoration: underline;
+  color: #acc700;
+  font-weight: bold;
+}
+.page-node-70 .contentText p {
+  margin: 1rem 0rem;
+}
+.page-node-70 .informationAboutUs {
+  background: #ececec;
+  padding: 2rem 0;
+  overflow: auto;
+}
+.page-node-70 .informationAboutUs img {
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 4rem;
+}
+.page-node-70 .informationAboutUs p {
+  margin-left: 400px;
+}
+
+.page-node-355 h2,
+.page-node-355 h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
 .page-view-frontpage #block-healthyworkplacesforallages {
   width: 100%;
 }
@@ -958,6 +1012,87 @@ section.row {
   height: 14px;
   position: absolute;
   opacity: 0.85;
+}
+
+.page-view-glossary .selectCountry {
+  border-bottom: 1px solid #003399;
+}
+.page-view-glossary .containerSmall {
+  margin: 0 auto;
+  width: 34rem;
+  font-size: 1.375rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.page-view-glossary .textGlossary {
+  flex: 0 0 50%;
+  padding: 0.625rem;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 1.25rem;
+  font-style: italic;
+}
+.page-view-glossary .searchGlossary,
+.page-view-glossary .filterGlossary {
+  flex: 0 0 25%;
+  padding: 0.625rem;
+  font-size: 20px;
+  text-align: center;
+  border-left: 1px solid #dde2ed;
+  color: #003399;
+  border-right: 1px solid #dde2ed;
+  padding-left: 1.25rem;
+  cursor: pointer;
+}
+.page-view-glossary .searchGlossary a,
+.page-view-glossary .filterGlossary a {
+  color: #003399;
+  text-decoration: none;
+}
+.page-view-glossary .searchGlossary.selected,
+.page-view-glossary .filterGlossary.selected {
+  background: #acc700;
+  cursor: default;
+  position: relative;
+}
+.page-view-glossary .searchGlossary.selected:after,
+.page-view-glossary .filterGlossary.selected:after {
+  content: "";
+  display: inline-block;
+  background: url(/sites/allages/themes/custom/allages_theme/images/arrow.png) no-repeat scroll 0 0;
+  height: 13px;
+  position: absolute;
+  width: 24px;
+  z-index: 99;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.page-view-glossary .searchGlossary.selected a,
+.page-view-glossary .filterGlossary.selected a {
+  color: #FFF;
+}
+.page-view-glossary .searchGlossary {
+  background: url(/sites/allages/themes/custom/allages_theme/images/icoSearchGlossay.png) no-repeat scroll 0.2rem center;
+}
+.page-view-glossary .searchGlossary.selected {
+  background: url(/sites/allages/themes/custom/allages_theme/images/icoSearchGlossaySelected.png) no-repeat scroll 0.2rem center;
+}
+
+.page-node-1049 .block-system.block-system-main-block {
+  border: 1px solid #ccc;
+  margin: 1rem auto;
+  padding: 0 1rem 1rem 1rem;
+  background: #f9f9fa;
+  max-width: 800px;
+}
+.page-node-1049 h2 {
+  color: #2d559a;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 1rem 0 0;
+  padding: 0;
 }
 
 .node--type-select-your-profile #block-healthyworkplacesforallages {
