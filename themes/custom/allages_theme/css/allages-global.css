@@ -477,6 +477,9 @@ section.row {
   border-bottom: 1px solid #336699;
   height: auto;
 }
+.header .search-custom-block .form-actions {
+  padding: 0;
+}
 .header .search-custom-block .form-actions .form-submit {
   height: 20px;
   width: 20px;
@@ -815,6 +818,47 @@ section.row {
 .view-search-term-content .item-list .views-field-description__value .field-content ul {
   list-style: disc;
   padding-left: 0.875rem;
+}
+.view-search-term-content .views-exposed-form .form-type-textfield {
+  display: inline-block;
+  text-align: left;
+  flex: 0 0 80%;
+  max-width: 80%;
+  padding: 0;
+  padding-right: 1rem;
+}
+.view-search-term-content .views-exposed-form .form-control {
+  border: 1px solid #003399;
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding: 0.5rem;
+  max-width: 75%;
+  margin: 0;
+  display: inline-block;
+  margin-left: 4rem;
+  border-radius: 0;
+}
+.view-search-term-content .views-exposed-form .form-actions {
+  padding: 0rem 1rem 0rem 0rem;
+}
+.view-search-term-content .views-exposed-form .form-submit {
+  text-decoration: none;
+  background: #acc700;
+  color: #FFF;
+  font-size: 20px;
+  padding: 0.375rem 1.75rem;
+  border: none;
+  border-radius: 0;
+}
+.view-search-term-content .views-exposed-form .form-submit:hover {
+  background-color: #003399;
+}
+.view-search-term-content .views-exposed-form label {
+  color: #003399;
+  font-style: italic;
+  font-weight: bold;
+  padding-right: 0;
+  max-width: 25%;
 }
 
 .view-useful-links {
@@ -1262,6 +1306,7 @@ section.row {
 
 .path-sitemap .sitemap-item {
   padding-left: 3rem;
+  margin: 0;
 }
 .path-sitemap .sitemap-item .nav {
   display: flex;
@@ -1295,6 +1340,53 @@ section.row {
 }
 .path-sitemap .sitemap-item .nav-link:hover {
   color: #003386;
+}
+.path-sitemap .sitemap-item--menu-footer .nav-item:first-of-type, .path-sitemap .sitemap-item--menu-footer .nav-item:nth-child(2) {
+  display: none;
+}
+.path-sitemap .sitemap-item--menu-footer .nav-link {
+  text-transform: lowercase;
+}
+.path-sitemap .sitemap-item--menu-footer .nav-link:first-letter {
+  text-transform: uppercase;
+}
+
+.page-view-useful-links .block-system-main-block .content > .views-element-container > div:first-of-type {
+  font-size: 1.375rem;
+  font-style: italic;
+  padding: 0 0 0.5rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button {
+  display: inline-flex;
+  margin: 0 auto;
+}
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul {
+  display: flex;
+  flex-direction: row;
+}
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li {
+  margin: 0;
+  padding: 0;
+}
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li a {
+  padding: 0.75rem;
+  border: 2px solid #003399;
+  color: #003399;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  margin: 0.75rem;
+  line-height: 2.5rem;
+  font-size: 1.125rem;
+  display: block;
 }
 
 /*# sourceMappingURL=allages-global.css.map */

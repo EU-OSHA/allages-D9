@@ -1,6 +1,7 @@
 .path-sitemap{
   .sitemap-item{
     padding-left: 3rem;
+    margin:0;
     .nav{
       display:flex;
       flex-direction: column;
@@ -33,6 +34,22 @@
         }
         &:hover{
           color:$text-color-blue-5;
+        }
+      }
+    }
+  }
+  .sitemap-item--menu-footer{
+    .nav{
+      &-item{
+        &:first-of-type,
+        &:nth-child(2){
+          display:none;
+        }
+      }
+      &-link{
+        text-transform: lowercase;
+        &:first-letter{
+          text-transform: uppercase;
         }
       }
     }
