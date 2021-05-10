@@ -13,6 +13,7 @@
 @import 'components/helper';
 @import 'components/links';
 @import 'components/modal';
+@import 'components/table';
 
 @import 'layout/banner-header';
 @import 'layout/body';
@@ -29,7 +30,11 @@
 @import 'display/useful-links';
 
 
+@import 'pages/about-this-e-guide';
+@import 'pages/accessibility';
 @import 'pages/frontpage';
+@import 'pages/glossary';
+@import 'pages/privacy-polici';
 @import 'pages/select-your-profile';
 
 @import 'responsive/common/common-responsive';

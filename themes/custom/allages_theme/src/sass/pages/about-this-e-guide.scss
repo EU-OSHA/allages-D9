@@ -1,0 +1,25 @@
+.page-node-70{
+  .contentText{
+    a{
+      text-decoration: underline;
+      color: $text-color-green-2;
+      font-weight: bold;
+    }
+    p{
+      margin:1rem 0rem;
+    }
+  }
+  .informationAboutUs{
+    background: $bg-color-grey-light-3;
+    padding: 2rem 0;
+    overflow: auto;
+    img{
+      float: left;
+      margin-right: 1.5rem;
+      margin-bottom: 4rem;
+    }
+    p{
+      margin-left: 400px;
+    }
+  }
+}
