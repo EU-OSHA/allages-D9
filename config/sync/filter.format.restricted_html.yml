@@ -1,7 +1,10 @@
 uuid: b0df8cf9-8f68-4c48-90f7-74cc1cc15229
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
+    - onomasticon
 _core:
   default_config_hash: oz6NyPDAB4HB6N9hgH2LwNVtCd-sXbMG1fbn5KsRIDI
 name: 'Restricted HTML'
@@ -30,3 +33,27 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
+  filter_onomasticon:
+    id: filter_onomasticon
+    provider: onomasticon
+    status: true
+    weight: 0
+    settings:
+      onomasticon_vocabulary: glossary
+      onomasticon_tag: dfn
+      onomasticon_disabled: 'abbr audio button cite code dfn form meta object pre style script video'
+      onomasticon_implement: extra_element
+      onomasticon_orientation: above
+      onomasticon_cursor: default
+      onomasticon_ignorecase: '0'
+      onomasticon_repetition: '1'
+      onomasticon_termlink: '1'
