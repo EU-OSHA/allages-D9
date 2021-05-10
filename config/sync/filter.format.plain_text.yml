@@ -1,7 +1,10 @@
 uuid: 7fb7d27c-a6da-4f03-a2b9-eb635e5cad27
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
+    - onomasticon
 _core:
   default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
 name: 'Plain text'
@@ -27,3 +30,27 @@ filters:
     status: true
     weight: 0
     settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
+  filter_onomasticon:
+    id: filter_onomasticon
+    provider: onomasticon
+    status: true
+    weight: 0
+    settings:
+      onomasticon_vocabulary: glossary
+      onomasticon_tag: dfn
+      onomasticon_disabled: 'abbr audio button cite code dfn form meta object pre style script video'
+      onomasticon_implement: extra_element
+      onomasticon_orientation: above
+      onomasticon_cursor: help
+      onomasticon_ignorecase: '1'
+      onomasticon_repetition: '0'
+      onomasticon_termlink: '0'
