@@ -48,15 +48,17 @@
     </h1>
   </div>
 </div>
-<div>{{ 'Filter by categories:' | trans }}</div>
-<div class="content-all-button item-list">
-  <ul>
-    <li>
-      <h2><a href="/useful-links">{{ 'All' | trans }}</a></h2>
-    </li>
-  </ul>
+<div class="content-filters">
+  <div>{{ 'Filter by categories:' | trans }}</div>
+  <div class="content-all-button item-list">
+    <ul>
+      <li>
+        <h2><a href="/useful-links">{{ 'All' | trans }}</a></h2>
+      </li>
+    </ul>
+  </div>
+  {{ drupal_view('filter_useful_links', 'attachment_1') }}
 </div>
-{{ drupal_view('filter_useful_links', 'attachment_1') }}
 <div class="view-useful-links">
   <h3>{{ drupal_title() }}</h3>
 </div>
