@@ -1,4 +1,6 @@
 .view-good-practices {
+  padding-left: 0;
+  padding-right: 0;
   .views-view-grid {
     padding-left: 0;
     padding-right: 0;
@@ -49,6 +51,16 @@
     &-field-short-text{
       color: $text-color-dark-grey-3;
       font-size: 1.125rem;
+      dfn{
+        text-decoration: none;
+        border-bottom: 1px dotted $bg-color-dark-green;
+        color: $bg-color-dark-green;
+        cursor: help;
+        &:hover{
+          box-shadow: none;
+          background-color: transparent;
+        }
+      }
     }
   }
   .content-share{

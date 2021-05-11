@@ -715,6 +715,10 @@ section.row {
   display: inline-block;
 }
 
+.view-good-practices {
+  padding-left: 0;
+  padding-right: 0;
+}
 .view-good-practices .views-view-grid {
   padding-left: 0;
   padding-right: 0;
@@ -764,6 +768,16 @@ section.row {
 .view-good-practices .views-field-field-short-text {
   color: #585858;
   font-size: 1.125rem;
+}
+.view-good-practices .views-field-field-short-text dfn {
+  text-decoration: none;
+  border-bottom: 1px dotted #080;
+  color: #080;
+  cursor: help;
+}
+.view-good-practices .views-field-field-short-text dfn:hover {
+  box-shadow: none;
+  background-color: transparent;
 }
 .view-good-practices .content-share-more {
   display: flex;
@@ -1615,6 +1629,11 @@ section.row {
   }
   .header .dropdown.show .dropdown-toggle:after {
     content: "-";
+  }
+
+  /******     Good Practices     ******/
+  .view-good-practices .views-view-grid .views-col {
+    max-width: 100%;
   }
 }
 @media sreen and (min-width: 1224px) {
