@@ -1,5 +1,5 @@
 buttons_size: 32
-additional_html: "<div class=\"content-share-buttons\">\r\n  <div class=\"share-link\">Share</div>\r\n  <a class=\"a2a_button_facebook\"></a>\r\n  <a class=\"a2a_button_twitter\"></a>\r\n</div>"
+additional_html: "<div class=\"content-share-buttons\">\r\n  <div class=\"share-link\">Share</div>\r\n  <div class=\"buttons-container\">\r\n    <a class=\"a2a_button_facebook\"></a>\r\n    <a class=\"a2a_button_twitter\"></a>\r\n  </div>\r\n</div>"
 additional_css: ''
 additional_js: ''
 universal_button: none

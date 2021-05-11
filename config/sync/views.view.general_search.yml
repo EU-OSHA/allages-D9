@@ -418,6 +418,7 @@ display:
           plugin_id: language
       display_extenders: {  }
       show_admin_links: false
+      css_class: container
     cache_metadata:
       max-age: -1
       contexts:
