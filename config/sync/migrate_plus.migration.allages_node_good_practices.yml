@@ -44,7 +44,10 @@ process:
     -
       plugin: default_value
       default_value: restricted_html
-  field_short_text: field_short_text
+  field_short_text:
+    -
+      plugin: get
+      source: field_short_text
   field_theme:
     -
       plugin: migration_lookup

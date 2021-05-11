@@ -1,10 +1,12 @@
-uuid: d5bbe94a-fcd8-483a-bca1-702053ddda5a
+uuid: 64420225-4581-4c4c-b445-34ac68293a82
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_short_text
     - node.type.good_practices
+  module:
+    - text
 id: node.good_practices.field_short_text
 field_name: field_short_text
 entity_type: node
@@ -12,8 +14,8 @@ bundle: good_practices
 label: 'Short text'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string_long
+field_type: text_long
