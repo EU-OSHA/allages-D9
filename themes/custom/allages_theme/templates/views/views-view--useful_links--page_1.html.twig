@@ -39,15 +39,17 @@
   dom_id ? 'js-view-dom-id-' ~ dom_id,
 ]
 %}
-<div>{{ 'Filter by categories:' | trans }}</div>
-<div class="content-all-button item-list">
-  <ul>
-    <li>
-      <h2><a href="/useful-links">{{ 'All' | trans }}</a></h2>
-    </li>
-  </ul>
+<div class="content-filters">
+  <div>{{ 'Filter by categories:' | trans }}</div>
+  <div class="content-all-button item-list">
+    <ul>
+      <li>
+        <h2><a href="/useful-links">{{ 'All' | trans }}</a></h2>
+      </li>
+    </ul>
+  </div>
+  {{ drupal_view('filter_useful_links', 'attachment_1') }}
 </div>
-{{ drupal_view('filter_useful_links', 'attachment_1') }}
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if title %}
