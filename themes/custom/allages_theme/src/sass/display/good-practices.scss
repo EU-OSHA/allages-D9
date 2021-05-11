@@ -1,13 +1,26 @@
 .view-good-practices {
   .views-view-grid {
+    padding-left: 0;
+    padding-right: 0;
+    .views-row{
+      display:flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
     .views-col{
       background-color: $bg-color-grey-light-3 ;
       margin-right: 1.25rem;
       margin-bottom: 1.25rem;
-      padding: 1.5rem;
+      padding: 3.5rem;
       min-height: 380px;
-      height:494.36px;
+      height:auto;
       max-width: calc(33.333333% - 1.25rem);
+      &.mouse-enter{
+        background-color: $bg-color-grey-blue-2;
+        .content-share-more{
+          opacity:1;
+        }
+      }
     }
   }
   .views-field{
@@ -25,6 +38,9 @@
       padding: 0.5rem 0 1.5rem;
       a{
         color: $text-color-blue;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        display: inline-block;
         &:hover{
           text-decoration: none;
         }
@@ -35,5 +51,65 @@
       font-size: 1.125rem;
     }
   }
+  .content-share{
+    &-more{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      position:absolute;
+      bottom:0;
+      width:100%;
+      left:0;
+      opacity:0;
+      transition: all 0.3s ease-in;
+      .share-view-buttons{
+        .share-link{
+          border-right: 1px solid $text-color-white;
+          &:before{
+            content:'';
+            display: inline-block;
+            width:20px;
+            height: 22px;
+            background-image: url(/sites/allages/themes/custom/allages_theme/images/icoShare.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-right:0.5rem;
+          }
+        }
+        .buttons-container{
+          display:none;
+        }
+      }
+      .share-view-buttons,
+      .read-more-link{
+        flex:1;
+      }
 
+      .read-more-link a,
+      .share-link{
+        background: $bg-color-green;
+        padding: 0.875rem 0;
+        text-align: center;
+        cursor: pointer;
+        color:$text-color-white;
+        display:flex;
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    &-buttons{
+      .buttons-container{
+        display:none;
+        a{
+          display:block;
+        }
+      }
+    }
+  }
 }

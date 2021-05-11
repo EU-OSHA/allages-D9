@@ -101,6 +101,18 @@
 
   })
 
+  $('.view-good-practices .views-view-grid .views-col').each(function(){
+    $(this).on('mouseenter', function(){
+      $(this).addClass('mouse-enter');
+    });
+    $(this).on('mouseleave', function(){
+      $(this).removeClass('mouse-enter');
+    });
+    $(this).on('click', '.share-link', function(){
+      $(this).siblings('.buttons-container').show(0);
+    })
+  });
+
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
   var getUrlParameter = function getUrlParameter(sParam) {

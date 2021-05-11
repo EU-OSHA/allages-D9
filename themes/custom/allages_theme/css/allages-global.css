@@ -715,14 +715,29 @@ section.row {
   display: inline-block;
 }
 
+.view-good-practices .views-view-grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.view-good-practices .views-view-grid .views-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
 .view-good-practices .views-view-grid .views-col {
   background-color: #ececec;
   margin-right: 1.25rem;
   margin-bottom: 1.25rem;
-  padding: 1.5rem;
+  padding: 3.5rem;
   min-height: 380px;
-  height: 494.36px;
+  height: auto;
   max-width: calc(33.333333% - 1.25rem);
+}
+.view-good-practices .views-view-grid .views-col.mouse-enter {
+  background-color: #e8ecf3;
+}
+.view-good-practices .views-view-grid .views-col.mouse-enter .content-share-more {
+  opacity: 1;
 }
 .view-good-practices .views-field-field-image-step {
   text-align: center;
@@ -739,6 +754,9 @@ section.row {
 }
 .view-good-practices .views-field-title a {
   color: #003399;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  display: inline-block;
 }
 .view-good-practices .views-field-title a:hover {
   text-decoration: none;
@@ -746,6 +764,61 @@ section.row {
 .view-good-practices .views-field-field-short-text {
   color: #585858;
   font-size: 1.125rem;
+}
+.view-good-practices .content-share-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+.view-good-practices .content-share-more .share-view-buttons .share-link {
+  border-right: 1px solid #FFF;
+}
+.view-good-practices .content-share-more .share-view-buttons .share-link:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/icoShare.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 0.5rem;
+}
+.view-good-practices .content-share-more .share-view-buttons .buttons-container {
+  display: none;
+}
+.view-good-practices .content-share-more .share-view-buttons,
+.view-good-practices .content-share-more .read-more-link {
+  flex: 1;
+}
+.view-good-practices .content-share-more .read-more-link a,
+.view-good-practices .content-share-more .share-link {
+  background: #98b400;
+  padding: 0.875rem 0;
+  text-align: center;
+  cursor: pointer;
+  color: #FFF;
+  display: flex;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.view-good-practices .content-share-more .read-more-link a:hover,
+.view-good-practices .content-share-more .share-link:hover {
+  text-decoration: none;
+}
+.view-good-practices .content-share-buttons .buttons-container {
+  display: none;
+}
+.view-good-practices .content-share-buttons .buttons-container a {
+  display: block;
 }
 
 .node--type-good-practices .container {
@@ -881,6 +954,12 @@ section.row {
   width: 100%;
   font-weight: bold;
 }
+.view-useful-links .views-view-grid .row,
+.view-taxonomy-term .views-view-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
 .view-useful-links .views-field-field-link,
 .view-taxonomy-term .views-field-field-link {
   display: block;
@@ -893,6 +972,7 @@ section.row {
   width: 100%;
   height: 100%;
   padding-right: 0.75rem;
+  padding-bottom: 0.875rem;
 }
 .view-useful-links .views-field-field-link .field-content a,
 .view-taxonomy-term .views-field-field-link .field-content a {
@@ -901,12 +981,13 @@ section.row {
   float: left;
   font-size: 0.875rem;
   font-weight: bold;
-  height: 120px;
+  min-height: 120px;
   padding: 0.875rem 1.25rem 1.125rem 0.875rem;
   text-decoration: none;
   display: block;
   width: 100%;
   margin-bottom: 0.875rem;
+  height: 100%;
 }
 .view-useful-links .views-col,
 .view-taxonomy-term .views-col {
@@ -1400,23 +1481,23 @@ section.row {
   font-size: 1.125rem;
   display: block;
 }
-
-.page-view-useful-links .block-system-main-block .content > .views-element-container > div:first-of-type {
-  font-size: 1.375rem;
-  font-style: italic;
-  padding: 0 0 0.5rem;
-  font-weight: normal;
-  line-height: 1.5rem;
+.page-view-useful-links .content-filters,
+.page-vocabulary-categories-useful-links .content-filters {
   text-align: center;
+  padding: 1rem 0 3.5rem;
+  background: #ececec;
+  margin-bottom: 40px;
 }
-
-.page-vocabulary-categories-useful-links #block-allages-theme-page-title + div {
+.page-view-useful-links .content-filters > div:first-of-type,
+.page-vocabulary-categories-useful-links .content-filters > div:first-of-type {
   font-size: 1.375rem;
   font-style: italic;
   padding: 0 0 0.5rem;
   font-weight: normal;
   line-height: 1.5rem;
   text-align: center;
+  color: #000;
+  margin: 1rem 0;
 }
 
 @media only screen and (max-width: 1023px) {
