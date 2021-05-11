@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1023px){
+  .header{
+    .navbar-toggler{
+      width: 48px;
+      height: 46px;
+      padding: 0.625rem;
+      margin-left:auto;
+      cursor: pointer;
+      display: block;
+      border-radius:0;
+      &.expand-custom{
+        color:$text-color-blue;
+        text-align: center;
+        font-size: 1.125rem;
+        span{
+          display:none;
+        }
+        &:after{
+          content:'X';
+        }
+      }
+      span{
+        display: block;
+        background: $text-color-blue-5;
+        height: 3px;
+        margin-top: 3px;
+        &.sr-only{
+          display:none;
+        }
+      }
+    }
+    .content-header{
+      position:relative;
+    }
+    #navbar{
+      float:none;
+    }
+    .font-size-print{
+      display:none;
+    }
+    .navbar{
+      position: static;
+      padding:0;
+    }
+    .navbar-collapse{
+      width: 100vw;
+      flex: 0 0 100vw;
+      top: 100%;
+      left: 0;
+      position: absolute;
+      z-index: 2000;
+      background-color: white;
+    }
+    .push-right{
+      margin-right:0;
+    }
+    .nav{
+      &-item{
+        margin:0;
+        border:none;
+        &.active{
+          border:none;
+          .nav-link{
+            color:$text-color-blue;
+          }
+        }
+        &:first-of-type {
+          .nav-link{
+            width:100%;
+            color:$text-color-blue;
+            background: none;
+          }
+        }
+        &:last-of-type {
+          &:not(.show){
+            .nav-link{
+              border-bottom: 1px solid $text-color-blue;
+            }
+          }
+        }
+        &:hover{
+          border-color:$text-color-white;
+        }
+      }
+      &-link{
+        color:$text-color-blue;
+        border-top: 1px solid $text-color-blue;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        padding:1rem 2.25rem;
+      }
+    }
+    .dropdown{
+      &-menu{
+        background-color: $bg-color-white;
+        margin-left: 0;
+      }
+      &-item{
+        &:last-of-type{
+          a{
+            border-bottom: 1px solid $text-color-blue;
+          }
+        }
+        a{
+          border-top: 1px solid $text-color-blue;
+          color:$text-color-blue;
+          font-size: 1rem;
+          font-weight: 400;
+          display: block;
+          padding: 1rem 10%;
+          opacity:0.75;
+          text-transform: uppercase;
+        }
+      }
+      &-toggle{
+        display:flex;
+        &:after{
+          content:'+';
+          display:inline-block;
+          border:none;
+          margin:0;
+          padding:0;
+          margin-left:auto;
+        }
+      }
+      &.show{
+        .dropdown-toggle{
+          &:after{
+            content:'-';
+          }
+        }
+      }
+    }
+  }
+}

@@ -241,7 +241,8 @@ table tr td {
   background-repeat: no-repeat;
 }
 
-.page-view-useful-links .block-page-title-block {
+.page-view-useful-links .block-page-title-block,
+.page-vocabulary-categories-useful-links .block-page-title-block {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/usefulLinksBanner.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -400,9 +401,6 @@ section.row {
 }
 .header .nav-item:hover .nav-link {
   color: #003399;
-}
-.header .nav-item:hover .dropdown-menu {
-  display: block;
 }
 .header .nav-item:first-of-type:hover {
   border: 2px solid #FFF;
@@ -581,7 +579,7 @@ section.row {
   font-weight: bold;
 }
 .view-did-you-know .views-view-grid .views-field-field-text .field-content {
-  height: 189px;
+  height: 186px;
 }
 .view-did-you-know .views-view-grid .buttonViewSource {
   text-align: right;
@@ -754,6 +752,7 @@ section.row {
   margin-top: 2.5rem;
   display: flex;
   flex-direction: row;
+  padding: 0;
 }
 .node--type-good-practices .left-column {
   background-color: #ececec;
@@ -765,8 +764,8 @@ section.row {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 27.5%;
-  flex: 0 0 27.5;
+  max-width: 32%;
+  flex: 0 0 32%;
 }
 .node--type-good-practices .left-column h2 {
   order: 2;
@@ -781,8 +780,8 @@ section.row {
 }
 .node--type-good-practices .right-column {
   width: 100%;
-  max-width: calc(72.5% - 2.5rem);
-  flex: 0 0 72.5;
+  max-width: calc(68% - 2.5rem);
+  flex: 0 0 68%;
 }
 
 .view-search-term-content {
@@ -861,14 +860,17 @@ section.row {
   max-width: 25%;
 }
 
-.view-useful-links {
+.view-useful-links,
+.view-taxonomy-term {
   max-width: 1204px;
   margin: 0 auto;
 }
-.view-useful-links > .row {
+.view-useful-links > .row,
+.view-taxonomy-term > .row {
   margin: 0;
 }
-.view-useful-links h3 {
+.view-useful-links h3,
+.view-taxonomy-term h3 {
   border-bottom: medium solid;
   clear: both;
   color: #003399;
@@ -879,18 +881,21 @@ section.row {
   width: 100%;
   font-weight: bold;
 }
-.view-useful-links .views-field-field-link {
+.view-useful-links .views-field-field-link,
+.view-taxonomy-term .views-field-field-link {
   display: block;
   width: 100%;
   height: 100%;
 }
-.view-useful-links .views-field-field-link .field-content {
+.view-useful-links .views-field-field-link .field-content,
+.view-taxonomy-term .views-field-field-link .field-content {
   display: block;
   width: 100%;
   height: 100%;
   padding-right: 0.75rem;
 }
-.view-useful-links .views-field-field-link .field-content a {
+.view-useful-links .views-field-field-link .field-content a,
+.view-taxonomy-term .views-field-field-link .field-content a {
   background: #98b400 url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png) no-repeat scroll 95% 88%;
   color: #FFF;
   float: left;
@@ -903,7 +908,8 @@ section.row {
   width: 100%;
   margin-bottom: 0.875rem;
 }
-.view-useful-links .views-col {
+.view-useful-links .views-col,
+.view-taxonomy-term .views-col {
   padding: 0;
 }
 
@@ -1358,31 +1364,31 @@ section.row {
   text-transform: uppercase;
 }
 
-.page-view-useful-links .block-system-main-block .content > .views-element-container > div:first-of-type {
-  font-size: 1.375rem;
-  font-style: italic;
-  padding: 0 0 0.5rem;
-  font-weight: normal;
-  line-height: 1.5rem;
-  text-align: center;
-}
 .page-view-useful-links .block-system-main-block .views-element-container .views-element-container,
-.page-view-useful-links .block-system-main-block .views-element-container .content-all-button {
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button {
   display: inline-flex;
   margin: 0 auto;
 }
 .page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul,
-.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul {
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button ul {
   display: flex;
   flex-direction: row;
 }
 .page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li,
-.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li {
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button ul li {
   margin: 0;
   padding: 0;
 }
 .page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
-.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li a {
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li a,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button ul li a {
   padding: 0.75rem;
   border: 2px solid #003399;
   color: #003399;
@@ -1391,9 +1397,149 @@ section.row {
   text-decoration-style: initial;
   text-decoration-color: initial;
   margin: 0.75rem;
-  line-height: 2.5rem;
   font-size: 1.125rem;
   display: block;
+}
+
+.page-view-useful-links .block-system-main-block .content > .views-element-container > div:first-of-type {
+  font-size: 1.375rem;
+  font-style: italic;
+  padding: 0 0 0.5rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.page-vocabulary-categories-useful-links #block-allages-theme-page-title + div {
+  font-size: 1.375rem;
+  font-style: italic;
+  padding: 0 0 0.5rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  .header .navbar-toggler {
+    width: 48px;
+    height: 46px;
+    padding: 0.625rem;
+    margin-left: auto;
+    cursor: pointer;
+    display: block;
+    border-radius: 0;
+  }
+  .header .navbar-toggler.expand-custom {
+    color: #003399;
+    text-align: center;
+    font-size: 1.125rem;
+  }
+  .header .navbar-toggler.expand-custom span {
+    display: none;
+  }
+  .header .navbar-toggler.expand-custom:after {
+    content: "X";
+  }
+  .header .navbar-toggler span {
+    display: block;
+    background: #003386;
+    height: 3px;
+    margin-top: 3px;
+  }
+  .header .navbar-toggler span.sr-only {
+    display: none;
+  }
+  .header .content-header {
+    position: relative;
+  }
+  .header #navbar {
+    float: none;
+  }
+  .header .font-size-print {
+    display: none;
+  }
+  .header .navbar {
+    position: static;
+    padding: 0;
+  }
+  .header .navbar-collapse {
+    width: 100vw;
+    flex: 0 0 100vw;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 2000;
+    background-color: white;
+  }
+  .header .push-right {
+    margin-right: 0;
+  }
+  .header .nav-item {
+    margin: 0;
+    border: none;
+  }
+  .header .nav-item.active {
+    border: none;
+  }
+  .header .nav-item.active .nav-link {
+    color: #003399;
+  }
+  .header .nav-item:first-of-type .nav-link {
+    width: 100%;
+    color: #003399;
+    background: none;
+  }
+  .header .nav-item:last-of-type:not(.show) .nav-link {
+    border-bottom: 1px solid #003399;
+  }
+  .header .nav-item:hover {
+    border-color: #FFF;
+  }
+  .header .nav-link {
+    color: #003399;
+    border-top: 1px solid #003399;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 1rem 2.25rem;
+  }
+  .header .dropdown-menu {
+    background-color: #fff;
+    margin-left: 0;
+  }
+  .header .dropdown-item:last-of-type a {
+    border-bottom: 1px solid #003399;
+  }
+  .header .dropdown-item a {
+    border-top: 1px solid #003399;
+    color: #003399;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    padding: 1rem 10%;
+    opacity: 0.75;
+    text-transform: uppercase;
+  }
+  .header .dropdown-toggle {
+    display: flex;
+  }
+  .header .dropdown-toggle:after {
+    content: "+";
+    display: inline-block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+  }
+  .header .dropdown.show .dropdown-toggle:after {
+    content: "-";
+  }
+}
+@media sreen and (min-width: 1224px) {
+  .header .nav-item:hover .dropdown-menu {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=allages-global.css.map */

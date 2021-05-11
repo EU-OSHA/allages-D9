@@ -1,0 +1,13 @@
+@media sreen and (min-width:1224px){
+  .header{
+    .nav {
+      &-item {
+        &:hover {
+          .dropdown-menu {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
