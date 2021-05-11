@@ -51,12 +51,12 @@ content:
     type: media_thumbnail
     region: ds_content
   field_short_text:
-    weight: 3
-    label: above
+    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
+    region: ds_content
   field_text:
     type: text_default
     weight: 2
