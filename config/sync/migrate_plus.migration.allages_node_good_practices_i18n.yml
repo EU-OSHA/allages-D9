@@ -80,7 +80,7 @@ process:
   field_text/0/format:
     -
       plugin: default_value
-      default_value: restricted_html
+      default_value: basic_html
   field_short_text:
     -
       plugin: get
