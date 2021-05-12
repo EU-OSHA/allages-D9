@@ -63,8 +63,8 @@ filters:
       onomasticon_vocabulary: categories_useful_links
       onomasticon_tag: dfn
       onomasticon_disabled: 'abbr audio button cite code dfn form meta object pre style script video'
-      onomasticon_implement: attr_title
-      onomasticon_orientation: below
+      onomasticon_implement: extra_element
+      onomasticon_orientation: above
       onomasticon_cursor: help
       onomasticon_ignorecase: '1'
       onomasticon_repetition: '0'
