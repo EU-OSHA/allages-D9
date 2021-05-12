@@ -1,0 +1,260 @@
+.content-tour{
+  position:fixed;
+  top:0;
+  left:0;
+  height:100vh;
+  width:100vw;
+  z-index:999999;
+  background-color:rgba($bg-color-blue, 0.7);
+  display:none;
+  .tour{
+    width: 510px;
+    position: absolute;
+    z-index: 9999;
+    background-color: $bg-color-white;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    display:none;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+    &.active{
+      opacity:1;
+      display:flex;
+      animation-duration: 2s;
+      transition: opacity 2s;
+    }
+    &-01{
+      &.active{
+        animation-name: animateTour1;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage2.png);
+      }
+    }
+    &-02{
+      &.active{
+        animation-name: animateTour2;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage3.png);
+      }
+    }
+    &-03{
+      &.active{
+        animation-name: animateTour3;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage4.png);
+      }
+    }
+    &-04{
+      &.active{
+        animation-name: animateTour4;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage5.png);
+      }
+    }
+    &-05{
+      &.active{
+        animation-name: animateTour1;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage6.png);
+      }
+    }
+    &-06{
+      &.active{
+        animation-name: animateTour2;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage7.png);
+      }
+    }
+    &-07{
+      &.active{
+        animation-name: animateTour3;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage8.png);
+      }
+    }
+    &-08{
+      &.active{
+        animation-name: animateTour4;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage9.png);
+      }
+    }
+    &-09{
+      &.active{
+        animation-name: animateTour1;
+      }
+      .img-tour{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/tourPage10.png);
+      }
+    }
+  }
+
+  .skip-tour,
+  .next-tour{
+    z-index: 9999;
+    position: absolute;
+    cursor: pointer;
+    a{
+      padding: 0.5em 2em;
+      color: $text-color-white;
+      background: $bg-color-green-2;
+      display:inline-block;
+      &:hover{
+        text-decoration: none;
+      }
+      &.disabled{
+        pointer-events: none;
+      }
+    }
+  }
+  .skip-tour{
+    right: 2rem;
+    top: 15%;
+    text-transform: uppercase;
+  }
+  .next-tour{
+    right: 2rem;
+    bottom: 15%;
+  }
+  .img-tour{
+    flex:1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+  }
+  .tour-text{
+    color: $text-color-white;
+    background: $bg-color-green-2;
+    font-size: 0.875rem;
+    padding:3rem 0.5rem;
+    flex:1;
+    min-height: 250px;
+    p{
+      margin:0;
+    }
+  }
+  .close-tour{
+    position:absolute;
+    top:0;
+    right:0;
+    background-color: $bg-color-blue;
+    color:$text-color-white;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    font-weight:bold;
+    display:flex;
+    width:40px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+  }
+}
+
+@keyframes animateTour1{
+  0%   {
+    top:10%;
+    left:10%;
+    transform:translate(0%, 0%);
+    opacity:0;
+  }
+  20%   {
+    top:10%;
+    left:10%;
+    transform:translate(0%, 0%);
+    opacity:1;
+  }
+  60%  {
+    top:50%;
+    left:10%;
+    transform:translate(0%, -50%);
+  }
+  100% {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+}
+@keyframes animateTour2{
+  0%   {
+    top:90%;
+    left:10%;
+    transform:translate(0%, -100%);
+    opacity:0;
+  }
+  20%   {
+    top:90%;
+    left:10%;
+    transform:translate(0%, -100%);
+    opacity:1;
+  }
+  60%  {
+    top:50%;
+    left:10%;
+    transform:translate(0%, -50%);
+  }
+  100% {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+}
+@keyframes animateTour3{
+  0%   {
+    top:90%;
+    left:90%;
+    transform:translate(-100%, -100%);
+    opacity:0;
+  }
+  20%   {
+    top:90%;
+    left:90%;
+    transform:translate(-100%, -100%);
+    opacity:1;
+  }
+  60%  {
+    top:50%;
+    left:90%;
+    transform:translate(-100%, -50%);
+  }
+  100% {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+}
+@keyframes animateTour4{
+  0%   {
+    top:10%;
+    left:90%;
+    transform:translate(-100%, 0%);
+    opacity:0;
+  }
+  20%   {
+    top:10%;
+    left:90%;
+    transform:translate(-100%, 0%);
+    opacity:1;
+  }
+  60%  {
+    top:50%;
+    left:90%;
+    transform:translate(-100%, -50%);
+  }
+  100% {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+}
