@@ -42,7 +42,6 @@ settings:
           name: Tools
           items:
             - Source
-            - nonomasticon
   plugins:
     stylescombo:
       styles: ''
