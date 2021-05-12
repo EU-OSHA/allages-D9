@@ -101,17 +101,73 @@
 
   })
 
+  // Good practice - show the share-buttons at mouse enter
   $('.view-good-practices .views-view-grid .views-col').each(function(){
     $(this).on('mouseenter', function(){
       $(this).addClass('mouse-enter');
+
+      if($(this).find('.onomasticon-custom-detail').length==0){
+        $(this).find('.onomasticon').each(function(){
+          let title=$(this).attr('title');
+          $(this).prepend('<span class="onomasticon-custom-detail">'+ title +'</span>');
+          $(this).removeAttr('title');
+        });
+      }
     });
     $(this).on('mouseleave', function(){
       $(this).removeClass('mouse-enter');
+      $(this).find('.buttons-container').hide();
     });
     $(this).on('click', '.share-link', function(){
-      $(this).siblings('.buttons-container').show(0);
+      $(this).siblings('.buttons-container').toggle(0);
     })
   });
+
+  // Tour animation
+  $('#tour').on('click', function(){
+    $('.content-tour').stop().show();
+    $('.content-tour').find('.tour').eq(0).addClass('active');
+    $('.content-tour').find('.next-tour a').addClass('disabled');
+    setTimeout(function() {
+      $('.next-tour a').removeClass('disabled');
+    }, 2000);
+  });
+
+  $('.content-tour').each(function(){
+    let tourCounter=0;
+    let tourAmount=$(this).find('.tour').length;
+    $(this).on('click','.skip-tour a', function(e){
+      e.preventDefault()
+      $(this).closest('.content-tour').stop().hide();
+      $(this).closest('.content-tour').find('.tour').removeClass('active');
+      tourCounter=0
+    })
+    $(this).on('click','.close-tour', function(e){
+      e.preventDefault()
+      $(this).closest('.content-tour').stop().hide();
+      $(this).closest('.content-tour').find('.tour').removeClass('active');
+      tourCounter=0
+    })
+    $(this).on('click','.next-tour a', function(e){
+      e.preventDefault()
+      $(this).addClass('disabled');
+      if(tourCounter < tourAmount -1){
+        tourCounter++;
+        $(this).closest('.content-tour').find('.tour').removeClass('active');
+        $(this).closest('.content-tour').find('.tour').eq(tourCounter).addClass('active');
+        setTimeout(function() {
+          $('.next-tour a').removeClass('disabled');
+        }, 2000);
+      }
+      else{
+        $(this).closest('.content-tour').find('.tour').removeClass('active');
+        $(this).closest('.content-tour').stop().hide();
+        tourCounter=0;
+        $('.next-tour a').removeClass('disabled');
+      }
+    })
+  });
+
 
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
