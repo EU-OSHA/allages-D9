@@ -22,5 +22,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "<front>\r\n/good-practices/*\r\n/taxonomy/term/*\r\n"
+    pages: "<front>\r\n/good-practices/*\r\n/taxonomy/term/*\r\n/list-themes\r\n/list-themes/*\r\n\r\n"
     negate: true
