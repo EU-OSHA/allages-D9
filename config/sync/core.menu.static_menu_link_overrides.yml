@@ -6,10 +6,10 @@ definitions:
     parent: ''
     expanded: false
   standard__front_page:
-    weight: -50
+    enabled: false
     menu_name: main
     parent: ''
+    weight: -49
     expanded: false
-    enabled: true
 _core:
   default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ

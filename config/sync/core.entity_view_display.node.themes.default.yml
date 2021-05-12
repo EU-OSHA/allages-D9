@@ -12,10 +12,38 @@ dependencies:
     - field.field.node.themes.field_theme_image
     - node.type.themes
   module:
+    - ds
     - media
     - metatag
     - text
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - langcode
+        - body
+        - field_profile
+        - field_theme_image
+        - field_order
+        - field_sections
+        - field_more_info
+        - field_metatags
 id: node.themes.default
 targetEntityType: node
 bundle: themes
@@ -27,56 +55,64 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-    region: content
+    region: ds_content
   field_metatags:
     weight: 6
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
-    region: content
+    region: ds_content
   field_more_info:
     weight: 5
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
+    region: ds_content
   field_order:
     weight: 3
-    label: above
+    label: hidden
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
     type: number_integer
-    region: content
+    region: ds_content
   field_profile:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
+    region: ds_content
   field_sections:
     weight: 4
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
+    region: ds_content
   field_theme_image:
     type: media_thumbnail
     weight: 2
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
-    region: content
+    region: ds_content
+  langcode:
+    type: language
+    weight: 0
+    region: ds_content
+    label: hidden
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
 hidden:
-  langcode: true
   links: true
   search_api_excerpt: true
