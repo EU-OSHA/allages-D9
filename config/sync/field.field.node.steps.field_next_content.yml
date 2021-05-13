@@ -1,0 +1,28 @@
+uuid: 91023c46-1ec0-4376-b453-77b89a0fec65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_next_content
+    - node.type.steps
+id: node.steps.field_next_content
+field_name: field_next_content
+entity_type: node
+bundle: steps
+label: 'Next content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      steps: steps
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

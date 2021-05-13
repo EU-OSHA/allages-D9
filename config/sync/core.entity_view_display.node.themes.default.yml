@@ -82,10 +82,9 @@ content:
   field_profile:
     weight: 1
     label: hidden
-    settings:
-      link: true
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_id
     region: ds_content
   field_sections:
     weight: 4

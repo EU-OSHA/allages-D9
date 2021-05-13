@@ -6,9 +6,12 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.steps.field_image_step
     - field.field.node.steps.field_metatags
+    - field.field.node.steps.field_next_content
+    - field.field.node.steps.field_previous_content
     - field.field.node.steps.field_profile
     - field.field.node.steps.field_text_1
     - field.field.node.steps.field_text_2
+    - field.field.node.steps.field_theme_content
     - node.type.steps
   module:
     - user
@@ -20,9 +23,12 @@ content: {  }
 hidden:
   field_image_step: true
   field_metatags: true
+  field_next_content: true
+  field_previous_content: true
   field_profile: true
   field_text_1: true
   field_text_2: true
+  field_theme_content: true
   langcode: true
   links: true
   search_api_excerpt: true

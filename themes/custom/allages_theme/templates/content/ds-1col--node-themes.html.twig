@@ -72,13 +72,31 @@
     'clearfix',
   ]
 %}
+{% set my_profile = content.field_profile.0 %}
+
 <article{{ attributes.addClass(classes) }}>
   <div class="content-themes-detail">
     <div class="left-column">
       <div class="back-link">
-        <a href="/list-themes">{{ 'Back' | trans }}</a>
+        <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
       </div>
-      {{ content.field_profile }}
+      <div class="content-profile">
+        <div class="ico-profile employer"></div>
+        <div class="text-profifle employer">
+          {% if my_profile['#plain_text'] == '2' %}
+            {{ 'Employer' | trans }}
+          {% endif %}
+          {% if my_profile['#plain_text'] == '1' %}
+            {{ 'Worker' | trans }}
+          {% endif %}
+          {% if my_profile['#plain_text'] == '5' %}
+            {{ 'HR Manager' | trans }}
+          {% endif %}
+          {% if my_profile['#plain_text'] == '6' %}
+            {{ 'OSH Professional' | trans }}
+          {% endif %}
+        </div>
+      </div>
       <h2>{{ node.label }}</h2>
       <div class="image-themes">
         {{ content.field_theme_image }}
