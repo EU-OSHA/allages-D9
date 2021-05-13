@@ -81,21 +81,29 @@
         <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
       </div>
       <div class="content-profile">
-        <div class="ico-profile employer"></div>
-        <div class="text-profifle employer">
           {% if my_profile['#plain_text'] == '2' %}
-            {{ 'Employer' | trans }}
+            <div class="ico-profile employer"></div>
+            <div class="text-profifle employer">
+              {{ 'Employer' | trans }}
+            </div>
           {% endif %}
           {% if my_profile['#plain_text'] == '1' %}
+            <div class="ico-profile worker"></div>
+            <div class="text-profifle worker">
             {{ 'Worker' | trans }}
           {% endif %}
           {% if my_profile['#plain_text'] == '5' %}
+            <div class="ico-profile hr-manager"></div>
+            <div class="text-profifle hr-manager">
             {{ 'HR Manager' | trans }}
+          </div>
           {% endif %}
           {% if my_profile['#plain_text'] == '6' %}
+            <div class="ico-profile osh-professional"></div>
+            <div class="text-profifle osh-professional">
             {{ 'OSH Professional' | trans }}
+            </div>
           {% endif %}
-        </div>
       </div>
       <h2>{{ node.label }}</h2>
       <div class="image-themes">
