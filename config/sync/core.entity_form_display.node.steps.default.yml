@@ -5,9 +5,12 @@ dependencies:
   config:
     - field.field.node.steps.field_image_step
     - field.field.node.steps.field_metatags
+    - field.field.node.steps.field_next_content
+    - field.field.node.steps.field_previous_content
     - field.field.node.steps.field_profile
     - field.field.node.steps.field_text_1
     - field.field.node.steps.field_text_2
+    - field.field.node.steps.field_theme_content
     - node.type.steps
   module:
     - field_group
@@ -21,7 +24,7 @@ third_party_settings:
         - group_general
         - group_media
       parent_name: ''
-      weight: 0
+      weight: 3
       format_type: tabs
       region: content
       format_settings:
@@ -68,7 +71,7 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -83,11 +86,31 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_metatags:
-    weight: 14
+    weight: 11
     settings:
       sidebar: true
     third_party_settings: {  }
     type: metatag_firehose
+    region: content
+  field_next_content:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_previous_content:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_profile:
     weight: 24
@@ -115,6 +138,16 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_theme_content:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   langcode:
     type: language_select
     weight: 23
@@ -124,7 +157,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 8
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -132,21 +165,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 7
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 9
+    weight: 10
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
+    weight: 8
     region: content
     third_party_settings: {  }
   title:
@@ -158,13 +191,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 5
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60

@@ -1,0 +1,29 @@
+uuid: 390b7c67-05dd-4cbb-9d80-4426ab8d0414
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theme_content
+    - node.type.steps
+    - node.type.themes
+id: node.steps.field_theme_content
+field_name: field_theme_content
+entity_type: node
+bundle: steps
+label: 'Theme content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      themes: themes
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

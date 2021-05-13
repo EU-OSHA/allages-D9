@@ -5,9 +5,12 @@ dependencies:
   config:
     - field.field.node.steps.field_image_step
     - field.field.node.steps.field_metatags
+    - field.field.node.steps.field_next_content
+    - field.field.node.steps.field_previous_content
     - field.field.node.steps.field_profile
     - field.field.node.steps.field_text_1
     - field.field.node.steps.field_text_2
+    - field.field.node.steps.field_theme_content
     - node.type.steps
   module:
     - ds
@@ -39,6 +42,9 @@ third_party_settings:
         - field_image_step
         - field_text_2
         - field_metatags
+        - field_theme_content
+        - field_next_content
+        - field_previous_content
 id: node.steps.default
 targetEntityType: node
 bundle: steps
@@ -60,6 +66,20 @@ content:
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: ds_content
+  field_next_content:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: entity_reference_entity_id
+    region: ds_content
+  field_previous_content:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: entity_reference_entity_id
+    region: ds_content
   field_profile:
     type: entity_reference_entity_id
     weight: 0
@@ -80,6 +100,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: ds_content
+  field_theme_content:
+    weight: 5
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
     region: ds_content
 hidden:
   langcode: true
