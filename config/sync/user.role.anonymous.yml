@@ -16,6 +16,7 @@ permissions:
   - 'access quiz'
   - 'access site map'
   - 'display EU Cookie Compliance popup'
+  - 'display eu cookie compliance popup'
   - 'execute php code'
   - 'search content'
   - 'use php in custom breadcrumbs'
