@@ -145,4 +145,25 @@
       }
     }
   }
+
+
+  /******     Select Profile     ******/
+  .node--type-select-your-profile{
+    .half{
+      width:100%;
+      float:none;
+      .whiteBg{
+        min-height: 0px;
+        .img-employer,
+        .img-worker,
+        .img-manager,
+        .img-professional{
+          display:none;
+        }
+      }
+      & + .half{
+        border-top:1px solid $text-color-grey-2;
+      }
+    }
+  }
 }
