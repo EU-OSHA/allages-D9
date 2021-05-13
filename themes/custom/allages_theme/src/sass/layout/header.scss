@@ -67,6 +67,12 @@
           background-repeat: no-repeat;
           background-position: center;
         }
+        &.active{
+          border-color:$text-color-white;
+          .nav-link{
+            color:transparent;
+          }
+        }
       }
       &.active{
         border-color:$text-color-green;

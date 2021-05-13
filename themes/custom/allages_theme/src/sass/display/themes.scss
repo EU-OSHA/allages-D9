@@ -1,0 +1,225 @@
+.view-themes{
+  .view-custom-background{
+    padding: 2.375rem ;
+    padding-bottom:1.25rem;
+    background-image: url(/sites/allages/themes/custom/allages_theme/images/backgroundThemes.jpg);
+    background-color: $bg-color-blue;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .view-header,
+  .view-content{
+    max-width: 1180px;
+    margin:0 auto;
+    padding:0;
+  }
+
+  .view-header{
+    h1{
+      font-size: 2.5rem;
+      color: $text-color-white;
+      font-weight: bold;
+      line-height: 3.125rem;
+      margin-top: 1.875rem;
+      margin-bottom: 1.875rem;
+    }
+    p{
+      color:$text-color-white;
+      margin:1rem 0;
+      &:last-child{
+        color:$text-color-white;
+        font-style: italic;
+        font-size: 1rem;
+        padding-bottom: 0.625rem;
+      }
+    }
+  }
+  .item-list{
+    width:100%;
+    >ul{
+      margin:0;
+      padding:0;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      >li{
+        width: 250px;
+        height: 220px;
+        background: $bg-color-green;
+        color: $text-color-white;
+        margin-bottom: 2rem;
+        position:relative;
+        & + li{
+          margin-left: 2.25rem;
+        }
+      }
+    }
+    .views-field{
+      &-title{
+        font-family: 'Noto Sans',sans-serif;
+        font-size: 1.5rem;
+        margin-left: 0.625rem;
+        margin-top: 0.625rem;
+        .field-content{
+        }
+        &-1{
+          margin-left: 0.625rem;
+          margin-top: 0.625rem;
+          .field-content{
+            margin-top: 1rem;
+            font-size: 1.125rem;
+          }
+        }
+      }
+      &-nothing{
+        .field-content{
+          .morethemeinfono{
+            background: $bg-color-blue;
+            color: $text-color-white;
+            position: absolute;
+            z-index: 9999;
+            display: none;
+            font-size: 0.75rem ;
+            padding: 1.25rem;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            ul{
+              li{
+                background: $bg-color-blue url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-light-green.png) no-repeat scroll 0 0.5rem ;
+                font-weight: bold;
+                padding: 0 0 0 2.5rem;
+                margin:0 0 0.625rem;
+                font-size:0.75rem;
+                line-height: 1.25rem;
+              }
+            }
+          }
+        }
+      }
+      &-view-node{
+        .field-content{
+          a{
+            background-color: $bg-color-blue;
+            color: $text-color-white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            height: 40px;
+            position: absolute;
+            text-align: center;
+            z-index: 0;
+            cursor: pointer;
+            bottom:0;
+            left:0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width:calc(100% - 42px);
+            &:hover{
+              text-decoration:none;
+              background: $bg-color-white;
+              color: $text-color-blue;
+            }
+          }
+        }
+      }
+    }
+    .plus-content,
+    .minor-content{
+      position: absolute;
+      z-index: 0;
+      bottom:0;
+      right:0;
+      .plus,
+      .minor{
+        background-color: $bg-color-blue;
+        color: $text-color-white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+  }
+  .footer-view{
+    .preFooter{
+      background: #e8ebf0;
+      overflow: auto;
+      clear: both;
+    }
+    .containerWidth{
+      max-width: 1180px;
+      margin:0 auto;
+      display:flex;
+      flex-direction: row;
+      align-items:stretch;
+    }
+    .didYouKnow,
+    .glossary,
+    .aboutUs{
+      flex:0 0 33.33333%;
+      max-width: 33.33333%;
+      padding: 1.5rem 0;
+      cursor: pointer;
+      &:hover{
+        background: $bg-color-green;
+        color: $text-color-white;
+        p,
+        .title a{
+          color: $text-color-white;
+        }
+      }
+      .title{
+        font-weight: bold;
+        a{
+          color: $text-color-blue;
+          &:hover{
+            text-decoration:none;
+          }
+        }
+      }
+      p{
+        margin: 0;
+        padding: 0 0 0 6.5rem;
+        color: $text-color-blue;
+      }
+    }
+    .didYouKnow{
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-blue.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png),url(/sites/allages/themes/custom/allages_theme/images/separator.png);
+      background-position: 2rem center,93% 65%,right center;
+      background-repeat: no-repeat;
+      &:hover{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-white.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png);
+        background-position: 2rem center,93% 65%;
+        background-repeat: no-repeat;
+      }
+    }
+    .glossary{
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_glossary-blue.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png),url(/sites/allages/themes/custom/allages_theme/images/separator.png);
+      background-position: 2rem center,93% 65%,right center;
+      background-repeat: no-repeat;
+      &:hover{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_glossary-white.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png);
+        background-position: 2rem center,93% 65%;
+        background-repeat: no-repeat;
+      }
+    }
+    .aboutUs{
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_about-us-blue.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png);
+      background-position: 2rem center,93% 65%,right center;
+      background-repeat: no-repeat;
+      &:hover{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_about-us-white.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png);
+        background-position: 2rem center,93% 65%;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

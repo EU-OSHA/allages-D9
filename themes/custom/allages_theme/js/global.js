@@ -168,6 +168,31 @@
     })
   });
 
+  // Themes - Slice title to remove the number
+  $('.view-themes .views-field-title-1 .field-content').each(function(){
+    let title=$(this).text();
+    let newTitle = title.split(': ');
+    $(this).text(newTitle[1]);
+  });
+
+    // Themes - Show more info
+
+  $('.view-themes').on('click', '.plus', function(){
+    $(this).closest('li').find('.morethemeinfono').show();
+  })
+  $('.view-themes').on('click', '.minor', function(){
+    $(this).closest('li').find('.morethemeinfono').hide();
+  })
+
+  // Themes detail - Slice title
+  $('.content-themes-detail .left-column h2').each(function(){
+    let $title=$(this);
+    let titleText=$(this).text();
+    let newTitle = titleText.split(': ');
+    let newTitleText='<span class="title-custom-number">'+newTitle[0]+'</span><span class="title-custom-text">'+newTitle[1]+'</span>';
+    $title.html(newTitleText);
+  });
+
 
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;

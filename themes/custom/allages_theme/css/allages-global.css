@@ -132,13 +132,6 @@ table tr td {
   padding: 0.75rem 0;
   line-height: 2.5rem;
 }
-.node--type-select-your-profile .containerC #moreInfo .content-message,
-.page-view-frontpage .containerC #moreInfo .content-message {
-  background: #003399;
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  display: none;
-}
 .node--type-select-your-profile .containerC #moreInfo .messageInfo,
 .page-view-frontpage .containerC #moreInfo .messageInfo {
   border: 1px solid #FFF;
@@ -412,6 +405,12 @@ section.row {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/homeIco.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+.header .nav-item:first-of-type.active {
+  border-color: #FFF;
+}
+.header .nav-item:first-of-type.active .nav-link {
+  color: transparent;
 }
 .header .nav-item.active {
   border-color: #98b400;
@@ -984,6 +983,310 @@ section.row {
   max-width: 25%;
 }
 
+.view-themes .view-custom-background {
+  padding: 2.375rem;
+  padding-bottom: 1.25rem;
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/backgroundThemes.jpg);
+  background-color: #003399;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-themes .view-header,
+.view-themes .view-content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+}
+.view-themes .view-header h1 {
+  font-size: 2.5rem;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 3.125rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.view-themes .view-header p {
+  color: #FFF;
+  margin: 1rem 0;
+}
+.view-themes .view-header p:last-child {
+  color: #FFF;
+  font-style: italic;
+  font-size: 1rem;
+  padding-bottom: 0.625rem;
+}
+.view-themes .item-list {
+  width: 100%;
+}
+.view-themes .item-list > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.view-themes .item-list > ul > li {
+  width: 250px;
+  height: 220px;
+  background: #98b400;
+  color: #FFF;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.view-themes .item-list > ul > li + li {
+  margin-left: 2.25rem;
+}
+.view-themes .item-list .views-field-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+}
+.view-themes .item-list .views-field-title-1 {
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+}
+.view-themes .item-list .views-field-title-1 .field-content {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+}
+.view-themes .item-list .views-field-nothing .field-content .morethemeinfono {
+  background: #003399;
+  color: #FFF;
+  position: absolute;
+  z-index: 9999;
+  display: none;
+  font-size: 0.75rem;
+  padding: 1.25rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.view-themes .item-list .views-field-nothing .field-content .morethemeinfono ul li {
+  background: #003399 url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-light-green.png) no-repeat scroll 0 0.5rem;
+  font-weight: bold;
+  padding: 0 0 0 2.5rem;
+  margin: 0 0 0.625rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+.view-themes .item-list .views-field-view-node .field-content a {
+  background-color: #003399;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: calc(100% - 42px);
+}
+.view-themes .item-list .views-field-view-node .field-content a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #003399;
+}
+.view-themes .item-list .plus-content,
+.view-themes .item-list .minor-content {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: 0;
+}
+.view-themes .item-list .plus-content .plus,
+.view-themes .item-list .plus-content .minor,
+.view-themes .item-list .minor-content .plus,
+.view-themes .item-list .minor-content .minor {
+  background-color: #003399;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.view-themes .footer-view .preFooter {
+  background: #e8ebf0;
+  overflow: auto;
+  clear: both;
+}
+.view-themes .footer-view .containerWidth {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.view-themes .footer-view .didYouKnow,
+.view-themes .footer-view .glossary,
+.view-themes .footer-view .aboutUs {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  padding: 1.5rem 0;
+  cursor: pointer;
+}
+.view-themes .footer-view .didYouKnow:hover,
+.view-themes .footer-view .glossary:hover,
+.view-themes .footer-view .aboutUs:hover {
+  background: #98b400;
+  color: #FFF;
+}
+.view-themes .footer-view .didYouKnow:hover p,
+.view-themes .footer-view .didYouKnow:hover .title a,
+.view-themes .footer-view .glossary:hover p,
+.view-themes .footer-view .glossary:hover .title a,
+.view-themes .footer-view .aboutUs:hover p,
+.view-themes .footer-view .aboutUs:hover .title a {
+  color: #FFF;
+}
+.view-themes .footer-view .didYouKnow .title,
+.view-themes .footer-view .glossary .title,
+.view-themes .footer-view .aboutUs .title {
+  font-weight: bold;
+}
+.view-themes .footer-view .didYouKnow .title a,
+.view-themes .footer-view .glossary .title a,
+.view-themes .footer-view .aboutUs .title a {
+  color: #003399;
+}
+.view-themes .footer-view .didYouKnow .title a:hover,
+.view-themes .footer-view .glossary .title a:hover,
+.view-themes .footer-view .aboutUs .title a:hover {
+  text-decoration: none;
+}
+.view-themes .footer-view .didYouKnow p,
+.view-themes .footer-view .glossary p,
+.view-themes .footer-view .aboutUs p {
+  margin: 0;
+  padding: 0 0 0 6.5rem;
+  color: #003399;
+}
+.view-themes .footer-view .didYouKnow {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-blue.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png), url(/sites/allages/themes/custom/allages_theme/images/separator.png);
+  background-position: 2rem center, 93% 65%, right center;
+  background-repeat: no-repeat;
+}
+.view-themes .footer-view .didYouKnow:hover {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-white.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png);
+  background-position: 2rem center, 93% 65%;
+  background-repeat: no-repeat;
+}
+.view-themes .footer-view .glossary {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_glossary-blue.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png), url(/sites/allages/themes/custom/allages_theme/images/separator.png);
+  background-position: 2rem center, 93% 65%, right center;
+  background-repeat: no-repeat;
+}
+.view-themes .footer-view .glossary:hover {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_glossary-white.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png);
+  background-position: 2rem center, 93% 65%;
+  background-repeat: no-repeat;
+}
+.view-themes .footer-view .aboutUs {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_about-us-blue.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png);
+  background-position: 2rem center, 93% 65%, right center;
+  background-repeat: no-repeat;
+}
+.view-themes .footer-view .aboutUs:hover {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_about-us-white.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-white.png);
+  background-position: 2rem center, 93% 65%;
+  background-repeat: no-repeat;
+}
+
+.content-themes-detail {
+  display: flex;
+  flex-direction: row;
+}
+.content-themes-detail .left-column,
+.content-themes-detail .right-column {
+  width: 100%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.content-themes-detail .left-column {
+  background-color: #98b400;
+}
+.content-themes-detail .left-column h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-themes-detail .left-column h2 .title-custom-number, .content-themes-detail .left-column h2 .title-custom-text {
+  color: #FFF;
+  font-size: 1.875rem;
+  line-height: 2rem;
+}
+.content-themes-detail .left-column h2 .title-custom-number {
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+}
+.content-themes-detail .left-column .field--type-entity-reference {
+  margin: 0;
+}
+.content-themes-detail .left-column .image-themes .field--type-entity-reference img {
+  margin: 0 auto;
+}
+.content-themes-detail .left-column .field--name-field-profile,
+.content-themes-detail .left-column .back-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5rem;
+  margin-top: 1.75rem;
+}
+.content-themes-detail .left-column .field--name-field-profile {
+  background: transparent url(/sites/allages/themes/custom/allages_theme/images/worker2.png) no-repeat scroll left center/3rem auto;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  height: 5rem;
+}
+.content-themes-detail .left-column .field--name-field-profile a {
+  background: #E74C3C;
+  display: inline-block;
+  float: left;
+  margin-left: 3.5rem;
+  margin-top: 1.3rem;
+  padding: 0.5rem;
+  color: #FFF;
+}
+.content-themes-detail .left-column .field--name-field-profile a:hover {
+  text-decoration: none;
+}
+.content-themes-detail .left-column .back-link a {
+  background: transparent url(/sites/allages/themes/custom/allages_theme/images/backButton.png) no-repeat scroll 0 center;
+  color: #003399;
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 0.875rem 0 0.875rem 3.25rem;
+  text-decoration: none;
+}
+.content-themes-detail .left-column .back-link a:hover {
+  text-decoration: none;
+}
+.content-themes-detail .right-column {
+  overflow: auto;
+  padding-right: 2rem;
+  padding-left: 2.5rem;
+}
+.content-themes-detail .right-column .body-theme {
+  color: #003399;
+  font-size: 1.2rem;
+  margin: 2.125rem 0 0.125rem;
+  padding: 0;
+  font-weight: bold;
+}
+
 .content-tour {
   position: fixed;
   top: 0;
@@ -1090,13 +1393,13 @@ section.row {
   pointer-events: none;
 }
 .content-tour .skip-tour {
-  right: 2rem;
-  top: 15%;
+  right: 30%;
+  top: 30%;
   text-transform: uppercase;
 }
 .content-tour .next-tour {
-  right: 2rem;
-  bottom: 15%;
+  right: 30%;
+  bottom: 30%;
 }
 .content-tour .img-tour {
   flex: 1;
@@ -1915,6 +2218,24 @@ section.row {
   /******     Good Practices     ******/
   .view-good-practices .views-view-grid .views-col {
     max-width: 100%;
+  }
+
+  /******     Select Profile     ******/
+  .node--type-select-your-profile .half {
+    width: 100%;
+    float: none;
+  }
+  .node--type-select-your-profile .half .whiteBg {
+    min-height: 0px;
+  }
+  .node--type-select-your-profile .half .whiteBg .img-employer,
+.node--type-select-your-profile .half .whiteBg .img-worker,
+.node--type-select-your-profile .half .whiteBg .img-manager,
+.node--type-select-your-profile .half .whiteBg .img-professional {
+    display: none;
+  }
+  .node--type-select-your-profile .half + .half {
+    border-top: 1px solid #888888;
   }
 }
 @media only screen and (min-width: 1224px) {

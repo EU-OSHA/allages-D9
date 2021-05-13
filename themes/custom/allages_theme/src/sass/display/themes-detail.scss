@@ -1,0 +1,94 @@
+.content-themes-detail{
+  display:flex;
+  flex-direction: row;
+  .left-column,
+  .right-column{
+    width:100%;
+    flex:0 0 50%;
+    max-width:50%;
+  }
+  .left-column{
+    background-color: $text-color-green;
+    h2{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      .title-custom{
+        &-number,
+        &-text{
+          color:$text-color-white;
+          font-size:1.875rem;
+          line-height: 2rem;
+        }
+        &-number{
+          font-weight: bold;
+          padding:0.5rem 0rem;
+        }
+      }
+    }
+
+    .field--type-entity-reference{
+      margin:0;
+    }
+    .image-themes{
+      .field--type-entity-reference{
+        img{
+          margin:0 auto;
+        }
+      }
+    }
+    .field--name-field-profile,
+    .back-link{
+      display: inline-block;
+      vertical-align: middle;
+      margin-left:5rem;
+      margin-top:1.75rem;
+    }
+
+    .field--name-field-profile{
+      background: transparent url(/sites/allages/themes/custom/allages_theme/images/worker2.png) no-repeat scroll left center / 3rem auto;
+      color:$text-color-white;
+      font-weight: bold;
+      text-align: center;
+      height: 5rem;
+      a{
+        background: $bg-color-red;
+        display: inline-block;
+        float: left;
+        margin-left: 3.5rem;
+        margin-top: 1.3rem;
+        padding: 0.5rem;
+        color:$text-color-white;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    .back-link{
+      a{
+        background:  transparent url(/sites/allages/themes/custom/allages_theme/images/backButton.png) no-repeat scroll 0 center;
+        color:$text-color-blue;
+        font-size: 1.125rem;
+        font-weight: bold;
+        padding: 0.875rem 0 0.875rem 3.25rem;
+        text-decoration: none;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .right-column{
+    overflow: auto;
+    padding-right: 2rem;
+    padding-left: 2.5rem;
+    .body-theme{
+      color:$text-color-blue;
+      font-size: 1.2rem;
+      margin: 2.125rem 0 0.125rem;
+      padding: 0;
+      font-weight: bold;
+    }
+
+  }
+}
