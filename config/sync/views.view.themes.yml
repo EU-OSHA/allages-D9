@@ -340,7 +340,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"morethemeinfono p{{ field_order }}\" >\r\n{{ field_more_info }} \r\n<div class=\"menos\">-</div>\r\n<div class=\"mas\">+</div>\r\n</div>"
+            text: "<div class=\"morethemeinfono p{{ field_order }}\" >\r\n{{ field_more_info }} \r\n<div class=\"minor-content\"><div class=\"minor\">-</div></div>\r\n<div class=\"plus-content\"><div class=\"plus\">+</div></div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
