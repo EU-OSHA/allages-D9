@@ -73,13 +73,16 @@
   ]
 %}
 {% set my_profile = content.field_profile.0 %}
+{% set theme_content = content.field_theme_content.0 %}
+{% set next_content = content.field_next_content.0 %}
+{% set previous_content = content.field_previous_content.0 %}
 
 <article{{ attributes.addClass(classes) }}>
   <div class="content-themes-detail">
     {% if my_profile['#plain_text'] == '2' %}
       <div class="left-column profile-employer">
         <div class="back-link">
-          <a href="/list-themes">{{ 'Back' | trans }}</a>
+          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile employer"></div>
@@ -87,13 +90,13 @@
             {{ 'Employer' | trans }}
           </div>
         </div>
-        <h2>{{ node.label }}</h2>
+        <h2>{{ theme_content['#plain_text'] }}</h2>
       </div>
     {% endif %}
     {% if my_profile['#plain_text'] == '1' %}
       <div class="left-column profile-worker">
         <div class="back-link">
-          <a href="/list-themes">{{ 'Back' | trans }}</a>
+          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile worker"></div>
@@ -101,14 +104,13 @@
             {{ 'Worker' | trans }}
           </div>
         </div>
-
-        <h2>{{ node.label }}</h2>
+        <h2>{{ theme_content['#plain_text'] }}</h2>
       </div>
     {% endif %}
     {% if my_profile['#plain_text'] == '5' %}
       <div class="left-column hr-manager">
         <div class="back-link">
-          <a href="/list-themes">{{ 'Back' | trans }}</a>
+          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile hr-manager"></div>
@@ -116,14 +118,13 @@
             {{ 'HR Manager' | trans }}
           </div>
         </div>
-
-        <h2>{{ node.label }}</h2>
+        <h2>{{ theme_content['#plain_text'] }}</h2>
       </div>
     {% endif %}
     {% if my_profile['#plain_text'] == '6' %}
       <div class="left-column osh-professional">
         <div class="back-link">
-          <a href="/list-themes">{{ 'Back' | trans }}</a>
+          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile osh-professional"></div>
@@ -131,11 +132,23 @@
             {{ 'OSH Professional' | trans }}
           </div>
         </div>
-        <h2>{{ node.label }}</h2>
+        <h2>{{ theme_content['#plain_text'] }}</h2>
       </div>
     {% endif %}
 
     <div class="right-column">
+      <div class="content-previous-next">
+        {% if previous_content['#plain_text'] != null %}
+        <div class="previous-link">
+          <a href="/node/{{ previous_content['#plain_text'] }}">{{ 'Previous' | trans }}</a>
+        </div>
+        {% endif %}
+        {% if next_content['#plain_text'] != null %}
+        <div class="next-link">
+          <a href="/node/{{ next_content['#plain_text'] }}">{{ 'Next' | trans }}</a>
+        </div>
+        {% endif %}
+      </div>
       <div class="body-theme">
         {{ content.field_text_1 }}
       </div>
@@ -156,6 +169,18 @@
             </div>
           <div class="discover">{{ 'Discover' | trans }}</div>
         </div>
+      </div>
+      <div class="content-previous-next">
+        {% if previous_content['#plain_text'] != null %}
+          <div class="previous-link">
+            <a href="/node/{{ previous_content['#plain_text'] }}">{{ 'Previous' | trans }}</a>
+          </div>
+        {% endif %}
+        {% if next_content['#plain_text'] != null %}
+          <div class="next-link">
+            <a href="/node/{{ next_content['#plain_text'] }}">{{ 'Next' | trans }}</a>
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
