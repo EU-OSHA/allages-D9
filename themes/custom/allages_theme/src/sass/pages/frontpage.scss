@@ -87,53 +87,6 @@
       padding:0;
     }
   }
-  #listText{
-    margin: 1.75rem 0;
-    >ul{
-      columns: 4;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      >li{
-        text-align: left;
-        font-size: 1.125rem;
-        line-height: 2.25rem;
-        >a{
-          text-decoration: none;
-          color: $text-color-black;
-        }
-        ul{
-
-          background-color:$bg-color-white;
-          list-style:none;
-          position: absolute;
-          padding:0;
-          >li{
-            float:left;
-            >a{
-              font-size:1rem;
-              padding:0.5rem;
-              color: $text-color-white;
-              background-color: $bg-color-blue;
-              &:hover{
-                background-color: $bg-color-green-2;
-                text-decoration: none;
-              }
-            }
-            &:not(:last-child){
-              a{
-                background: url(/sites/allages/themes/custom/allages_theme/images/languageSeparator.png) right center no-repeat $bg-color-blue;
-                &:hover{
-                  background-color: $bg-color-green-2;
-                  text-decoration: none;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   #containerPopLanguages{
     background: rgba($bg-color-black,0.7) none repeat scroll 0 0;
     padding: 0.75rem;
@@ -173,3 +126,65 @@
     opacity: 0.85;
   }
 }
+
+.page-view-frontpage,
+.language-profile-selector{
+
+  #listText {
+    margin: 1.75rem 0;
+
+    > ul {
+      columns: 4;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        text-align: left;
+        font-size: 1.125rem;
+        line-height: 2.25rem;
+
+        > a {
+          text-decoration: none;
+          color: $text-color-black;
+        }
+
+        ul {
+
+          background-color: $bg-color-white;
+          list-style: none;
+          position: absolute;
+          padding: 0;
+
+          > li {
+            float: left;
+
+            > a {
+              font-size: 1rem;
+              padding: 0.5rem;
+              color: $text-color-white;
+              background-color: $bg-color-blue;
+
+              &:hover {
+                background-color: $bg-color-green-2;
+                text-decoration: none;
+              }
+            }
+
+            &:not(:last-child) {
+              a {
+                background: url(/sites/allages/themes/custom/allages_theme/images/languageSeparator.png) right center no-repeat $bg-color-blue;
+
+                &:hover {
+                  background-color: $bg-color-green-2;
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

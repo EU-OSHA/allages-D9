@@ -7,6 +7,42 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .text-profifle{
+    display:inline-block;
+  }
+  .vocabulary-profile{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    h2{
+      font-size: 1rem;
+      margin:0;
+      padding:0.5rem;
+      a{
+        pointer-events: none;
+        color:$text-color-white;
+        font-size: 1rem;
+        font-weight: 700;
+        display:block;
+        padding:0.5rem;
+        .field--type-string{}
+      }
+    }
+    .field--type-image{
+      img{
+        height: 64px;
+        width: auto;
+        margin:0;
+      }
+    }
+    &#taxonomy-term-1{
+      h2{
+        a{
+          background-color:$bg-color-red;
+        }
+      }
+    }
+  }
   .view-header,
   .view-content{
     max-width: 1180px;

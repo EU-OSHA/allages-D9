@@ -1,7 +1,7 @@
 /* D9 - Variables NCW */
 /*Font Family*/
 @font-face {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 /* Font colours */
 /* background colours */
@@ -24,7 +24,7 @@ a:focus {
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -50,6 +50,10 @@ button:focus {
 
 ul {
   padding-left: 0.875rem;
+}
+
+.field--type-entity-reference {
+  margin: 0;
 }
 
 .center,
@@ -983,6 +987,114 @@ section.row {
   max-width: 25%;
 }
 
+.language-profile-selector {
+  padding-top: 3rem;
+}
+.language-profile-selector .containerC,
+.language-profile-selector #profileDiv {
+  display: none;
+  border-top: 1px solid #003399;
+}
+.language-profile-selector .containerC #listText {
+  max-width: 970px;
+  margin: 1.75rem auto;
+  text-align: center;
+}
+.language-profile-selector .containerC #listText > ul > li {
+  position: relative;
+  cursor: pointer;
+}
+.language-profile-selector .containerC #listText > ul > li ul {
+  top: 0;
+  display: none;
+}
+
+#profileDiv {
+  background: #ececec;
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+}
+#profileDiv .profile-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 15%;
+  text-align: center;
+}
+#profileDiv .profile-item {
+  width: 100%;
+  max-width: 25%;
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.25rem;
+}
+#profileDiv .profile-item a {
+  text-decoration: none;
+  color: #585858;
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#profileDiv .profile-item a:hover {
+  text-decoration: none;
+  color: #acc700;
+}
+#profileDiv .profile-item a.active {
+  font-weight: bold;
+}
+#profileDiv .profile-item:nth-child(1) a:before {
+  content: url(/sites/allages/themes/custom/allages_theme/images/employer.png);
+  display: block;
+}
+#profileDiv .profile-item:nth-child(2) a:before {
+  content: url(/sites/allages/themes/custom/allages_theme/images/worker.png);
+  display: block;
+}
+#profileDiv .profile-item:nth-child(3) a:before {
+  content: url(/sites/allages/themes/custom/allages_theme/images/manager.png);
+}
+#profileDiv .profile-item:nth-child(4) a:before {
+  content: url(/sites/allages/themes/custom/allages_theme/images/profesional.png);
+  display: block;
+}
+
+#containerMaxLengthTools {
+  text-align: right;
+  padding-right: 3rem;
+}
+#containerMaxLengthTools #containerTools .tabs {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0;
+}
+#containerMaxLengthTools #containerTools .tabs li {
+  border-left: 1px solid #003399;
+  border-right: 1px solid #003399;
+  border-top: 1px solid #003399;
+  color: #003399;
+  cursor: pointer;
+  display: inline;
+  font-size: 0.75rem;
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.625rem 0.375rem 0.625rem;
+  font-weight: bold;
+}
+#containerMaxLengthTools #containerTools .tabs li:after {
+  content: url(/sites/allages/themes/custom/allages_theme/images/icoDown.png);
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+#containerMaxLengthTools #containerTools .tabs li.selected {
+  background-color: #ececec;
+}
+
 .view-themes .view-custom-background {
   padding: 2.375rem;
   padding-bottom: 1.25rem;
@@ -990,6 +1102,35 @@ section.row {
   background-color: #003399;
   background-repeat: no-repeat;
   background-position: center;
+}
+.view-themes .text-profifle {
+  display: inline-block;
+}
+.view-themes .vocabulary-profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.view-themes .vocabulary-profile h2 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+.view-themes .vocabulary-profile h2 a {
+  pointer-events: none;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 700;
+  display: block;
+  padding: 0.5rem;
+}
+.view-themes .vocabulary-profile .field--type-image img {
+  height: 64px;
+  width: auto;
+  margin: 0;
+}
+.view-themes .vocabulary-profile#taxonomy-term-1 h2 a {
+  background-color: #E74C3C;
 }
 .view-themes .view-header,
 .view-themes .view-content {
@@ -1237,30 +1378,39 @@ section.row {
 .content-themes-detail .left-column .image-themes .field--type-entity-reference img {
   margin: 0 auto;
 }
-.content-themes-detail .left-column .field--name-field-profile,
+.content-themes-detail .left-column .content-profile,
 .content-themes-detail .left-column .back-link {
-  display: inline-block;
+  display: inline-flex;
   vertical-align: middle;
   margin-left: 5rem;
   margin-top: 1.75rem;
 }
-.content-themes-detail .left-column .field--name-field-profile {
-  background: transparent url(/sites/allages/themes/custom/allages_theme/images/worker2.png) no-repeat scroll left center/3rem auto;
+.content-themes-detail .left-column .content-profile {
+  flex-direction: row;
+  align-items: center;
+}
+.content-themes-detail .left-column .ico-profile {
   color: #FFF;
   font-weight: bold;
   text-align: center;
-  height: 5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
 }
-.content-themes-detail .left-column .field--name-field-profile a {
+.content-themes-detail .left-column .ico-profile.worker {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/worker2.png);
+}
+.content-themes-detail .left-column .text-profifle {
   background: #E74C3C;
   display: inline-block;
-  float: left;
-  margin-left: 3.5rem;
-  margin-top: 1.3rem;
   padding: 0.5rem;
   color: #FFF;
+  height: 2.5rem;
+  font-weight: 700;
 }
-.content-themes-detail .left-column .field--name-field-profile a:hover {
+.content-themes-detail .left-column .text-profifle:hover {
   text-decoration: none;
 }
 .content-themes-detail .left-column .back-link a {
@@ -1715,50 +1865,6 @@ section.row {
 .page-view-frontpage #langselect .containerC {
   padding: 0;
 }
-.page-view-frontpage #listText {
-  margin: 1.75rem 0;
-}
-.page-view-frontpage #listText > ul {
-  columns: 4;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.page-view-frontpage #listText > ul > li {
-  text-align: left;
-  font-size: 1.125rem;
-  line-height: 2.25rem;
-}
-.page-view-frontpage #listText > ul > li > a {
-  text-decoration: none;
-  color: #000;
-}
-.page-view-frontpage #listText > ul > li ul {
-  background-color: #fff;
-  list-style: none;
-  position: absolute;
-  padding: 0;
-}
-.page-view-frontpage #listText > ul > li ul > li {
-  float: left;
-}
-.page-view-frontpage #listText > ul > li ul > li > a {
-  font-size: 1rem;
-  padding: 0.5rem;
-  color: #FFF;
-  background-color: #003399;
-}
-.page-view-frontpage #listText > ul > li ul > li > a:hover {
-  background-color: #acc700;
-  text-decoration: none;
-}
-.page-view-frontpage #listText > ul > li ul > li:not(:last-child) a {
-  background: url(/sites/allages/themes/custom/allages_theme/images/languageSeparator.png) right center no-repeat #003399;
-}
-.page-view-frontpage #listText > ul > li ul > li:not(:last-child) a:hover {
-  background-color: #acc700;
-  text-decoration: none;
-}
 .page-view-frontpage #containerPopLanguages {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
   padding: 0.75rem;
@@ -1796,6 +1902,61 @@ section.row {
   height: 14px;
   position: absolute;
   opacity: 0.85;
+}
+
+.page-view-frontpage #listText,
+.language-profile-selector #listText {
+  margin: 1.75rem 0;
+}
+.page-view-frontpage #listText > ul,
+.language-profile-selector #listText > ul {
+  columns: 4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-view-frontpage #listText > ul > li,
+.language-profile-selector #listText > ul > li {
+  text-align: left;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+}
+.page-view-frontpage #listText > ul > li > a,
+.language-profile-selector #listText > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+.page-view-frontpage #listText > ul > li ul,
+.language-profile-selector #listText > ul > li ul {
+  background-color: #fff;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+}
+.page-view-frontpage #listText > ul > li ul > li,
+.language-profile-selector #listText > ul > li ul > li {
+  float: left;
+}
+.page-view-frontpage #listText > ul > li ul > li > a,
+.language-profile-selector #listText > ul > li ul > li > a {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: #FFF;
+  background-color: #003399;
+}
+.page-view-frontpage #listText > ul > li ul > li > a:hover,
+.language-profile-selector #listText > ul > li ul > li > a:hover {
+  background-color: #acc700;
+  text-decoration: none;
+}
+.page-view-frontpage #listText > ul > li ul > li:not(:last-child) a,
+.language-profile-selector #listText > ul > li ul > li:not(:last-child) a {
+  background: url(/sites/allages/themes/custom/allages_theme/images/languageSeparator.png) right center no-repeat #003399;
+}
+.page-view-frontpage #listText > ul > li ul > li:not(:last-child) a:hover,
+.language-profile-selector #listText > ul > li ul > li:not(:last-child) a:hover {
+  background-color: #acc700;
+  text-decoration: none;
 }
 
 .page-view-glossary .selectCountry,

@@ -65,21 +65,12 @@
   // Add index letter to the glossary
   $('.view-glossary').each(function(){
     if($(this).find('.views-summary .is-active').length>0){
-      // let glossaryIndex= $(this).find('.views-summary .is-active').clone();
-      // alert(glossaryIndex.html());
-      // if($('.item-list').siblings('.glossary-index-custom').length==0) {
-      //   $('.item-list').before(glossaryIndex);
-      //   $('.item-list').siblings('.is-active').addClass('glossary-index-custom');
-      // }
-
-
       let glossaryActiveIndex= $(this).find('.views-summary .is-active').html();
       let glossaryIndex='<div class="glossary-index-custom"><span>'+glossaryActiveIndex+'</span></div>';
       if($('.item-list').siblings('.glossary-index-custom').length==0) {
         $('.item-list').before(glossaryIndex);
       }
     }
-
   });
 
   // Did-you-know Source modal
@@ -192,6 +183,26 @@
     let newTitleText='<span class="title-custom-number">'+newTitle[0]+'</span><span class="title-custom-text">'+newTitle[1]+'</span>';
     $title.html(newTitleText);
   });
+
+
+  //Select profile nad/or language
+  $('.language-profile-selector').on('click','.profileTab', function(){
+    $(this).closest('.language-profile-selector').find('.containerC').slideUp(0);
+    $(this).closest('.language-profile-selector').find('#profileDiv').slideToggle();
+
+  });
+  $('.language-profile-selector').on('click','.country', function(){
+    $(this).closest('.language-profile-selector').find('#profileDiv').slideUp(0);
+    $(this).closest('.language-profile-selector').find('.containerC').slideToggle();
+  });
+
+  // Language-profile-selector - Show languages per country
+  $('.language-profile-selector').on('click','#listText>ul>li', function(){
+    $(this).siblings('li').find('ul').slideUp(0);
+    if($(this).find('ul>li').length>1){
+      $(this).find('ul').slideDown();
+    }
+  })
 
 
   //URL parameters when clicked on Front page Map
