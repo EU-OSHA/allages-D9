@@ -22,6 +22,7 @@ permissions:
   - 'administer filters'
   - 'administer nodes'
   - 'display EU Cookie Compliance popup'
+  - 'display eu cookie compliance popup'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'

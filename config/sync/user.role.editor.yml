@@ -54,6 +54,7 @@ permissions:
   - 'delete own webform content'
   - 'delete revisions'
   - 'display drupal links'
+  - 'display eu cookie compliance popup'
   - 'edit any did_you_know content'
   - 'edit any good_practices content'
   - 'edit any matching content'
