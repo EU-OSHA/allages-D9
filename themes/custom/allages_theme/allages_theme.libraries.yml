@@ -39,4 +39,4 @@ global-styling:
     component:
       css/allages-global.css: {}
     theme:
-      https://fonts.googleapis.com/css?family=Open+Sans: { type: external, minified: true  }
+      https://fonts.googleapis.com/css?family=Noto+Sans: { type: external, minified: true  }

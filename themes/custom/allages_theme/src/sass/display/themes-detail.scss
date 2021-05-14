@@ -37,32 +37,41 @@
         }
       }
     }
-    .field--name-field-profile,
+    .content-profile,
     .back-link{
-      display: inline-block;
+      display: inline-flex;
       vertical-align: middle;
       margin-left:5rem;
       margin-top:1.75rem;
     }
-
-    .field--name-field-profile{
-      background: transparent url(/sites/allages/themes/custom/allages_theme/images/worker2.png) no-repeat scroll left center / 3rem auto;
+    .content-profile{
+      flex-direction: row;
+      align-items: center;
+    }
+    .ico-profile{
       color:$text-color-white;
       font-weight: bold;
       text-align: center;
-      height: 5rem;
-      a{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width:64px;
+      height:64px;
+      &.worker{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/worker2.png) ;
+      }
+    }
+    .text-profifle{
         background: $bg-color-red;
         display: inline-block;
-        float: left;
-        margin-left: 3.5rem;
-        margin-top: 1.3rem;
         padding: 0.5rem;
         color:$text-color-white;
+        height:2.5rem;
+        font-weight: 700;
         &:hover{
           text-decoration: none;
         }
-      }
+
     }
     .back-link{
       a{
