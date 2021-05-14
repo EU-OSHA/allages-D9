@@ -18,6 +18,7 @@ permissions:
   - 'access overlay'
   - 'access pruebas search_api_page'
   - 'access site map'
+  - 'access sitemap'
   - 'access toolbar'
   - 'administer filters'
   - 'administer nodes'

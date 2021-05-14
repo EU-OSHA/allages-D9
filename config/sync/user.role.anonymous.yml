@@ -15,6 +15,7 @@ permissions:
   - 'access pruebas search_api_page'
   - 'access quiz'
   - 'access site map'
+  - 'access sitemap'
   - 'display EU Cookie Compliance popup'
   - 'display eu cookie compliance popup'
   - 'execute php code'

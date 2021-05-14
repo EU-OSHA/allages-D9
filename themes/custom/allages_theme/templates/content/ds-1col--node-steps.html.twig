@@ -90,7 +90,7 @@
             {{ 'Employer' | trans }}
           </div>
         </div>
-        <h2>{{ theme_content['#plain_text'] }}</h2>
+        <h1>{{ theme_content['#plain_text'] }}</h1>
       </div>
     {% endif %}
     {% if my_profile['#plain_text'] == '1' %}
@@ -104,7 +104,7 @@
             {{ 'Worker' | trans }}
           </div>
         </div>
-        <h2>{{ theme_content['#plain_text'] }}</h2>
+        <h1>{{ theme_content['#plain_text'] }}</h1>
       </div>
     {% endif %}
     {% if my_profile['#plain_text'] == '5' %}
@@ -118,7 +118,7 @@
             {{ 'HR Manager' | trans }}
           </div>
         </div>
-        <h2>{{ theme_content['#plain_text'] }}</h2>
+        <h1>{{ theme_content['#plain_text'] }}</h1>
       </div>
     {% endif %}
     {% if my_profile['#plain_text'] == '6' %}
@@ -132,7 +132,7 @@
             {{ 'OSH Professional' | trans }}
           </div>
         </div>
-        <h2>{{ theme_content['#plain_text'] }}</h2>
+        <h1>{{ theme_content['#plain_text'] }}</h1>
       </div>
     {% endif %}
 
@@ -149,6 +149,7 @@
         </div>
         {% endif %}
       </div>
+      <h2>{{ content.title }}</h2>
       <div class="body-theme">
         {{ content.field_text_1 }}
       </div>
