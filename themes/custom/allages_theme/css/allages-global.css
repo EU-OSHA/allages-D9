@@ -1010,16 +1010,19 @@ section.row {
 }
 
 #profileDiv {
-  display: flex;
-  flex-direction: row;
   background: #ececec;
   clear: both;
   width: 100%;
-  padding: 2rem 15%;
-  text-align: center;
   overflow: hidden;
 }
-#profileDiv div {
+#profileDiv .profile-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 15%;
+  text-align: center;
+}
+#profileDiv .profile-item {
   width: 100%;
   max-width: 25%;
   flex: 0 0 25%;
@@ -1029,7 +1032,7 @@ section.row {
   justify-content: center;
   padding: 1rem 0.25rem;
 }
-#profileDiv div a {
+#profileDiv .profile-item a {
   text-decoration: none;
   color: #585858;
   font-size: 1.125rem;
@@ -1038,25 +1041,25 @@ section.row {
   align-items: center;
   justify-content: center;
 }
-#profileDiv div a:hover {
+#profileDiv .profile-item a:hover {
   text-decoration: none;
   color: #acc700;
 }
-#profileDiv div a.active {
+#profileDiv .profile-item a.active {
   font-weight: bold;
 }
-#profileDiv div:nth-child(1) a:before {
+#profileDiv .profile-item:nth-child(1) a:before {
   content: url(/sites/allages/themes/custom/allages_theme/images/employer.png);
   display: block;
 }
-#profileDiv div:nth-child(2) a:before {
+#profileDiv .profile-item:nth-child(2) a:before {
   content: url(/sites/allages/themes/custom/allages_theme/images/worker.png);
   display: block;
 }
-#profileDiv div:nth-child(3) a:before {
+#profileDiv .profile-item:nth-child(3) a:before {
   content: url(/sites/allages/themes/custom/allages_theme/images/manager.png);
 }
-#profileDiv div:nth-child(4) a:before {
+#profileDiv .profile-item:nth-child(4) a:before {
   content: url(/sites/allages/themes/custom/allages_theme/images/profesional.png);
   display: block;
 }
@@ -1080,9 +1083,13 @@ section.row {
   display: inline;
   font-size: 0.75rem;
   margin: 0 0.25rem;
-  padding: 0.25rem 1.125rem 0.375rem 0.625rem;
+  padding: 0.25rem 0.625rem 0.375rem 0.625rem;
   font-weight: bold;
-  background: url(/sites/allages/themes/custom/allages_theme/images/icoDown.png) no-repeat scroll 96% center;
+}
+#containerMaxLengthTools #containerTools .tabs li:after {
+  content: url(/sites/allages/themes/custom/allages_theme/images/icoDown.png);
+  display: inline-block;
+  margin-left: 0.5rem;
 }
 #containerMaxLengthTools #containerTools .tabs li.selected {
   background-color: #ececec;
