@@ -13,22 +13,18 @@
     }
   };
 
-
   // Resize Font size
   $('#_biggify').on('click', function() {
     let fontSize = $('html').css('font-size');
     let newFontSize = parseInt(fontSize)+1;
-
     $('html').css('font-size', newFontSize+'px')
   })
 
   $('#_smallify').on('click', function() {
     let fontSize = $('html').css('font-size');
     let newFontSize = parseInt(fontSize)-1;
-
     $('html').css('font-size', newFontSize+'px')
   })
-
 
   // ACCORDION
   $('.page-view-glossary .views-field-name').each(function(){
@@ -51,7 +47,6 @@
     setTimeout(function(){
       $('body').find('.overlay-custom-background').remove();
     }, 400);
-
   })
 
   // Glossary active class by default
@@ -60,7 +55,6 @@
       $(this).find('.views-summary').eq(0).find('a').addClass('is-active');
     }
   });
-
 
   // Add index letter to the glossary
   $('.view-glossary').each(function(){
@@ -89,14 +83,12 @@
     setTimeout(function(){
       $('body').find('.overlay-custom-background').remove();
     }, 400);
-
   })
 
   // Good practice - show the share-buttons at mouse enter
   $('.view-good-practices .views-view-grid .views-col').each(function(){
     $(this).on('mouseenter', function(){
       $(this).addClass('mouse-enter');
-
       if($(this).find('.onomasticon-custom-detail').length==0){
         $(this).find('.onomasticon').each(function(){
           let title=$(this).attr('title');
@@ -167,7 +159,6 @@
   });
 
     // Themes - Show more info
-
   $('.view-themes').on('click', '.plus', function(){
     $(this).closest('li').find('.morethemeinfono').show();
   })
@@ -176,7 +167,7 @@
   })
 
   // Themes detail - Slice title
-  $('.content-themes-detail .left-column h2').each(function(){
+  $('.content-themes-detail .left-column h1').each(function(){
     let $title=$(this);
     let titleText=$(this).text();
     let newTitle = titleText.split(': ');
@@ -184,16 +175,20 @@
     $title.html(newTitleText);
   });
 
+  // Themes - class for define the user profile icon
+  $('.view-themes').each(function(){
+    let profileID= $(this).find('.vocabulary-profile ').attr('id');
+    $(this).find('.ico-profile').addClass(profileID);
+  });
 
-  //Select profile nad/or language
+  //Select profile and/or language
   $('.language-profile-selector').on('click','.profileTab', function(){
-    $(this).closest('.language-profile-selector').find('.containerC').slideUp(0);
-    $(this).closest('.language-profile-selector').find('#profileDiv').slideToggle();
-
+    $(this).closest('.language-profile-selector').find('.containerC').stop().slideUp(0);
+    $(this).closest('.language-profile-selector').find('#profileDiv').stop().slideToggle();
   });
   $('.language-profile-selector').on('click','.country', function(){
-    $(this).closest('.language-profile-selector').find('#profileDiv').slideUp(0);
-    $(this).closest('.language-profile-selector').find('.containerC').slideToggle();
+    $(this).closest('.language-profile-selector').find('#profileDiv').stop().slideUp(0);
+    $(this).closest('.language-profile-selector').find('.containerC').stop().slideToggle();
   });
 
   // Language-profile-selector - Show languages per country
@@ -203,7 +198,6 @@
       $(this).find('ul').slideDown();
     }
   })
-
 
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
