@@ -1,0 +1,56 @@
+
+.onomasticon{
+  text-decoration: none;
+  border-bottom: 1px dotted $bg-color-dark-green;
+  color: $bg-color-dark-green;
+  cursor: help;
+  border-radius: 0;
+  span{
+    word-break: break-all;
+  }
+  &:hover{
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: 1px dotted $bg-color-dark-green;
+    color: $bg-color-dark-green;
+    border-radius: 0;
+  }
+  &-term-description{
+    max-width: 20rem;
+    padding: 0.75rem;
+    color: $text-color-white;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 0;
+    background-color: $bg-color-black;
+    overflow: visible;
+    margin-bottom:0.5rem;
+    p{
+      margin:1rem auto;
+    }
+    &:after{
+      content:'';
+      position:absolute;
+      top:100%;
+      left:50%;
+      z-index:2;
+      transform:translateX(-50%);
+      display: inline-block;
+      width:0;
+      height:0;
+      border-top:0.5rem solid $text-color-black;
+      border-right:0.5rem solid transparent;
+      border-left:0.5rem solid transparent;
+
+    }
+  }
+  &-extra-element{
+    &.onomasticon-orientation-above{
+      &:hover,
+      &:focus{
+        border-radius: 0;
+      }
+    }
+  }
+}

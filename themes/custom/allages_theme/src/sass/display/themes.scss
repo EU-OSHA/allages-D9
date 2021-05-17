@@ -1,14 +1,48 @@
 .view-themes{
   .view-custom-background{
-    padding: 2.375rem ;
-    padding-bottom:1.25rem;
+    padding: 2rem 2.375rem 1.125rem;
     background-image: url(/sites/allages/themes/custom/allages_theme/images/backgroundThemes.jpg);
     background-color: $bg-color-blue;
     background-repeat: no-repeat;
     background-position: center;
   }
-  .text-profifle{
+  .ico-profile{
+    width:45px;
+    height:70px;
+    &:after{
+      content:'';
+      display:block;
+      width:100%;
+      height:100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &.taxonomy-term-1{
+      &:after{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/worker2.png);
+      }
+    }
+    &.taxonomy-term-2{
+      &:after{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/employer2.png);
+      }
+    }
+    &.taxonomy-term-5{
+      &:after{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/manager2.png);
+      }
+    }
+    &.taxonomy-term-6{
+      &:after{
+        background-image:url(/sites/allages/themes/custom/allages_theme/images/profesional2.png);
+      }
+    }
+  }
+  .text-profifle,
+  .ico-profile{
     display:inline-block;
+    vertical-align: middle;
   }
   .vocabulary-profile{
     display: flex;
@@ -39,6 +73,27 @@
       h2{
         a{
           background-color:$bg-color-red;
+        }
+      }
+    }
+    &#taxonomy-term-2{
+      h2{
+        a{
+          background-color:$bg-color-purple;
+        }
+      }
+    }
+    &#taxonomy-term-5{
+      h2{
+        a{
+          background-color:$bg-color-turquoise;
+        }
+      }
+    }
+    &#taxonomy-term-6{
+      h2{
+        a{
+          background-color:$bg-color-orange;
         }
       }
     }
