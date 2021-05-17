@@ -1,0 +1,35 @@
+.message-custom-visitor{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index:100;
+  background-color: $bg-color-white;
+  display:flex;
+  flex-direction: row;
+  border: 1px solid $bg-color-white;
+  padding: 1rem 2rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  text-align: left;
+  color: $text-color-dark-grey-2;
+  font-size: 0.875rem;
+  line-height: 20px;
+  max-width: 50%;
+  box-shadow:0rem 0rem 1.5rem $bg-color-blue;
+  .message{
+    &-ico{
+      display:block;
+      width:30px;
+      height:30px;
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/info-ico.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right:1rem;
+    }
+    &-text{
+      max-width: calc(100% - 3rem);
+    }
+  }
+}

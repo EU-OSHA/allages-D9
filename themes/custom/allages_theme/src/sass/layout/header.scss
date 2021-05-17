@@ -104,7 +104,6 @@
       border:none;
       margin-left: -3px;
     }
-
     &-item{
       &,
       &.active{
@@ -165,11 +164,9 @@
   }
   .font-size-print{
     margin-left:1.25rem;
-
     #_biggify,
     #_smallify{
       cursor:pointer;
-
     }
     .a{
       &_small{

@@ -199,6 +199,16 @@
     }
   })
 
+  // Show message for visitors
+  $(window).on('load', function() {
+    if (!$('body').hasClass('user-logged-in')) {
+      let messageInfo = $('.eu-cookie-compliance-banner').find('.messageInfo').html();
+      let visitorMessage = '<div class="message-custom-visitor"><span class="message-ico"></span><span class="message-text">' + messageInfo + '</span></div>';
+      if ($('body').find('.message-custom-visitor').length == 0)
+        $('body').append(visitorMessage);
+    }
+  });
+
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
   var getUrlParameter = function getUrlParameter(sParam) {

@@ -29,6 +29,8 @@
 @import 'display/node-good-practices';
 @import 'display/search-term';
 @import 'display/language-profile-selector';
+@import 'display/message-visitor';
+@import 'display/onomasticon';
 @import 'display/themes';
 @import 'display/themes-detail';
 @import 'display/tour';
@@ -39,11 +41,14 @@
 @import 'pages/accessibility';
 @import 'pages/frontpage';
 @import 'pages/glossary';
+@import 'pages/login';
 @import 'pages/privacy-polici';
 @import 'pages/select-your-profile';
 @import 'pages/sitemap';
 @import 'pages/themes';
+@import 'pages/themes-detail';
 @import 'pages/useful-links';
+@import 'pages/user';
 
 @import 'responsive/common/common-responsive';
 @import 'responsive/desktop/desktop-responsive';
