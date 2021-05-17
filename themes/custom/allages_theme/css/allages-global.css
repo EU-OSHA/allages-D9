@@ -1391,8 +1391,13 @@ section.row {
   flex: 0 0 50%;
   max-width: 50%;
 }
+.content-themes-detail .left-column,
+.content-themes-detail .right-column {
+  height: 695px;
+}
 .content-themes-detail .left-column {
   background-color: #98b400;
+  position: relative;
 }
 .content-themes-detail .left-column h1 {
   display: flex;
@@ -1410,6 +1415,11 @@ section.row {
 }
 .content-themes-detail .left-column .field--type-entity-reference {
   margin: 0;
+}
+.content-themes-detail .left-column .image-themes {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
 }
 .content-themes-detail .left-column .image-themes .field--type-entity-reference img {
   margin: 0 auto;
@@ -1435,16 +1445,36 @@ section.row {
   width: 64px;
   height: 64px;
 }
+.content-themes-detail .left-column .ico-profile.employer {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/employer2.png);
+}
 .content-themes-detail .left-column .ico-profile.worker {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/worker2.png);
 }
+.content-themes-detail .left-column .ico-profile.hr-manager {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/manager2.png);
+}
+.content-themes-detail .left-column .ico-profile.osh-professional {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/profesional2.png);
+}
 .content-themes-detail .left-column .text-profifle {
-  background: #E74C3C;
   display: inline-block;
   padding: 0.5rem;
   color: #FFF;
   height: 2.5rem;
   font-weight: 700;
+}
+.content-themes-detail .left-column .text-profifle.employer {
+  background-color: #8E44AD;
+}
+.content-themes-detail .left-column .text-profifle.worker {
+  background: #E74C3C;
+}
+.content-themes-detail .left-column .text-profifle.hr-manager {
+  background-color: #19BC9C;
+}
+.content-themes-detail .left-column .text-profifle.osh-professional {
+  background-color: #F39C13;
 }
 .content-themes-detail .left-column .text-profifle:hover {
   text-decoration: none;
@@ -1465,7 +1495,7 @@ section.row {
   padding-right: 2rem;
   padding-left: 2.5rem;
 }
-.content-themes-detail .right-column .body-theme {
+.content-themes-detail .right-column .body-theme .field--type-text-with-summary {
   color: #003399;
   font-size: 1.2rem;
   margin: 2.125rem 0 0.125rem;
@@ -1518,6 +1548,10 @@ section.row {
   background-color: #f7f7f7;
   border-right: 1px solid #f7f7f7;
   margin-top: 0.5rem;
+}
+.content-themes-detail .right-column .more-links .goodPractices:hover,
+.content-themes-detail .right-column .more-links .usefulLinks:hover {
+  background-color: #e9eff3;
 }
 .content-themes-detail .right-column .more-links .goodPractices .goodP,
 .content-themes-detail .right-column .more-links .goodPractices .usefulL,

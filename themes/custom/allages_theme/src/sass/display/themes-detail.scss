@@ -7,8 +7,13 @@
     flex:0 0 50%;
     max-width:50%;
   }
+  .left-column,
+  .right-column{
+    height:695px;
+  }
   .left-column{
     background-color: $text-color-green;
+    position:relative;
     h1{
       display:flex;
       flex-direction: column;
@@ -31,6 +36,9 @@
       margin:0;
     }
     .image-themes{
+      position:absolute;
+      bottom:0%;
+      width:100%;
       .field--type-entity-reference{
         img{
           margin:0 auto;
@@ -57,21 +65,40 @@
       background-size: contain;
       width:64px;
       height:64px;
+      &.employer{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/employer2.png) ;
+      }
       &.worker{
         background-image: url(/sites/allages/themes/custom/allages_theme/images/worker2.png) ;
       }
+      &.hr-manager{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/manager2.png) ;
+      }
+      &.osh-professional{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/profesional2.png) ;
+      }
     }
     .text-profifle{
+      display: inline-block;
+      padding: 0.5rem;
+      color:$text-color-white;
+      height:2.5rem;
+      font-weight: 700;
+      &.employer{
+        background-color:$bg-color-purple;
+      }
+      &.worker{
         background: $bg-color-red;
-        display: inline-block;
-        padding: 0.5rem;
-        color:$text-color-white;
-        height:2.5rem;
-        font-weight: 700;
-        &:hover{
-          text-decoration: none;
-        }
-
+      }
+      &.hr-manager{
+        background-color:$bg-color-turquoise;
+      }
+      &.osh-professional{
+        background-color:$bg-color-orange;
+      }
+      &:hover{
+        text-decoration: none;
+      }
     }
     .back-link{
       a{
@@ -92,11 +119,13 @@
     padding-right: 2rem;
     padding-left: 2.5rem;
     .body-theme{
-      color:$text-color-blue;
-      font-size: 1.2rem;
-      margin: 2.125rem 0 0.125rem;
-      padding: 0;
-      font-weight: bold;
+      .field--type-text-with-summary{
+        color:$text-color-blue;
+        font-size: 1.2rem;
+        margin: 2.125rem 0 0.125rem;
+        padding: 0;
+        font-weight: bold;
+      }
     }
     .more-info-theme{
       .field--name-field-sections{
@@ -146,6 +175,9 @@
         background-color:$bg-color-grey-warm;
         border-right: 1px solid $text-color-grey-warm;
         margin-top: 0.5rem;
+        &:hover{
+          background-color:$bg-color-grey-blue-3;
+        }
         .goodP,
         .usefulL{
           margin: 5rem 1.125rem 0;
