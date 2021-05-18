@@ -1,20 +1,20 @@
-uuid: f7cb006c-46f6-4dc9-bb84-61c94e348cf7
+uuid: d508b66d-af64-4405-85ca-00603ad8ef16
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - custom_migrations
-id: allages_node_lessons_i18n
+id: allages_node_quiz_i18n
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags: null
-migration_group: allages_migrate_node
-label: 'Node: Lessons i18n'
+migration_group: allages_migrate_quiz
+label: 'Node: Quiz i18n'
 source:
   plugin: d7_node_entity_translation
-  node_type: steps
+  node_type: quiz
 process:
   nid: entity_id
   type: type
@@ -73,22 +73,12 @@ process:
   revision_timestamp: timestamp
   content_translation_source: source
   content_translation_outdated: translate
-  field_text_1:
-    -
-      plugin: get
-      source: field_text_1
-  field_text_1/0/format:
+  field_text_1: field_text_1
+  field_text_2/value: field_text_2
+  field_text_2/format:
     -
       plugin: default_value
-      default_value: basic_html
-  field_text_2:
-    -
-      plugin: get
-      source: field_text_2
-  field_text_2/0/format:
-    -
-      plugin: default_value
-      default_value: basic_html
+      default_value: restricted_html
   field_profile:
     -
       plugin: sub_process
@@ -100,7 +90,7 @@ process:
   field_image_step:
     plugin: file_id_lookup
     source: field_image_step
-    migration: allages_node_lessons_field_image_media
+    migration: allages_node_quiz_field_image_media
     no_stub: true
 destination:
   plugin: 'entity:node'
@@ -109,4 +99,4 @@ destination:
 migration_dependencies:
   required:
     - d7_user
-    - allages_node_lessons
+    - allages_node_quiz
