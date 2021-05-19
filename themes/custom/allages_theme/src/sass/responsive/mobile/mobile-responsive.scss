@@ -1,2 +1,39 @@
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+  #page-wrapper{
+    padding:0.5rem 0 0.375rem;
+  }
+  .node--type-select-your-profile{
+    .BarStartTour{
+      height:6rem;
+      text-align: center;
+
+      .imgStart{
+        display:none;
+      }
+      .startText{
+        float:none;
+        margin-left:0;
+        margin-top:0;
+        padding-top:1rem;
+      }
+      .butonTour{
+        padding-top: 0.75rem;
+        #tour{
+          margin:0;
+        }
+      }
+    }
+  }
+
+  .node--type-select-your-profile,
+  .page-view-frontpage{
+    .containerC{
+      h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.375rem 0;
+      }
+    }
+  }
+}

@@ -135,8 +135,6 @@
     }
   }
 
-
-
   /******     Good Practices     ******/
   .view-good-practices{
     .views-view-grid{
@@ -146,6 +144,21 @@
     }
   }
 
+  /******     Good Practices Detail    ******/
+
+  .node--type-good-practices{
+    .container {
+      flex-direction: column;
+      .left-column,
+      .right-column{
+        max-width:100%;
+        flex: 0 0 100%;
+      }
+      .left-column{
+        min-height: 0;
+      }
+    }
+  }
 
   /******     Select Profile     ******/
   .node--type-select-your-profile{
@@ -164,6 +177,185 @@
       & + .half{
         border-top:1px solid $text-color-grey-2;
       }
+    }
+  }
+
+  /******     Breadcrumb     ******/
+  .breadcrumb{
+    display:none;
+  }
+
+  /******     Select Profile     ******/
+  .view-themes{
+    .view-custom-background{
+      padding:0;
+      background-position: top left;
+      background-size: cover;
+    }
+    .view-header {
+      h1{
+        text-align:center;
+        font-size:2.25rem;
+      }
+    }
+    .item-list{
+      > ul{
+        flex-direction: column;
+        >li{
+          margin: 0 auto ;
+          width: 95% ;
+          & + li{
+            margin: 0.625rem auto ;
+          }
+        }
+      }
+    }
+    .footer-view{
+      .containerWidth{
+        flex-direction:column;
+      }
+      .didYouKnow,
+      .glossary,
+      .aboutUs{
+        max-width:100%;
+        flex: 0 0 100%;
+        padding: 3rem 0 ;
+        margin:0 1.25rem;
+        p{
+          padding: 0 0 0 8rem ;
+          font-size: 1.125rem ;
+          line-height: 1.25rem ;
+        }
+      }
+      .didYouKnow{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-blueMobile.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blueMobile.png);
+        background-position: 1.3rem center,90% 50%;
+        border-bottom: 1px solid $text-color-grey-blue-6;
+      }
+      .glossary {
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_glossary-blueMobile.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blueMobile.png);
+        background-position: 0 center,90% 50%;
+        border-bottom: 1px solid $text-color-grey-blue-6;
+      }
+      .aboutUs {
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_about-us-blueMobile.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blueMobile.png);
+        background-position: 0.6rem center,90% 50% ;
+      }
+    }
+  }
+
+  /******     Themes detail     ******/
+
+  .content-themes-detail{
+    display:block;
+    .left-column,
+    .right-column {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .left-column{
+      height: 645px ;
+      .back-link,
+      .content-profile{
+        margin:1rem;
+      }
+      .back-link{
+        float:left;
+      }
+      .content-profile{
+        float:right;
+      }
+      h1{
+        width:100%;
+        .title-custom-number,
+        .title-custom-text{
+          text-align: center;
+        }
+      }
+    }
+    .right-column{
+      height:auto;
+    }
+  }
+
+  /******     Headings     ******/
+  .block-page-title-block{
+    h1{
+      &.title{
+        font-size: 2.375rem;
+        &:first-letter{
+          text-transform: uppercase;
+        }
+      }
+    }
+    .content{
+      width:100%;
+    }
+  }
+
+  /******     Good practices     ******/
+
+  .view-good-practices {
+    .row{
+      margin:0;
+    }
+    >.row{
+      padding:0 0.5rem;
+    }
+    .views-view-grid{
+      .views{
+        &-col{
+          margin:0 0 1.25rem;
+        }
+      }
+    }
+  }
+
+  /******     Did you know    ******/
+
+  .view-did-you-know{
+    .views-view-grid{
+      .views-col{
+        max-width: 100%;
+      }
+      .views-field-field-text{
+        .field-content{
+          height:199px;
+        }
+      }
+    }
+  }
+
+  /******     Glossary   ******/
+
+  .view-glossary{
+    .row{
+      margin:0;
+    }
+    >.view-content{
+      padding:0 1rem;
+    }
+  }
+
+    /******     Footer     ******/
+
+  .site-footer{
+    &__bottom{
+      padding: 0.325rem 0;
+      .nav{
+        justify-content: center;
+        &-item{
+          &:first-of-type{
+            flex:0 0 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .region-footer-end{
+      background-position: bottom center;
+      padding-bottom:2rem;
+      margin-bottom:0.5rem;
     }
   }
 }
