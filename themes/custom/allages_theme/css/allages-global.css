@@ -2558,6 +2558,12 @@ section.row {
   margin: 0;
   padding: 0;
 }
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li h2,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li h2,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li h2,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button ul li h2 {
+  margin: 0;
+}
 .page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
 .page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li a,
 .page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
@@ -2602,6 +2608,7 @@ section.row {
 }
 
 @media only screen and (max-width: 1023px) {
+  /******     Header    ******/
   .header .navbar-toggler {
     width: 48px;
     height: 46px;
@@ -2718,9 +2725,29 @@ section.row {
     content: "-";
   }
 
+  /******     Banner header     ******/
+  .node--type-select-your-profile #moreInfoDiv,
+.page-view-frontpage #moreInfoDiv {
+    width: 100%;
+    top: 0;
+  }
+
   /******     Good Practices     ******/
   .view-good-practices .views-view-grid .views-col {
     max-width: 100%;
+  }
+
+  /******     Good Practices Detail    ******/
+  .node--type-good-practices .container {
+    flex-direction: column;
+  }
+  .node--type-good-practices .container .left-column,
+.node--type-good-practices .container .right-column {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .node--type-good-practices .container .left-column {
+    min-height: 0;
   }
 
   /******     Select Profile     ******/
@@ -2740,10 +2767,211 @@ section.row {
   .node--type-select-your-profile .half + .half {
     border-top: 1px solid #888888;
   }
+
+  /******     Breadcrumb     ******/
+  .breadcrumb {
+    display: none;
+  }
+
+  /******     Select Profile     ******/
+  .view-themes .view-custom-background {
+    padding: 0;
+    background-position: top left;
+    background-size: cover;
+  }
+  .view-themes .view-header h1 {
+    text-align: center;
+    font-size: 2.25rem;
+  }
+  .view-themes .item-list > ul {
+    flex-direction: column;
+  }
+  .view-themes .item-list > ul > li {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .view-themes .item-list > ul > li + li {
+    margin: 0.625rem auto;
+  }
+  .view-themes .footer-view .containerWidth {
+    flex-direction: column;
+  }
+  .view-themes .footer-view .didYouKnow,
+.view-themes .footer-view .glossary,
+.view-themes .footer-view .aboutUs {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 3rem 0;
+    margin: 0 1.25rem;
+  }
+  .view-themes .footer-view .didYouKnow p,
+.view-themes .footer-view .glossary p,
+.view-themes .footer-view .aboutUs p {
+    padding: 0 0 0 8rem;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+  .view-themes .footer-view .didYouKnow {
+    background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-blueMobile.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blueMobile.png);
+    background-position: 1.3rem center, 90% 50%;
+    border-bottom: 1px solid #b0bfd8;
+  }
+  .view-themes .footer-view .glossary {
+    background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_glossary-blueMobile.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blueMobile.png);
+    background-position: 0 center, 90% 50%;
+    border-bottom: 1px solid #b0bfd8;
+  }
+  .view-themes .footer-view .aboutUs {
+    background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_about-us-blueMobile.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blueMobile.png);
+    background-position: 0.6rem center, 90% 50%;
+  }
+
+  /******     Themes detail     ******/
+  .content-themes-detail {
+    display: block;
+  }
+  .content-themes-detail .left-column,
+.content-themes-detail .right-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .content-themes-detail .left-column {
+    height: 645px;
+  }
+  .content-themes-detail .left-column .back-link,
+.content-themes-detail .left-column .content-profile {
+    margin: 1rem;
+  }
+  .content-themes-detail .left-column .back-link {
+    float: left;
+  }
+  .content-themes-detail .left-column .content-profile {
+    float: right;
+  }
+  .content-themes-detail .left-column h1 {
+    width: 100%;
+  }
+  .content-themes-detail .left-column h1 .title-custom-number,
+.content-themes-detail .left-column h1 .title-custom-text {
+    text-align: center;
+  }
+  .content-themes-detail .right-column {
+    height: auto;
+  }
+
+  /******     Headings     ******/
+  .block-page-title-block {
+    padding: 0;
+  }
+  .block-page-title-block h1.title {
+    font-size: 2.375rem;
+  }
+  .block-page-title-block h1.title:first-letter {
+    text-transform: uppercase;
+  }
+  .block-page-title-block .content {
+    width: 100%;
+  }
+
+  /******     Good practices     ******/
+  .view-good-practices .row {
+    margin: 0;
+  }
+  .view-good-practices > .row {
+    padding: 0 0.5rem;
+  }
+  .view-good-practices .views-view-grid .views-col {
+    margin: 0 0 1.25rem;
+  }
+
+  /******     Did you know    ******/
+  .view-did-you-know .views-view-grid .views-col {
+    max-width: 100%;
+  }
+  .view-did-you-know .views-view-grid .views-field-field-text .field-content {
+    height: 199px;
+  }
+
+  /******     Glossary   ******/
+  .view-glossary .row {
+    margin: 0;
+  }
+  .view-glossary > .view-content {
+    padding: 0 1rem;
+  }
+
+  .page-view-glossary .containerSmall,
+.page-view-search-term-content .containerSmall {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .page-view-glossary .textGlossary,
+.page-view-search-term-content .textGlossary {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-bottom: 1px solid #003399;
+    text-align: center;
+  }
+  .page-view-glossary .searchGlossary,
+.page-view-glossary .filterGlossary,
+.page-view-search-term-content .searchGlossary,
+.page-view-search-term-content .filterGlossary {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /******     Footer     ******/
+  .site-footer__bottom {
+    padding: 0.325rem 0;
+  }
+  .site-footer__bottom .nav {
+    justify-content: center;
+  }
+  .site-footer__bottom .nav-item:first-of-type {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  .site-footer .region-footer-end {
+    background-position: bottom center;
+    padding-bottom: 2rem;
+    margin-bottom: 0.5rem;
+  }
 }
 @media only screen and (min-width: 1224px) {
   .header .nav-item:hover .dropdown-menu {
     display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #page-wrapper {
+    padding: 0.5rem 0 0.375rem;
+  }
+
+  .node--type-select-your-profile .BarStartTour {
+    height: 6rem;
+    text-align: center;
+  }
+  .node--type-select-your-profile .BarStartTour .imgStart {
+    display: none;
+  }
+  .node--type-select-your-profile .BarStartTour .startText {
+    float: none;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+  .node--type-select-your-profile .BarStartTour .butonTour {
+    padding-top: 0.75rem;
+  }
+  .node--type-select-your-profile .BarStartTour .butonTour #tour {
+    margin: 0;
+  }
+
+  .node--type-select-your-profile .containerC h1,
+.page-view-frontpage .containerC h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.375rem 0;
   }
 }
 

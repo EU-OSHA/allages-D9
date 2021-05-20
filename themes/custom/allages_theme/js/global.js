@@ -209,6 +209,13 @@
     }
   });
 
+  // Langselect - counter of the number of languages per country
+
+  $('#langselect ul li ul').each(function(){
+    let languageCount= $(this).find('li').length;
+    $(this).addClass('languagecount-custom-' + languageCount);
+  });
+
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
   var getUrlParameter = function getUrlParameter(sParam) {
