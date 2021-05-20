@@ -7,6 +7,15 @@
     font-weight: bold;
     padding: 0.875rem 0 0.875rem 3.25rem;
     text-decoration: none;
+    .node--type-good-practices &{
+      color:$bg-color-green-2;
+      background:  transparent url(/sites/allages/themes/custom/allages_theme/images/backButtonGreen.png) no-repeat scroll 0 center;
+      position:absolute;
+      z-index:20;
+      top:50%;
+      left:4.375rem;
+      transform:translate(0, -50%);
+    }
     &:hover{
       text-decoration: none;
     }

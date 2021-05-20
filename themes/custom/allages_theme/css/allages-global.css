@@ -123,6 +123,15 @@ ul {
   padding: 0.875rem 0 0.875rem 3.25rem;
   text-decoration: none;
 }
+.node--type-good-practices .back-link a {
+  color: #acc700;
+  background: transparent url(/sites/allages/themes/custom/allages_theme/images/backButtonGreen.png) no-repeat scroll 0 center;
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  left: 4.375rem;
+  transform: translate(0, -50%);
+}
 .back-link a:hover {
   text-decoration: none;
 }
@@ -298,6 +307,7 @@ table tr td {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/goodPractices.png);
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .page-view-useful-links .block-page-title-block,
@@ -2354,11 +2364,21 @@ section.row {
   background-color: #f7f5fc;
 }
 
+.page-user-login .user-login-form {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  padding: 1.25rem 0;
+}
+.page-user-login .user-login-form .form-group {
+  margin-bottom: 1rem;
+}
 .page-user-login .user-login-form .form-required {
   font-weight: 700;
   line-height: 1.5rem;
   font-size: 1rem;
-  margin: 0;
+  margin-bottom: 0.5rem;
 }
 .page-user-login .user-login-form .form-required:after {
   color: #c00;
@@ -2368,12 +2388,11 @@ section.row {
   font-weight: normal;
   padding: 0.375rem;
   border: 1px solid #003399;
-  width: auto;
+  width: 100%;
   border-radius: 0;
 }
 .page-user-login .user-login-form .form-actions {
-  text-align: right;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .page-user-login .user-login-form .form-submit {
   text-decoration: none;
@@ -2383,6 +2402,8 @@ section.row {
   padding: 0.5rem 1.75rem;
   border: none;
   border-radius: 0;
+  display: block;
+  width: 100%;
 }
 
 .page-node-1049 .block-system.block-system-main-block {
