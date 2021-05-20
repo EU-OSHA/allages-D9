@@ -2558,6 +2558,12 @@ section.row {
   margin: 0;
   padding: 0;
 }
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li h2,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li h2,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li h2,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button ul li h2 {
+  margin: 0;
+}
 .page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
 .page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li a,
 .page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li a,
@@ -2602,6 +2608,7 @@ section.row {
 }
 
 @media only screen and (max-width: 1023px) {
+  /******     Header    ******/
   .header .navbar-toggler {
     width: 48px;
     height: 46px;
@@ -2716,6 +2723,13 @@ section.row {
   }
   .header .dropdown.show .dropdown-toggle:after {
     content: "-";
+  }
+
+  /******     Banner header     ******/
+  .node--type-select-your-profile #moreInfoDiv,
+.page-view-frontpage #moreInfoDiv {
+    width: 100%;
+    top: 0;
   }
 
   /******     Good Practices     ******/
@@ -2846,6 +2860,9 @@ section.row {
   }
 
   /******     Headings     ******/
+  .block-page-title-block {
+    padding: 0;
+  }
   .block-page-title-block h1.title {
     font-size: 2.375rem;
   }
@@ -2881,6 +2898,26 @@ section.row {
   }
   .view-glossary > .view-content {
     padding: 0 1rem;
+  }
+
+  .page-view-glossary .containerSmall,
+.page-view-search-term-content .containerSmall {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .page-view-glossary .textGlossary,
+.page-view-search-term-content .textGlossary {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-bottom: 1px solid #003399;
+    text-align: center;
+  }
+  .page-view-glossary .searchGlossary,
+.page-view-glossary .filterGlossary,
+.page-view-search-term-content .searchGlossary,
+.page-view-search-term-content .filterGlossary {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 
   /******     Footer     ******/

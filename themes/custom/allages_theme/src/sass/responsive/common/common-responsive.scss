@@ -1,4 +1,6 @@
 @media only screen and (max-width: 1023px){
+
+  /******     Header    ******/
   .header{
     .navbar-toggler{
       width: 48px;
@@ -135,7 +137,19 @@
     }
   }
 
+
+  /******     Banner header     ******/
+
+  .node--type-select-your-profile,
+  .page-view-frontpage {
+    #moreInfoDiv{
+      width:100%;
+      top:0;
+    }
+  }
+
   /******     Good Practices     ******/
+
   .view-good-practices{
     .views-view-grid{
       .views-col{
@@ -280,6 +294,7 @@
 
   /******     Headings     ******/
   .block-page-title-block{
+    padding:0;
     h1{
       &.title{
         font-size: 2.375rem;
@@ -336,8 +351,26 @@
       padding:0 1rem;
     }
   }
+  .page-view-glossary ,
+  .page-view-search-term-content {
+    .containerSmall{
+      width:100%;
+      flex-wrap: wrap;
+    }
+    .textGlossary{
+      flex: 0 0 100%;
+      max-width: 100%;
+      border-bottom: 1px solid $text-color-blue;
+      text-align: center;
+    }
+    .searchGlossary,
+    .filterGlossary{
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
 
-    /******     Footer     ******/
+  /******     Footer     ******/
 
   .site-footer{
     &__bottom{
