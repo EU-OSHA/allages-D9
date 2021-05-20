@@ -1,0 +1,10 @@
+uuid: ca40356c-0522-4f0f-8287-24d645d02b0b
+langcode: en
+status: true
+dependencies: {  }
+id: allages_migrate_quiz
+label: allages_migrate_quiz
+description: ''
+source_type: null
+module: null
+shared_configuration: null
