@@ -1,91 +1,27 @@
-
-.page-node{
-  &-112,
-  &-224,
-  &-90,
-  &-40,
-  &-275,
-  &-89,
-  &-47,
-  &-43,
-  &-88,
-  &-48,
-  &-271,
-  &-102{
-    .left-column{
+.node--type-steps {
+  .js-custom-step- {
+    &1 {
       background-position: bottom center;
       background-repeat: no-repeat;
-      background-image: url(/sites/allages/themes/custom/allages_theme/images/ageingandwork.png) ;
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/ageingandwork.png);
     }
-  }
 
-  &-80,
-  &-82,
-  &-276,
-  &-83,
-  &-72,
-  &-222,
-  &-74,
-  &-92,
-  &-95,
-  &-96,
-  &-94,
-  &-93,
-  &-97,
-  &-104,
-  &-225,
-  &-270,
-  &-263,
-  &-265,
-  &-266,
-  &-267,
-  &-268,
-  &-269,
-  &-277,
-  &-107{
-    .left-column{
+    &2 {
       background-position: bottom center;
       background-repeat: no-repeat;
-      background-image: url(/sites/allages/themes/custom/allages_theme/images/workplace_fit_for_all.png) ;
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/workplace_fit_for_all.png);
     }
-  }
 
-  &-85,
-  &-86,
-  &-87,
-  &-76,
-  &-77,
-  &-78,
-  &-99,
-  &-100,
-  &-101,
-  &-274,
-  &-109,
-  &-110,
-  &-111{
-    .left-column{
+    &3 {
       background-position: bottom center;
       background-repeat: no-repeat;
-      background-image: url(/sites/allages/themes/custom/allages_theme/images/promoting-health-at-work.png) ;
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/promoting-health-at-work.png);
     }
-  }
 
-  &-114,
-  &-115,
-  &-116,
-  &-118,
-  &-119,
-  &-120,
-  &-122,
-  &-123,
-  &-124,
-  &-126,
-  &-127,
-  &-128{
-    .left-column{
+    &4 {
       background-position: bottom center;
       background-repeat: no-repeat;
-      background-image: url(/sites/allages/themes/custom/allages_theme/images/return-to-work.png) ;
+      background-image: url(/sites/allages/themes/custom/allages_theme/images/return-to-work.png);
     }
   }
 }

@@ -1,0 +1,14 @@
+
+.back-link{
+  a{
+    background:  transparent url(/sites/allages/themes/custom/allages_theme/images/backButton.png) no-repeat scroll 0 center;
+    color:$text-color-blue;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 0.875rem 0 0.875rem 3.25rem;
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}

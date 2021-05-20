@@ -173,6 +173,7 @@
     let newTitle = titleText.split(': ');
     let newTitleText='<span class="title-custom-number">'+newTitle[0]+'</span><span class="title-custom-text">'+newTitle[1]+'</span>';
     $title.html(newTitleText);
+    $title.closest('.left-column').addClass('js-custom-step-'+newTitle[0]);
   });
 
   // Themes - class for define the user profile icon
@@ -201,12 +202,17 @@
 
   // Show message for visitors
   $(window).on('load', function() {
-    if (!$('body').hasClass('user-logged-in')) {
+    if (!$('body').hasClass('user-logged-in') && $('body').find('#sliding-popup').length >0) {
       let messageInfo = $('.eu-cookie-compliance-banner').find('.messageInfo').html();
-      let visitorMessage = '<div class="message-custom-visitor"><span class="message-ico"></span><span class="message-text">' + messageInfo + '</span></div>';
+      let visitorMessage = '<div class="message-custom-visitor"><span class="message-ico"></span><span class="message-text">' + messageInfo + '</span><span class="close">X</span></div>';
       if ($('body').find('.message-custom-visitor').length == 0)
         $('body').append(visitorMessage);
+        $('body').append('<div class="overlay-custom-background"></div>');
     }
+    $('body').on('click','.message-custom-visitor .close', function(){
+      $('body').find('.message-custom-visitor').remove();
+      $('body').find('.overlay-custom-background').remove();
+    });
   });
 
   // Langselect - counter of the number of languages per country

@@ -9,6 +9,7 @@
   .ico-profile{
     width:45px;
     height:70px;
+    display:none;
     &:after{
       content:'';
       display:block;
@@ -39,15 +40,12 @@
       }
     }
   }
-  .text-profifle,
-  .ico-profile{
-    display:inline-block;
-    vertical-align: middle;
-  }
+
   .vocabulary-profile{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: flex-end;
     h2{
       font-size: 1rem;
       margin:0;
