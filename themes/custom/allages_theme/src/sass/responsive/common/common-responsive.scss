@@ -533,6 +533,9 @@
             }
           }
         }
+        .content-all-button{
+          margin:0 auto;
+        }
       }
     }
     .content-filters{
@@ -596,6 +599,24 @@
       }
     }
   }
+
+
+  /******     Search Results    ******/
+  .path-search{
+    .block-page-title-block{
+      background-image: none;
+    }
+    .block-system-main-block{
+      .search-form{
+        .form{
+          &-group{
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+
 
   /******     Footer     ******/
 

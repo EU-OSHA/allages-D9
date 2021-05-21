@@ -177,3 +177,13 @@
     }
   }
 }
+
+.path-search{
+  .block-page-title-block{
+    background-image: url(/sites/allages/themes/custom/allages_theme/images/searchBanner.png);
+    background-position: 7.5rem center;
+    background-repeat: no-repeat;
+    background-color: $bg-color-blue-5;
+    padding:0;
+  }
+}

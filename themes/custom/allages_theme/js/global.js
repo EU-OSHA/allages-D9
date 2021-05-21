@@ -222,6 +222,22 @@
     $(this).addClass('languagecount-custom-' + languageCount);
   });
 
+  // Useful-links active state on filter
+  $('.page-view-useful-links, .page-vocabulary-categories-useful-links').each(function(){
+    let visibleCategories=$(this).find('.view-useful-links h3, .view-taxonomy-term h3').length;
+    if(visibleCategories > 1){
+      $('.content-all-button').find('a').addClass('active');
+    }
+    else if(visibleCategories == 1){
+      let visibleCategory=$(this).find('.view-useful-links h3, .view-taxonomy-term h3').html();
+      $('.view-filter-useful-links a').each(function(){
+        if($(this).find('div').html()==visibleCategory){
+          $(this).addClass('active');
+        }
+      });
+    }
+  });
+
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
   var getUrlParameter = function getUrlParameter(sParam) {

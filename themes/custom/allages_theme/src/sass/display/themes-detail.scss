@@ -243,4 +243,12 @@
     }
 
   }
+
+  .js-custom-step-1{
+    & + .right-column{
+      .goodPractices{
+        display:none;
+      }
+    }
+  }
 }

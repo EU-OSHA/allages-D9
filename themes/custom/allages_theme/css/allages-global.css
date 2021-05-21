@@ -348,6 +348,14 @@ table tr td {
   line-height: 1.5rem;
 }
 
+.path-search .block-page-title-block {
+  background-image: url(/sites/allages/themes/custom/allages_theme/images/searchBanner.png);
+  background-position: 7.5rem center;
+  background-repeat: no-repeat;
+  background-color: #003386;
+  padding: 0;
+}
+
 body {
   background: #f9f9fa;
   overflow-x: hidden;
@@ -939,6 +947,30 @@ section.row {
   width: 100%;
   max-width: calc(68% - 2.5rem);
   flex: 0 0 68%;
+}
+
+.node_search-results {
+  border-radius: 0;
+  max-width: 970px;
+  margin: auto;
+  padding: 2.5rem 0;
+}
+.node_search-results .list-group-item {
+  border: none;
+  border-bottom: 1px solid #b1b3b4;
+  overflow: auto;
+  padding: 0.25rem 0 1.25rem;
+}
+.node_search-results .list-group-item h3 {
+  font-size: 2rem;
+  padding: 0 0 0.625rem 0;
+  margin: 0;
+  font-weight: normal;
+  line-height: 3rem;
+}
+.node_search-results .list-group-item h3 a {
+  color: #003399;
+  text-decoration: none;
 }
 
 .view-search-term-content {
@@ -1751,6 +1783,9 @@ section.row {
 .content-themes-detail .right-column .more-links .usefulLinks {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_useful-links-blue.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png);
 }
+.content-themes-detail .js-custom-step-1 + .right-column .goodPractices {
+  display: none;
+}
 
 .content-tour {
   position: fixed;
@@ -2302,13 +2337,11 @@ section.row {
 .page-view-search-term-content .searchGlossary,
 .page-view-search-term-content .filterGlossary {
   flex: 0 0 25%;
-  padding: 0.625rem;
   font-size: 20px;
   text-align: center;
   border-left: 1px solid #dde2ed;
   color: #003399;
   border-right: 1px solid #dde2ed;
-  padding-left: 1.25rem;
   cursor: pointer;
 }
 .page-view-glossary .searchGlossary a,
@@ -2317,6 +2350,9 @@ section.row {
 .page-view-search-term-content .filterGlossary a {
   color: #003399;
   text-decoration: none;
+  display: block;
+  padding: 0.625rem;
+  padding-left: 1.25rem;
 }
 .page-view-glossary .searchGlossary.selected,
 .page-view-glossary .filterGlossary.selected,
@@ -2418,6 +2454,42 @@ section.row {
   font-weight: normal;
   margin: 1rem 0 0;
   padding: 0;
+}
+
+.path-search .block-system-main-block .search-form {
+  background-color: #ececec;
+  padding: 1.75rem 0;
+}
+.path-search .block-system-main-block .search-form .form-group {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.path-search .block-system-main-block .search-form .form-group label {
+  display: none;
+}
+.path-search .block-system-main-block .search-form .form-control {
+  width: auto;
+  border-radius: 0;
+  border: none;
+  color: #000;
+}
+.path-search .block-system-main-block .search-form .form-submit {
+  text-decoration: none;
+  background: #acc700;
+  color: #FFF;
+  padding: 0.5rem 1.75rem;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+.path-search .block-system-main-block .search-form .search-help-link {
+  display: none;
+}
+.path-search .block-system-main-block h2 {
+  display: none;
 }
 
 .node--type-select-your-profile #block-healthyworkplacesforallages {
@@ -2623,6 +2695,18 @@ section.row {
   margin: 0.75rem;
   font-size: 1.125rem;
   display: block;
+}
+.page-view-useful-links .block-system-main-block .views-element-container .views-element-container ul li a.active,
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button ul li a.active,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .views-element-container ul li a.active,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button ul li a.active {
+  background-color: #98b400;
+  color: #FFF;
+  border-color: #98b400;
+}
+.page-view-useful-links .block-system-main-block .views-element-container .content-all-button,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button {
+  margin: 0 0.75rem;
 }
 .page-view-useful-links .content-filters,
 .page-vocabulary-categories-useful-links .content-filters {
@@ -3131,6 +3215,10 @@ section.row {
     line-height: 2.625rem;
     margin: 0.25rem;
   }
+  .page-view-useful-links .block-system-main-block .views-element-container .content-all-button,
+.page-vocabulary-categories-useful-links .block-system-main-block .views-element-container .content-all-button {
+    margin: 0 auto;
+  }
   .view-useful-links .views-view-grid .row,
 .view-useful-links .views-view-grid .row,
 .view-taxonomy-term .views-view-grid .row,
@@ -3175,6 +3263,14 @@ section.row {
   }
   .page-node-70 .informationAboutUs p {
     margin: 0;
+  }
+
+  /******     Search Results    ******/
+  .path-search .block-page-title-block {
+    background-image: none;
+  }
+  .path-search .block-system-main-block .search-form .form-group {
+    flex-direction: column;
   }
 
   /******     Footer     ******/
