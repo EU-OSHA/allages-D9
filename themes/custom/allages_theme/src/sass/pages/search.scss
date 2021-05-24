@@ -1,0 +1,42 @@
+.path-search{
+  .block-system-main-block{
+    .search-form{
+      background-color:$bg-color-grey-light-3;
+      padding:1.75rem 0;
+      .form{
+        &-group{
+          width: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          label{
+            display:none;
+          }
+        }
+        &-control{
+          width:auto;
+          border-radius: 0;
+          border:none;
+          color:$text-color-black;
+        }
+        &-actions{}
+        &-submit{
+          text-decoration: none;
+          background: $bg-color-green-2;
+          color: $text-color-white;
+          padding: 0.5rem 1.75rem;
+          border: none;
+          border-radius: 0;
+          font-size:1.5rem;
+        }
+      }
+      .search-help-link{
+        display: none;
+      }
+    }
+    h2{
+      display:none;
+    }
+  }
+}

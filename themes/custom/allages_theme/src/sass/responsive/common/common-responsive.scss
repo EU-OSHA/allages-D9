@@ -137,6 +137,83 @@
     }
   }
 
+  /******     Frontpage    ******/
+
+  .page-view-frontpage{
+    #langheader {
+      border:none;
+      .content-lang-header{
+        width: auto;
+        flex-direction: column;
+      }
+      .MapList{
+        display:none;
+      }
+      .lan-sel{
+        background: #ececec url(/sites/allages/themes/custom/allages_theme/images/backgroundSelectCountryMobile.png) no-repeat scroll center bottom;
+        font-size: 1.625rem ;
+        font-style: normal;
+        padding: 1.25rem 0 2.375rem;
+        text-align: center ;
+        width: 100%;
+      }
+    }
+    #mapImg{
+      display:none;
+    }
+    #langselect{
+      .containerC{
+        display:block;
+      }
+    }
+  }
+  .page-view-frontpage,
+  .language-profile-selector {
+    #listText{
+      margin-top:0;
+      >ul{
+        columns:1;
+        >li{
+          border-bottom: 1px solid $text-color-grey-light-7;
+          font-size: 1.5rem ;
+          overflow: hidden ;
+          padding: 0.25rem 0 0.25rem 0.75rem ;
+          line-height: 3.25rem;
+          ul{
+            float: right ;
+            position: relative ;
+            margin: 0.75rem 0 0 ;
+            background-color: $bg-color-white;
+            &.languagecount-custom-1{
+              display:none;
+            }
+            li{
+              border-bottom: 0 none ;
+              font-size: 1.5rem ;
+              margin-right: 1px ;
+              padding: 0.125rem ;
+              + li{
+                border-left: 1px solid $text-color-black;
+              }
+              &:not(:last-child) {
+                a{
+                  background-image: none;
+                  background-color: $bg-color-white;
+                }
+              }
+              a{
+                background-color: $bg-color-white;
+                color: $text-color-black;
+                font-size: 1.5rem ;
+                padding: 0 0.5rem ;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 
   /******     Banner header     ******/
 
@@ -289,6 +366,31 @@
     }
     .right-column{
       height:auto;
+      .more-info-theme{
+        .field--name-field-sections {
+          .field__item {
+            padding:0.5rem 2rem;
+            a{
+              font-size:1.25rem;
+              padding:0.5rem 2rem 0.5rem 0;
+            }
+          }
+        }
+      }
+      .more-links-container{
+        flex-direction: column;
+        .goodPractices,
+        .usefulLinks{
+          width:100%;
+          max-width: 100%;
+          flex: 0 0 100%;
+        }
+
+        .usefulLinks{
+          margin:0;
+          border-top:1px solid $text-color-grey-light-7;
+        }
+      }
     }
   }
 
@@ -369,6 +471,152 @@
       max-width: 50%;
     }
   }
+
+  /******     Search Term   ******/
+
+  .view-search-term-content {
+    .views-exposed-form {
+      .form{
+        &-type-textfield{
+          max-width:100%;
+          flex:0 0 100%;
+          text-align:center;
+          display:flex;
+          padding-right:0;
+        }
+        &-control{
+          max-width: 65%;
+          margin:0 auto;
+        }
+        &-actions{
+          margin: 0.75rem auto 0rem;
+          padding:0;
+        }
+      }
+      label{
+        max-width: 100%;
+      }
+    }
+  }
+
+  /******    Useful Links   ******/
+
+  .page-view-useful-links,
+  .page-vocabulary-categories-useful-links{
+    .block-system-main-block{
+      .views-element-container{
+        .views-element-container,
+        .content-all-button{
+          display: flex;
+          width: 100%;
+          padding:0 0.5rem;
+          .view-filter-useful-links{
+            width:100%;
+            .row{
+              margin:0;
+            }
+            .item-list{
+              width:100%;
+            }
+          }
+          ul{
+            width:100%;
+            flex-direction:column;
+            margin:0 ;
+            li{
+             width:100%;
+              a{
+                padding:0.375rem;
+                line-height: 2.625rem;
+                margin:0.25rem;
+              }
+            }
+          }
+        }
+        .content-all-button{
+          margin:0 auto;
+        }
+      }
+    }
+    .content-filters{
+      > div {
+        &:first-of-type {
+        }
+      }
+    }
+  }
+  .view-useful-links,
+  .view-taxonomy-term {
+    .views-view-grid,
+    .views-view-grid{
+      .row{
+        margin:0;
+      }
+    }
+    >.row{
+      padding: 0 0.625rem;
+      .col{
+        padding:0;
+      }
+    }
+    >.view-content{
+      flex-direction: column;
+    }
+    .views-field-field-link{
+      .field-content{
+        padding-right:0;
+      }
+    }
+  }
+
+  /******     Language-Profile Selector     ******/
+
+  #profileDiv {
+    .profile{
+      &-content{
+        flex-direction: column;
+      }
+      &-item{
+        max-width: 100%;
+        flex: 0 0 100%;
+      }
+    }
+  }
+
+  /******     About This e-Guide    ******/
+
+  .page-node-70{
+    .contentText{
+      width:100%;
+    }
+    .informationAboutUs{
+      padding: 2rem 0.625rem;
+      img{
+        float:none;
+      }
+      p{
+        margin:0;
+      }
+    }
+  }
+
+
+  /******     Search Results    ******/
+  .path-search{
+    .block-page-title-block{
+      background-image: none;
+    }
+    .block-system-main-block{
+      .search-form{
+        .form{
+          &-group{
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+
 
   /******     Footer     ******/
 

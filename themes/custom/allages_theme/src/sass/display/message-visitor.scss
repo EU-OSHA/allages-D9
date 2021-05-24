@@ -7,8 +7,7 @@
   background-color: $bg-color-white;
   display:flex;
   flex-direction: row;
-  border: 1px solid $bg-color-white;
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 1rem 5rem 1rem 1rem;
   width: 100%;
   height: auto;
   border-radius: 0;
@@ -17,7 +16,7 @@
   font-size: 0.875rem;
   line-height: 20px;
   max-width: 50%;
-  box-shadow:0rem 0rem 1.5rem $bg-color-blue;
+  z-index:9999999;
   .message{
     &-ico{
       display:block;
@@ -31,5 +30,23 @@
     &-text{
       max-width: calc(100% - 3rem);
     }
+  }
+  .close{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    color: $text-color-white;
+    background-color: $bg-color-green;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-shadow: none;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor:pointer;
   }
 }

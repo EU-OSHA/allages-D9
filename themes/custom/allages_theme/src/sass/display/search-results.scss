@@ -1,0 +1,25 @@
+.node_search-results{
+  border-radius: 0;
+  max-width: 970px;
+  margin: auto;
+  padding: 2.5rem 0;
+  .list-group{
+    &-item{
+      border:none;
+      border-bottom: 1px solid $text-color-grey-light-4;
+      overflow: auto;
+      padding: 0.25rem 0 1.25rem;
+      h3{
+        font-size: 2rem;
+        padding: 0 0 0.625rem 0;
+        margin: 0;
+        font-weight: normal;
+        line-height: 3rem;
+        a{
+          color: $text-color-blue;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

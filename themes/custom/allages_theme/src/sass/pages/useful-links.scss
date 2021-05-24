@@ -26,9 +26,17 @@
               margin: 0.75rem;
               font-size: 1.125rem;
               display:block;
+              &.active{
+                background-color: $bg-color-green;
+                color:$text-color-white;
+                border-color: $bg-color-green;
+              }
             }
           }
         }
+      }
+      .content-all-button{
+        margin:0 0.75rem;
       }
     }
   }

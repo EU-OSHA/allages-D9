@@ -100,19 +100,6 @@
         text-decoration: none;
       }
     }
-    .back-link{
-      a{
-        background:  transparent url(/sites/allages/themes/custom/allages_theme/images/backButton.png) no-repeat scroll 0 center;
-        color:$text-color-blue;
-        font-size: 1.125rem;
-        font-weight: bold;
-        padding: 0.875rem 0 0.875rem 3.25rem;
-        text-decoration: none;
-        &:hover{
-          text-decoration: none;
-        }
-      }
-    }
   }
   .right-column{
     overflow: auto;
@@ -202,13 +189,18 @@
       }
     }
     .more-links{
-      color: $text-color-blue;
-      font-size: 1.25rem;
       margin: 2rem 0 -0.5rem;
       padding: 0;
-      font-weight: bold;
-      display:flex;
-      flex-direction: row;
+      >span{
+        font-weight: bold;
+        color: $text-color-blue;
+        font-size: 1.25rem;
+      }
+      &-container{
+        display:flex;
+        flex-direction: row;
+
+      }
       .goodPractices,
       .usefulLinks{
         font-weight: 400;
@@ -218,7 +210,6 @@
         flex:0 0 50%;
         max-width: 50%;
         display:inline-block;
-        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_useful-links-blue.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png);
         background-position: 1.125rem 0.5rem,95% 88%;
         background-repeat: no-repeat;
         background-color:$bg-color-grey-warm;
@@ -242,7 +233,22 @@
           color: $text-color-blue;
         }
       }
+
+      .goodPractices{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_good-practices-blue.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png);
+      }
+      .usefulLinks{
+        background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_useful-links-blue.png),url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png);
+      }
     }
 
+  }
+
+  .js-custom-step-1{
+    & + .right-column{
+      .goodPractices{
+        display:none;
+      }
+    }
   }
 }
