@@ -1,0 +1,69 @@
+@media print {
+
+  /******     Header    ******/
+
+  .header .push-right,
+  .node--type-select-your-profile .containerC #moreInfoBut,
+  .node--type-select-your-profile .BarStartTour,
+  .view-themes .item-list .plus-content,
+  .view-themes .item-list .views-field-view-node .field-content a,
+  .content-themes-detail .left-column .image-themes .field--type-entity-reference img,
+  .content-themes-detail .left-column .back-link,
+  .content-themes-detail .right-column .content-previous-next{
+    display:none;
+  }
+
+  /******     Select Profile     ******/
+
+  .node--type-select-your-profile{
+    .half{
+      width:100%;
+      float:none;
+      .whiteBg{
+        min-height: 0px;
+        .img-employer,
+        .img-worker,
+        .img-manager,
+        .img-professional{
+          display:none;
+        }
+      }
+      & + .half{
+        border-top:1px solid $text-color-grey-2;
+      }
+    }
+  }
+
+  /******     Themes     ******/
+
+  .view-themes{
+    .item-list {
+      > ul {
+        > li{
+          height:auto;
+        }
+      }
+    }
+  }
+
+
+  /******     Themes Detail    ******/
+  .content-themes-detail{
+    flex-direction: column;
+    .left-column,
+    .right-column{
+      height:auto;
+      flex:0 0 100%;
+      max-width: 100%;
+      overflow: initial;
+      padding:0;
+    }
+    .left-column{
+      .content-profile{
+        color:$text-color-purple;
+      }
+    }
+  }
+
+}
+

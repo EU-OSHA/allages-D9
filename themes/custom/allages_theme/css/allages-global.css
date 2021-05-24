@@ -3273,6 +3273,31 @@ section.row {
     flex-direction: column;
   }
 
+  /******     Tour     ******/
+  .content-tour .tour-01.active, .content-tour .tour-02.active, .content-tour .tour-03.active, .content-tour .tour-04.active, .content-tour .tour-05.active, .content-tour .tour-06.active, .content-tour .tour-07.active, .content-tour .tour-08.active, .content-tour .tour-09.active {
+    animation: none;
+    flex-direction: column;
+    width: 250px;
+  }
+  .content-tour .img-tour {
+    width: 100%;
+    height: 250px;
+    flex: auto;
+  }
+  .content-tour .tour-text {
+    width: 100%;
+    min-height: 0;
+    padding: 1rem;
+  }
+  .content-tour .skip-tour a {
+    display: none;
+  }
+  .content-tour .next-tour {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 10%;
+  }
+
   /******     Footer     ******/
   .site-footer__bottom {
     padding: 0.325rem 0;

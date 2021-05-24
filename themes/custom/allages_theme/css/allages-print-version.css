@@ -1,0 +1,62 @@
+/* D9 - Variables NCW */
+/*Font Family*/
+@font-face {
+  font-family: "Noto Sans", sans-serif;
+}
+/* Font colours */
+/* background colours */
+/* END - D9 - Variables NCW */
+@media print {
+  /******     Header    ******/
+  .header .push-right,
+.node--type-select-your-profile .containerC #moreInfoBut,
+.node--type-select-your-profile .BarStartTour,
+.view-themes .item-list .plus-content,
+.view-themes .item-list .views-field-view-node .field-content a,
+.content-themes-detail .left-column .image-themes .field--type-entity-reference img,
+.content-themes-detail .left-column .back-link,
+.content-themes-detail .right-column .content-previous-next {
+    display: none;
+  }
+
+  /******     Select Profile     ******/
+  .node--type-select-your-profile .half {
+    width: 100%;
+    float: none;
+  }
+  .node--type-select-your-profile .half .whiteBg {
+    min-height: 0px;
+  }
+  .node--type-select-your-profile .half .whiteBg .img-employer,
+.node--type-select-your-profile .half .whiteBg .img-worker,
+.node--type-select-your-profile .half .whiteBg .img-manager,
+.node--type-select-your-profile .half .whiteBg .img-professional {
+    display: none;
+  }
+  .node--type-select-your-profile .half + .half {
+    border-top: 1px solid #888888;
+  }
+
+  /******     Themes     ******/
+  .view-themes .item-list > ul > li {
+    height: auto;
+  }
+
+  /******     Themes Detail    ******/
+  .content-themes-detail {
+    flex-direction: column;
+  }
+  .content-themes-detail .left-column,
+.content-themes-detail .right-column {
+    height: auto;
+    flex: 0 0 100%;
+    max-width: 100%;
+    overflow: initial;
+    padding: 0;
+  }
+  .content-themes-detail .left-column .content-profile {
+    color: #8E44AD;
+  }
+}
+
+/*# sourceMappingURL=allages-print-version.css.map */
