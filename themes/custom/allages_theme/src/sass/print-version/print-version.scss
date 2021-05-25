@@ -1,6 +1,5 @@
 @media print {
 
-  /******     Header    ******/
 
   .header .push-right,
   .node--type-select-your-profile .containerC #moreInfoBut,
@@ -9,8 +8,22 @@
   .view-themes .item-list .views-field-view-node .field-content a,
   .content-themes-detail .left-column .image-themes .field--type-entity-reference img,
   .content-themes-detail .left-column .back-link,
-  .content-themes-detail .right-column .content-previous-next{
+  .content-themes-detail .right-column .content-previous-next,
+  .content-themes-detail .left-column .ico-profile,
+  .content-themes-detail .right-column .more-links,
+  .breadcrumb,
+  .view-themes .footer-view .preFooter,
+  .node--type-good-practices .back-link a,
+  .node--type-good-practices .right-column p:last-of-type a,
+  .view-did-you-know .views-view-grid .views-field-field-sources,
+  .view-search-term-content .views-exposed-form .form-actions{
     display:none;
+  }
+
+  /******     Header    ******/
+
+  .language-profile-selector{
+    border-bottom: 1px solid $text-color-blue;
   }
 
   /******     Select Profile     ******/
@@ -44,10 +57,46 @@
         }
       }
     }
+    .vocabulary-profile{
+      &#taxonomy-term{
+        &-2 {
+          h2 {
+            a{
+              color:$text-color-purple;
+              text-decoration: none;
+            }
+          }
+        }
+        &-1 {
+          h2 {
+            a{
+              color:$text-color-red;
+              text-decoration: none;
+            }
+          }
+        }
+        &-5 {
+          h2 {
+            a{
+              color:$text-color-turquoise;
+              text-decoration: none;
+            }
+          }
+        }
+        &-6 {
+          h2 {
+            a{
+              color:$text-color-orange;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
   }
 
-
   /******     Themes Detail    ******/
+
   .content-themes-detail{
     flex-direction: column;
     .left-column,
@@ -62,8 +111,94 @@
       .content-profile{
         color:$text-color-purple;
       }
+      .content-profile,
+      .back-link{
+        margin:0;
+      }
+      .text-profifle{
+        &.employer{
+          color:$text-color-purple;
+        }
+        &.worker{
+          color:$text-color-red;
+        }
+        &.hr-manager{
+          color:$text-color-turquoise;
+        }
+        &.osh-professional{
+          color:$text-color-orange;
+        }
+      }
     }
   }
 
+  /******     Good Practices    ******/
+
+  .view-good-practices{
+    .views-view-grid{
+      .views-col{
+        flex: 0 0 100%;
+        max-width: 100%;
+        border-top:1px solid $text-color-grey-2;
+        min-height:0;
+      }
+    }
+    .views-field{
+      &-field-image-step,
+      &-title{
+        display:inline-block;
+        width:auto;
+        vertical-align: baseline;
+      }
+      &-field-image-step {
+        img{
+          margin:0;
+        }
+      }
+    }
+  }
+
+  /******     Good Practices Detail    ******/
+
+  .node--type-good-practices{
+    .container{
+      flex-direction: column;
+      margin:0;
+    }
+    .left-column,
+    .right-column{
+      flex:0 0 100%;
+      max-width: 100%;
+      margin:0;
+      min-height: 0;
+    }
+  }
+
+  /******     Glossary    ******/
+
+  .view-glossary {
+    .views-field-name{
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+  .view-search-term-content {
+    .views-exposed-form{
+      .form-type-textfield{
+        margin:0 auto;
+        padding:0;
+      }
+    }
+  }
+
+  /******     Useful Links     ******/
+
+  .page-view-useful-links ,
+  .page-vocabulary-categories-useful-links {
+    .content-filters{
+      margin:0;
+    }
+  }
 }
 

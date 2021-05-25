@@ -7,7 +7,6 @@
 /* background colours */
 /* END - D9 - Variables NCW */
 @media print {
-  /******     Header    ******/
   .header .push-right,
 .node--type-select-your-profile .containerC #moreInfoBut,
 .node--type-select-your-profile .BarStartTour,
@@ -15,8 +14,21 @@
 .view-themes .item-list .views-field-view-node .field-content a,
 .content-themes-detail .left-column .image-themes .field--type-entity-reference img,
 .content-themes-detail .left-column .back-link,
-.content-themes-detail .right-column .content-previous-next {
+.content-themes-detail .right-column .content-previous-next,
+.content-themes-detail .left-column .ico-profile,
+.content-themes-detail .right-column .more-links,
+.breadcrumb,
+.view-themes .footer-view .preFooter,
+.node--type-good-practices .back-link a,
+.node--type-good-practices .right-column p:last-of-type a,
+.view-did-you-know .views-view-grid .views-field-field-sources,
+.view-search-term-content .views-exposed-form .form-actions {
     display: none;
+  }
+
+  /******     Header    ******/
+  .language-profile-selector {
+    border-bottom: 1px solid #003399;
   }
 
   /******     Select Profile     ******/
@@ -41,6 +53,22 @@
   .view-themes .item-list > ul > li {
     height: auto;
   }
+  .view-themes .vocabulary-profile#taxonomy-term-2 h2 a {
+    color: #8E44AD;
+    text-decoration: none;
+  }
+  .view-themes .vocabulary-profile#taxonomy-term-1 h2 a {
+    color: #E74C3C;
+    text-decoration: none;
+  }
+  .view-themes .vocabulary-profile#taxonomy-term-5 h2 a {
+    color: #19BC9C;
+    text-decoration: none;
+  }
+  .view-themes .vocabulary-profile#taxonomy-term-6 h2 a {
+    color: #F39C13;
+    text-decoration: none;
+  }
 
   /******     Themes Detail    ******/
   .content-themes-detail {
@@ -56,6 +84,67 @@
   }
   .content-themes-detail .left-column .content-profile {
     color: #8E44AD;
+  }
+  .content-themes-detail .left-column .content-profile,
+.content-themes-detail .left-column .back-link {
+    margin: 0;
+  }
+  .content-themes-detail .left-column .text-profifle.employer {
+    color: #8E44AD;
+  }
+  .content-themes-detail .left-column .text-profifle.worker {
+    color: #E74C3C;
+  }
+  .content-themes-detail .left-column .text-profifle.hr-manager {
+    color: #19BC9C;
+  }
+  .content-themes-detail .left-column .text-profifle.osh-professional {
+    color: #F39C13;
+  }
+
+  /******     Good Practices    ******/
+  .view-good-practices .views-view-grid .views-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-top: 1px solid #888888;
+    min-height: 0;
+  }
+  .view-good-practices .views-field-field-image-step, .view-good-practices .views-field-title {
+    display: inline-block;
+    width: auto;
+    vertical-align: baseline;
+  }
+  .view-good-practices .views-field-field-image-step img {
+    margin: 0;
+  }
+
+  /******     Good Practices Detail    ******/
+  .node--type-good-practices .container {
+    flex-direction: column;
+    margin: 0;
+  }
+  .node--type-good-practices .left-column,
+.node--type-good-practices .right-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0;
+    min-height: 0;
+  }
+
+  /******     Glossary    ******/
+  .view-glossary .views-field-name a {
+    text-decoration: none;
+  }
+
+  .view-search-term-content .views-exposed-form .form-type-textfield {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /******     Useful Links     ******/
+  .page-view-useful-links .content-filters,
+.page-vocabulary-categories-useful-links .content-filters {
+    margin: 0;
   }
 }
 
