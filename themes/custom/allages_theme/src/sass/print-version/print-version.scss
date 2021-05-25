@@ -16,7 +16,8 @@
   .node--type-good-practices .back-link a,
   .node--type-good-practices .right-column p:last-of-type a,
   .view-did-you-know .views-view-grid .views-field-field-sources,
-  .view-search-term-content .views-exposed-form .form-actions{
+  .view-search-term-content .views-exposed-form .form-actions,
+  .path-search .block-system-main-block .search-form{
     display:none;
   }
 
@@ -25,6 +26,33 @@
   .language-profile-selector{
     border-bottom: 1px solid $text-color-blue;
   }
+
+  /******     Headings    ******/
+
+  .block-page-title-block{
+    h1{
+      &.title{
+        color:$text-color-dark-grey;
+      }
+    }
+  }
+
+  /******     Banner Header    ******/
+
+  .node--type-select-your-profile ,
+  .page-view-frontpage {
+    .containerC{
+      h1{
+        color:$text-color-dark-grey;
+      }
+    }
+    #block-healthyworkplacesforallages{
+      .field--name-body{
+        color:$text-color-dark-grey;
+      }
+    }
+  }
+
 
   /******     Select Profile     ******/
 
@@ -50,10 +78,27 @@
   /******     Themes     ******/
 
   .view-themes{
+    .view-header {
+      h1,
+      p,
+      p:last-child{
+        color:$text-color-dark-grey;
+
+      }
+    }
     .item-list {
       > ul {
         > li{
           height:auto;
+          color:$text-color-dark-grey;
+        }
+      }
+      .views-field-title{
+        &,
+        &-1{
+          display:inline-block;
+          width:auto;
+          vertical-align: baseline;
         }
       }
     }
@@ -108,6 +153,12 @@
       padding:0;
     }
     .left-column{
+      h1{
+        .title-custom-number,
+        .title-custom-text{
+          color:$text-color-dark-grey;
+        }
+      }
       .content-profile{
         color:$text-color-purple;
       }
@@ -191,6 +242,21 @@
       }
     }
   }
+  .page-view-search-term-content,
+  .page-view-glossary{
+    .searchGlossary,
+    .filterGlossary{
+      &.selected {
+        a{
+          color:$text-color-dark-grey;
+        }
+        &:after{
+          display:none;
+        }
+      }
+    }
+  }
+
 
   /******     Useful Links     ******/
 
@@ -198,6 +264,17 @@
   .page-vocabulary-categories-useful-links {
     .content-filters{
       margin:0;
+    }
+  }
+
+  .view-useful-links ,
+  .view-taxonomy-term {
+    .views-field-field-link{
+      .field-content{
+        a{
+          color:$text-color-dark-grey;
+        }
+      }
     }
   }
 }

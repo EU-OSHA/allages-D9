@@ -1266,10 +1266,14 @@ section.row {
   background-repeat: no-repeat;
   background-position: center;
 }
+.view-themes .ico-profile,
+.view-themes .text-profifle {
+  display: inline-block;
+  vertical-align: middle;
+}
 .view-themes .ico-profile {
   width: 45px;
   height: 70px;
-  display: none;
 }
 .view-themes .ico-profile:after {
   content: "";
@@ -1654,7 +1658,7 @@ section.row {
   line-height: 2rem;
 }
 .content-themes-detail .right-column .content-previous-next {
-  margin-top: 2rem;
+  margin: 2rem 0;
   height: 41px;
 }
 .content-themes-detail .right-column .content-previous-next .previous-link,
