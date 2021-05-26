@@ -1,6 +1,5 @@
 @media print {
 
-
   .header .push-right,
   .node--type-select-your-profile .containerC #moreInfoBut,
   .node--type-select-your-profile .BarStartTour,
@@ -45,6 +44,13 @@
       h1{
         color:$text-color-dark-grey;
       }
+      #moreInfoBut{
+        .greenButton{
+          border:1px solid $text-color-green;
+          color:$text-color-green;
+          background-color:$bg-color-white;
+        }
+      }
     }
     #block-healthyworkplacesforallages{
       .field--name-body{
@@ -52,7 +58,6 @@
       }
     }
   }
-
 
   /******     Select Profile     ******/
 
@@ -75,6 +80,38 @@
     }
   }
 
+  /******     Onomasticon    ******/
+
+  .onomasticon-extra-element{
+    .onomasticon-term-description{
+      border:1px solid $text-color-dark-grey;
+      color:$text-color-dark-grey;
+    }
+  }
+
+  /******     Frontpage     ******/
+
+  .page-view-frontpage{
+    #langheader{
+      border-top: 1px solid $text-color-blue;
+      .MapList{
+        .MapSC,
+        .ListSC{
+          border-top:transparent;
+          border-bottom:transparent;
+          padding-left:0;
+          &.selected{
+            color:$text-color-green;
+            background-color:$bg-color-white;
+            &:after{
+              display:none;
+            }
+          }
+        }
+      }
+    }
+  }
+
   /******     Themes     ******/
 
   .view-themes{
@@ -83,7 +120,6 @@
       p,
       p:last-child{
         color:$text-color-dark-grey;
-
       }
     }
     .item-list {
@@ -93,12 +129,21 @@
           color:$text-color-dark-grey;
         }
       }
-      .views-field-title{
-        &,
-        &-1{
-          display:inline-block;
-          width:auto;
-          vertical-align: baseline;
+      .views-field{
+        &-title{
+          &,
+          &-1{
+            display:inline-block;
+            width:auto;
+            vertical-align: baseline;
+          }
+        }
+        &-nothing{
+          .field-content {
+            .morethemeinfono{
+              color:$text-color-dark-grey;
+            }
+          }
         }
       }
     }
@@ -192,6 +237,11 @@
         max-width: 100%;
         border-top:1px solid $text-color-grey-2;
         min-height:0;
+        &.mouse-enter{
+          .content-share-more{
+            display:none;
+          }
+        }
       }
     }
     .views-field{
@@ -208,6 +258,7 @@
       }
     }
   }
+
 
   /******     Good Practices Detail    ******/
 
@@ -248,15 +299,31 @@
     .filterGlossary{
       &.selected {
         a{
-          color:$text-color-dark-grey;
+          color:$text-color-green;
         }
         &:after{
           display:none;
         }
       }
     }
+    .glossary-index-custom{
+      span{
+        color:$text-color-green;
+      }
+    }
   }
 
+  /******     Attachment     ******/
+
+  .attachment{
+    .views-summary{
+      a{
+        &.is-active{
+          color:$text-color-green;
+        }
+      }
+    }
+  }
 
   /******     Useful Links     ******/
 
@@ -264,9 +331,27 @@
   .page-vocabulary-categories-useful-links {
     .content-filters{
       margin:0;
+      padding:0;
+    }
+    .block-system-main-block{
+      .views-element-container{
+        .views-element-container ,
+        .content-all-button {
+          ul{
+            li{
+              a{
+                &.active{
+                  border-color:$text-color-green;
+                  color:$text-color-green;
+                  background-color:$bg-color-white;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
-
   .view-useful-links ,
   .view-taxonomy-term {
     .views-field-field-link{

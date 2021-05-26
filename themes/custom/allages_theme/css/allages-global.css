@@ -1235,8 +1235,10 @@ section.row {
   font-style: normal;
   border-radius: 0;
   background-color: #000;
-  overflow: visible;
   margin-bottom: 0.5rem;
+}
+.onomasticon-extra-element .onomasticon-term-description {
+  overflow: visible;
 }
 .onomasticon-term-description p {
   margin: 1rem auto;
