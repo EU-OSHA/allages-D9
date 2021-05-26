@@ -38,5 +38,6 @@ global-styling:
   css:
     component:
       css/allages-global.css: {}
+      css/allages-print-version.css: {}
     theme:
       https://fonts.googleapis.com/css?family=Noto+Sans: { type: external, minified: true  }

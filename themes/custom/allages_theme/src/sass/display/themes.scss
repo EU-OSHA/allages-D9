@@ -6,10 +6,14 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .ico-profile,
+  .text-profifle {
+    display:inline-block;
+    vertical-align: middle;
+  }
   .ico-profile{
     width:45px;
     height:70px;
-    display:none;
     &:after{
       content:'';
       display:block;
