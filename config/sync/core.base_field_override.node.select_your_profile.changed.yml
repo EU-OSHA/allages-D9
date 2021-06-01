@@ -1,0 +1,18 @@
+uuid: d43a5304-ca70-4b31-90e4-730dd93cc51c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.select_your_profile
+id: node.select_your_profile.changed
+field_name: changed
+entity_type: node
+bundle: select_your_profile
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

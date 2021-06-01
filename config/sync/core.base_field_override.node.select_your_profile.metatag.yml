@@ -1,17 +1,17 @@
-uuid: 7aa70050-029d-4d8e-bb8c-f18e9e0b50d4
+uuid: e5b14c11-4e42-4c42-9e96-9745a5b5999c
 langcode: en
 status: true
 dependencies:
-  module:
-    - menu_link_content
-id: menu_link_content.menu_link_content.metatag
+  config:
+    - node.type.select_your_profile
+id: node.select_your_profile.metatag
 field_name: metatag
-entity_type: menu_link_content
-bundle: menu_link_content
+entity_type: node
+bundle: select_your_profile
 label: 'Metatags (Hidden field for JSON support)'
 description: 'The meta tags for the entity.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
