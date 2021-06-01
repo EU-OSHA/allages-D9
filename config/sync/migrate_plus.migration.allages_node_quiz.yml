@@ -1,4 +1,4 @@
-uuid: 156ea1d5-51ea-474e-b773-eb14f2c00ae0
+uuid: e08b4c60-b682-410e-b7b1-9ae454ed2cc4
 langcode: en
 status: true
 dependencies:
@@ -36,10 +36,6 @@ process:
   revision_uid: revision_uid
   revision_log: log
   revision_timestamp: timestamp
-  pass_rate: pass_rate
-  quiz_date__value: quiz_date__value
-  quiz_date__end_value: quiz_date__end_value
-  question_type: type
 destination:
   plugin: 'entity:quiz'
 migration_dependencies:
