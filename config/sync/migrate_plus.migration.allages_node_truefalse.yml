@@ -1,26 +1,26 @@
-uuid: 7ec8cb47-3446-4883-a631-8b255a2421ab
+uuid: 5bab52bf-1618-4d51-aa8a-a9c2b9ab2839
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - custom_migrations
-id: allages_node_question
+id: allages_node_truefalse
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags: null
 migration_group: allages_migrate_quiz
-label: 'Node: Quiz Question'
+label: 'Node: Quiz True False Question'
 source:
   plugin: d7_node
-  node_type: multichoice
+  node_type: truefalse
 process:
   nid: tnid
   type:
     -
       plugin: default_value
-      default_value: multichoice
+      default_value: truefalse
   langcode:
     plugin: default_value
     source: language
