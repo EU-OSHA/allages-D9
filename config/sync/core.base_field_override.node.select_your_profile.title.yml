@@ -1,0 +1,18 @@
+uuid: 17cf224d-e2a6-4c7f-8913-4298744e0f90
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.select_your_profile
+id: node.select_your_profile.title
+field_name: title
+entity_type: node
+bundle: select_your_profile
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,14 +1,14 @@
-uuid: 301bbfb0-3dfd-44c0-b3f7-59ad5284131f
+uuid: 98a2e943-5988-4836-b66f-855311d3f48b
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.select_your_profile
-id: node.select_your_profile.promote
-field_name: promote
+id: node.select_your_profile.sticky
+field_name: sticky
 entity_type: node
 bundle: select_your_profile
-label: 'Promoted to front page'
+label: 'Sticky at top of lists'
 description: ''
 required: false
 translatable: false

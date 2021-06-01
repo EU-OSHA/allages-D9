@@ -1,23 +1,20 @@
-uuid: c8e87fca-ca96-4c71-90d6-4d27b3df566b
+uuid: 65dd1372-1070-4d4c-b6b5-aa7973aa40ae
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
     - node.type.select_your_profile
   module:
-    - text
-id: node.select_your_profile.body
-field_name: body
+    - path
+id: node.select_your_profile.path
+field_name: path
 entity_type: node
 bundle: select_your_profile
-label: Body
+label: 'URL alias'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  display_summary: true
-  required_summary: false
-field_type: text_with_summary
+settings: {  }
+field_type: path

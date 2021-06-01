@@ -23,18 +23,14 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-  stats:
-    weight: 1
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   take:
-    weight: 2
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   quiz_date: true
   search_api_excerpt: true
+  stats: true
   takes: true
   time_limit: true

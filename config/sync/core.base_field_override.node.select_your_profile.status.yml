@@ -1,20 +1,20 @@
-uuid: 301bbfb0-3dfd-44c0-b3f7-59ad5284131f
+uuid: e9ecc77a-9d75-4ecc-8c85-3d1d9859938c
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.select_your_profile
-id: node.select_your_profile.promote
-field_name: promote
+id: node.select_your_profile.status
+field_name: status
 entity_type: node
 bundle: select_your_profile
-label: 'Promoted to front page'
+label: Published
 description: ''
 required: false
 translatable: false
 default_value:
   -
-    value: 0
+    value: 1
 default_value_callback: ''
 settings:
   on_label: 'On'
