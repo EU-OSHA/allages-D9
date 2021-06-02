@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"morethemeinfono p{{ field_order }}\" >\r\n{{ field_more_info }}\r\n<div class=\"minor-content\"><div class=\"minor\">-</div></div></div>\r\n</div>\r\n<div class=\"plus-content\"><div class=\"plus\">+</div>"
+        view_node:
+          text: Прочетете
+      footer:
+        area:
+          content:
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"did-you-know\">Знаехте ли, че...?</a></p>\r\n\r\n<p>Намерете</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"glossary\">Речник на термините</a></p>\r\n\r\n<p>Научете</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"about-e-guide\">Затова е-ръководство.</a></p>\r\n\r\n<p>Прочетете</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            format: full_html
+      arguments:
+        field_profile_target_id:
+          exception:
+            title: Всичко
