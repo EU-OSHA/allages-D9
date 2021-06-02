@@ -1,0 +1,17 @@
+{% extends "page.html.twig" %}
+
+{% block content %}
+  {{ page.breadcrumb }}
+  {{ page.allages_title }}
+  <div class="quiz-container">
+    <div class="left-column-quiz">
+      <h1 class="quiz-h1">{{ 'Quiz' | trans }}</h1>
+    </div>
+    <div class="right-column-quiz">
+      <span class="chose-caption">
+        {{ 'Choose one' | trans }}
+      </span>
+      {{ page.content }}
+    </div>
+  </div>
+{% endblock %}
