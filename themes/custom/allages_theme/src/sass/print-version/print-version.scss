@@ -276,6 +276,43 @@
     }
   }
 
+  /******     Quiz    ******/
+
+  .quiz-container {
+    flex-direction: column;
+    display:block;
+    .left-column-quiz,
+    .right-column-quiz {
+      width: 100%;
+      flex: 0 0 1000%;
+      max-width: 100%;
+      height: auto;
+    }
+    h1{
+      color:$text-color-dark-grey;
+      margin: 1rem 0;
+    }
+    .right-column-quiz{
+      padding: 0 1.125rem;
+      .quiz-start-link{
+        color:$text-color-dark-grey;
+      }
+    }
+    .answering-form{
+      .quiz-question-multichoice ,
+      .quiz-question-truefalse{
+        .field--type-text-long{
+          color:$text-color-dark-grey;
+        }
+      }
+      #edit-navigation{
+        #edit-navigation-submit{
+          color:$text-color-dark-grey;
+        }
+      }
+    }
+  }
+
   /******     Glossary    ******/
 
   .view-glossary {

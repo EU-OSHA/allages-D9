@@ -238,6 +238,13 @@
     }
   });
 
+  // Quiz text placement
+  $('.quiz-container').each(function(){
+    let $text= $(this).find('.chose-caption');
+    $(this).find('.table-responsive').prepend($text);
+    $(this).find('#edit-question-7-answer--wrapper').before($text);
+  });
+
   //URL parameters when clicked on Front page Map
   var origin_url   = window.location.origin;
   var getUrlParameter = function getUrlParameter(sParam) {

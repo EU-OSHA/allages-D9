@@ -1,0 +1,191 @@
+.quiz-container{
+  display:flex;
+  flex-direction: row;
+  .left-column-quiz,
+  .right-column-quiz{
+    width:100%;
+    flex:0 0 50%;
+    max-width:50%;
+    height:695px;
+  }
+  .left-column-quiz{
+    background-image: url(/sites/allages/themes/custom/allages_theme/images/bckQuiz.png) ;
+    background-color: $bg-color-green;
+    background-repeat: no-repeat;
+    background-position: center 95%;
+    h1{
+      color:$text-color-white;
+      font-size:1.875rem;
+      line-height: 2rem;
+      text-align: center;
+      margin:4.75rem auto;
+    }
+  }
+  .right-column-quiz{
+    padding-left:2.5rem;
+    padding-right:2rem;
+    .quiz{
+      &title{
+        background-color: $bg-color-white;
+        color: $text-color-blue;
+        font-weight: bold;
+        font-size: 1.75rem;
+        padding-top: 1.75em;
+      }
+      &text{
+        background-color: $bg-color-white;
+        color: $text-color-black;
+        font-size: 1rem;
+        line-height: 1.875rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      &-start-link{
+        text-decoration: none;
+        background-color: $bg-color-green-2;
+        color: $text-color-white;
+        font-size: 1.25rem;
+        padding: 0.5rem 2.25rem;
+        display:inline-block;
+        &:hover{
+          background-color: $bg-color-blue;
+        }
+      }
+    }
+  }
+  #quiz-progress{
+    display:none;
+  }
+}
+.quiz-report-jumper{
+  font-style: italic;
+  text-align: right;
+  font-size:0.75rem;
+  line-height:1.5rem;
+  .quiz-jumper-form{
+    display:inline-block;
+    width:auto;
+    .custom-select{
+      border:none;
+      padding:0;
+      margin:0;
+      cursor: default;
+      pointer-events: none;
+      box-shadow: none;
+      display: inline-block;
+      background: none;
+      font-style: inherit;
+      color:inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      vertical-align: baseline;
+      width:auto;
+      height:auto;
+      text-align:center;
+    }
+    input,
+    button{
+      display:none;
+    }
+  }
+}
+.answering-form{
+  .quiz-question-multichoice,
+  .quiz-question-truefalse{
+    h2,
+    legend{
+      display:none;
+    }
+    .field--type-text-long{
+      background-color: $bg-color-blue;
+      color: $text-color-white;
+    }
+    p{
+      margin: 0 0 0.5rem;
+      padding: 0.5rem;
+    }
+    .chose-caption{
+      font-weight: bold;
+    }
+    .table{
+      thead{
+        display:none;
+      }
+      td{
+        border: 1px solid $text-color-grey-5 ;
+        border-collapse: collapse ;
+        padding: 0.25rem ;
+        &:nth-child(1){
+          width:35px;
+        }
+        p{
+          margin:0;
+          padding:0;
+        }
+      }
+    }
+    #edit-question-7-answer--wrapper{
+      border-bottom: 1px solid $text-color-grey-5 ;
+      margin: 1rem;
+      padding: 0 0 1rem;
+    }
+  }
+  #edit-navigation{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    p{
+      order:0;
+      flex:0 0 100%;
+      max-width: 100%;
+    }
+    #edit-navigation-submit-hidden{
+    }
+    #edit-navigation-back{
+      order:1;
+      background: none;
+      color:$text-color-violet;
+      border:none;
+      margin-right:0.75rem;
+      box-shadow: none;
+      font-size: 1.25rem;
+      padding: 0.5rem 2.25rem;
+      &:hover{
+        text-decoration: underline;
+        color:$text-color-violet-hover;
+      }
+
+    }
+    #edit-navigation-skip{
+      background: none;
+      color:$text-color-violet;
+      border:none;
+      margin-left:0.75rem;
+      box-shadow: none;
+      font-size: 1.25rem;
+      padding: 0.5rem 2.25rem;
+      order:3;
+      &:hover{
+        text-decoration: underline;
+        color:$text-color-violet-hover;
+      }
+
+    }
+    #edit-navigation-submit{
+      text-decoration: none;
+      background-color: $bg-color-green-2;
+      color: $text-color-white;
+      font-size: 1.25rem;
+      padding: 0.5rem 2.25rem;
+      display:inline-block;
+      border:none;
+      border-radius: 0;
+      order:2;
+      &:hover{
+        background-color: $bg-color-blue;
+      }
+    }
+  }
+}
