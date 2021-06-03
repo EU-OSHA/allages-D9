@@ -431,6 +431,27 @@
 
   /******     Did you know    ******/
 
+  .quiz-container {
+    flex-direction: column;
+    display:block;
+    .left-column-quiz,
+    .right-column-quiz {
+      width: 100%;
+      flex: 0 0 1000%;
+      max-width: 100%;
+    }
+
+    .left-column-quiz{
+      height: 645px;
+    }
+    .right-column-quiz{
+      height: auto;
+      padding: 0 1.125rem;
+    }
+  }
+
+  /******     Did you know    ******/
+
   .view-did-you-know{
     .views-view-grid{
       .views-col{
