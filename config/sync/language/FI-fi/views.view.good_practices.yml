@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Edellinen'
+            next: 'Seuraava ›'
+          expose:
+            items_per_page_options_all_label: '- Kaikki -'
+      fields:
+        view_node:
+          text: 'Lue lisää'
+      title: 'Hyvät käytännöt'
+  page:
+    display_options:
+      menu:
+        title: 'Hyvät käytännöt'

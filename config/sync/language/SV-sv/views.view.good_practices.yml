@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Tidigare'
+            next: 'Nästa ›'
+          expose:
+            items_per_page_options_all_label: '- Alla -'
+      fields:
+        view_node:
+          text: 'Läs mer'
+      title: 'God praxis'
+  page:
+    display_options:
+      menu:
+        title: 'God praxis'

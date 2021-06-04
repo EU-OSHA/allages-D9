@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Lepriekšējā'
+            next: 'Tālāk ›'
+          expose:
+            items_per_page_options_all_label: '- Viss vienkopus - '
+      fields:
+        view_node:
+          text: 'Lasīt vairāk'
+      title: 'Labā prakse'
+  page:
+    display_options:
+      menu:
+        title: 'Labā prakse'

@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Sve -'
+      title: Glosar
+      header:
+        area_text_custom:
+          content: 'Odaberite slovo:'
+      arguments:
+        name:
+          exception:
+            title: Sve
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Sve
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Sve

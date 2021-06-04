@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Mind -'
+      title: 'Válassza ki a megfelelő betűt!'
+      header:
+        area_text_custom:
+          content: 'Válassza ki a megfelelő betűt!:'
+      arguments:
+        name:
+          exception:
+            title: Mind
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Mind
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Mind

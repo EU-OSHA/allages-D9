@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Pesquisar
+      filters:
+        name:
+          expose:
+            label: 'Pesquise um termo:'
+      title: Glossário

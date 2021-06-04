@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Søk
+      filters:
+        name:
+          expose:
+            label: 'Søk en term:'
+      title: Ordliste

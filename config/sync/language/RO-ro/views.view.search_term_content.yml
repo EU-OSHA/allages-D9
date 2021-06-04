@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Căutare
+      filters:
+        name:
+          expose:
+            label: 'Caută un termen:'
+      title: Glosar

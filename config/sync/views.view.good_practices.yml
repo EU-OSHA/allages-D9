@@ -556,7 +556,7 @@ display:
       arguments: {  }
       display_extenders:
         metatag_display_extender: {  }
-      title: 'good practices'
+      title: 'Good practices'
       show_admin_links: false
       use_ajax: true
       css_class: container

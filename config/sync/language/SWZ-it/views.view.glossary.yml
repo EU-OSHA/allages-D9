@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Tutti - '
+      title: Glossario
+      header:
+        area_text_custom:
+          content: 'Scegli una lettera:'
+      arguments:
+        name:
+          exception:
+            title: Tutti
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Tutti
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Tutti

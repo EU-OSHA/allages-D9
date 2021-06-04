@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Viss vienkopus - '
+      title: Glosārijs
+      header:
+        area_text_custom:
+          content: 'Izvēlieties vēstuli: '
+      arguments:
+        name:
+          exception:
+            title: 'Viss vienkopus'
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: 'Viss vienkopus'
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: 'Viss vienkopus'

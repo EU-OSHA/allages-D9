@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Prethodno'
+            next: 'SLJEDEĆE ›'
+          expose:
+            items_per_page_options_all_label: '- Sve -'
+      fields:
+        view_node:
+          text: 'Pročitajte više'
+      title: 'Dobre prakse'
+  page:
+    display_options:
+      menu:
+        title: 'Dobre prakse'

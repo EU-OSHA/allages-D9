@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Kaikki -'
+      title: Sanasto
+      header:
+        area_text_custom:
+          content: 'Valitse kirjain:'
+      arguments:
+        name:
+          exception:
+            title: Kaikki
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Kaikki
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Kaikki

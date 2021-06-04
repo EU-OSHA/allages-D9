@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Anterior'
+            next: 'Următoarea ›'
+          expose:
+            items_per_page_options_all_label: '- Toate - '
+      fields:
+        view_node:
+          text: 'Citește mai mult'
+      title: 'Bune practici'
+  page:
+    display_options:
+      menu:
+        title: 'Bune practici'

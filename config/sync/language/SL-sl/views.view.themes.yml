@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"did-you-know\">Ali ste vedeli ...? </a></p>\r\n\r\n<p>Spoznajte</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"glossary\">Slovarček</a></p>\r\n\r\n<p>Poučite se</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"about-e-guide\">O tem e-priročniku</a></p>\r\n\r\n<p>Preberite</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/SL-sl/did-you-know\">Ali ste vedeli ...? </a></p>\r\n\r\n<p>Spoznajte</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/SL-sl/glossary\">Slovarček</a></p>\r\n\r\n<p>Poučite se</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/SL-sl/about-e-guide\">O tem e-priročniku</a></p>\r\n\r\n<p>Preberite</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

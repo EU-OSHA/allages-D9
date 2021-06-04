@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Tidligere'
+            next: 'Næste ›'
+          expose:
+            items_per_page_options_all_label: '- Alle - '
+      fields:
+        view_node:
+          text: 'Læs mere'
+      title: 'Gode praksisser'
+  page:
+    display_options:
+      menu:
+        title: 'Gode praksisser'

@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alles -'
+      title: Woordenlijst
+      header:
+        area_text_custom:
+          content: 'Kies een letter:'
+      arguments:
+        name:
+          exception:
+            title: Alles
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Alles
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Alles

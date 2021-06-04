@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alle -'
+      arguments:
+        tid:
+          exception:
+            title: Alle
+      title: 'Nyttige lenker'
