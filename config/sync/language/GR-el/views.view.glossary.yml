@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Όλα - '
+      title: Γλωσσάριο
+      header:
+        area_text_custom:
+          content: 'Επιλέξτε γράμμα:'
+      arguments:
+        name:
+          exception:
+            title: Όλα
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Όλα
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Όλα

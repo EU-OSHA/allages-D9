@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Wszystkie - '
+      title: Słowniczek
+      header:
+        area_text_custom:
+          content: 'Wybierz literę:'
+      arguments:
+        name:
+          exception:
+            title: Wszystkie
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Wszystkie
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Wszystkie

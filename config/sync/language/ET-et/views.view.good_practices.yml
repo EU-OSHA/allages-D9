@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Eelmine'
+            next: 'Edasi ›'
+          expose:
+            items_per_page_options_all_label: '- Kõik -'
+      fields:
+        view_node:
+          text: 'Lugege edasi'
+      title: 'Hea tava'
+  page:
+    display_options:
+      menu:
+        title: 'Hea tava'

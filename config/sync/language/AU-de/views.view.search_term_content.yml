@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: 'Einen Begriff suchen:'
+      title: Glossar
+      exposed_form:
+        options:
+          submit_button: Suche

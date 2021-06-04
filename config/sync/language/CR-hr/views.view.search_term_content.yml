@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Traži
+      filters:
+        name:
+          expose:
+            label: 'Tražiti pojam:'
+      title: Glosar

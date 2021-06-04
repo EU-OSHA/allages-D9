@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Poprzedni'
+            next: 'Dalej ›'
+          expose:
+            items_per_page_options_all_label: '- Wszystkie - '
+      fields:
+        view_node:
+          text: Więcej
+      title: 'Dobre praktyki'
+  page:
+    display_options:
+      menu:
+        title: 'Dobre praktyki'

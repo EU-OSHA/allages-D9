@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Ankstesnis'
+            next: 'Toliau ›'
+          expose:
+            items_per_page_options_all_label: '- Visos -'
+      fields:
+        view_node:
+          text: 'Daugiau informacijos'
+      title: 'Geroji praktika'
+  page:
+    display_options:
+      menu:
+        title: 'Geroji praktika'

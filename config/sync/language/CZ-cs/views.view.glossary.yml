@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Vše - '
+      title: Glosář
+      header:
+        area_text_custom:
+          content: 'Zvolte jedno písmeno:'
+      arguments:
+        name:
+          exception:
+            title: Vše
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Vše
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Vše

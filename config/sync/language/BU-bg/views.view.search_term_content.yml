@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Търсене
+      filters:
+        name:
+          expose:
+            label: 'Търсене на термин:'
+      title: 'Речник на термините'

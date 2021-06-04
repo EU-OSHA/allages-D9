@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Всичко -'
+      title: 'Речник на термините'
+      header:
+        area_text_custom:
+          content: 'Изберете буква:'
+      arguments:
+        name:
+          exception:
+            title: Всичко
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Всичко
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Всичко

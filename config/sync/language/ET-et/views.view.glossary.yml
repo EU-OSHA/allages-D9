@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Kõik -'
+      title: Sõnastik
+      header:
+        area_text_custom:
+          content: 'Vali kirja:'
+      arguments:
+        name:
+          exception:
+            title: Kõik
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Kõik
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Kõik

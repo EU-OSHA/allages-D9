@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Qabel'
+            next: 'Li jmiss ›'
+          expose:
+            items_per_page_options_all_label: '- Kollha -'
+      fields:
+        view_node:
+          text: 'Aqra aktar'
+      title: 'Prassi tajba'
+  page:
+    display_options:
+      menu:
+        title: 'Prassi tajba'

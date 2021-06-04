@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Viss vienkopus - '
+      arguments:
+        tid:
+          exception:
+            title: 'Viss vienkopus'
+      title: 'Noderīgas saites'

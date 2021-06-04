@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Anterior'
+            next: 'Próximo ›'
+          expose:
+            items_per_page_options_all_label: '- Todos -'
+      fields:
+        view_node:
+          text: 'Ler mais'
+      title: 'Boas práticas'
+  page:
+    display_options:
+      menu:
+        title: 'Boas práticas'

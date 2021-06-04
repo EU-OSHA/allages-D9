@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Til baka'
+            next: 'Áfram ›'
+          expose:
+            items_per_page_options_all_label: '- Allt -'
+      fields:
+        view_node:
+          text: 'Lesa meira'
+      title: 'Dæmi um fyrirmyndarverkefni'
+  page:
+    display_options:
+      menu:
+        title: 'Dæmi um fyrirmyndarverkefni'

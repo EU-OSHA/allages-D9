@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alle -'
+      title: Glossar
+      header:
+        area_text_custom:
+          content: 'Wählen Sie einen Buchstaben:'
+      arguments:
+        name:
+          exception:
+            title: Alle
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Alle
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Alle

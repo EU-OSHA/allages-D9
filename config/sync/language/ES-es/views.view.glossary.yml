@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Todo - '
+      title: Glosario
+      header:
+        area_text_custom:
+          content: 'Seleccione una letra:'
+      arguments:
+        name:
+          exception:
+            title: Todo
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Todo
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Todo

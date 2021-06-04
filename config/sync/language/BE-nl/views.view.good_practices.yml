@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Voorgaand'
+            next: 'Volgende ›'
+          expose:
+            items_per_page_options_all_label: '- Alles -'
+      fields:
+        view_node:
+          text: 'Meer lezen'
+      title: 'Goede praktijken'
+  page:
+    display_options:
+      menu:
+        title: 'Goede praktijken'

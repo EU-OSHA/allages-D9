@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Allt -'
+      title: Hugtakalisti
+      header:
+        area_text_custom:
+          content: 'Veldu bréf:'
+      arguments:
+        name:
+          exception:
+            title: Allt
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Allt
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Allt

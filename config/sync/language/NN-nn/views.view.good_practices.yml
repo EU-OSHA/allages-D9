@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Tidligere'
+            next: 'Neste ›'
+          expose:
+            items_per_page_options_all_label: '- Alle -'
+      fields:
+        view_node:
+          text: 'Les mer'
+      title: 'God praksis'
+  page:
+    display_options:
+      menu:
+        title: 'God praksis'

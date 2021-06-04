@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Alla - '
+      title: Ordlista
+      header:
+        area_text_custom:
+          content: 'Välj en bokstav:'
+      arguments:
+        name:
+          exception:
+            title: Alla
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Alla
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Alla

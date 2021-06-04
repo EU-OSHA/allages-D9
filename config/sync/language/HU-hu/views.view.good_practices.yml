@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Előző'
+            next: 'Következő ›'
+          expose:
+            items_per_page_options_all_label: '- Mind -'
+      fields:
+        view_node:
+          text: 'Olvasson többet'
+      title: 'Helyes gyakorlatok'
+  page:
+    display_options:
+      menu:
+        title: 'Helyes gyakorlatok'

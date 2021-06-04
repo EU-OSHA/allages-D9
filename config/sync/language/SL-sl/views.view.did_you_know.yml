@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Vse - '
+          views_infinite_scroll:
+            button_text: 'Naloži več'
+      fields:
+        field_sources:
+          alter:
+            text: "<div class=\"field-content sourceLink\">\r\n<div class=\"buttonViewSource views-row-first views-row-odd\">\r\n<a class=\"viewSource\" href=\"#\">Vir</a>\r\n</div>\r\n\r\n<div class=\"pop-up-content\">\r\n<div class=\"pop-up-title\">{{ 'Vir' | trans }}</div><div class=\"pop-up-close\">X</div>\r\n <p>{{ field_sources }}</p>\r\n </div>\r\n\r\n</div>"
+      title: 'Ali ste vedeli ...? '

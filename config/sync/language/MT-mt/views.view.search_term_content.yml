@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Fittex
+      filters:
+        name:
+          expose:
+            label: 'Fittex terminu:'
+      title: Glossarju

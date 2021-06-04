@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ Früher'
+            next: 'Weiter ›'
+          expose:
+            items_per_page_options_all_label: '- Alle - '
+      fields:
+        view_node:
+          text: 'Weitere Informationen'
+      title: 'Bewährte Vorgehensweisen'
+  page:
+    display_options:
+      menu:
+        title: 'Bewährte Vorgehensweisen'

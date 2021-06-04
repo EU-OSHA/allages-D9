@@ -1,0 +1,18 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '‹ предишен'
+            next: 'По-нататък ›'
+          expose:
+            items_per_page_options_all_label: '- Всичко -'
+      fields:
+        view_node:
+          text: 'Прочетете повече'
+      title: 'Добри практики'
+  page:
+    display_options:
+      menu:
+        title: 'Добри практики'

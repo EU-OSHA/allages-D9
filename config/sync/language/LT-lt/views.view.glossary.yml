@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Visos -'
+      title: Žodynėlis
+      header:
+        area_text_custom:
+          content: 'Pasirinkite raidę:'
+      arguments:
+        name:
+          exception:
+            title: Visos
+  attachment:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Visos
+  page_1:
+    display_options:
+      arguments:
+        name:
+          exception:
+            title: Visos
