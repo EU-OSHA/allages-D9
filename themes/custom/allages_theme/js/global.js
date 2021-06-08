@@ -86,8 +86,8 @@
   })
 
   // Good practice - show the share-buttons at mouse enter
-  $('.view-good-practices .views-view-grid .views-col').each(function(){
-    $(this).on('mouseenter', function(){
+  $('.view-good-practices ').each(function(){
+    $(this).on('mouseenter', ' .views-view-grid .views-col', function(){
       $(this).addClass('mouse-enter');
       if($(this).find('.onomasticon-custom-detail').length==0){
         $(this).find('.onomasticon').each(function(){
@@ -97,11 +97,11 @@
         });
       }
     });
-    $(this).on('mouseleave', function(){
+    $(this).on('mouseleave', ' .views-view-grid .views-col', function(){
       $(this).removeClass('mouse-enter');
       $(this).find('.buttons-container').hide();
     });
-    $(this).on('click', '.share-link', function(){
+    $(this).on('click', '.views-view-grid .views-col .share-link', function(){
       $(this).siblings('.buttons-container').toggle(0);
     })
   });
