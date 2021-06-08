@@ -72,7 +72,7 @@ process:
   description/format:
     -
       plugin: default_value
-      default_value: full_html
+      default_value: basic_html
   parent_id:
     -
       plugin: skip_on_empty
