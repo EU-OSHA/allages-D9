@@ -1,12 +1,6 @@
 display:
   default:
     display_options:
-      pager:
-        options:
-          expose:
-            items_per_page_options_all_label: '- Sve -'
-          views_infinite_scroll:
-            button_text: 'Učitati više'
       fields:
         field_sources:
           alter:
