@@ -1,0 +1,13 @@
+display:
+  default:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: '<a href= "/list-themes">Začetek</a>'
+      filters:
+        vid:
+          expose:
+            description: ''
+          group_info:
+            description: ''
