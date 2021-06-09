@@ -974,7 +974,6 @@ section.row {
 }
 
 .view-search-term-content {
-  overflow: auto;
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -3568,6 +3567,22 @@ section.row {
     font-weight: bold;
     padding: 0.375rem 0;
   }
+}
+#taxonomy-term-1 .content, #taxonomy-term-2 .content, #taxonomy-term-5 .content, #taxonomy-term-6 .content {
+  display: none;
+}
+
+.node--type-themes .region-allages-title,
+.path-quiz .region-allages-title {
+  display: none;
+}
+
+.node--type-steps .block-page-title-block {
+  display: none;
+}
+
+.path-search .search-advanced {
+  display: none;
 }
 
 /*# sourceMappingURL=allages-global.css.map */
