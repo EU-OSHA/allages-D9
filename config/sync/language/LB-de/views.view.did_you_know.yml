@@ -1,12 +1,6 @@
 display:
   default:
     display_options:
-      pager:
-        options:
-          expose:
-            items_per_page_options_all_label: '- Alle -'
-          views_infinite_scroll:
-            button_text: 'Mehr laden'
       fields:
         field_sources:
           alter:
