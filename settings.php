@@ -794,6 +794,22 @@ $databases['default']['default'] = [
 
 $settings['config_sync_directory'] = $app_root . '/' . $site_path . '/config/sync';
 
+// PROD settings.
+if (file_exists($app_root . '/' . $site_path . '/settings.production.php')) {
+  include $app_root . '/' . $site_path . '/settings.production.php';
+}
+
+// STAGING settings.
+if (file_exists($app_root . '/' . $site_path . '/settings.staging.php')) {
+  include $app_root . '/' . $site_path . '/settings.staging.php';
+}
+
+// DEVELOP settings.
+if (file_exists($app_root . '/' . $site_path . '/settings.develop.php')) {
+  include $app_root . '/' . $site_path . '/settings.develop.php';
+}
+
+// LOCAL settings.
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
