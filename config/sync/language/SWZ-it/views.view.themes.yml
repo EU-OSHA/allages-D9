@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/SWZ-it/did-you-know\">Sapevi che…?</a></p>\r\n\r\n<p>Scopri</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/SWZ-it/glossary\">Glossario</a></p>\r\n\r\n<p>Impara</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/SWZ-it/about-e-guide\">Note sulla guida digitale</a></p>\r\n\r\n<p>Leggi</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/SWZ-it/did-you-know\">Sapevi che…?</a></p>\r\n\r\n<p>Scopri</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/SWZ-it/glossary\">Glossario</a></p>\r\n\r\n<p>Impara</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/SWZ-it/about-e-guide\">Note sulla guida digitale</a></p>\r\n\r\n<p>Leggi</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

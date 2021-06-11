@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"morethemeinfono p{{ field_order }}\" >\r\n{{ field_more_info }}\r\n<div class=\"minor-content\"><div class=\"minor\">-</div></div></div>\r\n</div>\r\n<div class=\"plus-content\"><div class=\"plus\">+</div>"
+      footer:
+        area:
+          content:
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-en/did-you-know\">Did you know...?</a></p>\r\n\r\n<p>Discover</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-en/glossary\">Glossary</a></p>\r\n\r\n<p>Learn</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-en/about-e-guide\">About this e-Guide</a></p>\r\n\r\n<p>Read</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            format: full_html
