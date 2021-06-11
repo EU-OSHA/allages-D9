@@ -265,8 +265,8 @@
 
   var param1 = getUrlParameter('c');
   var param2 = getUrlParameter('l');
-  var newUrl = origin_url + '/all-ages/' + param1 + '_' + param2 + '/select-your-profile';
-
+  var param2lower = param2.toString().toLowerCase();
+  var newUrl = origin_url + '/all-ages/' + param1 + '-' + param2lower + '/select-your-profile';
   //redirect to new page
   if (param1 != '0'){
     window.location = newUrl;
