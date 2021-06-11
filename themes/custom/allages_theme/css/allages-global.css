@@ -419,6 +419,7 @@ section.row {
 }
 .site-footer a.nav-link {
   text-decoration: underline;
+  text-transform: uppercase;
 }
 .site-footer .block,
 .site-footer .region {
@@ -445,16 +446,19 @@ section.row {
   vertical-align: middle;
 }
 .header .logos .field--type-text-with-summary span:not(:first-of-type) {
-  margin-left: 1rem;
+  margin-left: 0.25rem;
 }
 .header .logos .field--type-text-with-summary span:nth-child(1) img {
-  max-width: 108px;
+  width: 105px;
+  height: 36px;
 }
 .header .logos .field--type-text-with-summary span:nth-child(2) img {
-  max-width: 48px;
+  width: 48px;
+  height: 31px;
 }
 .header .logos .field--type-text-with-summary span:nth-child(3) img {
-  max-width: 47px;
+  width: 47px;
+  height: 44px;
 }
 .header #navbar {
   float: left;
