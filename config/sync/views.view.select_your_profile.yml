@@ -1,6 +1,6 @@
 uuid: 695eef4b-2d43-45d2-8b26-b6ae9e579b8e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - field.storage.taxonomy_term.field_imageprofile
@@ -208,7 +208,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: '<a href= "/list-themes">Start</a>'
+            text: '<a href= "/all-ages/list-themes">Start</a>'
             make_link: false
             path: ''
             absolute: false
@@ -386,7 +386,7 @@ display:
     display_options:
       display_extenders:
         metatag_display_extender: {  }
-      path: select-your-profile
+      path: select-your-profilev2
     cache_metadata:
       max-age: -1
       contexts:

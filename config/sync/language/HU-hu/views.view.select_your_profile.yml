@@ -5,9 +5,3 @@ display:
         nothing:
           alter:
             text: '<a href= "/list-themes">Kezdés</a>'
-      filters:
-        vid:
-          expose:
-            description: ''
-          group_info:
-            description: ''

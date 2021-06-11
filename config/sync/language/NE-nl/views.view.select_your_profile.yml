@@ -1,9 +1,0 @@
-display:
-  default:
-    display_options:
-      filters:
-        vid:
-          expose:
-            description: ''
-          group_info:
-            description: ''

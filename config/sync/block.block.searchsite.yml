@@ -1,0 +1,25 @@
+uuid: 4300e736-176b-4d60-b91f-5f248043a63b
+langcode: UK-en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:a10aa5b4-a05e-4daa-ae21-b9a57f62727d'
+  module:
+    - block_content
+  theme:
+    - allages_theme
+id: searchsite
+theme: allages_theme
+region: header_form
+weight: 0
+provider: null
+plugin: 'block_content:a10aa5b4-a05e-4daa-ae21-b9a57f62727d'
+settings:
+  id: 'block_content:a10aa5b4-a05e-4daa-ae21-b9a57f62727d'
+  label: 'Search site'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

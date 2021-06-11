@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/PL-pl/did-you-know\">Czy wiesz, że...?</a></p>\r\n\r\n<p>Odkryj</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/PL-pl/glossary\">Słowniczek</a></p>\r\n\r\n<p>Dowiedz się</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/PL-pl/about-e-guide\">O tym przewodniku</a></p>\r\n\r\n<p>Czytaj</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/PL-pl/did-you-know\">Czy wiesz, że...?</a></p>\r\n\r\n<p>Odkryj</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/PL-pl/glossary\">Słowniczek</a></p>\r\n\r\n<p>Dowiedz się</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/PL-pl/about-e-guide\">O tym przewodniku</a></p>\r\n\r\n<p>Czytaj</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

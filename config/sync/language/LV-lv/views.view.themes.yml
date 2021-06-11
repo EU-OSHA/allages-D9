@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/LV-lv/did-you-know\">Vai jūs zinājāt, ka...? </a></p>\r\n\r\n<p>Uzzināt</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/LV-lv/glossary\">Glosārijs</a></p>\r\n\r\n<p>Noskaidrot</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/LV-lv/about-e-guide\">Par šo e-ceļvedi</a></p>\r\n\r\n<p>Lasīt</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/LV-lv/did-you-know\">Vai jūs zinājāt, ka...? </a></p>\r\n\r\n<p>Uzzināt</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/LV-lv/glossary\">Glosārijs</a></p>\r\n\r\n<p>Noskaidrot</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/LV-lv/about-e-guide\">Par šo e-ceļvedi</a></p>\r\n\r\n<p>Lasīt</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

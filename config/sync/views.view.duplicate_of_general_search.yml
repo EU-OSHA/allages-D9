@@ -1,4 +1,4 @@
-uuid: b9558bd2-a762-43b4-9328-20e2f0e605b5
+uuid: 1594c83f-7d36-4d65-83ab-a9cb08254206
 langcode: en
 status: false
 dependencies:
@@ -8,8 +8,8 @@ dependencies:
   module:
     - node
     - text
-id: general_search_duplicated
-label: 'General search duplicated'
+id: duplicate_of_general_search
+label: 'Duplicate of General search'
 module: views
 description: ''
 tag: ''
@@ -242,7 +242,7 @@ display:
           click_sort_column: value
           type: text_trimmed
           settings:
-            trim_length: 120
+            trim_length: 150
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -374,6 +374,48 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: string
+        langcode:
+          id: langcode
+          table: node_field_data
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
       sorts: {  }
       title: 'General search'
       header: {  }
@@ -418,6 +460,7 @@ display:
           plugin_id: language
       display_extenders: {  }
       show_admin_links: false
+      css_class: container
     cache_metadata:
       max-age: -1
       contexts:
