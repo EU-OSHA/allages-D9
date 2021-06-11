@@ -1,7 +1,5 @@
 .header{
   padding-top: 1rem;
-  >.container{
-  }
   .logos{
     float:left;
     .row{
@@ -12,21 +10,24 @@
         display:inline-block;
         vertical-align: middle;
         &:not(:first-of-type){
-          margin-left:1rem;
+          margin-left:0.25rem;
         }
         &:nth-child(1){
           img{
-            max-width:108px;
+            width:105px;
+            height:36px;
           }
         }
         &:nth-child(2){
           img{
-            max-width:48px;
+            width:48px;
+            height:31px;
           }
         }
         &:nth-child(3){
           img{
-            max-width:47px;
+            width:47px;
+            height:44px;
           }
         }
       }
