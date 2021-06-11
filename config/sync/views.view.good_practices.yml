@@ -536,9 +536,9 @@ display:
           entity_field: langcode
           plugin_id: language
       sorts:
-        created:
-          id: created
-          table: taxonomy_index
+        created_1:
+          id: created_1
+          table: node_field_data
           field: created
           relationship: none
           group_type: group
@@ -548,6 +548,8 @@ display:
           expose:
             label: ''
           granularity: second
+          entity_type: node
+          entity_field: created
           plugin_id: date
       header: {  }
       footer: {  }
