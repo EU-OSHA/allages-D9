@@ -82,7 +82,7 @@
     {% if my_profile['#plain_text'] == '2' %}
       <div class="left-column profile-employer">
         <div class="back-link">
-          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
+          <a href="list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile employer"></div>
@@ -96,7 +96,7 @@
     {% if my_profile['#plain_text'] == '1' %}
       <div class="left-column profile-worker">
         <div class="back-link">
-          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
+          <a href="list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile worker"></div>
@@ -110,7 +110,7 @@
     {% if my_profile['#plain_text'] == '5' %}
       <div class="left-column hr-manager">
         <div class="back-link">
-          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
+          <a href="list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile hr-manager"></div>
@@ -124,7 +124,7 @@
     {% if my_profile['#plain_text'] == '6' %}
       <div class="left-column osh-professional">
         <div class="back-link">
-          <a href="/list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
+          <a href="list-themes/{{ my_profile['#plain_text'] }}">{{ 'Back' | trans }}</a>
         </div>
         <div class="content-profile">
           <div class="ico-profile osh-professional"></div>
@@ -140,12 +140,12 @@
       <div class="content-previous-next">
         {% if previous_content['#plain_text'] != null %}
         <div class="previous-link">
-          <a href="/node/{{ previous_content['#plain_text'] }}">{{ 'Previous' | trans }}</a>
+          <a href="node/{{ previous_content['#plain_text'] }}">{{ 'Previous' | trans }}</a>
         </div>
         {% endif %}
         {% if next_content['#plain_text'] != null %}
         <div class="next-link">
-          <a href="/node/{{ next_content['#plain_text'] }}">{{ 'Next' | trans }}</a>
+          <a href="node/{{ next_content['#plain_text'] }}">{{ 'Next' | trans }}</a>
         </div>
         {% endif %}
       </div>
@@ -159,12 +159,12 @@
       <div class="content-previous-next">
         {% if previous_content['#plain_text'] != null %}
           <div class="previous-link">
-            <a href="/node/{{ previous_content['#plain_text'] }}">{{ 'Previous' | trans }}</a>
+            <a href="node/{{ previous_content['#plain_text'] }}">{{ 'Previous' | trans }}</a>
           </div>
         {% endif %}
         {% if next_content['#plain_text'] != null %}
           <div class="next-link">
-            <a href="/node/{{ next_content['#plain_text'] }}">{{ 'Next' | trans }}</a>
+            <a href="node/{{ next_content['#plain_text'] }}">{{ 'Next' | trans }}</a>
           </div>
         {% endif %}
       </div>
