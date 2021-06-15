@@ -1,0 +1,13 @@
+display:
+  widget:
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Alles
+  widget_table:
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Alles

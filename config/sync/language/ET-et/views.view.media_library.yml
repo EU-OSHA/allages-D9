@@ -1,0 +1,13 @@
+display:
+  widget:
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Kõik
+  widget_table:
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Kõik
