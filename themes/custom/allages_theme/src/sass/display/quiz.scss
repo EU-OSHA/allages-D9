@@ -24,6 +24,7 @@
   .right-column-quiz{
     padding-left:2.5rem;
     padding-right:2rem;
+    overflow-y: auto;
     .quiz{
       &title{
         background-color: $bg-color-white;
@@ -189,3 +190,4 @@
     }
   }
 }
+

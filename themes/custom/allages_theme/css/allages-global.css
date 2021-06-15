@@ -441,22 +441,28 @@ section.row {
 .header .logos .row {
   margin: 0;
 }
-.header .logos .field--type-text-with-summary span {
+.header .logos .field--type-text-with-summary span,
+.header .logos .field--type-text-with-summary a {
   display: inline-block;
   vertical-align: middle;
 }
-.header .logos .field--type-text-with-summary span:not(:first-of-type) {
+.header .logos .field--type-text-with-summary span:nth-child(2), .header .logos .field--type-text-with-summary span:nth-child(3),
+.header .logos .field--type-text-with-summary a:nth-child(2),
+.header .logos .field--type-text-with-summary a:nth-child(3) {
   margin-left: 0.25rem;
 }
-.header .logos .field--type-text-with-summary span:nth-child(1) img {
+.header .logos .field--type-text-with-summary span:nth-child(1) img,
+.header .logos .field--type-text-with-summary a:nth-child(1) img {
   width: 105px;
   height: 36px;
 }
-.header .logos .field--type-text-with-summary span:nth-child(2) img {
+.header .logos .field--type-text-with-summary span:nth-child(2) img,
+.header .logos .field--type-text-with-summary a:nth-child(2) img {
   width: 48px;
   height: 31px;
 }
-.header .logos .field--type-text-with-summary span:nth-child(3) img {
+.header .logos .field--type-text-with-summary span:nth-child(3) img,
+.header .logos .field--type-text-with-summary a:nth-child(3) img {
   width: 47px;
   height: 44px;
 }
@@ -833,6 +839,7 @@ section.row {
 .view-good-practices .views-field-field-image-step {
   text-align: center;
   height: 2.5rem;
+  margin-bottom: 1rem;
 }
 .view-good-practices .views-field-field-image-step img {
   margin: auto;
@@ -1291,6 +1298,7 @@ section.row {
 .quiz-container .right-column-quiz {
   padding-left: 2.5rem;
   padding-right: 2rem;
+  overflow-y: auto;
 }
 .quiz-container .right-column-quiz .quiztitle {
   background-color: #fff;

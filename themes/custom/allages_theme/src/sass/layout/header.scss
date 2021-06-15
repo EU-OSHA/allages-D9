@@ -6,10 +6,13 @@
       margin:0;
     }
     .field--type-text-with-summary{
-      span{
+      span,
+      a{
         display:inline-block;
         vertical-align: middle;
-        &:not(:first-of-type){
+
+        &:nth-child(2),
+        &:nth-child(3){
           margin-left:0.25rem;
         }
         &:nth-child(1){
