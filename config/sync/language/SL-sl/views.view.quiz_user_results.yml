@@ -1,0 +1,10 @@
+display:
+  default:
+    display_options:
+      arguments:
+        qid:
+          exception:
+            title: Vse
+        uid:
+          exception:
+            title: Vse

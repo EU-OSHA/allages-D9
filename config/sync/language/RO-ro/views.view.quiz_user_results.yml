@@ -1,0 +1,10 @@
+display:
+  default:
+    display_options:
+      arguments:
+        qid:
+          exception:
+            title: Toate
+        uid:
+          exception:
+            title: Toate
