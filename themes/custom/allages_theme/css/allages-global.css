@@ -3635,6 +3635,10 @@ section.row {
   .view-did-you-know .pop-up-content {
     width: 95%;
   }
+
+  .message-custom-visitor {
+    max-width: calc(100% - 1.5rem);
+  }
 }
 #taxonomy-term-1 .content, #taxonomy-term-2 .content, #taxonomy-term-5 .content, #taxonomy-term-6 .content {
   display: none;
