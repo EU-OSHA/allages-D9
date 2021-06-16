@@ -229,6 +229,27 @@
     }
   }
 
+  /******     Language-Profile Selector    ******/
+
+  #containerMaxLengthTools{
+    text-align: left;
+    padding: 0 0.625rem;
+    background-color: $bg-color-grey-light-3;
+    #containerTools {
+      .tabs{
+        padding:0;
+        margin:0;
+        display:flex;
+        justify-content: center;
+        li{
+          width:100%;
+          flex: 0 0 46%;
+          max-width: 46%;
+          margin:0 1%;
+        }
+      }
+    }
+  }
 
   /******     Banner header     ******/
 
