@@ -530,6 +530,7 @@ section.row {
   border-radius: 0px;
   border: none;
   margin-left: -3px;
+  width: 12rem;
 }
 .header .dropdown-item, .header .dropdown-item.active {
   padding: 0;
@@ -3019,6 +3020,9 @@ section.row {
     width: 100%;
     color: #003399;
     background: none;
+  }
+  .header .nav-item:first-of-type.active .nav-link {
+    color: #003399;
   }
   .header .nav-item:last-of-type:not(.show) .nav-link {
     border-bottom: 1px solid #003399;

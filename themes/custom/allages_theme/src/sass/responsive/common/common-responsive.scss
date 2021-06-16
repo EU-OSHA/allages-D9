@@ -72,6 +72,11 @@
             color:$text-color-blue;
             background: none;
           }
+          &.active {
+            .nav-link{
+              color:$text-color-blue;
+            }
+          }
         }
         &:last-of-type {
           &:not(.show){
