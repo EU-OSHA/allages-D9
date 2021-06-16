@@ -76,6 +76,10 @@ ul {
   margin-bottom: 1rem;
 }
 
+.feed-icons {
+  display: none;
+}
+
 .breadcrumb {
   background-color: #2d559a;
   color: #FFF;
