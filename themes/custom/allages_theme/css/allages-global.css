@@ -656,7 +656,7 @@ section.row {
   margin-right: 19px;
   max-width: calc(33.333333% - 19px);
   padding: 0;
-  height: 393px;
+  height: 407px;
 }
 .view-did-you-know .views-view-grid .views-field-field-image-step {
   overflow: hidden;
@@ -684,6 +684,7 @@ section.row {
   font-weight: bold;
   padding: 0.75rem 1rem 0.75rem 3rem;
   text-decoration: none;
+  display: inline-block;
 }
 .view-did-you-know .pop-up-content {
   display: none;
@@ -3578,6 +3579,17 @@ section.row {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0.375rem 0;
+  }
+
+  .view-did-you-know .views-view-grid .views-col {
+    float: none;
+    height: 394px;
+  }
+  .view-did-you-know .views-view-grid .views-field-field-text .field-content {
+    height: 11rem;
+  }
+  .view-did-you-know .pop-up-content {
+    width: 95%;
   }
 }
 #taxonomy-term-1 .content, #taxonomy-term-2 .content, #taxonomy-term-5 .content, #taxonomy-term-6 .content {
