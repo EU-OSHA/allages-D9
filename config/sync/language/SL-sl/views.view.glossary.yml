@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Vse
+      empty:
+        area_text_custom:
+          content: 'Ni rezultatov iskanja'
   attachment:
     display_options:
       arguments:

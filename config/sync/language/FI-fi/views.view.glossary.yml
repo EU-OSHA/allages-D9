@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Kaikki
+      empty:
+        area_text_custom:
+          content: 'Näytettäviä termejä ei ole'
   attachment:
     display_options:
       arguments:

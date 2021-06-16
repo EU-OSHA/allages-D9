@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Alla
+      empty:
+        area_text_custom:
+          content: 'Det finns inga termer att visa'
   attachment:
     display_options:
       arguments:

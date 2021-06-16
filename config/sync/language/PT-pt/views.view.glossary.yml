@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Todos
+      empty:
+        area_text_custom:
+          content: 'Não existem termos a apresentar'
   attachment:
     display_options:
       arguments:

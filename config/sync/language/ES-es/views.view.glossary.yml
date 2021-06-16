@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Todo
+      empty:
+        area_text_custom:
+          content: 'No hay términos que visualizar'
   attachment:
     display_options:
       arguments:

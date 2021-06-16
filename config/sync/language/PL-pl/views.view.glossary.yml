@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Wszystkie
+      empty:
+        area_text_custom:
+          content: 'Brak terminów'
   attachment:
     display_options:
       arguments:

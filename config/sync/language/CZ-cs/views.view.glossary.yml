@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Vše
+      empty:
+        area_text_custom:
+          content: 'Žádný výraz nenalezen'
   attachment:
     display_options:
       arguments:

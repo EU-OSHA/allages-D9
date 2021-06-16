@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Allt
+      empty:
+        area_text_custom:
+          content: 'Það eru engin hugtök til birtingar'
   attachment:
     display_options:
       arguments:
