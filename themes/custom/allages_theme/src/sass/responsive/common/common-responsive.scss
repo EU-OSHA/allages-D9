@@ -568,8 +568,7 @@
     }
   }
   .view-useful-links,
-  .view-taxonomy-term {
-    .views-view-grid,
+  .view-taxonomy-term{
     .views-view-grid{
       .row{
         margin:0;
@@ -590,6 +589,17 @@
       }
     }
   }
+
+
+.page-vocabulary-categories-useful-links{
+  .view-useful-links,
+  .view-taxonomy-term{
+    padding:0 0.625rem;
+    > .row{
+      padding:0;
+    }
+  }
+}
 
   /******     Language-Profile Selector     ******/
 

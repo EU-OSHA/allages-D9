@@ -3449,8 +3449,6 @@ section.row {
     margin: 0 auto;
   }
   .view-useful-links .views-view-grid .row,
-.view-useful-links .views-view-grid .row,
-.view-taxonomy-term .views-view-grid .row,
 .view-taxonomy-term .views-view-grid .row {
     margin: 0;
   }
@@ -3469,6 +3467,15 @@ section.row {
   .view-useful-links .views-field-field-link .field-content,
 .view-taxonomy-term .views-field-field-link .field-content {
     padding-right: 0;
+  }
+
+  .page-vocabulary-categories-useful-links .view-useful-links,
+.page-vocabulary-categories-useful-links .view-taxonomy-term {
+    padding: 0 0.625rem;
+  }
+  .page-vocabulary-categories-useful-links .view-useful-links > .row,
+.page-vocabulary-categories-useful-links .view-taxonomy-term > .row {
+    padding: 0;
   }
 
   /******     Language-Profile Selector     ******/
