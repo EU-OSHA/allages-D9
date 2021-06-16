@@ -2338,6 +2338,9 @@ section.row {
 .page-node-70 .informationAboutUs p {
   margin-left: 400px;
 }
+.page-node-70 .aboutUsBanner {
+  display: none;
+}
 
 .page-node-355 h2,
 .page-node-355 h3 {
