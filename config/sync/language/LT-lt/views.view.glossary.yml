@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Visos
+      empty:
+        area_text_custom:
+          content: 'Terminas nerastas'
   attachment:
     display_options:
       arguments:

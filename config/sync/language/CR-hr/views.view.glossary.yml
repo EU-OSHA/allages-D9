@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Sve
+      empty:
+        area_text_custom:
+          content: 'Nema pojma za prikaz'
   attachment:
     display_options:
       arguments:

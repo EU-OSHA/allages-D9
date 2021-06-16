@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: 'Viss vienkopus'
+      empty:
+        area_text_custom:
+          content: 'Termini nav atrasti'
   attachment:
     display_options:
       arguments:

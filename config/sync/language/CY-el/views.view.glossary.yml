@@ -12,6 +12,9 @@ display:
         name:
           exception:
             title: Όλα
+      empty:
+        area_text_custom:
+          content: 'Δεν υπάρχουν όροι προς εμφάνιση'
   attachment:
     display_options:
       arguments:

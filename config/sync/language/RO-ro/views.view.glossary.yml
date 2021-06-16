@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Toate
+      empty:
+        area_text_custom:
+          content: 'Nu s-a găsit nici un termen'
   attachment:
     display_options:
       arguments:

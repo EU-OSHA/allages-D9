@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Mind
+      empty:
+        area_text_custom:
+          content: 'Nincsenek megjeleníthető kifejezések'
   attachment:
     display_options:
       arguments:

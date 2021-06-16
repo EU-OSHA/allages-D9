@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Tous
+      empty:
+        area_text_custom:
+          content: 'Aucun terme trouvé'
   attachment:
     display_options:
       arguments:

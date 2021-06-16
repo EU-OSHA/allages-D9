@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Всичко
+      empty:
+        area_text_custom:
+          content: 'Не са намерени термини за показване'
   attachment:
     display_options:
       arguments:
