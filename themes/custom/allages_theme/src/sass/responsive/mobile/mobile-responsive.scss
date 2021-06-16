@@ -36,4 +36,26 @@
       }
     }
   }
+
+  .view-did-you-know{
+    .views-view-grid{
+      .views-col{
+        float:none;
+        height:394px;
+      }
+      .views-field-field-text{
+        .field-content{
+          height:11rem;
+        }
+      }
+    }
+    .pop-up-content{
+      width:95%;
+    }
+  }
+
+
+  .message-custom-visitor{
+    max-width:calc(100% - 1.5rem);
+  }
 }

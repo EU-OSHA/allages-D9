@@ -72,6 +72,11 @@
             color:$text-color-blue;
             background: none;
           }
+          &.active {
+            .nav-link{
+              color:$text-color-blue;
+            }
+          }
         }
         &:last-of-type {
           &:not(.show){
@@ -135,8 +140,19 @@
         }
       }
     }
+   .dropdown-item{
+     &,
+     &.active {
+       a{
+         color:$text-color-blue;
+         font-size: 1rem;
+         font-weight: 400;
+         display: block;
+         padding: 1rem 10%;
+       }
+     }
+   }
   }
-
   /******     Frontpage    ******/
 
   .page-view-frontpage{
@@ -169,43 +185,47 @@
   }
   .page-view-frontpage,
   .language-profile-selector {
-    #listText{
-      margin-top:0;
-      >ul{
-        columns:1;
-        >li{
-          border-bottom: 1px solid $text-color-grey-light-7;
-          font-size: 1.5rem ;
-          overflow: hidden ;
-          padding: 0.25rem 0 0.25rem 0.75rem ;
-          line-height: 3.25rem;
-          ul{
-            float: right ;
-            position: relative ;
-            margin: 0.75rem 0 0 ;
-            background-color: $bg-color-white;
-            &.languagecount-custom-1{
-              display:none;
-            }
-            li{
-              border-bottom: 0 none ;
-              font-size: 1.5rem ;
-              margin-right: 1px ;
-              padding: 0.125rem ;
-              + li{
-                border-left: 1px solid $text-color-black;
+    .containerC{
+      #listText{
+        margin-top:0;
+        display:block!important;
+        >ul{
+          columns:1;
+          >li{
+            border-bottom: 1px solid $text-color-grey-light-7;
+            font-size: 1.5rem ;
+            overflow: hidden ;
+            padding: 0.25rem 0 0.25rem 0.75rem ;
+            line-height: 3.25rem;
+            ul{
+              float: right ;
+              position: relative ;
+              margin: 0 ;
+              background-color: transparent;
+              display:block;
+              &.languagecount-custom-1{
+                display:none;
               }
-              &:not(:last-child) {
-                a{
-                  background-image: none;
-                  background-color: $bg-color-white;
-                }
-              }
-              a{
-                background-color: $bg-color-white;
-                color: $text-color-black;
+              li{
+                border-bottom: 0 none ;
                 font-size: 1.5rem ;
-                padding: 0 0.5rem ;
+                margin-right: 1px ;
+                padding: 0.125rem ;
+                + li{
+                  border-left: 1px solid $text-color-black;
+                }
+                &:not(:last-child) {
+                  a{
+                    background-image: none;
+                    background-color: transparent;
+                  }
+                }
+                a{
+                  background-color: transparent;
+                  color: $text-color-black;
+                  font-size: 1.5rem ;
+                  padding: 0 0.5rem ;
+                }
               }
             }
           }
@@ -214,6 +234,27 @@
     }
   }
 
+  /******     Language-Profile Selector    ******/
+
+  #containerMaxLengthTools{
+    text-align: left;
+    padding: 0 0.625rem;
+    background-color: $bg-color-grey-light-3;
+    #containerTools {
+      .tabs{
+        padding:0;
+        margin:0;
+        display:flex;
+        justify-content: center;
+        li{
+          width:100%;
+          flex: 0 0 46%;
+          max-width: 46%;
+          margin:0 1%;
+        }
+      }
+    }
+  }
 
   /******     Banner header     ******/
 
@@ -268,6 +309,14 @@
       }
       & + .half{
         border-top:1px solid $text-color-grey-2;
+      }
+    }
+    .BarStartTour{
+      .imgStart{
+        margin-left:0;
+      }
+      .startText{
+        margin-left:126px;
       }
     }
   }
@@ -568,8 +617,7 @@
     }
   }
   .view-useful-links,
-  .view-taxonomy-term {
-    .views-view-grid,
+  .view-taxonomy-term{
     .views-view-grid{
       .row{
         margin:0;
@@ -590,6 +638,17 @@
       }
     }
   }
+
+
+.page-vocabulary-categories-useful-links{
+  .view-useful-links,
+  .view-taxonomy-term{
+    padding:0 0.625rem;
+    > .row{
+      padding:0;
+    }
+  }
+}
 
   /******     Language-Profile Selector     ******/
 
