@@ -193,6 +193,12 @@
   });
 
   // Language-profile-selector - Show languages per country
+  $('.language-profile-selector #listText>ul>li>ul').each(function(){
+    let amountLanguages = $(this).find('li').length;
+    if(amountLanguages<=1){
+      $(this).addClass('languagecount-custom-1');
+    }
+  });
   $('.language-profile-selector').on('click','#listText>ul>li', function(){
     $(this).siblings('li').find('ul').slideUp(0);
     if($(this).find('ul>li').length>1){

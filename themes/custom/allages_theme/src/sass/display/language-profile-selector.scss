@@ -7,9 +7,10 @@
     max-width: 100%;
   }
   .containerC{
+    background-color:$bg-color-grey-light-3;
     #listText{
       max-width: 970px;
-      margin: 1.75rem auto;
+      margin: 0 auto;
       text-align: center;
       > ul {
         > li {
