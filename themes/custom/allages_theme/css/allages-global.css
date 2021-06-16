@@ -3214,6 +3214,12 @@ section.row {
   .node--type-select-your-profile .half + .half {
     border-top: 1px solid #888888;
   }
+  .node--type-select-your-profile .BarStartTour .imgStart {
+    margin-left: 0;
+  }
+  .node--type-select-your-profile .BarStartTour .startText {
+    margin-left: 126px;
+  }
 
   /******     Breadcrumb     ******/
   .breadcrumb {
