@@ -1690,6 +1690,8 @@ section.row {
   max-width: 33.33333%;
   padding: 1.5rem 0;
   cursor: pointer;
+  display: block;
+  color: #003399;
 }
 .view-themes .footer-view .didYouKnow:hover,
 .view-themes .footer-view .glossary:hover,
@@ -1705,27 +1707,16 @@ section.row {
 .view-themes .footer-view .aboutUs:hover .title a {
   color: #FFF;
 }
+.view-themes .footer-view .didYouKnow > span,
+.view-themes .footer-view .glossary > span,
+.view-themes .footer-view .aboutUs > span {
+  display: block;
+  padding-left: 6.5rem;
+}
 .view-themes .footer-view .didYouKnow .title,
 .view-themes .footer-view .glossary .title,
 .view-themes .footer-view .aboutUs .title {
   font-weight: bold;
-}
-.view-themes .footer-view .didYouKnow .title a,
-.view-themes .footer-view .glossary .title a,
-.view-themes .footer-view .aboutUs .title a {
-  color: #003399;
-}
-.view-themes .footer-view .didYouKnow .title a:hover,
-.view-themes .footer-view .glossary .title a:hover,
-.view-themes .footer-view .aboutUs .title a:hover {
-  text-decoration: none;
-}
-.view-themes .footer-view .didYouKnow p,
-.view-themes .footer-view .glossary p,
-.view-themes .footer-view .aboutUs p {
-  margin: 0;
-  padding: 0 0 0 6.5rem;
-  color: #003399;
 }
 .view-themes .footer-view .didYouKnow {
   background-image: url(/sites/allages/themes/custom/allages_theme/images/i-_did-you-know-blue.png), url(/sites/allages/themes/custom/allages_theme/images/i-_arrow-right-dark-blue.png), url(/sites/allages/themes/custom/allages_theme/images/separator.png);
@@ -3268,9 +3259,9 @@ section.row {
     padding: 3rem 0;
     margin: 0 1.25rem;
   }
-  .view-themes .footer-view .didYouKnow p,
-.view-themes .footer-view .glossary p,
-.view-themes .footer-view .aboutUs p {
+  .view-themes .footer-view .didYouKnow > span,
+.view-themes .footer-view .glossary > span,
+.view-themes .footer-view .aboutUs > span {
     padding: 0 0 0 8rem;
     font-size: 1.125rem;
     line-height: 1.25rem;
