@@ -3063,6 +3063,13 @@ section.row {
   .header .dropdown.show .dropdown-toggle:after {
     content: "-";
   }
+  .header .dropdown-item a, .header .dropdown-item.active a {
+    color: #003399;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    padding: 1rem 10%;
+  }
 
   /******     Frontpage    ******/
   .page-view-frontpage #langheader {

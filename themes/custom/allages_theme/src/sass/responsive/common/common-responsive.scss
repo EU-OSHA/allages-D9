@@ -135,8 +135,19 @@
         }
       }
     }
+   .dropdown-item{
+     &,
+     &.active {
+       a{
+         color:$text-color-blue;
+         font-size: 1rem;
+         font-weight: 400;
+         display: block;
+         padding: 1rem 10%;
+       }
+     }
+   }
   }
-
   /******     Frontpage    ******/
 
   .page-view-frontpage{
