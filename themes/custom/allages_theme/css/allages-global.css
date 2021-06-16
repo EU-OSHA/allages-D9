@@ -1069,9 +1069,12 @@ section.row {
   border-top: 1px solid #003399;
   max-width: 100%;
 }
+.language-profile-selector .containerC {
+  background-color: #ececec;
+}
 .language-profile-selector .containerC #listText {
   max-width: 970px;
-  margin: 1.75rem auto;
+  margin: 0 auto;
   text-align: center;
 }
 .language-profile-selector .containerC #listText > ul > li {
@@ -3097,52 +3100,54 @@ section.row {
     display: block;
   }
 
-  .page-view-frontpage #listText,
-.language-profile-selector #listText {
+  .page-view-frontpage .containerC #listText,
+.language-profile-selector .containerC #listText {
     margin-top: 0;
+    display: block !important;
   }
-  .page-view-frontpage #listText > ul,
-.language-profile-selector #listText > ul {
+  .page-view-frontpage .containerC #listText > ul,
+.language-profile-selector .containerC #listText > ul {
     columns: 1;
   }
-  .page-view-frontpage #listText > ul > li,
-.language-profile-selector #listText > ul > li {
+  .page-view-frontpage .containerC #listText > ul > li,
+.language-profile-selector .containerC #listText > ul > li {
     border-bottom: 1px solid #e2e2e2;
     font-size: 1.5rem;
     overflow: hidden;
     padding: 0.25rem 0 0.25rem 0.75rem;
     line-height: 3.25rem;
   }
-  .page-view-frontpage #listText > ul > li ul,
-.language-profile-selector #listText > ul > li ul {
+  .page-view-frontpage .containerC #listText > ul > li ul,
+.language-profile-selector .containerC #listText > ul > li ul {
     float: right;
     position: relative;
-    margin: 0.75rem 0 0;
-    background-color: #fff;
+    margin: 0;
+    background-color: transparent;
+    display: block;
   }
-  .page-view-frontpage #listText > ul > li ul.languagecount-custom-1,
-.language-profile-selector #listText > ul > li ul.languagecount-custom-1 {
+  .page-view-frontpage .containerC #listText > ul > li ul.languagecount-custom-1,
+.language-profile-selector .containerC #listText > ul > li ul.languagecount-custom-1 {
     display: none;
   }
-  .page-view-frontpage #listText > ul > li ul li,
-.language-profile-selector #listText > ul > li ul li {
+  .page-view-frontpage .containerC #listText > ul > li ul li,
+.language-profile-selector .containerC #listText > ul > li ul li {
     border-bottom: 0 none;
     font-size: 1.5rem;
     margin-right: 1px;
     padding: 0.125rem;
   }
-  .page-view-frontpage #listText > ul > li ul li + li,
-.language-profile-selector #listText > ul > li ul li + li {
+  .page-view-frontpage .containerC #listText > ul > li ul li + li,
+.language-profile-selector .containerC #listText > ul > li ul li + li {
     border-left: 1px solid #000;
   }
-  .page-view-frontpage #listText > ul > li ul li:not(:last-child) a,
-.language-profile-selector #listText > ul > li ul li:not(:last-child) a {
+  .page-view-frontpage .containerC #listText > ul > li ul li:not(:last-child) a,
+.language-profile-selector .containerC #listText > ul > li ul li:not(:last-child) a {
     background-image: none;
-    background-color: #fff;
+    background-color: transparent;
   }
-  .page-view-frontpage #listText > ul > li ul li a,
-.language-profile-selector #listText > ul > li ul li a {
-    background-color: #fff;
+  .page-view-frontpage .containerC #listText > ul > li ul li a,
+.language-profile-selector .containerC #listText > ul > li ul li a {
+    background-color: transparent;
     color: #000;
     font-size: 1.5rem;
     padding: 0 0.5rem;
