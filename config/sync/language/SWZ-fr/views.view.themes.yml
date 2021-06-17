@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/SWZ-fr/did-you-know\">Le saviez-vous ? </a></p>\r\n\r\n<p>Découvrir</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/SWZ-fr/glossary\">Glossaire</a></p>\r\n\r\n<p>Apprendre</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/SWZ-fr/about-e-guide\">A propos de ce guide</a></p>\r\n\r\n<p>Lire</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/SWZ-fr/did-you-know\"><span class=\"title\"><span>Le saviez-vous ?</span></span><span>Découvrir</span></a><a class=\"glossary\" href=\"/all-ages/SWZ-fr/glossary/a\"><span class=\"title\"><span>Glossaire</span></span><span>Apprendre</span></a><a class=\"aboutUs\" href=\"/all-ages/SWZ-fr/about-e-guide\"><span class=\"title\"><span>A propos de ce guide</span></span><span>Lire</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

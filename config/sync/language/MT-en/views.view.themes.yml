@@ -8,5 +8,5 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-en/did-you-know\">Did you know...?</a></p>\r\n\r\n<p>Discover</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-en/glossary\">Glossary</a></p>\r\n\r\n<p>Learn</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-en/about-e-guide\">About this e-Guide</a></p>\r\n\r\n<p>Read</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/MT-en/did-you-know\"><span class=\"title\"><span>Did you know...?</span></span><span>Discover</span></a><a class=\"glossary\" href=\"/all-ages/MT-en/glossary/a\"><span class=\"title\"><span>Glossary</span></span><span>Learn</span></a><a class=\"aboutUs\" href=\"/all-ages/MT-en/about-e-guide\"><span class=\"title\"><span>About this e-Guide</span></span><span>Read</span></a></div>\r\n</div>\r\n"
             format: full_html

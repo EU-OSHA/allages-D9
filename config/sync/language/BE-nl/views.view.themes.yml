@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/BE-nl/did-you-know\">Wist u dat...?</a></p>\r\n\r\n<p>Ontdek</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/BE-nl/glossary\">Woordenlijst</a></p>\r\n\r\n<p>Leer</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/BE-nl/about-e-guide\">Over deze e-gids</a></p>\r\n\r\n<p>Lees</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/BE-nl/did-you-know\"><span class=\"title\"><span>Wist u dat...?</span></span><span>Ontdek</span></a><a class=\"glossary\" href=\"/all-ages/BE-nl/glossary/a/a\"><span class=\"title\"><span>Woordenlijst</span></span><span>Leer</span></a><a class=\"aboutUs\" href=\"/all-ages/BE-nl/about-e-guide\"><span class=\"title\"><span>Over deze e-gids</span></span><span>Lees</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/LT-lt/did-you-know\">Ar žinote, kad ....?</a></p>\r\n\r\n<p>Sužinokite</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/LT-lt/glossary\">Žodynėlis</a></p>\r\n\r\n<p>Išmokite</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/LT-lt/about-e-guide\">Apie šį e.vadovą</a></p>\r\n\r\n<p>Skaityti</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/LT-lt/did-you-know\"><span class=\"title\"><span>Ar žinote, kad ....?</span></span><span>Sužinokite</span></a><a class=\"glossary\" href=\"/all-ages/LT-lt/glossary/a\"><span class=\"title\"><span>Žodynėlis</span></span><span>Išmokite</span></a><a class=\"aboutUs\" href=\"/all-ages/LT-lt/about-e-guide\"><span class=\"title\"><span>Apie šį e.vadovąi</span></span><span>Skaityti</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:
