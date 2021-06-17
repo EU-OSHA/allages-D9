@@ -550,6 +550,16 @@
       max-width: 50%;
     }
   }
+  .attachment {
+    .view-glossary{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .view-header{
+        margin-bottom:0.5rem;
+      }
+    }
+  }
 
   /******     Search Term   ******/
 

@@ -3429,6 +3429,15 @@ section.row {
     max-width: 50%;
   }
 
+  .attachment .view-glossary {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .attachment .view-glossary .view-header {
+    margin-bottom: 0.5rem;
+  }
+
   /******     Search Term   ******/
   .view-search-term-content .views-exposed-form .form-type-textfield {
     max-width: 100%;
