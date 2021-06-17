@@ -506,11 +506,18 @@
     .views-view-grid{
       .views-col{
         max-width: 100%;
+        position:relative;
       }
       .views-field-field-text{
         .field-content{
           height:199px;
         }
+      }
+      .views-field-field-sources{
+        position: absolute;
+        bottom: 0;
+        z-index: 10;
+        right: 0;
       }
     }
   }

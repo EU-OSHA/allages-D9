@@ -3382,9 +3382,16 @@ section.row {
   /******     Did you know    ******/
   .view-did-you-know .views-view-grid .views-col {
     max-width: 100%;
+    position: relative;
   }
   .view-did-you-know .views-view-grid .views-field-field-text .field-content {
     height: 199px;
+  }
+  .view-did-you-know .views-view-grid .views-field-field-sources {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
   }
 
   /******     Glossary   ******/
