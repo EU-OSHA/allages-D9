@@ -2256,7 +2256,7 @@ section.row {
   color: #003399;
   margin: 1.75rem 0;
   padding: 1.125rem 0;
-  font-size: 1.125rem;
+  font-size: 1.187rem;
   line-height: 1.5rem;
   width: 100%;
   font-weight: bold;
@@ -3040,6 +3040,7 @@ section.row {
   .header .dropdown-menu {
     background-color: #fff;
     margin-left: 0;
+    width: 100%;
   }
   .header .dropdown-item:last-of-type a {
     border-bottom: 1px solid #003399;
