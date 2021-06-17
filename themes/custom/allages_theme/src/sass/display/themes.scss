@@ -261,6 +261,8 @@
       max-width: 33.33333%;
       padding: 1.5rem 0;
       cursor: pointer;
+      display:block;
+      color: $text-color-blue;
       &:hover{
         background: $bg-color-green;
         color: $text-color-white;
@@ -269,19 +271,12 @@
           color: $text-color-white;
         }
       }
+      >span{
+        display:block;
+        padding-left:6.5rem;
+      }
       .title{
         font-weight: bold;
-        a{
-          color: $text-color-blue;
-          &:hover{
-            text-decoration:none;
-          }
-        }
-      }
-      p{
-        margin: 0;
-        padding: 0 0 0 6.5rem;
-        color: $text-color-blue;
       }
     }
     .didYouKnow{
