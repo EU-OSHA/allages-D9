@@ -1309,6 +1309,9 @@ section.row {
   padding-right: 2rem;
   overflow-y: auto;
 }
+.quiz-container .right-column-quiz .tabs {
+  display: none;
+}
 .quiz-container .right-column-quiz .quiztitle {
   background-color: #fff;
   color: #003399;

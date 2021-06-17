@@ -25,6 +25,9 @@
     padding-left:2.5rem;
     padding-right:2rem;
     overflow-y: auto;
+    .tabs{
+      display:none;
+    }
     .quiz{
       &title{
         background-color: $bg-color-white;
