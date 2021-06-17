@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Kollha
+      empty:
+        area_text_custom:
+          content: 'Ma hemm ebda terminu x''jintwera'
   attachment:
     display_options:
       arguments:

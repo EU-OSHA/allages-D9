@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Alles
+      empty:
+        area_text_custom:
+          content: 'Er zijn geen resultaten gevonden'
   attachment:
     display_options:
       arguments:

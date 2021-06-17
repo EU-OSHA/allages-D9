@@ -270,7 +270,21 @@ display:
           entity_type: taxonomy_term
           entity_field: langcode
           plugin_id: language
-      sorts: {  }
+      sorts:
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: standard
       title: Glossary
       header:
         area_text_custom:
@@ -285,7 +299,18 @@ display:
           content: 'Select a letter: '
           plugin_id: text_custom
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: 'There are no terms to display.'
+          plugin_id: text_custom
       relationships: {  }
       arguments:
         name:

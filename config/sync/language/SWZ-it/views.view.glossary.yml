@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Tutti
+      empty:
+        area_text_custom:
+          content: 'Termine non trovato'
   attachment:
     display_options:
       arguments:

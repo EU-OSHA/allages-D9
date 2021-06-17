@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Alle
+      empty:
+        area_text_custom:
+          content: 'Es können keine Begriffe angezeigt werden.'
   attachment:
     display_options:
       arguments:

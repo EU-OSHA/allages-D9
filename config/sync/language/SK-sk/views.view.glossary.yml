@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Všetko
+      empty:
+        area_text_custom:
+          content: 'Nenašli sa žiadne výrazy na zobrazenie'
   attachment:
     display_options:
       arguments:

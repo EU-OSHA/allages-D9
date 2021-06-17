@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/NN-nn/did-you-know\">Visste du at…?</a></p>\r\n\r\n<p>Oppdag</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/NN-nn/glossary\">Ordliste</a></p>\r\n\r\n<p>Lær</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/NN-nn/about-e-guide\">Om denne e-guiden</a></p>\r\n\r\n<p>Les</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/NN-nn/did-you-know\"><span class=\"title\"><span>Visste du at…?</span></span><span>Oppdag</span></a><a class=\"glossary\" href=\"/all-ages/NN-nn/glossary/a\"><span class=\"title\"><span>Ordliste</span></span><span>Lær</span></a><a class=\"aboutUs\" href=\"/all-ages/NN-nn/about-e-guide\"><span class=\"title\"><span>Om denne e-guiden</span></span><span>Les</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

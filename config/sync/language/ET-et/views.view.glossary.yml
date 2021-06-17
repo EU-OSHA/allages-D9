@@ -13,6 +13,9 @@ display:
         name:
           exception:
             title: Kõik
+      empty:
+        area_text_custom:
+          content: 'Otsitud mõistet ei leitud'
   attachment:
     display_options:
       arguments:
