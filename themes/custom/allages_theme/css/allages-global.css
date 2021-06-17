@@ -2845,6 +2845,10 @@ section.row {
   text-transform: uppercase;
 }
 
+.path-list-themes .breadcrumb-item:last-of-type::before {
+  display: none;
+}
+
 .node--type-steps .js-custom-step-1 {
   background-position: bottom center;
   background-repeat: no-repeat;
