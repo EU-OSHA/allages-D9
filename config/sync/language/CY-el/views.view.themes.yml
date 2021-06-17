@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/CY-el/did-you-know\">Γνωρίζατε ότι... </a></p>\r\n\r\n<p>Ανακαλύψτε</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/CY-el/glossary\">Γλωσσάρι</a></p>\r\n\r\n<p>Μάθετε</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/CY-el/about-e-guide\">Σχετικά με τον παρόντα ηλεκτρονικό οδηγό </a></p>\r\n\r\n<p>Διαβάστε</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/CY-el/did-you-know\"><span class=\"title\"><span>Γνωρίζατε ότι...</span></span><span>Ανακαλύψτε</span></a><a class=\"glossary\" href=\"/all-ages/CY-el/glossary/a\"><span class=\"title\"><span>Γλωσσάρι</span></span><span>Μάθετε</span></a><a class=\"aboutUs\" href=\"/all-ages/CY-el/about-e-guide\"><span class=\"title\"><span>Σχετικά με τον παρόντα ηλεκτρονικό οδηγό </span></span><span>Διαβάστε</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

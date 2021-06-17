@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/HU-hu/did-you-know\">Tudta-e?</a></p>\r\n\r\n<p>Fedezze fel</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/HU-hu/glossary\">Szójegyzék</a></p>\r\n\r\n<p>Tanuljon</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/HU-hu/about-e-guide\">Az e-útmutatóról</a></p>\r\n\r\n<p>Olvasson</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/HU-hu/did-you-know\"><span class=\"title\"><span>Tudta-e?</span></span><span>Fedezze fel</span></a><a class=\"glossary\" href=\"/all-ages/HU-hu/glossary/a\"><span class=\"title\"><span>Szójegyzék</span></span><span>Tanuljon</span></a><a class=\"aboutUs\" href=\"/all-ages/HU-hu/about-e-guide\"><span class=\"title\"><span>Az e-útmutatóról</span></span><span>Olvasson</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

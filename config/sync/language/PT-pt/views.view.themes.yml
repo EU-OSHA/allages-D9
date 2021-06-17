@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/PT-pt/did-you-know\">Sabia que…?</a></p>\r\n\r\n<p>Descobrir</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/PT-pt/glossary\">Glossário</a></p>\r\n\r\n<p>Aprender</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/PT-pt/about-e-guide\">Sobre este guia eletrónico</a></p>\r\n\r\n<p>Ler</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/PT-pt/did-you-know\"><span class=\"title\"><span>Sabia que…?</span></span><span>Descobrir</span></a><a class=\"glossary\" href=\"/all-ages/PT-pt/glossary/a\"><span class=\"title\"><span>Glossário</span></span><span>Aprender</span></a><a class=\"aboutUs\" href=\"/all-ages/PT-pt/about-e-guide\"><span class=\"title\"><span>Sobre este guia eletrónico</span></span><span>Ler</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:

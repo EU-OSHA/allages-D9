@@ -10,7 +10,7 @@ display:
       footer:
         area:
           content:
-            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\">\r\n<div class=\"didYouKnow\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-mt/did-you-know\">Kont taf...? </a></p>\r\n\r\n<p>Skopri</p>\r\n</div>\r\n\r\n<div class=\"glossary\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-mt/glossary\">Glossarju</a></p>\r\n\r\n<p>Tgħallem</p>\r\n</div>\r\n\r\n<div class=\"aboutUs\">\r\n<p class=\"title\"><a href=\"/all-ages/MT-mt/about-e-guide\">Dwar din il-gwida elettronika</a></p>\r\n\r\n<p>Aqra</p>\r\n</div>\r\n</div>\r\n</div>\r\n"
+            value: "<div class=\"preFooter\">\r\n<div class=\"containerWidth\"><a class=\"didYouKnow\" href=\"/all-ages/MT-mt/did-you-know\"><span class=\"title\"><span>Kont taf...? </span></span><span>Skopri</span></a><a class=\"glossary\" href=\"/all-ages/MT-mt/glossary/a\"><span class=\"title\"><span>Glossarju</span></span><span>Tgħallem</span></a><a class=\"aboutUs\" href=\"/all-ages/MT-mt/about-e-guide\"><span class=\"title\"><span>Dwar din il-gwida elettronika</span></span><span>Aqra</span></a></div>\r\n</div>\r\n"
             format: full_html
       arguments:
         field_profile_target_id:
