@@ -3180,6 +3180,7 @@ section.row {
     flex: 0 0 46%;
     max-width: 46%;
     margin: 0 1%;
+    font-size: 1rem;
   }
 
   /******     Banner header     ******/
@@ -3573,28 +3574,58 @@ section.row {
   }
 
   /******     Tour     ******/
+  .content-tour .tour {
+    top: 90px;
+    left: 0;
+    margin: 0 auto;
+    transform: translate(0%, 0%);
+  }
   .content-tour .tour-01.active, .content-tour .tour-02.active, .content-tour .tour-03.active, .content-tour .tour-04.active, .content-tour .tour-05.active, .content-tour .tour-06.active, .content-tour .tour-07.active, .content-tour .tour-08.active, .content-tour .tour-09.active {
     animation: none;
     flex-direction: column;
-    width: 250px;
+    width: 100%;
+    padding: 1rem;
+    background-color: transparent;
+  }
+  .content-tour .close-tour {
+    display: none;
   }
   .content-tour .img-tour {
     width: 100%;
-    height: 250px;
     flex: auto;
+    background-color: #fff;
+    height: 17.625rem;
+    background-size: 27%;
   }
   .content-tour .tour-text {
     width: 100%;
     min-height: 0;
-    padding: 1rem;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    padding: 1rem 1.25rem;
   }
-  .content-tour .skip-tour a {
-    display: none;
+  .content-tour .next-tour,
+.content-tour .skip-tour {
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 1.25rem 0;
+    text-align: center;
+    width: 50%;
+    top: 1rem;
+    transform: translateX(0px);
+  }
+  .content-tour .next-tour a,
+.content-tour .skip-tour a {
+    display: block;
   }
   .content-tour .next-tour {
-    right: 50%;
-    transform: translateX(50%);
-    bottom: 10%;
+    right: 1rem;
+  }
+  .content-tour .next-tour a {
+    background-color: #003399;
+  }
+  .content-tour .skip-tour {
+    left: 1rem;
   }
 
   /******     Footer     ******/

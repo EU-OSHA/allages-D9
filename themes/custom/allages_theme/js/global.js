@@ -108,12 +108,15 @@
 
   // Tour animation
   $('#tour').on('click', function(){
+    let windowWidth= $(window).outerWidth();
     $('.content-tour').stop().show();
     $('.content-tour').find('.tour').eq(0).addClass('active');
-    $('.content-tour').find('.next-tour a').addClass('disabled');
-    setTimeout(function() {
-      $('.next-tour a').removeClass('disabled');
-    }, 2000);
+    if(windowWidth>1023){
+      $('.content-tour').find('.next-tour a').addClass('disabled');
+      setTimeout(function() {
+        $('.next-tour a').removeClass('disabled');
+      }, 2000);
+    }
   });
 
   $('.content-tour').each(function(){
@@ -133,20 +136,27 @@
     })
     $(this).on('click','.next-tour a', function(e){
       e.preventDefault()
-      $(this).addClass('disabled');
+      let windowWidth= $(window).outerWidth();
+      if(windowWidth>1023){
+        $(this).addClass('disabled');
+      }
       if(tourCounter < tourAmount -1){
         tourCounter++;
         $(this).closest('.content-tour').find('.tour').removeClass('active');
         $(this).closest('.content-tour').find('.tour').eq(tourCounter).addClass('active');
-        setTimeout(function() {
-          $('.next-tour a').removeClass('disabled');
-        }, 2000);
+        if(windowWidth>1023) {
+          setTimeout(function () {
+            $('.next-tour a').removeClass('disabled');
+          }, 2000);
+        }
       }
       else{
         $(this).closest('.content-tour').find('.tour').removeClass('active');
         $(this).closest('.content-tour').stop().hide();
         tourCounter=0;
-        $('.next-tour a').removeClass('disabled');
+        if(windowWidth>1023) {
+          $('.next-tour a').removeClass('disabled');
+        }
       }
     })
   });
