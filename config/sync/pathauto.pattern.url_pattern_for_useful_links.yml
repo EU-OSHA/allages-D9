@@ -1,4 +1,4 @@
-uuid: b71f3087-fea4-4c46-8740-2fc2635a7fb3
+uuid: a8717b21-3dad-45c2-ab7c-f67c61b3bb4a
 langcode: en
 status: true
 dependencies:
@@ -6,21 +6,20 @@ dependencies:
     - ctools
     - language
     - taxonomy
-id: url_pattern_for_taxonomy
-label: 'URL Pattern for Taxonomy'
+id: url_pattern_for_useful_links
+label: 'URL Pattern for Useful links'
 type: 'canonical_entities:taxonomy_term'
-pattern: '/[term:vocabulary]/[term:name]'
+pattern: '/useful-links_nid=[term:tid]'
 selection_criteria:
-  08578e95-6b0c-4417-940f-3334bfbaf031:
+  36e3dbb3-13b5-4460-a9a6-6c8500a2feab:
     id: 'entity_bundle:taxonomy_term'
     bundles:
-      glossary: glossary
-      profile: profile
+      categories_useful_links: categories_useful_links
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: 08578e95-6b0c-4417-940f-3334bfbaf031
-  1a6ee72d-fcee-40b9-b3ee-280bfb11dc9e:
+    uuid: 36e3dbb3-13b5-4460-a9a6-6c8500a2feab
+  a85d28d5-4714-4f15-aa65-9cffc61fff4e:
     id: language
     langcodes:
       en: en
@@ -64,9 +63,9 @@ selection_criteria:
     negate: false
     context_mapping:
       language: 'taxonomy_term:langcode:language'
-    uuid: 1a6ee72d-fcee-40b9-b3ee-280bfb11dc9e
+    uuid: a85d28d5-4714-4f15-aa65-9cffc61fff4e
 selection_logic: and
-weight: -8
+weight: -10
 relationships:
   'taxonomy_term:langcode:language':
     label: Language

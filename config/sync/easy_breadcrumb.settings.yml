@@ -29,7 +29,7 @@ add_structured_data_json_ld: false
 use_site_title: false
 include_invalid_paths: false
 excluded_paths: ''
-replaced_titles: ''
+replaced_titles: "List Themes::Themes\r\n2:: \r\n1:: \r\n5::\r\n6::\r\nGlossary::Glossary\r\nDid You Know...?::Test your knowledge / Did you know\r\nUseful Links::Useful Resources / Useful links"
 custom_paths: ''
 title_segment_as_link: false
 follow_redirects: true
@@ -39,3 +39,4 @@ truncator_length: '100'
 truncator_dots: true
 _core:
   default_config_hash: 8EmQa_u-FWYuP_YcNy-Tp3PuLk583dbhIB8xbNQ58TE
+segment_display_limit: ''

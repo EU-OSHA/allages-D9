@@ -1,0 +1,17 @@
+uuid: 2ef0d578-0aa7-4dee-95ed-2dbebde3bd89
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_letter
+label: 'Glossary letter'
+message: 'No'
+path: glossary/letter_a
+redirect_path: glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

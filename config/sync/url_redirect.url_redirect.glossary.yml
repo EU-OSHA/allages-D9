@@ -1,0 +1,17 @@
+uuid: 07b6720d-022e-45ed-9fdb-b2a110540e01
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary
+label: Glossary
+message: 'No'
+path: glossary
+redirect_path: glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
