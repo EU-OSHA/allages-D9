@@ -64,6 +64,7 @@ module:
   quiz_truefalse: 0
   range: 0
   rdf: 0
+  redirect: 0
   rest: 0
   rules: 0
   search: 0
@@ -82,6 +83,7 @@ module:
   twig_tweak: 0
   typed_data: 0
   update: 0
+  url_redirect: 0
   user: 0
   views_bulk_operations: 0
   views_data_export: 0
