@@ -1,0 +1,9 @@
+.path-list-themes{
+  .breadcrumb-item{
+    &:last-of-type{
+      &::before{
+        display:none;
+      }
+    }
+  }
+}

@@ -103,6 +103,7 @@
       &-menu{
         background-color: $bg-color-white;
         margin-left: 0;
+        width:100%;
       }
       &-item{
         &:last-of-type{
@@ -251,6 +252,7 @@
           flex: 0 0 46%;
           max-width: 46%;
           margin:0 1%;
+          font-size:1rem;
         }
       }
     }
@@ -505,11 +507,18 @@
     .views-view-grid{
       .views-col{
         max-width: 100%;
+        position:relative;
       }
       .views-field-field-text{
         .field-content{
           height:199px;
         }
+      }
+      .views-field-field-sources{
+        position: absolute;
+        bottom: 0;
+        z-index: 10;
+        right: 0;
       }
     }
   }
@@ -540,6 +549,16 @@
     .filterGlossary{
       flex: 0 0 50%;
       max-width: 50%;
+    }
+  }
+  .attachment {
+    .view-glossary{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .view-header{
+        margin-bottom:0.5rem;
+      }
     }
   }
 
@@ -702,6 +721,10 @@
 
   .content-tour {
     .tour {
+      top:90px;
+      left:0;
+      margin:0 auto;
+      transform: translate(0%, 0%);
       &-01,
       &-02,
       &-03,
@@ -714,28 +737,52 @@
         &.active {
           animation: none;
           flex-direction: column;
-          width:250px;
+          width:100%;
+          padding:1rem;
+          background-color: transparent;
         }
       }
     }
-
+    .close-tour{
+      display:none;
+    }
     .img-tour{
       width:100%;
-      height:250px;
       flex:auto;
+      background-color: $bg-color-white;
+      height:17.625rem;
+      background-size: 27%;
     }
     .tour-text{
       width:100%;
       min-height:0;
-      padding:1rem;
+      font-size: 1.375rem;
+      line-height: 1.625rem;
+      padding: 1rem 1.25rem;
     }
-    .skip-tour a{
-      display:none;
+
+
+    .next-tour,
+    .skip-tour{
+      font-size: 1.75rem;
+      font-weight: bold;
+      padding: 1.25rem 0;
+      text-align: center;
+      width: 50%;
+      top:1rem;
+      transform: translateX(0px);
+      a{
+        display:block;
+      }
     }
     .next-tour{
-      right:50%;
-      transform: translateX(50%);
-      bottom:10%;
+      right: 1rem;
+      a{
+        background-color: $bg-color-blue;
+      }
+    }
+    .skip-tour{
+      left: 1rem;
     }
   }
 

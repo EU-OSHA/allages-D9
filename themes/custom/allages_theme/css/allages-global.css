@@ -1309,6 +1309,9 @@ section.row {
   padding-right: 2rem;
   overflow-y: auto;
 }
+.quiz-container .right-column-quiz .tabs {
+  display: none;
+}
 .quiz-container .right-column-quiz .quiztitle {
   background-color: #fff;
   color: #003399;
@@ -2256,7 +2259,7 @@ section.row {
   color: #003399;
   margin: 1.75rem 0;
   padding: 1.125rem 0;
-  font-size: 1.125rem;
+  font-size: 1.187rem;
   line-height: 1.5rem;
   width: 100%;
   font-weight: bold;
@@ -2845,6 +2848,10 @@ section.row {
   text-transform: uppercase;
 }
 
+.path-list-themes .breadcrumb-item:last-of-type::before {
+  display: none;
+}
+
 .node--type-steps .js-custom-step-1 {
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -3040,6 +3047,7 @@ section.row {
   .header .dropdown-menu {
     background-color: #fff;
     margin-left: 0;
+    width: 100%;
   }
   .header .dropdown-item:last-of-type a {
     border-bottom: 1px solid #003399;
@@ -3172,6 +3180,7 @@ section.row {
     flex: 0 0 46%;
     max-width: 46%;
     margin: 0 1%;
+    font-size: 1rem;
   }
 
   /******     Banner header     ******/
@@ -3381,9 +3390,16 @@ section.row {
   /******     Did you know    ******/
   .view-did-you-know .views-view-grid .views-col {
     max-width: 100%;
+    position: relative;
   }
   .view-did-you-know .views-view-grid .views-field-field-text .field-content {
     height: 199px;
+  }
+  .view-did-you-know .views-view-grid .views-field-field-sources {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
   }
 
   /******     Glossary   ******/
@@ -3412,6 +3428,15 @@ section.row {
 .page-view-search-term-content .filterGlossary {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .attachment .view-glossary {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .attachment .view-glossary .view-header {
+    margin-bottom: 0.5rem;
   }
 
   /******     Search Term   ******/
@@ -3549,28 +3574,58 @@ section.row {
   }
 
   /******     Tour     ******/
+  .content-tour .tour {
+    top: 90px;
+    left: 0;
+    margin: 0 auto;
+    transform: translate(0%, 0%);
+  }
   .content-tour .tour-01.active, .content-tour .tour-02.active, .content-tour .tour-03.active, .content-tour .tour-04.active, .content-tour .tour-05.active, .content-tour .tour-06.active, .content-tour .tour-07.active, .content-tour .tour-08.active, .content-tour .tour-09.active {
     animation: none;
     flex-direction: column;
-    width: 250px;
+    width: 100%;
+    padding: 1rem;
+    background-color: transparent;
+  }
+  .content-tour .close-tour {
+    display: none;
   }
   .content-tour .img-tour {
     width: 100%;
-    height: 250px;
     flex: auto;
+    background-color: #fff;
+    height: 17.625rem;
+    background-size: 27%;
   }
   .content-tour .tour-text {
     width: 100%;
     min-height: 0;
-    padding: 1rem;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    padding: 1rem 1.25rem;
   }
-  .content-tour .skip-tour a {
-    display: none;
+  .content-tour .next-tour,
+.content-tour .skip-tour {
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 1.25rem 0;
+    text-align: center;
+    width: 50%;
+    top: 1rem;
+    transform: translateX(0px);
+  }
+  .content-tour .next-tour a,
+.content-tour .skip-tour a {
+    display: block;
   }
   .content-tour .next-tour {
-    right: 50%;
-    transform: translateX(50%);
-    bottom: 10%;
+    right: 1rem;
+  }
+  .content-tour .next-tour a {
+    background-color: #003399;
+  }
+  .content-tour .skip-tour {
+    left: 1rem;
   }
 
   /******     Footer     ******/
