@@ -51,7 +51,9 @@
 
   // Glossary active class by default
   $('.view-glossary').each(function(){
-    if($(this).find('.views-summary .is-active').length==0){
+    let glossaryHasResults= $(this).find('.item-list').length;
+    let glossaryHasActiveElement=$(this).find('.views-summary .is-active').length;
+    if(glossaryHasActiveElement==0 && glossaryHasResults>0){
       $(this).find('.views-summary').eq(0).find('a').addClass('is-active');
     }
   });
