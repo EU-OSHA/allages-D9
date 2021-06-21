@@ -250,33 +250,7 @@
     $(this).find('.table-responsive').prepend($text);
     $(this).find('#edit-question-7-answer--wrapper').before($text);
   });
-
-  //URL parameters when clicked on Front page Map
-  var origin_url   = window.location.origin;
-  var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-      sURLVariables = sPageURL.split('&'),
-      sParameterName,
-      i;
-
-    for (i = 0; i < sURLVariables.length; i++) {
-      sParameterName = sURLVariables[i].split('=');
-
-      if (sParameterName[0] === sParam) {
-        return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-      }
-    }
-    return false;
-  };
-
-  var param1 = getUrlParameter('c');
-  var param2 = getUrlParameter('l');
-  var param2lower = param2.toString().toLowerCase();
-  var newUrl = origin_url + '/all-ages/' + param1 + '-' + param2lower + '/select-your-profile';
-  //redirect to new page
-  if (param1 != '0'){
-    window.location = newUrl;
-  }
+  git statusd
 })(jQuery, Drupal);
 
 
