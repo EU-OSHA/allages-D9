@@ -250,7 +250,6 @@
     $(this).find('.table-responsive').prepend($text);
     $(this).find('#edit-question-7-answer--wrapper').before($text);
   });
-  git statusd
 })(jQuery, Drupal);
 
 
