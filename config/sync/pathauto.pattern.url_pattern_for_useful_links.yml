@@ -11,15 +11,15 @@ label: 'URL Pattern for Useful links'
 type: 'canonical_entities:taxonomy_term'
 pattern: '/useful-links_nid=[term:tid]'
 selection_criteria:
-  36e3dbb3-13b5-4460-a9a6-6c8500a2feab:
+  d73dd529-4baf-4afb-b740-99a118c51a7e:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       categories_useful_links: categories_useful_links
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: 36e3dbb3-13b5-4460-a9a6-6c8500a2feab
-  a85d28d5-4714-4f15-aa65-9cffc61fff4e:
+    uuid: d73dd529-4baf-4afb-b740-99a118c51a7e
+  1422353e-9621-4cd0-8eeb-e0a889b1e358:
     id: language
     langcodes:
       en: en
@@ -63,7 +63,7 @@ selection_criteria:
     negate: false
     context_mapping:
       language: 'taxonomy_term:langcode:language'
-    uuid: a85d28d5-4714-4f15-aa65-9cffc61fff4e
+    uuid: 1422353e-9621-4cd0-8eeb-e0a889b1e358
 selection_logic: and
 weight: -10
 relationships:
