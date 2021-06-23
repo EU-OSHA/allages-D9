@@ -1,0 +1,17 @@
+uuid: 53bbdafd-b709-4c53-a36f-517ccbccc4c5
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_gr_el
+label: 'Good practices GR-el'
+message: 'No'
+path: GR-el/good-practices/good-practices
+redirect_path: GR-el/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

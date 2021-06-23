@@ -1,0 +1,17 @@
+uuid: 90d0a29b-1db7-4047-948a-ac03bc991235
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_9_ge_de
+label: 'Useful Links 9 GE_de'
+message: 'No'
+path: 'GE_de/useful-links?nid=9'
+redirect_path: GE-de/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 4e9f56b9-746a-4232-bb74-daeb2f644903
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_sk_sk
+label: 'Glossary search SK-sk'
+message: 'No'
+path: SK-sk/glossary/glossary-search
+redirect_path: SK-sk/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: cdac06cc-4ae2-4a16-bd99-7ac79ffb4b25
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_pl_pl
+label: 'List theme PL-pl'
+message: 'No'
+path: PL-pl/list-themes
+redirect_path: PL-pl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

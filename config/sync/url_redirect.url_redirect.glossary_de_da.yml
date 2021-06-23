@@ -1,0 +1,17 @@
+uuid: 18bc21fb-ba60-4470-9613-29449edc8374
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_de_da
+label: 'Glossary DE-da'
+message: 'No'
+path: DE-da/glossary
+redirect_path: DE-da/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

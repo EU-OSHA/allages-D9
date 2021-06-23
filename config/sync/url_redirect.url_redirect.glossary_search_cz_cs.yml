@@ -1,0 +1,17 @@
+uuid: 3b66cfa8-dc61-4221-b8b5-885c05d85a99
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_cz_cs
+label: 'Glossary search CZ-cs'
+message: 'No'
+path: CZ-cs/glossary/glossary-search
+redirect_path: CZ-cs/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

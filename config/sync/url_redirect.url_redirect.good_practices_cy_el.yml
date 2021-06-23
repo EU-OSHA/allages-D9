@@ -1,0 +1,17 @@
+uuid: 13f7b8b5-acab-4be6-91f5-937b44bdf7c1
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_cy_el
+label: 'Good practices CY-el'
+message: 'No'
+path: CY-el/good-practices/good-practices
+redirect_path: CY-el/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

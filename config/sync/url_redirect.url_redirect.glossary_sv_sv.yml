@@ -1,0 +1,17 @@
+uuid: 17879364-8476-4387-a47d-ad68630347b5
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_sv_sv
+label: 'Glossary SV-sv'
+message: 'No'
+path: SV-sv/glossary
+redirect_path: SV-sv/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: b6d1c86c-75e0-433b-868a-fb75b1af12d3
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_sv_sv
+label: 'List theme OSH Professional SV-sv'
+message: 'No'
+path: SV-sv/list-themes/list-themes/6
+redirect_path: SV-sv/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

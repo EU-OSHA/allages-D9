@@ -1,0 +1,17 @@
+uuid: c1b28976-aeed-4199-b511-cecde290571a
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_9_cr_hr
+label: 'Useful Links 9 CR_hr'
+message: 'No'
+path: 'CR_hr/useful-links?nid=9'
+redirect_path: CR-hr/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

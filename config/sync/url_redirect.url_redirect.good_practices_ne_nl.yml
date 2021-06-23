@@ -1,0 +1,17 @@
+uuid: 2b7d01fe-50de-4bf8-93be-cb86e28a7c35
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_ne_nl
+label: 'Good practices NE-nl'
+message: 'No'
+path: NE-nl/good-practices/good-practices
+redirect_path: NE-nl/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 3df16314-91d4-4bfb-98ed-3f2a2af43f44
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_sl_sl
+label: 'List theme SL-sl'
+message: 'No'
+path: SL-sl/list-themes
+redirect_path: SL-sl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

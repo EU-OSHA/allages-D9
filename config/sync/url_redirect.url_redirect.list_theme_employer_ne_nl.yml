@@ -1,0 +1,17 @@
+uuid: a3a54764-7d6c-4980-87e8-81a8c2457f6e
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_ne_nl
+label: 'List theme Employer NE-nl'
+message: 'No'
+path: NE-nl/list-themes/list-themes/2
+redirect_path: NE-nl/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

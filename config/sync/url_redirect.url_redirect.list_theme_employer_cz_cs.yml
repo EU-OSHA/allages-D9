@@ -1,0 +1,17 @@
+uuid: eed1559b-474e-4d38-a9cf-edfc1af5b2f6
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_cz_cs
+label: 'List theme Employer CZ-cs'
+message: 'No'
+path: CZ-cs/list-themes/list-themes/2
+redirect_path: CZ-cs/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

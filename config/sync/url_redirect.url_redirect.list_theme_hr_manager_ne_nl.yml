@@ -1,0 +1,17 @@
+uuid: 37fd54fa-55d0-423c-ab31-e500dc0bd3b7
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_ne_nl
+label: 'List theme HR Manager NE-nl'
+message: 'No'
+path: NE-nl/list-themes/list-themes/5
+redirect_path: NE-nl/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

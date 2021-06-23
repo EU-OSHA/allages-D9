@@ -1,0 +1,17 @@
+uuid: 5f80e02c-3a4f-4639-a7d2-04585e71f02a
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_ge_de
+label: 'List theme Employer GE-de'
+message: 'No'
+path: GE-de/list-themes/list-themes/2
+redirect_path: GE-de/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

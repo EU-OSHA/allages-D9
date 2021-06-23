@@ -6,7 +6,7 @@ id: glossary_letter
 label: 'Glossary letter'
 message: 'No'
 path: glossary/letter_a
-redirect_path: glossary/a
+redirect_path: UK-en/glossary/a
 checked_for: Role
 negate: false
 user: null

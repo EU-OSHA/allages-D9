@@ -1,0 +1,17 @@
+uuid: fb3002f1-bb63-455f-9ada-e7387e60e314
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_fi_fi
+label: 'List theme Worker FI-fi'
+message: 'No'
+path: FI-fi/list-themes/list-themes/1
+redirect_path: FI-fi/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

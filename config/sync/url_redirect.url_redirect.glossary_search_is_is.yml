@@ -1,0 +1,17 @@
+uuid: b57f2b41-fd57-40aa-a16b-34cf7ff77aa4
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_is_is
+label: 'Glossary search IS-is'
+message: 'No'
+path: IS-is/glossary/glossary-search
+redirect_path: IS-is/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

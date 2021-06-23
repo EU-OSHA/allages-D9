@@ -1,0 +1,17 @@
+uuid: 7ef0f824-8a01-44d3-a743-689b205aa3ff
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_mt_mt
+label: 'List theme OSH Professional MT-mt'
+message: 'No'
+path: MT-mt/list-themes/list-themes/6
+redirect_path: MT-mt/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

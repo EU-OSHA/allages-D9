@@ -1,0 +1,17 @@
+uuid: b4451dc6-ff24-4f80-9b98-b76e3f3dbde5
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_lv_lv
+label: 'List theme Worker LV-lv'
+message: 'No'
+path: LV-lv/list-themes/list-themes/1
+redirect_path: LV-lv/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

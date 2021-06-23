@@ -1,0 +1,17 @@
+uuid: 3a5b0f8c-c442-4d32-bc70-9dc088e1c862
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_9_es_es
+label: 'Useful Links 9 ES_es'
+message: 'No'
+path: 'ES_es/useful-links?nid=9'
+redirect_path: ES-es/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

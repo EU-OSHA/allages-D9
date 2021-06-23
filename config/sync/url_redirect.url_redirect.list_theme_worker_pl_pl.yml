@@ -1,0 +1,17 @@
+uuid: 3d5775e9-a6e3-4233-9d46-556b1af0cd4c
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_pl_pl
+label: 'List theme Worker PL-pl'
+message: 'No'
+path: PL-pl/list-themes/list-themes/1
+redirect_path: PL-pl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

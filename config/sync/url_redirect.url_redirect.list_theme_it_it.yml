@@ -1,0 +1,17 @@
+uuid: 83cf2407-77f5-4ec5-99ed-ed5a5e5fc122
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_it_it
+label: 'List theme IT-it'
+message: 'No'
+path: IT-it/list-themes
+redirect_path: IT-it/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

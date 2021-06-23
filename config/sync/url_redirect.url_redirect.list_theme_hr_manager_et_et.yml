@@ -1,0 +1,17 @@
+uuid: 9e4deef5-8c01-48cc-b76d-e8adcd6aa1e1
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_et_et
+label: 'List theme HR Manager ET-et'
+message: 'No'
+path: ET-et/list-themes/list-themes/5
+redirect_path: ET-et/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: eeb1d590-4d48-4519-8da7-3713dc1cc9f0
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_uk_en
+label: 'Glossary search UK-en'
+message: 'No'
+path: UK-en/glossary/glossary-search
+redirect_path: UK-en/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

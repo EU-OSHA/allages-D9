@@ -1,0 +1,17 @@
+uuid: f3088a05-b675-4cc9-b429-1ea9cc3d55d0
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_9_it_it
+label: 'Useful Links 9 IT_it'
+message: 'No'
+path: 'IT_it/useful-links?nid=9'
+redirect_path: IT-it/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

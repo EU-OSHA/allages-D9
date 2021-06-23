@@ -1,0 +1,17 @@
+uuid: 61a2be3e-5aa5-44c3-9e0f-e9c269349359
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_cz_cs
+label: 'List theme CZ-cs'
+message: 'No'
+path: CZ-cs/list-themes
+redirect_path: CZ-cs/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

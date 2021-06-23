@@ -1,0 +1,17 @@
+uuid: e27f0376-54f1-4721-b6fb-23b0567e2c47
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_uk_en
+label: 'Useful Links 12 UK_en'
+message: 'No'
+path: 'UK_en/useful-links?nid=12'
+redirect_path: UK-en/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

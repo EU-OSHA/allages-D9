@@ -1,0 +1,17 @@
+uuid: 536fcb31-2114-4a6a-a174-c7b46e80d143
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_sl_sl
+label: 'Glossary search SL-sl'
+message: 'No'
+path: SL-sl/glossary/glossary-search
+redirect_path: SL-sl/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

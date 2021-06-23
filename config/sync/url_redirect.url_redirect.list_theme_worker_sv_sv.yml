@@ -1,0 +1,17 @@
+uuid: 2119dfd5-f57f-43a2-b240-0361ecb90d66
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_sv_sv
+label: 'List theme Worker SV-sv'
+message: 'No'
+path: SV-sv/list-themes/list-themes/1
+redirect_path: SV-sv/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 08eaf575-348b-4b8b-93ac-8df543c4a8f0
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_fi_fi
+label: 'List theme OSH Professional FI-fi'
+message: 'No'
+path: FI-fi/list-themes/list-themes/6
+redirect_path: FI-fi/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: c6063af0-a5eb-43be-b265-3c89d968f811
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_fi_fi
+label: 'Good practices FI-fi'
+message: 'No'
+path: FI-fi/good-practices/good-practices
+redirect_path: FI-fi/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

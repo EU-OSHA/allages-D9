@@ -1,0 +1,17 @@
+uuid: 6968c7ad-af5b-48b3-8dea-e7a45873b26e
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_sl_sl
+label: 'Good practices SL-sl'
+message: 'No'
+path: SL-sl/good-practices/good-practices
+redirect_path: SL-sl/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

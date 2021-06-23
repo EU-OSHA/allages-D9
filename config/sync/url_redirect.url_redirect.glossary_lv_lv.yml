@@ -1,0 +1,17 @@
+uuid: 7afc7b8a-a9e8-4839-a4ec-d640a2684f8a
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_lv_lv
+label: 'Glossary LV-lv'
+message: 'No'
+path: LV-lv/glossary
+redirect_path: LV-lv/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

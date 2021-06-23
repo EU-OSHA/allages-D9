@@ -1,0 +1,17 @@
+uuid: cc3304bd-3d11-4ff6-a59d-320d1ab7df05
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_sv_sv
+label: 'Good practices SV-sv'
+message: 'No'
+path: SV-sv/good-practices/good-practices
+redirect_path: SV-sv/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 2ead040a-504b-46c4-be62-a1966c00e0f5
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_sk_sk
+label: 'List theme Employer SK-sk'
+message: 'No'
+path: SK-sk/list-themes/list-themes/2
+redirect_path: SK-sk/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

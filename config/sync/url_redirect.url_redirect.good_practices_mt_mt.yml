@@ -1,0 +1,17 @@
+uuid: 148600aa-fb30-4fe3-b9bd-bdf0cc1f47d7
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_mt_mt
+label: 'Good practices MT-mt'
+message: 'No'
+path: MT-mt/good-practices/good-practices
+redirect_path: MT-mt/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

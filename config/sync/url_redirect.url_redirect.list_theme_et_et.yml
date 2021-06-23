@@ -1,0 +1,17 @@
+uuid: 7ca22f4e-f50d-42bc-a3a6-baaac560e768
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_et_et
+label: 'List theme ET-et'
+message: 'No'
+path: ET-et/list-themes
+redirect_path: ET-et/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

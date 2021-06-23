@@ -1,0 +1,17 @@
+uuid: a90f7092-be86-417e-adf3-b0b9140b3d2e
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_hu_hu
+label: 'Glossary search HU-hu'
+message: 'No'
+path: HU-hu/glossary/glossary-search
+redirect_path: HU-hu/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: ccc2c5e9-0bda-4df5-b90f-12faea665939
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_it_it
+label: 'Glossary search IT-it'
+message: 'No'
+path: IT-it/glossary/glossary-search
+redirect_path: IT-it/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

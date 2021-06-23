@@ -1,0 +1,17 @@
+uuid: 776f096d-a2ea-483f-b2f9-d6737f10ec2b
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_cy_el
+label: 'List theme Worker CY-el'
+message: 'No'
+path: CY-el/list-themes/list-themes/1
+redirect_path: CY-el/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

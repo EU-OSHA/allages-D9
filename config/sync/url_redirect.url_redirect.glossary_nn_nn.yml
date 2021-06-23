@@ -1,0 +1,17 @@
+uuid: f220a9fa-cc24-4e66-859d-df0515ed84d7
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_nn_nn
+label: 'Glossary NN-nn'
+message: 'No'
+path: NN-nn/glossary
+redirect_path: NN-nn/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

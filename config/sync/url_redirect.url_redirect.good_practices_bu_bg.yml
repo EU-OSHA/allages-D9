@@ -1,0 +1,17 @@
+uuid: d43435fa-c09c-414f-874b-21bf3797261b
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_bu_bg
+label: 'Good practices BU-bg'
+message: 'No'
+path: BU-bg/good-practices/good-practices
+redirect_path: BU-bg/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

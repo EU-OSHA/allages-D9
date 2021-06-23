@@ -1,0 +1,17 @@
+uuid: f2f2d4db-9cdb-4397-9e09-fa529c81e5a0
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_au_de
+label: 'List theme Employer AU-de'
+message: 'No'
+path: AU-de/list-themes/list-themes/2
+redirect_path: AU-de/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

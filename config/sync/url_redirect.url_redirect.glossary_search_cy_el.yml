@@ -1,0 +1,17 @@
+uuid: bce7e008-e46a-4e5a-b262-be8c3d095d69
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_cy_el
+label: 'Glossary search CY-el'
+message: 'No'
+path: CY-el/glossary/glossary-search
+redirect_path: CY-el/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

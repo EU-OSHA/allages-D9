@@ -1,0 +1,17 @@
+uuid: 295b1173-c61d-4f7a-83ea-ed3b2d093df9
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_is_is
+label: 'List theme IS-is'
+message: 'No'
+path: IS-is/list-themes
+redirect_path: IS-is/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

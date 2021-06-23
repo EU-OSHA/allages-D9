@@ -1,0 +1,17 @@
+uuid: 2310ac26-014e-44b8-8f96-21c1de48f694
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_ge_de
+label: 'Glossary search GE-de'
+message: 'No'
+path: GE-de/glossary/glossary-search
+redirect_path: GE-de/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

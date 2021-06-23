@@ -1,0 +1,17 @@
+uuid: 7c7a67c9-0072-4270-8878-4d9101c55d9f
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_fi_fi
+label: 'List theme FI-fi'
+message: 'No'
+path: FI-fi/list-themes
+redirect_path: FI-fi/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

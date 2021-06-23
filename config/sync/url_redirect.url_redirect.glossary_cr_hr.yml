@@ -1,0 +1,17 @@
+uuid: 80e28357-fd77-461d-971b-d60cc055bcd6
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_cr_hr
+label: 'Glossary CR-hr'
+message: 'No'
+path: CR-hr/glossary
+redirect_path: CR-hr/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

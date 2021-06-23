@@ -1,0 +1,17 @@
+uuid: b23db78f-9ea1-4f7c-b1b6-a0e5f75ae9f5
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_sk_sk
+label: 'List theme HR Manager SK-sk'
+message: 'No'
+path: SK-sk/list-themes/list-themes/5
+redirect_path: SK-sk/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

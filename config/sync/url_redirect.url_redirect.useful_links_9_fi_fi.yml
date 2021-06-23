@@ -1,0 +1,17 @@
+uuid: fd583dcf-9bcf-4ad3-8157-45b7deff2029
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_9_fi_fi
+label: 'Useful Links 9 FI_fi'
+message: 'No'
+path: 'FI_fi/useful-links?nid=9'
+redirect_path: FI-fi/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

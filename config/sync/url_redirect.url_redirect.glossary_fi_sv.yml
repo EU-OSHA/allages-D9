@@ -1,0 +1,17 @@
+uuid: cbd07e58-12f1-48bd-ab28-2a1fd8b36d35
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_fi_sv
+label: 'Glossary FI-sv'
+message: 'No'
+path: FI-sv/glossary
+redirect_path: FI-sv/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

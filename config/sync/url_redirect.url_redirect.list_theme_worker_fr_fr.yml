@@ -1,0 +1,17 @@
+uuid: 13843ed3-dad3-4449-ae65-63101f462ea5
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_fr_fr
+label: 'List theme Worker FR-fr'
+message: 'No'
+path: FR-fr/list-themes/list-themes/1
+redirect_path: FR-fr/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

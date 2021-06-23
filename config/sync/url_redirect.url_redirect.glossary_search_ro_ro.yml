@@ -1,0 +1,17 @@
+uuid: 46e51432-db99-4385-ad6c-d9dd094c4589
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_ro_ro
+label: 'Glossary search RO-ro'
+message: 'No'
+path: RO-ro/glossary/glossary-search
+redirect_path: RO-ro/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

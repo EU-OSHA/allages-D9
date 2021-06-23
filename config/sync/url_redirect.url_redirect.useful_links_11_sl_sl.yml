@@ -1,0 +1,17 @@
+uuid: 657845bc-cd34-4ee5-8752-5cc111fc170b
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_11_sl_sl
+label: 'Useful Links 11 SL_sl'
+message: 'No'
+path: 'SL_sl/useful-links?nid=11'
+redirect_path: SL-sl/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

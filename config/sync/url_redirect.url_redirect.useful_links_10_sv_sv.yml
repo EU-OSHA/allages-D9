@@ -1,0 +1,17 @@
+uuid: 2f272df1-ffdb-4285-8c2f-e6ada6ba0b9b
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_10_sv_sv
+label: 'Useful Links 10 SV_sv'
+message: 'No'
+path: 'SV_sv/useful-links?nid=10'
+redirect_path: SV-sv/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

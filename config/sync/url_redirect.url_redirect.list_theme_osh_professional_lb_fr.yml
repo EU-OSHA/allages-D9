@@ -1,0 +1,17 @@
+uuid: 8efc855e-6d5e-4514-8348-2806ecd454a9
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_lb_fr
+label: 'List theme OSH Professional LB-fr'
+message: 'No'
+path: LB-fr/list-themes/list-themes/6
+redirect_path: LB-fr/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

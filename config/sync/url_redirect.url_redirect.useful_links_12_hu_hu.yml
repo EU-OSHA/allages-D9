@@ -1,0 +1,17 @@
+uuid: d53f88fe-9f09-4dbb-925a-f429a8dda0b5
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_hu_hu
+label: 'Useful Links 12 HU_hu'
+message: 'No'
+path: 'HU_hu/useful-links?nid=12'
+redirect_path: HU-hu/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

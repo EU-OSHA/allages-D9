@@ -1,0 +1,17 @@
+uuid: 6cdb9122-361a-40b8-9bb8-dbb7ba4cede8
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_10_mt_en
+label: 'Useful Links 10 MT_en'
+message: 'No'
+path: 'MT_en/useful-links?nid=10'
+redirect_path: MT-en/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
