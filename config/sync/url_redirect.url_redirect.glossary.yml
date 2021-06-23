@@ -6,7 +6,7 @@ id: glossary
 label: Glossary
 message: 'No'
 path: glossary
-redirect_path: glossary/a
+redirect_path: UK-en/glossary/a
 checked_for: Role
 negate: false
 user: null

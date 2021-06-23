@@ -1,0 +1,17 @@
+uuid: 67c640e6-986f-4e5b-90e9-f73409c2176c
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_swz_de
+label: 'List theme OSH Professional SWZ-de'
+message: 'No'
+path: SWZ-de/list-themes/list-themes/6
+redirect_path: SWZ-de/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 3e0a6d7c-5087-4b75-8739-aeff68e0728d
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_hu_hu
+label: 'List theme HR Manager HU-hu'
+message: 'No'
+path: HU-hu/list-themes/list-themes/5
+redirect_path: HU-hu/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

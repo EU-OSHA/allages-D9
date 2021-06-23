@@ -1,0 +1,17 @@
+uuid: b4b321e1-a180-4196-98d4-9c0da80621a5
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_swz_it
+label: 'Glossary search SWZ-it'
+message: 'No'
+path: SWZ-it/glossary/glossary-search
+redirect_path: SWZ-it/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

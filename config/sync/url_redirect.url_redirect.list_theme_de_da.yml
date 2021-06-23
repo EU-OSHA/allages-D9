@@ -1,0 +1,17 @@
+uuid: 5ca8e5f0-ba47-49e8-9b61-20cc105771eb
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_de_da
+label: 'List theme DE-da'
+message: 'No'
+path: DE-da/list-themes
+redirect_path: DE-da/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

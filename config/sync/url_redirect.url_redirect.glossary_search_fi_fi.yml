@@ -1,0 +1,17 @@
+uuid: d473b40b-8f5c-46d0-92a0-ca7c33178bde
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_fi_fi
+label: 'Glossary search FI-fi'
+message: 'No'
+path: FI-fi/glossary/glossary-search
+redirect_path: FI-fi/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: dbb7f3e7-ae7a-4e04-842a-b887c6455139
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_pt_pt
+label: 'Glossary PT-pt'
+message: 'No'
+path: PT-pt/glossary
+redirect_path: PT-pt/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

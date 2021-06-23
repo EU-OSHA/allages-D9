@@ -1,0 +1,17 @@
+uuid: d49cece7-5874-4398-a4c4-64a6dc507e32
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_mt_en
+label: 'List theme Worker MT-en'
+message: 'No'
+path: MT-en/list-themes/list-themes/1
+redirect_path: MT-en/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

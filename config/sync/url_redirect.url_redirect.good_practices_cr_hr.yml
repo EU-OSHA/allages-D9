@@ -1,0 +1,17 @@
+uuid: 2ae3cfae-0e03-4196-aa05-7d15ef769123
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_cr_hr
+label: 'Good practices CR-hr'
+message: 'No'
+path: CR-hr/good-practices/good-practices
+redirect_path: CR-hr/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 851f3068-e0aa-425c-9e0e-c2d63a335ccd
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_10_uk_en
+label: 'Useful Links 10 UK_en'
+message: 'No'
+path: 'UK_en/useful-links?nid=10'
+redirect_path: UK-en/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

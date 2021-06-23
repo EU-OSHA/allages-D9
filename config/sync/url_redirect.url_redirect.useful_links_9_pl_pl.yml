@@ -1,0 +1,17 @@
+uuid: 1d84fed8-841a-43c6-b828-afda443ac9d8
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_9_pl_pl
+label: 'Useful Links 9 PL_pl'
+message: 'No'
+path: 'PL_pl/useful-links?nid=9'
+redirect_path: PL-pl/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: eb8e39c8-77a3-42e5-b145-9b517eb435b2
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_gr_el
+label: 'Useful Links 12 GR_el'
+message: 'No'
+path: 'GR_el/useful-links?nid=12'
+redirect_path: GR-el/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

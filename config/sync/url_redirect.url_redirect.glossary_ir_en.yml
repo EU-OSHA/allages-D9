@@ -1,0 +1,17 @@
+uuid: dc96b353-27ea-421b-b3ca-4180017a7829
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_ir_en
+label: 'Glossary IR-en'
+message: 'No'
+path: IR-en/glossary
+redirect_path: IR-en/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

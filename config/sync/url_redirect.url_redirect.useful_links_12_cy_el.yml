@@ -1,0 +1,17 @@
+uuid: 1d2a08a6-ff96-4a06-821e-14be14152805
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_cy_el
+label: 'Useful Links 12 CY_el'
+message: 'No'
+path: 'CY_el/useful-links?nid=12'
+redirect_path: CY-el/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

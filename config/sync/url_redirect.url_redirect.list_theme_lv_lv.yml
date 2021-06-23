@@ -1,0 +1,17 @@
+uuid: 9bd53f53-e3eb-4d14-bdfd-299f7f36e05a
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_lv_lv
+label: 'List theme LV-lv'
+message: 'No'
+path: LV-lv/list-themes
+redirect_path: LV-lv/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

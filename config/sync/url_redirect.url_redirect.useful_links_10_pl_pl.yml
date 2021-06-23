@@ -1,0 +1,17 @@
+uuid: c5032e0b-fd57-4597-85b5-fb89fd2fdea6
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_10_pl_pl
+label: 'Useful Links 10 PL_pl'
+message: 'No'
+path: 'PL_pl/useful-links?nid=10'
+redirect_path: PL-pl/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

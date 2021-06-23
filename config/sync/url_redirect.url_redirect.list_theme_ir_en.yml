@@ -1,0 +1,17 @@
+uuid: 68cf1c81-1648-4746-886f-8619cbc7f88b
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_ir_en
+label: 'List theme IR-en'
+message: 'No'
+path: IR-en/list-themes
+redirect_path: IR-en/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 19e4813b-8ac5-4cf2-b088-2161ee1668c1
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_sk_sk
+label: 'Glossary SK-sk'
+message: 'No'
+path: SK-sk/glossary
+redirect_path: SK-sk/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

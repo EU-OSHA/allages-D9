@@ -1,0 +1,17 @@
+uuid: bbf05e90-3103-4b6e-9b9e-1251d4aee22f
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_lb_de
+label: 'List theme Employer LB-de'
+message: 'No'
+path: LB-de/list-themes/list-themes/2
+redirect_path: LB-de/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

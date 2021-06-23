@@ -1,0 +1,17 @@
+uuid: b1803f7f-e3a8-48ac-9402-9dda5d3f2c45
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_pt_pt
+label: 'List theme PT-pt'
+message: 'No'
+path: PT-pt/list-themes
+redirect_path: PT-pt/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

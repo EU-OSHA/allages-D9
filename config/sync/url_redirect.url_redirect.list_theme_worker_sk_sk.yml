@@ -1,0 +1,17 @@
+uuid: 2f4382ed-977c-43f7-8d25-2b9f51cd1a36
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_sk_sk
+label: 'List theme Worker SK-sk'
+message: 'No'
+path: SK-sk/list-themes/list-themes/1
+redirect_path: SK-sk/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 187e917e-f47b-452e-912c-bbfceb4f999f
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_fi_sv
+label: 'Useful Links 12 FI_sv'
+message: 'No'
+path: 'FI_sv/useful-links?nid=12'
+redirect_path: FI-sv/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

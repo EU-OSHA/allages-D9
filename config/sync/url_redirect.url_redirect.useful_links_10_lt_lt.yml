@@ -1,0 +1,17 @@
+uuid: 2c8e074d-76e8-4a33-b139-48a27b4647c5
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_10_lt_lt
+label: 'Useful Links 10 LT_lt'
+message: 'No'
+path: 'LT_lt/useful-links?nid=10'
+redirect_path: LT-lt/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

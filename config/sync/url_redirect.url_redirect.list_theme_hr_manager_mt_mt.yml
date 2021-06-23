@@ -1,0 +1,17 @@
+uuid: 30498c01-0f9d-410c-b0fb-969e6fbf8a9b
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_mt_mt
+label: 'List theme HR Manager MT-mt'
+message: 'No'
+path: MT-mt/list-themes/list-themes/5
+redirect_path: MT-mt/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

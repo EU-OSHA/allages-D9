@@ -1,0 +1,17 @@
+uuid: b814574c-078f-4ea6-98a7-12b7baaf1eec
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_es_es
+label: 'Glossary ES-es'
+message: 'No'
+path: ES-es/glossary
+redirect_path: ES-es/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

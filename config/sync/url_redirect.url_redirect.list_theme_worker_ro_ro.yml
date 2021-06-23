@@ -1,0 +1,17 @@
+uuid: e19a0f79-4adf-4d13-b38c-fde7036e84bb
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_ro_ro
+label: 'List theme Worker RO-ro'
+message: 'No'
+path: RO-ro/list-themes/list-themes/1
+redirect_path: RO-ro/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

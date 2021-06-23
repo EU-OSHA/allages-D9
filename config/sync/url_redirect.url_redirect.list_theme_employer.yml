@@ -6,7 +6,7 @@ id: list_theme_employer
 label: 'List theme Employer'
 message: 'No'
 path: list-themes/list-themes/2
-redirect_path: list-themes/2
+redirect_path: UK-en/list-themes/2
 checked_for: Role
 negate: false
 user: null

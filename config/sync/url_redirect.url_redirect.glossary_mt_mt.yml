@@ -1,0 +1,17 @@
+uuid: d290e00a-35ec-4e87-9238-745cf93172a5
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_mt_mt
+label: 'Glossary MT-mt'
+message: 'No'
+path: MT-mt/glossary
+redirect_path: MT-mt/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

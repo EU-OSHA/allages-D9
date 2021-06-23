@@ -1,0 +1,17 @@
+uuid: ef246eb6-5a33-41ab-a2df-eaf4477ff83c
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_cz_cs
+label: 'List theme HR Manager CZ-cs'
+message: 'No'
+path: CZ-cs/list-themes/list-themes/5
+redirect_path: CZ-cs/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

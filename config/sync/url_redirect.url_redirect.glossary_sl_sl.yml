@@ -1,0 +1,17 @@
+uuid: a08074ac-db9d-43bb-bc6b-c5d26879d056
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_sl_sl
+label: 'Glossary SL-sl'
+message: 'No'
+path: SL-sl/glossary
+redirect_path: SL-sl/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

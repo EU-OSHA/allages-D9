@@ -1,0 +1,17 @@
+uuid: 43c4495c-d1f7-40f1-98d7-f3e67ca4d7ad
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_lb_de
+label: 'Good practices LB-de'
+message: 'No'
+path: LB-de/good-practices/good-practices
+redirect_path: LB-de/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: e55385f9-6d12-4b36-86cc-e8de99646245
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_pl_pl
+label: 'List theme Employer PL-pl'
+message: 'No'
+path: PL-pl/list-themes/list-themes/2
+redirect_path: PL-pl/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

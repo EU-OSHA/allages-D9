@@ -1,0 +1,17 @@
+uuid: e9409a59-d99b-42b2-99eb-f731b94a9b7b
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_mt_en
+label: 'List theme Employer MT-en'
+message: 'No'
+path: MT-en/list-themes/list-themes/2
+redirect_path: MT-en/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: e5a10f72-9062-465b-91a1-80473814e04b
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_lt_lt
+label: 'List theme LT-lt'
+message: 'No'
+path: LT-lt/list-themes
+redirect_path: LT-lt/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

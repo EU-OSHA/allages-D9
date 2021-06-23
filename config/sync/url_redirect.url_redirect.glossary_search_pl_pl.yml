@@ -1,0 +1,17 @@
+uuid: 27bc9877-b06b-43c9-a629-aff50bcce41c
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_pl_pl
+label: 'Glossary search PL-pl'
+message: 'No'
+path: PL-pl/glossary/glossary-search
+redirect_path: PL-pl/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

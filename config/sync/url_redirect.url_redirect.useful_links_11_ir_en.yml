@@ -1,0 +1,17 @@
+uuid: 845af881-9ae0-4880-b3a9-cf9aabab00d0
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_11_ir_en
+label: 'Useful Links 11 IR_en'
+message: 'No'
+path: 'IR_en/useful-links?nid=11'
+redirect_path: IR-en/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

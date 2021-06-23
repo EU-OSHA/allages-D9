@@ -1,0 +1,17 @@
+uuid: 392b2203-777f-4625-9084-7cd75d66c03c
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_11_cz_cs
+label: 'Useful Links 11 CZ_cs'
+message: 'No'
+path: 'CZ_cs/useful-links?nid=11'
+redirect_path: CZ-cs/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

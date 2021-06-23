@@ -1,0 +1,17 @@
+uuid: 73f48c7e-2c1d-4df0-ab51-68a52efc358e
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_hu_hu
+label: 'List theme Employer HU-hu'
+message: 'No'
+path: HU-hu/list-themes/list-themes/2
+redirect_path: HU-hu/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

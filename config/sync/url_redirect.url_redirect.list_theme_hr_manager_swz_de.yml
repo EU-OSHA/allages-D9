@@ -1,0 +1,17 @@
+uuid: 97979fca-88b3-427a-8ca2-96b22dc189de
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_swz_de
+label: 'List theme HR Manager SWZ-de'
+message: 'No'
+path: SWZ-de/list-themes/list-themes/5
+redirect_path: SWZ-de/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

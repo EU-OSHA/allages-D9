@@ -1,0 +1,17 @@
+uuid: 59e730a1-32c8-42aa-b3a7-4ad5c8ae485d
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_swz_it
+label: 'Useful Links 12 SWZ_it'
+message: 'No'
+path: 'SWZ_it/useful-links?nid=12'
+redirect_path: SWZ-it/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 59920e15-310b-457c-8448-ed915597d532
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_cy_el
+label: 'List theme HR Manager CY-el'
+message: 'No'
+path: CY-el/list-themes/list-themes/5
+redirect_path: CY-el/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

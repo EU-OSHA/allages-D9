@@ -1,0 +1,17 @@
+uuid: a131186c-348c-49ae-98c0-d7abe53475b9
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_12_sk_sk
+label: 'Useful Links 12 SK_sk'
+message: 'No'
+path: 'SK_sk/useful-links?nid=12'
+redirect_path: SK-sk/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

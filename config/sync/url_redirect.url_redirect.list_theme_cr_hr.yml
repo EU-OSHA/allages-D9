@@ -1,0 +1,17 @@
+uuid: f9619073-ede2-4da6-8ab6-a9daece03aa2
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_cr_hr
+label: 'List theme CR-hr'
+message: 'No'
+path: CR-hr/list-themes
+redirect_path: CR-hr/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

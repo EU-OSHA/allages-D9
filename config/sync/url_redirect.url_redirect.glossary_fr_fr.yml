@@ -1,0 +1,17 @@
+uuid: e1b494c4-50fd-4030-b87b-1ac86f312334
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_fr_fr
+label: 'Glossary FR-fr'
+message: 'No'
+path: FR-fr/glossary
+redirect_path: FR-fr/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

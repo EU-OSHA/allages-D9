@@ -1,0 +1,17 @@
+uuid: 9cb9f47d-3294-4e8f-b9e3-cd1b32cfd991
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_bu_bg
+label: 'List theme OSH Professional BU-bg'
+message: 'No'
+path: BU-bg/list-themes/list-themes/6
+redirect_path: BU-bg/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

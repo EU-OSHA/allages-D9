@@ -1,0 +1,17 @@
+uuid: 759fb443-652c-49e1-8d47-c7577ae64ac8
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_swz_de
+label: 'List theme SWZ-de'
+message: 'No'
+path: SWZ-de/list-themes
+redirect_path: SWZ-de/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

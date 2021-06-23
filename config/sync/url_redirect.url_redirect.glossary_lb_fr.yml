@@ -1,0 +1,17 @@
+uuid: acac1fe2-3584-45aa-91b6-50df408b7d39
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_lb_fr
+label: 'Glossary LB-fr'
+message: 'No'
+path: LB-fr/glossary
+redirect_path: LB-fr/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

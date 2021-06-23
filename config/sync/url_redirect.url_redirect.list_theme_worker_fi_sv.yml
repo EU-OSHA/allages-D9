@@ -1,0 +1,17 @@
+uuid: acb36cea-ab6f-4b46-926b-4d530d567eac
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_fi_sv
+label: 'List theme Worker FI-sv'
+message: 'No'
+path: FI-sv/list-themes/list-themes/1
+redirect_path: FI-sv/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

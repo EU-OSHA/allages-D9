@@ -1,0 +1,17 @@
+uuid: e68d7519-ab7a-4902-8ef0-2de4d76e3582
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_ge_de
+label: 'List theme OSH Professional GE-de'
+message: 'No'
+path: GE-de/list-themes/list-themes/6
+redirect_path: GE-de/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

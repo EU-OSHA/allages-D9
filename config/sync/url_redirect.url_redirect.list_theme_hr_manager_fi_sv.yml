@@ -1,0 +1,17 @@
+uuid: 0cbd6c15-d486-4ced-93df-f39406c1b7ec
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_fi_sv
+label: 'List theme HR Manager FI-sv'
+message: 'No'
+path: FI-sv/list-themes/list-themes/5
+redirect_path: FI-sv/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

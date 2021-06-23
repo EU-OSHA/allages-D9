@@ -1,0 +1,17 @@
+uuid: 7b4c7785-cc4f-4e88-a2a0-e387fbbefbc5
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_be_nl
+label: 'List theme BE-nl'
+message: 'No'
+path: BE-nl/list-themes
+redirect_path: BE-nl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

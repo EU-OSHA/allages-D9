@@ -1,0 +1,17 @@
+uuid: 897bce85-0227-423b-b457-55fdcbcc6d87
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_au_de
+label: 'Glossary AU-de'
+message: 'No'
+path: AU-de/glossary
+redirect_path: AU-de/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

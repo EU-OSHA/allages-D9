@@ -1,0 +1,17 @@
+uuid: 65162e82-33a5-4d85-9101-5ac9b0353050
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_lt_lt
+label: 'Glossary search LT-lt'
+message: 'No'
+path: LT-lt/glossary/glossary-search
+redirect_path: LT-lt/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 5c8a5c67-26b3-4c66-b348-19e83639c721
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_gr_el
+label: 'Glossary GR-el'
+message: 'No'
+path: GR-el/glossary
+redirect_path: GR-el/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

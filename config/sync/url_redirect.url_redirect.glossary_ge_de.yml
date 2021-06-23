@@ -1,0 +1,17 @@
+uuid: c66dc2d6-75a3-4ba3-ab73-3a6fff31c959
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_ge_de
+label: 'Glossary GE-de'
+message: 'No'
+path: GE-de/glossary
+redirect_path: GE-de/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

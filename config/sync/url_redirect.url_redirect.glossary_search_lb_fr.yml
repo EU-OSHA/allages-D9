@@ -1,0 +1,17 @@
+uuid: bb107f6f-46ff-40b5-ae67-e7b5116ab988
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_lb_fr
+label: 'Glossary search LB-fr'
+message: 'No'
+path: LB-fr/glossary/glossary-search
+redirect_path: LB-fr/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

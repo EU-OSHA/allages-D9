@@ -1,0 +1,17 @@
+uuid: 115af57e-e5f8-4bb2-ac86-f9005f46d7a0
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_lv_lv
+label: 'List theme OSH Professional LV-lv'
+message: 'No'
+path: LV-lv/list-themes/list-themes/6
+redirect_path: LV-lv/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

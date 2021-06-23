@@ -1,0 +1,17 @@
+uuid: 313b7788-5eb0-4f9a-a9da-adfc1ff9f7a3
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_swz_it
+label: 'Good practices SWZ-it'
+message: 'No'
+path: SWZ-it/good-practices/good-practices
+redirect_path: SWZ-it/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

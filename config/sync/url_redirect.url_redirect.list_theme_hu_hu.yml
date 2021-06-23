@@ -1,0 +1,17 @@
+uuid: e62e315b-5e20-40aa-a394-5d8f039e805f
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_hu_hu
+label: 'List theme HU-hu'
+message: 'No'
+path: HU-hu/list-themes
+redirect_path: HU-hu/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

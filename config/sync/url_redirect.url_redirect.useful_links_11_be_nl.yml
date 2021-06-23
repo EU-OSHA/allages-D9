@@ -1,0 +1,17 @@
+uuid: 6ddeeccb-25ee-41bb-b3c6-558a3cf654fb
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_11_be_nl
+label: 'Useful Links 11 BE_nl'
+message: 'No'
+path: 'BE_nl/useful-links?nid=11'
+redirect_path: BE-nl/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

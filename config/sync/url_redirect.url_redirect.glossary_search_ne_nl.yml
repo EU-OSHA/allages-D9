@@ -1,0 +1,17 @@
+uuid: 162064a0-8cb7-484c-afaa-ccd0afb52a8a
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_ne_nl
+label: 'Glossary search NE-nl'
+message: 'No'
+path: NE-nl/glossary/glossary-search
+redirect_path: NE-nl/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

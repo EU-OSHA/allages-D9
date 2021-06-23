@@ -1,0 +1,17 @@
+uuid: 347b9f46-4c24-4807-85e7-f6f2652115da
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_mt_mt
+label: 'List theme MT-mt'
+message: 'No'
+path: MT-mt/list-themes
+redirect_path: MT-mt/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

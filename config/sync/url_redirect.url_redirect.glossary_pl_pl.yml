@@ -1,0 +1,17 @@
+uuid: 660f3120-3455-4ee5-9089-ca43b1395fd5
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_pl_pl
+label: 'Glossary PL-pl'
+message: 'No'
+path: PL-pl/glossary
+redirect_path: PL-pl/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

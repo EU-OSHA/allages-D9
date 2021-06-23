@@ -1,0 +1,17 @@
+uuid: 2dfb6d18-9c8a-47d5-9cc9-93f86119cd88
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_bu_bg
+label: 'Glossary search BU-bg'
+message: 'No'
+path: BU-bg/glossary/glossary-search
+redirect_path: BU-bg/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

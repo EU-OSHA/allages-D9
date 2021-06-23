@@ -1,0 +1,17 @@
+uuid: 78cd6337-7a09-499a-bb67-ef5580ddab8c
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_uk_en
+label: 'Good practices UK-en'
+message: 'No'
+path: UK-en/good-practices/good-practices
+redirect_path: UK-en/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

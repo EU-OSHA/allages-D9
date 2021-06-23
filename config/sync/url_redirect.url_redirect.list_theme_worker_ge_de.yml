@@ -1,0 +1,17 @@
+uuid: 426cbc7a-23d4-42a8-be89-0c203f13f4b1
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_ge_de
+label: 'List theme Worker GE-de'
+message: 'No'
+path: GE-de/list-themes/list-themes/1
+redirect_path: GE-de/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

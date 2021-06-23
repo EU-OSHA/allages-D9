@@ -1,0 +1,17 @@
+uuid: 4011bfee-47b5-4b5a-a3ee-6eac8476ddda
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_10_bu_bg
+label: 'Useful Links 10 BU_bg'
+message: 'No'
+path: 'BU_bg/useful-links?nid=10'
+redirect_path: BU-bg/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

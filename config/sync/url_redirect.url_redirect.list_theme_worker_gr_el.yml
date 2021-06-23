@@ -1,0 +1,17 @@
+uuid: 30ecd40d-a698-448d-b2da-60f9b0045dd4
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_gr_el
+label: 'List theme Worker GR-el'
+message: 'No'
+path: GR-el/list-themes/list-themes/1
+redirect_path: GR-el/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

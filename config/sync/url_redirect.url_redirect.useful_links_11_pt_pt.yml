@@ -1,0 +1,17 @@
+uuid: fab5da06-6bcb-43ce-991c-33ad9c44b6eb
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_11_pt_pt
+label: 'Useful Links 11 PT_pt'
+message: 'No'
+path: 'PT_pt/useful-links?nid=11'
+redirect_path: PT-pt/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

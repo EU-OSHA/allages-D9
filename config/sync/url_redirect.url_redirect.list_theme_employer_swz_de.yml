@@ -1,0 +1,17 @@
+uuid: 932fb3bd-94fb-4560-94b1-9f7f81d7eecb
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_swz_de
+label: 'List theme Employer SWZ-de'
+message: 'No'
+path: SWZ-de/list-themes/list-themes/2
+redirect_path: SWZ-de/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

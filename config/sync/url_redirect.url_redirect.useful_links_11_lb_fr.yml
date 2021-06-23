@@ -1,0 +1,17 @@
+uuid: 804bb534-0cc6-4e66-bd21-c8c0d34b8673
+langcode: en
+status: '1'
+dependencies: {  }
+id: useful_links_11_lb_fr
+label: 'Useful Links 11 LB_fr'
+message: 'No'
+path: 'LB_fr/useful-links?nid=11'
+redirect_path: LB-fr/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: bf45953b-690b-457f-a046-4b486a4c1f11
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_fi_fi
+label: 'Glossary FI-fi'
+message: 'No'
+path: FI-fi/glossary
+redirect_path: FI-fi/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

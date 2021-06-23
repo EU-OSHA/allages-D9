@@ -1,0 +1,17 @@
+uuid: 727993e7-09c1-454e-b450-45967f0245b0
+langcode: en
+status: '1'
+dependencies: {  }
+id: glossary_search_pt_pt
+label: 'Glossary search PT-pt'
+message: 'No'
+path: PT-pt/glossary/glossary-search
+redirect_path: PT-pt/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

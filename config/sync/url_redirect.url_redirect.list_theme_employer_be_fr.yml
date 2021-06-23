@@ -1,0 +1,17 @@
+uuid: fe2f3c00-1c37-41fd-b00d-d6df3fa73194
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_be_fr
+label: 'List theme Employer BE-fr'
+message: 'No'
+path: BE-fr/list-themes/list-themes/2
+redirect_path: BE-fr/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: fb7203ce-c490-437a-a2b3-8de7187a0c6c
+langcode: en
+status: '1'
+dependencies: {  }
+id: good_practices_sk_sk
+label: 'Good practices SK-sk'
+message: 'No'
+path: SK-sk/good-practices/good-practices
+redirect_path: SK-sk/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

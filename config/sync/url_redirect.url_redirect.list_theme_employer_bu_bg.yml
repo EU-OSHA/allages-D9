@@ -1,0 +1,17 @@
+uuid: 5aa56dc4-8816-4d3c-ac44-8ad9a89d8545
+langcode: en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_bu_bg
+label: 'List theme Employer BU-bg'
+message: 'No'
+path: BU-bg/list-themes/list-themes/2
+redirect_path: BU-bg/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
