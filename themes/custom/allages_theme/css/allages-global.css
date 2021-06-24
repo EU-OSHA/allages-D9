@@ -1103,6 +1103,7 @@ section.row {
   width: 100%;
   padding: 2rem 15%;
   text-align: center;
+  align-items: baseline;
 }
 #profileDiv .profile-item {
   width: 100%;
@@ -1122,6 +1123,7 @@ section.row {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  word-break: break-all;
 }
 #profileDiv .profile-item a:hover {
   text-decoration: none;
@@ -2597,6 +2599,8 @@ section.row {
 .page-view-search-term-content .searchGlossary.selected a,
 .page-view-search-term-content .filterGlossary.selected a {
   color: #FFF;
+  pointer-events: none;
+  cursor: default;
 }
 .page-view-glossary .searchGlossary,
 .page-view-search-term-content .searchGlossary {
@@ -2613,6 +2617,14 @@ section.row {
 
 .page-view-search-term-content #block-allages-theme-content {
   background-color: #f7f5fc;
+}
+
+.page-view-glossary .breadcrumb-item.active {
+  display: none;
+}
+.page-view-glossary .breadcrumb-item:nth-child(2) {
+  pointer-events: none;
+  cursor: default;
 }
 
 .page-user-login .user-login-form {
