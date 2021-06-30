@@ -1,0 +1,25 @@
+uuid: 77c734e4-397b-4daa-b2b2-e5c53ac92c61
+langcode: ES-es
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+folder: sites/allages/config/local
+module:
+  custom_migrations: 0
+  devel: 0
+  migrate: 0
+  migrate_drupal: 0
+  migrate_file_to_media: 0
+  migrate_file_to_media_example: 0
+  migrate_plus: 0
+  migrate_tools: 0
+theme: {  }
+blacklist:
+  - 'migrate_plus*'
+graylist:
+  - 'search_api_solr*'
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

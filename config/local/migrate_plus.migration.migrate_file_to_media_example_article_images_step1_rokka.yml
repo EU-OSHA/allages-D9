@@ -1,0 +1,47 @@
+uuid: d229366c-f199-48ba-89e3-68a2fedd7d34
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rGDDTS-7195tbKtCaV87sgrO5gMMl4155aiLlZiheMo
+id: migrate_file_to_media_example_article_images_step1_rokka
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: media
+label: 'Article Images Media'
+source:
+  plugin: media_entity_generator
+  entity_type: node
+  bundle: article
+  langcode: en
+  field_names:
+    - field_image
+    - field_image2
+process:
+  bundle:
+    plugin: default_value
+    default_value: image
+  name:
+    plugin: media_name
+    source: file_name
+  existing_media_file:
+    plugin: check_media_duplicate
+    source: target_id
+  unique_file_id:
+    plugin: check_duplicate
+    source: target_id
+  field_image_media/target_id: target_id
+  field_media_image/target_id:
+    plugin: media_file_copy
+    move: false
+    reuse: true
+    path: 'rokka://'
+    source: target_id
+  field_media_image/alt: alt
+  field_media_image/title: title
+  langcode: langcode
+destination:
+  plugin: 'entity:media'
+migration_dependencies: null

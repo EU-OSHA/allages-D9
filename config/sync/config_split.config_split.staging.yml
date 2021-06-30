@@ -1,0 +1,17 @@
+uuid: f754fdc2-23ff-470b-8a10-b1975c7ceb96
+langcode: en
+status: false
+dependencies: {  }
+id: staging
+label: Staging
+description: ''
+folder: sites/allages/config/staging
+module:
+  matomo: 0
+theme: {  }
+blacklist: {  }
+graylist:
+  - 'search_api_solr*'
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
