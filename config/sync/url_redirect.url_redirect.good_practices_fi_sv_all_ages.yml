@@ -1,0 +1,17 @@
+uuid: d8c1b3d0-ebc0-4962-9604-744f686b0357
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_fi_sv_all_ages
+label: 'Good practices FI-sv all-ages'
+message: 'No'
+path: all-ages/FI-sv/good-practices/good-practices
+redirect_path: FI-sv/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: f547cf58-ee7b-4e1b-8c8a-2e716e177b3b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_cz_cs_all_ages
+label: 'List theme OSH Professional CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ-cs/list-themes/list-themes/6
+redirect_path: CZ-cs/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

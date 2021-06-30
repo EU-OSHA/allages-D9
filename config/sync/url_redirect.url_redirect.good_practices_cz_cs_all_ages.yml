@@ -1,0 +1,17 @@
+uuid: 19d721e6-6a56-4937-a824-1a800480f905
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_cz_cs_all_ages
+label: 'Good practices CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ-cs/good-practices/good-practices
+redirect_path: CZ-cs/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

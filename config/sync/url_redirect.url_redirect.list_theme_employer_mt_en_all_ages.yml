@@ -1,0 +1,17 @@
+uuid: 736170e9-061a-4457-b6fe-e145e3919586
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_mt_en_all_ages
+label: 'List theme Employer MT-en all-ages'
+message: 'No'
+path: all-ages/MT-en/list-themes/list-themes/2
+redirect_path: MT-en/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

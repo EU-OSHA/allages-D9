@@ -1,0 +1,17 @@
+uuid: e2003f27-1825-44f3-ad85-f2d4592c1b61
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_ro_ro_all_ages
+label: 'List theme Employer RO-ro all-ages'
+message: 'No'
+path: all-ages/RO-ro/list-themes/list-themes/2
+redirect_path: RO-ro/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

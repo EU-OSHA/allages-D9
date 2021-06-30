@@ -1,0 +1,17 @@
+uuid: c986caea-6530-42d9-9511-efa30e926d25
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_bu_nl_all_ages
+label: 'Glossary search BU-nl all-ages'
+message: 'No'
+path: all-ages/BE-nl/glossary/glossary-search
+redirect_path: BE-nl/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

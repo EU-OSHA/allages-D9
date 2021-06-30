@@ -1,0 +1,17 @@
+uuid: ee5bbb79-f1d5-4eba-ac44-701f0a4833e1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_gr_el_all_ages
+label: 'Good practices GR-el all-ages'
+message: 'No'
+path: all-ages/GR-el/good-practices/good-practices
+redirect_path: GR-el/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

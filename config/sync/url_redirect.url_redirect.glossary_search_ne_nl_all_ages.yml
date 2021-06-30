@@ -1,0 +1,17 @@
+uuid: 1ea6c9ee-ed01-4e55-a83e-2c5d3b0af0da
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_ne_nl_all_ages
+label: 'Glossary search NE-nl all-ages'
+message: 'No'
+path: all-ages/NE-nl/glossary/glossary-search
+redirect_path: NE-nl/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

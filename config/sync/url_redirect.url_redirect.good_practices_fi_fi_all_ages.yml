@@ -1,0 +1,17 @@
+uuid: e18dcd67-4dc6-40a8-b4e9-4d009c9c2eb9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_fi_fi_all_ages
+label: 'Good practices FI-fi all-ages'
+message: 'No'
+path: all-ages/FI-fi/good-practices/good-practices
+redirect_path: FI-fi/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: ef3035ff-c8ee-40d8-8536-e11171390b7f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_pl_pl_all_ages
+label: 'List theme HR Manager PL-pl all-ages'
+message: 'No'
+path: all-ages/PL-pl/list-themes/list-themes/5
+redirect_path: PL-pl/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

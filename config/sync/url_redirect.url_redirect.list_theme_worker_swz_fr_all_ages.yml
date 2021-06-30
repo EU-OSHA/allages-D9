@@ -1,0 +1,17 @@
+uuid: 28180f80-450c-430e-9339-292e8c4be8b4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_swz_fr_all_ages
+label: 'List theme Worker SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ-fr/list-themes/list-themes/1
+redirect_path: SWZ-fr/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

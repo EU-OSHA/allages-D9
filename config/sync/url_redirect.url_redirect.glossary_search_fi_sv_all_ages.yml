@@ -1,0 +1,17 @@
+uuid: b852c950-72cf-4e03-9b99-4c848c076551
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_fi_sv_all_ages
+label: 'Glossary search FI-sv all-ages'
+message: 'No'
+path: all-ages/FI-sv/glossary/glossary-search
+redirect_path: FI-sv/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

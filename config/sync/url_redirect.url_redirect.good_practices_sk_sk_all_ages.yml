@@ -1,0 +1,17 @@
+uuid: d2a2a25f-b03f-4046-8269-12ff6555f154
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_sk_sk_all_ages
+label: 'Good practices SK-sk all-ages'
+message: 'No'
+path: all-ages/SK-sk/good-practices/good-practices
+redirect_path: SK-sk/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

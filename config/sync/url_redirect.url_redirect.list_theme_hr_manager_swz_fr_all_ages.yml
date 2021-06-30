@@ -1,0 +1,17 @@
+uuid: 88b7cff4-fce9-49a5-8584-ca8698e1586e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_swz_fr_all_ages
+label: 'List theme HR Manager SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ-fr/list-themes/list-themes/5
+redirect_path: SWZ-fr/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

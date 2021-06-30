@@ -1,0 +1,17 @@
+uuid: 70cea49a-5a99-440b-b923-09e6098dc509
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_hu_hu_all_ages
+label: 'Glossary search HU-hu all-ages'
+message: 'No'
+path: all-ages/HU-hu/glossary/glossary-search
+redirect_path: HU-hu/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

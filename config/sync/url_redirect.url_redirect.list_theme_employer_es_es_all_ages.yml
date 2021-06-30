@@ -1,0 +1,17 @@
+uuid: 1a5ec965-c31e-436c-a0e4-2cc673faa9e7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_es_es_all_ages
+label: 'List theme Employer ES-es all-ages'
+message: 'No'
+path: all-ages/ES-es/list-themes/list-themes/2
+redirect_path: ES-es/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

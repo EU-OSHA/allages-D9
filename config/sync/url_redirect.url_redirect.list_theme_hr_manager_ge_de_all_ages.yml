@@ -1,0 +1,17 @@
+uuid: ae5076c6-5137-4ce7-ac2a-c15dbad78213
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_ge_de_all_ages
+label: 'List theme HR Manager GE-de all-ages'
+message: 'No'
+path: all-ages/GE-de/list-themes/list-themes/5
+redirect_path: GE-de/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

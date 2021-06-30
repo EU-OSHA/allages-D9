@@ -1,0 +1,17 @@
+uuid: 5c372efa-4713-42dd-9cc0-85fe42bd571c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_hu_hu_all_ages
+label: 'List theme Employer HU-hu all-ages'
+message: 'No'
+path: all-ages/HU-hu/list-themes/list-themes/2
+redirect_path: HU-hu/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

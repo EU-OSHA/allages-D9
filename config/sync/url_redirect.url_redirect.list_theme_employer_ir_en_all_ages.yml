@@ -1,0 +1,17 @@
+uuid: fd07eeaf-a1cc-4e09-a3e1-2af0980214af
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_ir_en_all_ages
+label: 'List theme Employer IR-en all-ages'
+message: 'No'
+path: all-ages/IR-en/list-themes/list-themes/2
+redirect_path: IR-en/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 07373f64-cac7-41e4-852d-762d3f4f48dd
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_cy_el_all_ages
+label: 'Glossary search CY-el all-ages'
+message: 'No'
+path: all-ages/CY-el/glossary/glossary-search
+redirect_path: CY-el/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 4252b9a6-3e21-4206-99b7-43ebfb629e39
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_cy_el_all_ages
+label: 'List theme HR Manager CY-el all-ages'
+message: 'No'
+path: all-ages/CY-el/list-themes/list-themes/5
+redirect_path: CY-el/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
