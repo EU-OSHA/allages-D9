@@ -1,0 +1,17 @@
+uuid: 88ecdfc9-0e1f-45a4-b4f9-58469c80cb73
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_swz_it_all_ages
+label: 'List theme OSH Professional SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ-it/list-themes/list-themes/6
+redirect_path: SWZ-it/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

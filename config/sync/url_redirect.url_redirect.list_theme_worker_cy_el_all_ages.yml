@@ -1,0 +1,17 @@
+uuid: 281abafe-25e2-4768-9673-67b05172fb7e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_cy_el_all_ages
+label: 'List theme Worker CY-el all-ages'
+message: 'No'
+path: all-ages/CY-el/list-themes/list-themes/1
+redirect_path: CY-el/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

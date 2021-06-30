@@ -1,0 +1,17 @@
+uuid: 00520663-abbf-4fbe-9808-8b2e5ee0b00d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_pt_pt_all_ages
+label: 'List theme Employer PT-pt all-ages'
+message: 'No'
+path: all-ages/PT-pt/list-themes/list-themes/2
+redirect_path: PT-pt/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

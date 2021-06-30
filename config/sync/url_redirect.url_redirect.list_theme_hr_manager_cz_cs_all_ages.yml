@@ -1,0 +1,17 @@
+uuid: f2d31406-4a69-41ce-86c1-10ed6f3dacb1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_cz_cs_all_ages
+label: 'List theme HR Manager CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ-cs/list-themes/list-themes/5
+redirect_path: CZ-cs/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

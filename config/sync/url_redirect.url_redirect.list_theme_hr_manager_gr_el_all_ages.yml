@@ -1,0 +1,17 @@
+uuid: 65857dc0-c6a7-4d98-bd23-1a41f3a5c6c7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_gr_el_all_ages
+label: 'List theme HR Manager GR-el all-ages'
+message: 'No'
+path: all-ages/GR-el/list-themes/list-themes/5
+redirect_path: GR-el/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 3adf957a-548f-407c-90d8-fc77421c2dfd
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_cr_hr_all_ages
+label: 'List theme Worker CR-hr all-ages'
+message: 'No'
+path: all-ages/CR-hr/list-themes/list-themes/1
+redirect_path: CR-hr/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

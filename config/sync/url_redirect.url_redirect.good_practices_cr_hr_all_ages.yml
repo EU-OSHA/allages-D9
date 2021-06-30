@@ -1,0 +1,17 @@
+uuid: 2f75fe62-0045-4816-8fd5-a6a660c17ee5
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_cr_hr_all_ages
+label: 'Good practices CR-hr all-ages'
+message: 'No'
+path: all-ages/CR-hr/good-practices/good-practices
+redirect_path: CR-hr/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

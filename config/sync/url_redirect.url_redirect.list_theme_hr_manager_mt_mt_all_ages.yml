@@ -1,0 +1,17 @@
+uuid: 2bc0546c-7008-4e3d-b120-045ad6b70fd2
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hr_manager_mt_mt_all_ages
+label: 'List theme HR Manager MT-mt all-ages'
+message: 'No'
+path: all-ages/MT-mt/list-themes/list-themes/5
+redirect_path: MT-mt/list-themes/5
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: e9873e40-a4ff-4314-afda-df63e9ef1932
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_ne_nl_all_ages
+label: 'Good practices NE-nl all-ages'
+message: 'No'
+path: all-ages/NE-nl/good-practices/good-practices
+redirect_path: NE-nl/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

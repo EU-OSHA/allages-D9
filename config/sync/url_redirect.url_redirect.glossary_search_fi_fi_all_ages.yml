@@ -1,0 +1,17 @@
+uuid: 73310d06-41e5-48fe-9cd3-39165f39e3db
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_fi_fi_all_ages
+label: 'Glossary search FI-fi all-ages'
+message: 'No'
+path: all-ages/FI-fi/glossary/glossary-search
+redirect_path: FI-fi/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

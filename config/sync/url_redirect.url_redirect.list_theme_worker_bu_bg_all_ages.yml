@@ -1,0 +1,17 @@
+uuid: 9aad1a20-3dcd-42d5-afa8-0c84c7b4c429
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_bu_bg_all_ages
+label: 'List theme Worker BU-bg all-ages'
+message: 'No'
+path: all-ages/BU-bg/list-themes/list-themes/1
+redirect_path: BU-bg/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

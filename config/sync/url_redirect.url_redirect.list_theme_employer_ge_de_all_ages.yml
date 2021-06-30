@@ -1,0 +1,17 @@
+uuid: 49d89047-87ff-4198-a23e-2f703daa49ce
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_ge_de_all_ages
+label: 'List theme Employer GE-de all-ages'
+message: 'No'
+path: all-ages/GE-de/list-themes/list-themes/2
+redirect_path: GE-de/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
