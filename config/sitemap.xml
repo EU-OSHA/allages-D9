@@ -2,7 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="/all-ages/en/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://eguides.osha.europa.eu/all-ages/en</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-<url><loc>https://eguides.osha.europa.eu/all-ages/en/%3Cnolink%3E</loc></url>
 <url><loc>https://eguides.osha.europa.eu/all-ages/en/glossary/letter_a</loc></url>
 <url><loc>https://eguides.osha.europa.eu/all-ages/en/privacy-policy</loc></url>
 <url><loc>https://eguides.osha.europa.eu/all-ages/en/quiz</loc></url>
