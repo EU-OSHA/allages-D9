@@ -1,0 +1,10 @@
+uuid: e2b4c6aa-04f6-4dae-81bc-dda1ab84c05a
+langcode: en
+status: true
+dependencies: {  }
+id: media
+label: media
+description: ''
+source_type: null
+module: null
+shared_configuration: null

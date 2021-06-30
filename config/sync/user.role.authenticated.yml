@@ -24,6 +24,7 @@ permissions:
   - 'administer nodes'
   - 'display EU Cookie Compliance popup'
   - 'display eu cookie compliance popup'
+  - 'opt-in or out of matomo tracking'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'

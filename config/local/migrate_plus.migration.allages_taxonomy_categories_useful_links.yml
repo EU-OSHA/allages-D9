@@ -1,0 +1,51 @@
+uuid: 5ffb074d-17de-46d7-a854-0ac5dae2a7f5
+langcode: en
+status: true
+dependencies: {  }
+id: allages_taxonomy_categories_useful_links
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: allages_migrate
+label: 'Terms: categories_useful_links'
+source:
+  plugin: d7_taxonomy_term
+  bundle: categories_useful_links
+process:
+  tid: tid
+  vid:
+    -
+      plugin: default_value
+      default_value: categories_useful_links
+  name: name
+  description/value: description_field_value
+  description/format:
+    -
+      plugin: default_value
+      default_value: restricted_html
+  weight: weight
+  parent_id:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: parent
+    -
+      plugin: migration_lookup
+      migration: allages_taxonomy_categories_useful_links
+  parent:
+    plugin: default_value
+    default_value: 0
+    source: '@parent_id'
+  forum_container: is_container
+  changed: timestamp
+  langcode: language
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  path/alias: alias
+destination:
+  plugin: 'entity:taxonomy_term'
+migration_dependencies:
+  optional:
+    - d7_field_instance

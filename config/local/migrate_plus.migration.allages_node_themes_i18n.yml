@@ -1,0 +1,102 @@
+uuid: 7c813c59-2868-4569-b9eb-79320e3f8094
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrations
+id: allages_node_themes_i18n
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: allages_migrate_node
+label: 'Node: Themes i18n'
+source:
+  plugin: d7_node_entity_translation
+  node_type: themes
+process:
+  nid: entity_id
+  type: type
+  langcode:
+    plugin: static_map
+    bypass: true
+    source: language
+    map:
+      AU_de: AU-de
+      BE_nl: BE-nl
+      BE_fr: BE-fr
+      BU_bg: BU-bg
+      CR_hr: CR-hr
+      CY_el: CY-el
+      CZ_cs: CZ-cs
+      DE_da: DE-da
+      ET_et: ET-et
+      FI_fi: FI-fi
+      FI_sv: FI-sv
+      FR_fr: FR-fr
+      GE_de: GE-de
+      GR_el: GR-el
+      HU_hu: HU-hu
+      IS_is: IS-is
+      IR_en: IR-en
+      IT_it: IT-it
+      LV_lv: LV-lv
+      LT_lt: LT-lt
+      LB_fr: LB-fr
+      LB_de: LB-de
+      MT_en: MT-en
+      MT_mt: MT-mt
+      NE_nl: NE-nl
+      NN_nn: NN-nn
+      PL_pl: PL-pl
+      PT_pt: PT-pt
+      RO_ro: RO-ro
+      SK_sk: SK-sk
+      SL_sl: SL-sl
+      ES_es: ES-es
+      SV_sv: SV-sv
+      SWZ_fr: SWZ-fr
+      SWZ_de: SWZ-de
+      SWZ_it: SWZ-it
+      UK_en: UK-en
+  title: title
+  body: body
+  uid: uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+  content_translation_source: source
+  content_translation_outdated: translate
+  field_profile:
+    plugin: sub_process
+    source: field_profile
+    process:
+      target_id:
+        plugin: get
+        source: tid
+  field_more_info: field_more_info
+  field_order: field_order
+  field_sections:
+    -
+      plugin: migration_lookup
+      migration: allages_node_lessons
+      source: field_sections
+  field_theme_image:
+    plugin: file_id_lookup
+    source: field_theme_image
+    migration: allages_node_themes_field_image_media
+    no_stub: true
+destination:
+  plugin: 'entity:node'
+  translations: true
+  destination_module: content_translation
+migration_dependencies:
+  required:
+    - d7_user
+    - allages_node_themes

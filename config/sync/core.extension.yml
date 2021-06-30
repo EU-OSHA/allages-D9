@@ -6,21 +6,24 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  chosen: 0
+  chosen_field: 0
+  chosen_lib: 0
   ckeditor: 0
   color: 0
   comment: 0
   config: 0
+  config_filter: 0
+  config_split: 0
   config_translation: 0
   contact: 0
   contextual: 0
   csv_serialization: 0
   ctools: 0
-  custom_migrations: 0
   date_popup: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
-  devel: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   editor: 0
@@ -46,12 +49,6 @@ module:
   menu_ui: 0
   metatag: 0
   metatag_views: 0
-  migrate: 0
-  migrate_drupal: 0
-  migrate_file_to_media: 0
-  migrate_file_to_media_example: 0
-  migrate_plus: 0
-  migrate_tools: 0
   node: 0
   onomasticon: 0
   options: 0

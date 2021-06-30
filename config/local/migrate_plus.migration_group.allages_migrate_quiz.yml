@@ -1,0 +1,10 @@
+uuid: 6f165de0-f363-435e-aa25-dc0f6e40f718
+langcode: en
+status: true
+dependencies: {  }
+id: allages_migrate_quiz
+label: allages_migrate_quiz
+description: ''
+source_type: null
+module: null
+shared_configuration: null

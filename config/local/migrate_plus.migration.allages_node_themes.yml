@@ -1,0 +1,62 @@
+uuid: aa457300-3cc7-4cef-82c9-036bdb864fef
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_migrations
+id: allages_node_themes
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: allages_migrate_node
+label: 'Node: Themes'
+source:
+  plugin: d7_node
+  node_type: themes
+process:
+  nid: tnid
+  type:
+    -
+      plugin: default_value
+      default_value: themes
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  body: body
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+  field_profile:
+    plugin: sub_process
+    source: field_profile
+    process:
+      target_id:
+        plugin: get
+        source: tid
+  field_more_info: field_more_info
+  field_order: field_order
+  field_sections:
+    -
+      plugin: migration_lookup
+      migration: allages_node_lessons
+      source: field_sections
+  field_theme_image:
+    plugin: file_id_lookup
+    source: field_theme_image
+    migration: allages_node_themes_field_image_media
+    no_stub: true
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required:
+    - d7_user
