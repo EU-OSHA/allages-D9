@@ -1,0 +1,17 @@
+uuid: c3073334-4eda-4dd5-8e48-2ee9d7f8fd10
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_lv_lv_all_ages
+label: 'List theme OSH Professional LV-lv all-ages'
+message: 'No'
+path: all-ages/LV-lv/list-themes/list-themes/6
+redirect_path: LV-lv/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

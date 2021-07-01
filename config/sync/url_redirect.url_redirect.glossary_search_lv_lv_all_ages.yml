@@ -1,0 +1,17 @@
+uuid: c0af1588-f147-49e9-9c75-f40d0bcd9977
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_lv_lv_all_ages
+label: 'Glossary search LV-lv all-ages'
+message: 'No'
+path: all-ages/LV-lv/glossary/glossary-search
+redirect_path: LV-lv/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

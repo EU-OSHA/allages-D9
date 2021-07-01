@@ -1,0 +1,17 @@
+uuid: 7746ca23-482e-48bf-9649-b694b778091b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_mt_mt_all_ages
+label: 'List theme OSH Professional MT-mt all-ages'
+message: 'No'
+path: all-ages/MT-mt/list-themes/list-themes/6
+redirect_path: MT-mt/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: b4cd0476-c52c-4ccc-892a-4fe28b0bc623
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_ge_de_all_ages
+label: 'Good practices GE-de all-ages'
+message: 'No'
+path: all-ages/GE-de/good-practices/good-practices
+redirect_path: GE-de/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

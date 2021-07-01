@@ -1,0 +1,17 @@
+uuid: 5c363b90-2d5f-44de-bfff-c2e2e13b7606
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_fi_sv_all_ages
+label: 'List theme OSH Professional FI-sv all-ages'
+message: 'No'
+path: all-ages/FI-sv/list-themes/list-themes/6
+redirect_path: FI-sv/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: da7ad93b-16ad-43e6-967a-011a3de8da92
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_swz_de_all_ages
+label: 'List theme Employer SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ-de/list-themes/list-themes/2
+redirect_path: SWZ-de/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

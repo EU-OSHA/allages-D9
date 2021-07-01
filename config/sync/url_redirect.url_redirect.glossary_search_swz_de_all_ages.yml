@@ -1,0 +1,17 @@
+uuid: ec1d7912-bca1-4ad2-b628-b1583d1bf58a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_swz_de_all_ages
+label: 'Glossary search SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ-de/glossary/glossary-search
+redirect_path: SWZ-de/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

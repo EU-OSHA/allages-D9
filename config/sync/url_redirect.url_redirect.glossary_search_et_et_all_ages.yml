@@ -1,0 +1,17 @@
+uuid: 2967dd9b-aff3-4abf-84f9-7fc6993eacb4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_et_et_all_ages
+label: 'Glossary search ET-et all-ages'
+message: 'No'
+path: all-ages/ET-et/glossary/glossary-search
+redirect_path: ET-et/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 78d2fcf4-edf9-45b1-a6b1-0f6f7a0b6214
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_cy_el_all_ages
+label: 'List theme Employer CY-el all-ages'
+message: 'No'
+path: all-ages/CY-el/list-themes/list-themes/2
+redirect_path: CY-el/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

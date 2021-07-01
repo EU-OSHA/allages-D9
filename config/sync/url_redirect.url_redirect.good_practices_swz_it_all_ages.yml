@@ -1,0 +1,17 @@
+uuid: 72667fb6-63df-4cb0-9da1-bdc2b52c38ac
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_swz_it_all_ages
+label: 'Good practices SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ-it/good-practices/good-practices
+redirect_path: SWZ-it/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

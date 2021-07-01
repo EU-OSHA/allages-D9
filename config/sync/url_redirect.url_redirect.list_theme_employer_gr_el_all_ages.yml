@@ -1,0 +1,17 @@
+uuid: bf6f0101-e865-4b42-8afd-c4a71a365f34
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_gr_el_all_ages
+label: 'List theme Employer GR-el all-ages'
+message: 'No'
+path: all-ages/GR-el/list-themes/list-themes/2
+redirect_path: GR-el/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

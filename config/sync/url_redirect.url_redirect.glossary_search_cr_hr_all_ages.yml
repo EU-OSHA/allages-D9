@@ -1,0 +1,17 @@
+uuid: 4dd0754f-8dad-4626-9187-66aba170240f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_cr_hr_all_ages
+label: 'Glossary search CR-hr all-ages'
+message: 'No'
+path: all-ages/CR-hr/glossary/glossary-search
+redirect_path: CR-hr/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

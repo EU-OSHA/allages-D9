@@ -1,0 +1,17 @@
+uuid: 1e2fb8f5-f709-45ce-a179-fb7b70fcaf3b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_is_is_all_ages
+label: 'List theme OSH Professional IS-is all-ages'
+message: 'No'
+path: all-ages/IS-is/list-themes/list-themes/6
+redirect_path: IS-is/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

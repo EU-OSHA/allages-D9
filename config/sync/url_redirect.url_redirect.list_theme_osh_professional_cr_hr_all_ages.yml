@@ -1,0 +1,17 @@
+uuid: 600d4a1f-5fea-4ca1-b8a1-b688c5c0fed3
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_osh_professional_cr_hr_all_ages
+label: 'List theme OSH Professional CR-hr all-ages'
+message: 'No'
+path: all-ages/CR-hr/list-themes/list-themes/6
+redirect_path: CR-hr/list-themes/6
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

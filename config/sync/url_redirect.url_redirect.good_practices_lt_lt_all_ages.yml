@@ -1,0 +1,17 @@
+uuid: 7013396e-458d-47c8-be77-293df4099c2d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_lt_lt_all_ages
+label: 'Good practices LT-lt all-ages'
+message: 'No'
+path: all-ages/LT-lt/good-practices/good-practices
+redirect_path: LT-lt/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

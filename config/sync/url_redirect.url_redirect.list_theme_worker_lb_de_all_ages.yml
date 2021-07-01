@@ -1,0 +1,17 @@
+uuid: 60a16e55-7fc2-4b12-a34f-448a5efdcb50
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_lb_de_all_ages
+label: 'List theme Worker LB-de all-ages'
+message: 'No'
+path: all-ages/LB-de/list-themes/list-themes/1
+redirect_path: LB-de/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

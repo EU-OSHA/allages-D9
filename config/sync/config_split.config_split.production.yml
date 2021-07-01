@@ -1,0 +1,17 @@
+uuid: 1c89855b-cb5d-410f-a5c7-c0434abfab96
+langcode: en
+status: false
+dependencies: {  }
+id: production
+label: Production
+description: ''
+folder: sites/allages/config/production
+module:
+  matomo: 0
+theme: {  }
+blacklist: {  }
+graylist:
+  - 'search_api_solr*'
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

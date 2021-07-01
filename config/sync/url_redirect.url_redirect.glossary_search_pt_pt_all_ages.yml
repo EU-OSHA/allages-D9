@@ -1,0 +1,17 @@
+uuid: e4ec24a1-62ec-4bbc-be0c-f073777d7809
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_pt_pt_all_ages
+label: 'Glossary search PT-pt all-ages'
+message: 'No'
+path: all-ages/PT-pt/glossary/glossary-search
+redirect_path: PT-pt/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

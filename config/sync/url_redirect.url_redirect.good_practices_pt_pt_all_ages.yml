@@ -1,0 +1,17 @@
+uuid: ce2936db-4c1f-4cc3-838c-7288f4dd1d09
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_pt_pt_all_ages
+label: 'Good practices PT-pt all-ages'
+message: 'No'
+path: all-ages/PT-pt/good-practices/good-practices
+redirect_path: PT-pt/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

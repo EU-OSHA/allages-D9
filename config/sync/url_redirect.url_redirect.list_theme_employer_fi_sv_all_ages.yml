@@ -1,0 +1,17 @@
+uuid: d48b301e-376d-47c6-852e-4887c3b5bf6f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_employer_fi_sv_all_ages
+label: 'List theme Employer FI-sv all-ages'
+message: 'No'
+path: all-ages/FI-sv/list-themes/list-themes/2
+redirect_path: FI-sv/list-themes/2
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

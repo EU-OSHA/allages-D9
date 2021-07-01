@@ -1,0 +1,17 @@
+uuid: 4c5a6ea8-fd6a-4d03-8003-fe7b03bceffe
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_sv_sv_all_ages
+label: 'Glossary search SV-sv all-ages'
+message: 'No'
+path: all-ages/SV-sv/glossary/glossary-search
+redirect_path: SV-sv/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

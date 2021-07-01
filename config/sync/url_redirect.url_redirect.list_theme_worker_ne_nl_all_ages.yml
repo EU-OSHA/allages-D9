@@ -1,0 +1,17 @@
+uuid: 74666154-22fb-443e-9fa2-28f2431f68ee
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_ne_nl_all_ages
+label: 'List theme Worker NE-nl all-ages'
+message: 'No'
+path: all-ages/NE-nl/list-themes/list-themes/1
+redirect_path: NE-nl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

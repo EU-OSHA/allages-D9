@@ -1,0 +1,17 @@
+uuid: 72eead0e-17a3-4db8-ba1d-92a685b32bed
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_sk_sk_all_ages
+label: 'Glossary search SK-sk all-ages'
+message: 'No'
+path: all-ages/SK-sk/glossary/glossary-search
+redirect_path: SK-sk/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 16657aed-e8c6-437c-9dec-3c1052b271f6
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: good_practices_cy_el_all_ages
+label: 'Good practices CY-el all-ages'
+message: 'No'
+path: all-ages/CY-el/good-practices/good-practices
+redirect_path: CY-el/good-practices
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

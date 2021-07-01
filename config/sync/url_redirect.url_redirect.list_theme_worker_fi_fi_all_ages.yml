@@ -1,0 +1,17 @@
+uuid: 0cbdb938-90e9-48ff-843f-49c3d6ac4279
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_worker_fi_fi_all_ages
+label: 'List theme Worker FI-fi all-ages'
+message: 'No'
+path: all-ages/FI-fi/list-themes/list-themes/1
+redirect_path: FI-fi/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

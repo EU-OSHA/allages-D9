@@ -1,0 +1,17 @@
+uuid: 8287536f-7ea8-4e35-88d5-fafa723eb7a8
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_search_ir_en_all_ages
+label: 'Glossary search IR-en all-ages'
+message: 'No'
+path: all-ages/IR-en/glossary/glossary-search
+redirect_path: IR-en/glossary-search
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
