@@ -1517,6 +1517,11 @@ section.row {
 .quiz-results table tr th p {
   margin: 0;
 }
+@-moz-document url-prefix() {
+  .quiz-results .quiz-report-score-container {
+    margin-top: -41px;
+  }
+}
 
 .view-themes .view-custom-background {
   padding: 2rem 2.375rem 1.125rem;
@@ -2861,6 +2866,9 @@ section.row {
   padding: 0.5rem 1.75rem;
 }
 
+.path-sitemap h2 {
+  display: none;
+}
 .path-sitemap .sitemap-item {
   padding-left: 3rem;
   margin: 0;
