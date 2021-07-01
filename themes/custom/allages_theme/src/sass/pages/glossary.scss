@@ -52,9 +52,10 @@
         left:50%;
         transform:translate(-50%, 0%);
       }
-
       a{
         color: $text-color-white;
+        pointer-events: none;
+        cursor:default;
       }
     }
   }
@@ -73,5 +74,16 @@
 .page-view-search-term-content{
   #block-allages-theme-content{
     background-color: $bg-color-grey-3;
+  }
+}
+.page-view-glossary{
+  .breadcrumb-item{
+    &.active{
+      display:none;
+    }
+    &:nth-child(2){
+      pointer-events: none;
+      cursor: default;
+    }
   }
 }
