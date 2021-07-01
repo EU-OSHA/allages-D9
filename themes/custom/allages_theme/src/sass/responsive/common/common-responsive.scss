@@ -774,17 +774,21 @@
       font-weight: bold;
       padding: 1.25rem 0;
       text-align: center;
-      width: 50%;
+      width: 46%;
       top:1rem;
       transform: translateX(0px);
       a{
-        display:block;
+        display:flex;
       }
     }
     .next-tour{
       right: 1rem;
       a{
         background-color: $bg-color-blue;
+        .ico-next{
+          margin-left:0.5rem;
+          font-size:0.75em;
+        }
       }
     }
     .skip-tour{
