@@ -194,3 +194,50 @@
   }
 }
 
+.quiz-results{
+  #quiz_score_possible,
+  #quiz_score_percent{
+    font-size:1rem;
+    font-weight:bold;
+  }
+  .field--type-text-long{
+    background-color: $bg-color-blue;
+    color: $text-color-white;
+    p{
+      margin: 0 0 0.5rem;
+      padding: 0.5rem;
+    }
+  }
+  .form-group{
+    position:relative;
+    margin: 10px 0 50px 0;
+  }
+  legend{
+    color: $text-color-black;
+    font-size: 1rem;
+    margin: 0 ;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: $bg-color-grey-7;
+    border-top:1px solid gray;
+  }
+  .quiz-report-score-container{
+    position:absolute;
+    z-index:1;
+    top:0;
+    right:0;
+  }
+  table{
+    tr{
+      td,
+      th{
+        &:nth-child(3){
+          display:none;
+        }
+        p{
+          margin:0;
+        }
+      }
+    }
+  }
+}

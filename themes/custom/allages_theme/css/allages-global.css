@@ -1477,6 +1477,47 @@ section.row {
   background-color: #003399;
 }
 
+.quiz-results #quiz_score_possible,
+.quiz-results #quiz_score_percent {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.quiz-results .field--type-text-long {
+  background-color: #003399;
+  color: #FFF;
+}
+.quiz-results .field--type-text-long p {
+  margin: 0 0 0.5rem;
+  padding: 0.5rem;
+}
+.quiz-results .form-group {
+  position: relative;
+  margin: 10px 0 50px 0;
+}
+.quiz-results legend {
+  color: #000;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.5rem;
+  font-weight: bold;
+  background-color: #eee;
+  border-top: 1px solid gray;
+}
+.quiz-results .quiz-report-score-container {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+.quiz-results table tr td:nth-child(3),
+.quiz-results table tr th:nth-child(3) {
+  display: none;
+}
+.quiz-results table tr td p,
+.quiz-results table tr th p {
+  margin: 0;
+}
+
 .view-themes .view-custom-background {
   padding: 2rem 2.375rem 1.125rem;
   background-image: url(/sites/allages/themes/custom/allages_theme/images/backgroundThemes.jpg);
