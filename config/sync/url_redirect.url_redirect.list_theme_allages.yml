@@ -1,0 +1,17 @@
+uuid: cc808496-ab91-4edd-91d0-470dd5a3852c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_allages
+label: 'List theme Allages'
+message: 'No'
+path: all-ages/list-themes/1
+redirect_path: UK-en/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
