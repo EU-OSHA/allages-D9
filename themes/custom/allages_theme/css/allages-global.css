@@ -3450,6 +3450,12 @@ section.row {
   .attachment .view-glossary .view-header {
     margin-bottom: 0.5rem;
   }
+  .attachment .views-summary {
+    margin: 0.25rem 0;
+  }
+  .attachment .separator {
+    display: none;
+  }
 
   /******     Search Term   ******/
   .view-search-term-content .views-exposed-form .form-type-textfield {
