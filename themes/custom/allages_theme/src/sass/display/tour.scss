@@ -109,7 +109,10 @@
       padding: 0.5em 2em;
       color: $text-color-white;
       background: $bg-color-green-2;
-      display:inline-block;
+      display:inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
       &:hover{
         text-decoration: none;
       }
@@ -126,6 +129,10 @@
   .next-tour{
     right: 30%;
     bottom: 30%;
+    .ico-next{
+      margin-left:0.25rem;
+      font-size:0.875em;
+    }
   }
   .img-tour{
     flex:1;

@@ -39,6 +39,7 @@
       width: 100%;
       padding:2rem 15%;
       text-align: center;
+      align-items: baseline;
     }
     &-item{
       width:100%;
@@ -57,6 +58,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        word-break: break-all;
         &:hover{
           text-decoration: none;
           color:$text-color-green-2;
