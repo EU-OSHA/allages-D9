@@ -36,7 +36,7 @@ filters:
   filter_html_image_secure:
     id: filter_html_image_secure
     provider: filter
-    status: true
+    status: false
     weight: -47
     settings: {  }
   editor_file_reference:
