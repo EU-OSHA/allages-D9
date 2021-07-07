@@ -1,0 +1,17 @@
+uuid: f892a891-01e6-4e15-89ff-dd6c34293fb0
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_gr_el_all_ages
+label: 'Letter Χ GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_χ
+redirect_path: GR-el/glossary/χ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

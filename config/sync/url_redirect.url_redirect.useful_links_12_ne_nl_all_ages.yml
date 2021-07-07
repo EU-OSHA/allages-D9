@@ -1,0 +1,17 @@
+uuid: d1a60a08-659d-416f-85db-97011a3fe819
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_12_ne_nl_all_ages
+label: 'Useful Links 12 NE-nl all-ages'
+message: 'No'
+path: 'all-ages/NE_nl/useful-links?nid=12'
+redirect_path: NE-nl/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

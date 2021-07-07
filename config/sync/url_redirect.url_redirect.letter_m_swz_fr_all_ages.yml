@@ -1,0 +1,17 @@
+uuid: 0d2158d7-21e5-44f4-927a-c0ee06d87388
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_swz_fr_all_ages
+label: 'Letter M SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ_fr/glossary/letter_m
+redirect_path: SWZ-fr/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

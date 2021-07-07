@@ -1,0 +1,17 @@
+uuid: 91e7246f-db27-46a7-a7fc-30a2550f0ad4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_sl_sl_all_ages
+label: 'List theme SL-sl all-ages'
+message: 'No'
+path: all-ages/SL-sl/list-themes
+redirect_path: SL-sl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

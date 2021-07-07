@@ -1,0 +1,17 @@
+uuid: 145e8dae-e834-4728-8936-98277c3c6059
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_sl_sl_all_ages
+label: 'Sitemap xml SL-sl all-ages'
+message: 'No'
+path: all-ages/SL-sl/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

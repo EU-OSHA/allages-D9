@@ -1,0 +1,17 @@
+uuid: 8eb32e58-f14d-46a9-9713-648fcb9faccf
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_cr_hr_all_ages
+label: 'Sitemap xml CR-hr all-ages'
+message: 'No'
+path: all-ages/CR-hr/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 60df5998-905a-4657-ab6c-621e1ea93f8e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_lb_fr_all_ages
+label: 'Glossary LB-fr all-ages'
+message: 'No'
+path: all-ages/LB-fr/glossary
+redirect_path: LB-fr/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

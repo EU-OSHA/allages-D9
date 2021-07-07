@@ -1,0 +1,17 @@
+uuid: 50452844-b612-406d-af1c-df24ae300652
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_ge_de_all_ages
+label: 'Letter R GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_r
+redirect_path: GE-de/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

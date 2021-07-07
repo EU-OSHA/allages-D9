@@ -1,0 +1,17 @@
+uuid: 2fd3cca0-55d8-4125-a3c2-517b81948a73
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_l_is_is_all_ages
+label: 'Letter L IS-is all-ages'
+message: 'No'
+path: all-ages/IS_is/glossary/letter_l
+redirect_path: IS-is/glossary/l
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

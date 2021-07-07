@@ -1,0 +1,17 @@
+uuid: 2581eff0-c2af-4e99-84a2-53a6ed43583b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_ro_ro_all_ages
+label: 'Letter C RO-ro all-ages'
+message: 'No'
+path: all-ages/RO_ro/glossary/letter_c
+redirect_path: RO-ro/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

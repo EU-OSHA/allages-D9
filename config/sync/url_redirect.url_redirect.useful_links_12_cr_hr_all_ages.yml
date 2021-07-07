@@ -1,0 +1,17 @@
+uuid: d5cef02c-c1ec-45f5-8c96-394cc2de0716
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_12_cr_hr_all_ages
+label: 'Useful Links 12 CR-hr all-ages'
+message: 'No'
+path: 'all-ages/CR_hr/useful-links?nid=12'
+redirect_path: CR-hr/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

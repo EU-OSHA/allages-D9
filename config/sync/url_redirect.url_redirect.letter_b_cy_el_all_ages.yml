@@ -1,0 +1,17 @@
+uuid: 2d68b19c-8a5f-4446-950a-ac78cca76399
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_b_cy_el_all_ages
+label: 'Letter Β CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_β
+redirect_path: CY-el/glossary/β
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

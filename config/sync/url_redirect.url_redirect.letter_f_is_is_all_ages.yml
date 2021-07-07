@@ -1,0 +1,17 @@
+uuid: fef59b22-bbeb-405e-9f43-4b40f838b0b4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_is_is_all_ages
+label: 'Letter F IS-is all-ages'
+message: 'No'
+path: all-ages/IS_is/glossary/letter_f
+redirect_path: IS-is/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

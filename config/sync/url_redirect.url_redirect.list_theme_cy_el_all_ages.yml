@@ -1,0 +1,17 @@
+uuid: 7997376b-ba68-43e2-bc39-b65598dbb2ad
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_cy_el_all_ages
+label: 'List theme CY-el all-ages'
+message: 'No'
+path: all-ages/CY-el/list-themes
+redirect_path: CY-el/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

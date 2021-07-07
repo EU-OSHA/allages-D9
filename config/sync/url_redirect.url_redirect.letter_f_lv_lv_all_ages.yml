@@ -1,0 +1,17 @@
+uuid: 7345400b-8426-4928-ba73-1fafab42c678
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_lv_lv_all_ages
+label: 'Letter F LV-lv all-ages'
+message: 'No'
+path: all-ages/LV_lv/glossary/letter_f
+redirect_path: LV-lv/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 3c39ac51-451d-4c5c-a1f1-efa0eae8efd4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_b_ge_de_all_ages
+label: 'Letter B GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_b
+redirect_path: GE-de/glossary/b
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

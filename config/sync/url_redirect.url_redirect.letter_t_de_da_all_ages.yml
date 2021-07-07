@@ -1,0 +1,17 @@
+uuid: e27e1e9d-bf1a-47ac-839d-bfea3ef540a5
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_de_da_all_ages
+label: 'Letter T DE-da all-ages'
+message: 'No'
+path: all-ages/DE_da/glossary/letter_t
+redirect_path: DE-da/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

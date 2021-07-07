@@ -1,0 +1,17 @@
+uuid: 665e9551-8f85-4f79-b625-bda3c2b145a9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_au_de_all_ages
+label: 'List theme AU-de all-ages'
+message: 'No'
+path: all-ages/AU-de/list-themes
+redirect_path: AU-de/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

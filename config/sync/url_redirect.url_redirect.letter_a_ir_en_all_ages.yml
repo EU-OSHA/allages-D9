@@ -1,0 +1,17 @@
+uuid: 27f3b6dd-363a-4b24-9116-a921d37b62b4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_ir_en_all_ages
+label: 'Letter A IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_a
+redirect_path: IR-en/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

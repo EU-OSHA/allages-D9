@@ -1,0 +1,17 @@
+uuid: 8830066a-99ed-4eb1-9310-8cb307f435c4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_nn_nn_all_ages
+label: 'Letter T NN-nn all-ages'
+message: 'No'
+path: all-ages/NN_nn/glossary/letter_t
+redirect_path: NN-nn/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

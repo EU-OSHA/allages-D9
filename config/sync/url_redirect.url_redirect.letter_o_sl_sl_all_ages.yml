@@ -1,0 +1,17 @@
+uuid: b43fcad7-cf7c-4a79-bb53-293fb634328e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_sl_sl_all_ages
+label: 'Letter O SL-sl all-ages'
+message: 'No'
+path: all-ages/SL_sl/glossary/letter_o
+redirect_path: SL-sl/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

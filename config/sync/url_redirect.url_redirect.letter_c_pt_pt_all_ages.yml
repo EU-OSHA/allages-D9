@@ -1,0 +1,17 @@
+uuid: 21dbd8cc-6196-4712-ab0c-ec14d47a5e95
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_pt_pt_all_ages
+label: 'Letter C PT-pt all-ages'
+message: 'No'
+path: all-ages/PT_pt/glossary/letter_c
+redirect_path: PT-pt/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 1fe27f8e-3344-4a90-9e86-2461fe953f08
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_ro_ro_all_ages
+label: 'Glossary RO-ro all-ages'
+message: 'No'
+path: all-ages/RO-ro/glossary
+redirect_path: RO-ro/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

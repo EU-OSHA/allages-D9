@@ -1,0 +1,17 @@
+uuid: 8d20ca03-e50a-443d-8719-9d8d5a2c8a16
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_swz_de_all_ages
+label: 'Letter T SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ_de/glossary/letter_t
+redirect_path: SWZ-de/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

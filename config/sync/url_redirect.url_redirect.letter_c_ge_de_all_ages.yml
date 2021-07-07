@@ -1,0 +1,17 @@
+uuid: 47bd4bcb-06cc-4a10-906c-9b956b7ae552
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_ge_de_all_ages
+label: 'Letter C GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_c
+redirect_path: GE-de/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

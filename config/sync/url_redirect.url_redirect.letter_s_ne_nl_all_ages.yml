@@ -1,0 +1,17 @@
+uuid: ef02faaf-297c-4c56-80a7-a669fc19444f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_ne_nl_all_ages
+label: 'Letter S NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_s
+redirect_path: NE-nl/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

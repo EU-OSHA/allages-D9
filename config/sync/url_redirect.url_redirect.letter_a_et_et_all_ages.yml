@@ -1,0 +1,17 @@
+uuid: f4b8b43c-d696-4688-bcaa-d44b754c9f87
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_et_et_all_ages
+label: 'Letter A ET-et all-ages'
+message: 'No'
+path: all-ages/ET_et/glossary/letter_a
+redirect_path: 'ET-et/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

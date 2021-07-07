@@ -1,0 +1,17 @@
+uuid: 3e92570f-cbf1-4f31-8b4f-84f74b4e1e03
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_gr_el_all_ages
+label: 'Letter A GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_α
+redirect_path: GR-el/glossary/α
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

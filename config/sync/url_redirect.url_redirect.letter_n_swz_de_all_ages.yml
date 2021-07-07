@@ -1,0 +1,17 @@
+uuid: 056016f6-f108-46ea-a0ce-b63212f48ae0
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_n_swz_de_all_ages
+label: 'Letter N SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ_de/glossary/letter_n
+redirect_path: SWZ-de/glossary/n
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 33332189-898c-4424-a584-50cd7ad9172c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_l_ne_nl_all_ages
+label: 'Letter L NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_l
+redirect_path: NE-nl/glossary/l
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

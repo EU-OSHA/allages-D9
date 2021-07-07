@@ -1,0 +1,17 @@
+uuid: 446444fa-1434-4517-8840-c378d402e930
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_nn_nn_all_ages
+label: 'Letter J NN-nn all-ages'
+message: 'No'
+path: all-ages/NN_nn/glossary/letter_j
+redirect_path: NN-nn/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 8620b0b4-ecf3-4fbb-ab21-878d4bb8753a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_et_et_all_ages
+label: 'Letter M ET-et all-ages'
+message: 'No'
+path: all-ages/ET_et/glossary/letter_m
+redirect_path: ET-et/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: f58247a5-308e-4f2f-9b7c-da1958cce771
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_pl_pl_all_ages
+label: 'Glossary PL-pl all-ages'
+message: 'No'
+path: all-ages/PL-pl/glossary
+redirect_path: PL-pl/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

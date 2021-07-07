@@ -1,0 +1,17 @@
+uuid: 812e6120-4d11-4f29-b2be-132105d71f83
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_10_cz_cs_all_ages
+label: 'Useful Links 10 CZ-cs all-ages'
+message: 'No'
+path: 'all-ages/CZ_cs/useful-links?nid=10'
+redirect_path: CZ-cs/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

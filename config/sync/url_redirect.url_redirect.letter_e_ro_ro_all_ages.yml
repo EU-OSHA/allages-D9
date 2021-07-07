@@ -1,0 +1,17 @@
+uuid: 33aa72aa-2d93-433f-a7d9-3143165c8eaf
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_ro_ro_all_ages
+label: 'Letter E RO-ro all-ages'
+message: 'No'
+path: all-ages/RO_ro/glossary/letter_e
+redirect_path: RO-ro/glossary/e
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 1d6861cd-af5f-49fa-adb1-bf7f4bf6e7a5
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_swz_it_all_ages
+label: 'Letter C SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ_it/glossary/letter_c
+redirect_path: SWZ-it/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

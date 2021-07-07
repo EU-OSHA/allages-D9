@@ -1,0 +1,17 @@
+uuid: 39556688-8de0-4613-a8b0-9ec3b321eed6
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_ge_de_all_ages
+label: 'Glossary GE-de all-ages'
+message: 'No'
+path: all-ages/GE-de/glossary
+redirect_path: GE-de/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

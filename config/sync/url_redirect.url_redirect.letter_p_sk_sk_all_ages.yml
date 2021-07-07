@@ -1,0 +1,17 @@
+uuid: c2e65f5d-39d8-49fb-9a5d-ea1a22d0fba6
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_sk_sk_all_ages
+label: 'Letter P SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_p
+redirect_path: SK-sk/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

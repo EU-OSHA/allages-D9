@@ -1,0 +1,17 @@
+uuid: fff7beee-43ee-41ae-a256-70e6bfedb848
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_12_ir_en_all_ages
+label: 'Useful Links 12 IR-en all-ages'
+message: 'No'
+path: 'all-ages/IR_en/useful-links?nid=12'
+redirect_path: IR-en/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

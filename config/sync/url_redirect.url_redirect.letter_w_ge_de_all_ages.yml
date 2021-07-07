@@ -1,0 +1,17 @@
+uuid: 9eaad29b-10ac-4d17-af85-8522fd7af9bc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_ge_de_all_ages
+label: 'Letter W GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_w
+redirect_path: GE-de/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

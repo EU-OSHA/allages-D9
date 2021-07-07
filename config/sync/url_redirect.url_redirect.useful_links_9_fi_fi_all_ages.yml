@@ -1,0 +1,17 @@
+uuid: 71bfead1-5e0f-48d3-92de-a42241229411
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_fi_fi_all_ages
+label: 'Useful Links 9 FI-fi all-ages'
+message: 'No'
+path: 'all-ages/FI_fi/useful-links?nid=9'
+redirect_path: FI-fi/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

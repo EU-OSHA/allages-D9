@@ -1,0 +1,17 @@
+uuid: 242fd34c-15f5-4259-9da2-3dc2ab8dc665
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_pt_pt_all_ages
+label: 'Letter R PT-pt all-ages'
+message: 'No'
+path: all-ages/PT_pt/glossary/letter_r
+redirect_path: PT-pt/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

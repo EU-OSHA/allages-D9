@@ -1,0 +1,17 @@
+uuid: 94d18ebe-e6f4-4f13-9ad3-c02dc5116ff7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_ge_de_all_ages
+label: 'Letter P GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_p
+redirect_path: GE-de/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

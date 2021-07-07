@@ -1,0 +1,17 @@
+uuid: 31640034-929b-4f69-8bb3-ac74f94d594e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_11_pt_pt_all_ages
+label: 'Useful Links 11 PT-pt all-ages'
+message: 'No'
+path: 'all-ages/PT_pt/useful-links?nid=11'
+redirect_path: PT-pt/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

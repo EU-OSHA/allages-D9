@@ -1,0 +1,17 @@
+uuid: 3e7322ad-c67f-4bc0-a5d1-f453640ecb73
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_gr_el_all_ages
+label: 'Letter Π GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_π
+redirect_path: GR-el/glossary/π
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

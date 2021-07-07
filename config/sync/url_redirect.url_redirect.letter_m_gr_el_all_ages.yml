@@ -1,0 +1,17 @@
+uuid: 6e443d33-c19f-435a-b545-7ad98e9b1ac1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_gr_el_all_ages
+label: 'Letter Μ GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_μ
+redirect_path: GR-el/glossary/μ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

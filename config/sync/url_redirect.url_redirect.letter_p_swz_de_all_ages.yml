@@ -1,0 +1,17 @@
+uuid: 7e2e1dd2-7cd7-4b73-b10f-7d249adfc9ac
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_swz_de_all_ages
+label: 'Letter P SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ_de/glossary/letter_p
+redirect_path: SWZ-de/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

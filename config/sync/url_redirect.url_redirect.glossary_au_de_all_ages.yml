@@ -1,0 +1,17 @@
+uuid: aaeb61e0-aeaf-498f-b230-0b22bef2e7bf
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_au_de_all_ages
+label: 'Glossary AU-de all-ages'
+message: 'No'
+path: all-ages/AU-de/glossary
+redirect_path: AU-de/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 62323412-777f-4334-94cd-a5091e4f601f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_be_nl_all_ages
+label: 'Letter O BE-nl all-ages'
+message: 'No'
+path: all-ages/BE_nl/glossary/letter_o
+redirect_path: BE-nl/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

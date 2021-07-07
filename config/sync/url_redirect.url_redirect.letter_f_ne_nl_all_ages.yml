@@ -1,0 +1,17 @@
+uuid: 05a5595e-2da1-4172-b798-a44efd2ad3bb
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_ne_nl_all_ages
+label: 'Letter F NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_f
+redirect_path: NE-nl/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

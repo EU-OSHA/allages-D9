@@ -1,0 +1,17 @@
+uuid: 71af079a-bcc8-4423-8284-14947d85a3d2
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_hu_hu_all_ages
+label: 'Letter á HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_á
+redirect_path: 'HU-hu/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

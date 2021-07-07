@@ -1,0 +1,17 @@
+uuid: cd883596-90fa-45db-bc0d-0e03cf090769
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_b_de_da_all_ages
+label: 'Letter B DE-da all-ages'
+message: 'No'
+path: all-ages/DE_da/glossary/letter_b
+redirect_path: DE-da/glossary/b
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

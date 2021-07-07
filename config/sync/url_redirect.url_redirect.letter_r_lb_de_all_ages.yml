@@ -1,0 +1,17 @@
+uuid: aa289b90-e808-4da9-9b66-800200337556
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_lb_de_all_ages
+label: 'Letter R LB-de all-ages'
+message: 'No'
+path: all-ages/LB_de/glossary/letter_r
+redirect_path: LB-de/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

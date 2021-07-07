@@ -1,0 +1,17 @@
+uuid: a19984da-a467-44d2-98b4-be3e8fa8502e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_swz_it_all_ages
+label: 'Letter A SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ_it/glossary/letter_a
+redirect_path: 'SWZ-it/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

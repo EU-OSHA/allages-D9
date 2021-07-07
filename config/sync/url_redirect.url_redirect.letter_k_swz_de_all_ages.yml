@@ -1,0 +1,17 @@
+uuid: 3e82f6c1-f9ec-48cf-b441-067bc32e98e0
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_swz_de_all_ages
+label: 'Letter K SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ_de/glossary/letter_k
+redirect_path: SWZ-de/glossary/k
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

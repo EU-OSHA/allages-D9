@@ -1,0 +1,17 @@
+uuid: b98531db-b0f5-47fa-9148-1196da0f6538
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_mt_mt_all_ages
+label: 'Letter K MT-mt all-ages'
+message: 'No'
+path: all-ages/MT_mt/glossary/letter_k
+redirect_path: MT-mt/glossary/k
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

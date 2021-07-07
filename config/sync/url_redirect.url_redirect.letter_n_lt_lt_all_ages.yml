@@ -1,0 +1,17 @@
+uuid: 66e6021e-8414-4ee2-8b0f-ee53ed8cec23
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_n_lt_lt_all_ages
+label: 'Letter N LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_n
+redirect_path: LT-lt/glossary/n
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

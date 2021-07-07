@@ -1,0 +1,17 @@
+uuid: 0657e9c4-c98c-476c-87a9-5477c3ea3445
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_sk_sk_all_ages
+label: 'Letter M SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_m
+redirect_path: SK-sk/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 1aa27039-e0ab-4d7b-9f7e-0087962a6108
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_gr_el_all_ages
+label: 'Glossary GR-el all-ages'
+message: 'No'
+path: all-ages/GR-el/glossary
+redirect_path: GR-el/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

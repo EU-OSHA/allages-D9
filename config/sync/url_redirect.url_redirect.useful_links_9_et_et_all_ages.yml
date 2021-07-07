@@ -1,0 +1,17 @@
+uuid: 139d5527-3ba8-499f-8344-544571155e9f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_et_et_all_ages
+label: 'Useful Links 9 ET-et all-ages'
+message: 'No'
+path: 'all-ages/ET_et/useful-links?nid=9'
+redirect_path: ET-et/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

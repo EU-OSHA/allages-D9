@@ -1,0 +1,17 @@
+uuid: 629f9654-6ae4-4eca-b145-15026816b858
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_sk_sk_all_ages
+label: 'Letter F SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_f
+redirect_path: SK-sk/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 94d50b8f-d5ab-49af-94e1-b5371cd63684
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_au_de_all_ages
+label: 'Letter F AU-de all-ages'
+message: 'No'
+path: all-ages/AU_de/glossary/letter_f
+redirect_path: AU-de/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

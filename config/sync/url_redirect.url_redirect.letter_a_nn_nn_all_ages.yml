@@ -1,0 +1,17 @@
+uuid: 45cf9424-de7c-4407-90c4-12e457d8d27d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_nn_nn_all_ages
+label: 'Letter A NN-nn all-ages'
+message: 'No'
+path: all-ages/NN_nn/glossary/letter_a
+redirect_path: 'NN-nn/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

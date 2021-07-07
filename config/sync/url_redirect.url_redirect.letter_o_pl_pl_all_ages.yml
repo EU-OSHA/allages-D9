@@ -1,0 +1,17 @@
+uuid: 1492533a-a852-40ad-922e-d270357a94a9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_pl_pl_all_ages
+label: 'Letter O PL-pl all-ages'
+message: 'No'
+path: all-ages/PL_pl/glossary/letter_o
+redirect_path: PL-pl/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

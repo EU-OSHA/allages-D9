@@ -1,0 +1,17 @@
+uuid: 70568e5f-e0a2-40d2-875e-6e967fbacfc7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_10_lt_lt_all_ages
+label: 'Useful Links 10 LT-lt all-ages'
+message: 'No'
+path: 'all-ages/LT_lt/useful-links?nid=10'
+redirect_path: LT-lt/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

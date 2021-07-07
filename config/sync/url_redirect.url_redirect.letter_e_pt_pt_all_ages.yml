@@ -1,0 +1,17 @@
+uuid: d1668edf-01b5-43e9-8cb3-7b18524bffec
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_pt_pt_all_ages
+label: 'Letter E PT-pt all-ages'
+message: 'No'
+path: all-ages/PT_pt/glossary/letter_e
+redirect_path: PT-pt/glossary/e
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

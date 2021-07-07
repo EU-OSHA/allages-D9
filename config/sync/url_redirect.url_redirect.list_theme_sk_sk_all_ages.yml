@@ -1,0 +1,17 @@
+uuid: 1763286e-5460-4d91-bfb6-f76026ec2e30
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_sk_sk_all_ages
+label: 'List theme SK-sk all-ages'
+message: 'No'
+path: all-ages/SK-sk/list-themes
+redirect_path: SK-sk/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 28af2d6e-c403-445d-b9ee-452e042e3d2e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_gr_el_all_ages
+label: 'Sitemap xml GR-el all-ages'
+message: 'No'
+path: all-ages/GR-el/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

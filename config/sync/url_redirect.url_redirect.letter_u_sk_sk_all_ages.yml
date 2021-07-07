@@ -1,0 +1,17 @@
+uuid: 22a767c2-6d79-403c-9f5c-581f73d625c3
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_u_sk_sk_all_ages
+label: 'Letter U SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_u
+redirect_path: SK-sk/glossary/u
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

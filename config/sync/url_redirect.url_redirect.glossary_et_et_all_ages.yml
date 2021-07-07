@@ -1,0 +1,17 @@
+uuid: ed8a608e-8a66-4646-8cbb-7c9b3a73f297
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_et_et_all_ages
+label: 'Glossary ET-et all-ages'
+message: 'No'
+path: all-ages/ET-et/glossary
+redirect_path: ET-et/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

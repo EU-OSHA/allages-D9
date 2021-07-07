@@ -1,0 +1,17 @@
+uuid: a1badea2-d3a5-4637-bd01-90524353aee3
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_swz_fr_all_ages
+label: 'Letter H SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ_fr/glossary/letter_h
+redirect_path: SWZ-fr/glossary/h
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: c090186f-1d02-4153-bf3d-9f8f4abc90f2
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_lt_lt_all_ages
+label: 'Letter J LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_j
+redirect_path: LT-lt/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

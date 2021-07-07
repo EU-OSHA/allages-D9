@@ -1,0 +1,17 @@
+uuid: 9cefd247-cf74-413c-93f2-ad1a3a072855
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_is_is_all_ages2
+label: 'Letter â IS-is all-ages'
+message: 'No'
+path: all-ages/IS_is/glossary/letter_â
+redirect_path: 'IS-is/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

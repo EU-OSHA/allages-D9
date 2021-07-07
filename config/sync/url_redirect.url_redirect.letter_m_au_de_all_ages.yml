@@ -1,0 +1,17 @@
+uuid: 6e76d888-770d-491c-8c59-2ab168620393
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_au_de_all_ages
+label: 'Letter M AU-de all-ages'
+message: 'No'
+path: all-ages/AU_de/glossary/letter_m
+redirect_path: AU-de/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

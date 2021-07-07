@@ -1,0 +1,17 @@
+uuid: 37842cf0-85c9-4a15-ad91-c9274b28ce14
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_cz_cs_all_ages
+label: 'Letter F CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_f
+redirect_path: CZ-cs/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

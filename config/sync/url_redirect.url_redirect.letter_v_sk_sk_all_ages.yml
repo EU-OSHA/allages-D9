@@ -1,0 +1,17 @@
+uuid: a8fb95ee-d1f8-4d1f-9303-89975f94284d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_v_sk_sk_all_ages
+label: 'Letter V SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_v
+redirect_path: SK-sk/glossary/v
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

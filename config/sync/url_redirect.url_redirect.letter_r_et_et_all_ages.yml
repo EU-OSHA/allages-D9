@@ -1,0 +1,17 @@
+uuid: 27309e83-b2b2-442b-8af6-f9c555a40eaf
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_et_et_all_ages
+label: 'Letter R ET-et all-ages'
+message: 'No'
+path: all-ages/ET_et/glossary/letter_r
+redirect_path: ET-et/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

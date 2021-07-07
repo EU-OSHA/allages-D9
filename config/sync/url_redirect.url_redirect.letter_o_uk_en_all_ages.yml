@@ -1,0 +1,17 @@
+uuid: 5f1cb02e-1c2b-49a4-bafc-339f3ad1f56b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_uk_en_all_ages
+label: 'Letter O UK-en all-ages'
+message: 'No'
+path: all-ages/UK_en/glossary/letter_o
+redirect_path: UK-en/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

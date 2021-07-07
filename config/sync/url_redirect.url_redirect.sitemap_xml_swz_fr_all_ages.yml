@@ -1,0 +1,17 @@
+uuid: f753f856-4870-4c17-a729-23f9a9f86446
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_swz_fr_all_ages
+label: 'Sitemap xml SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ-fr/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

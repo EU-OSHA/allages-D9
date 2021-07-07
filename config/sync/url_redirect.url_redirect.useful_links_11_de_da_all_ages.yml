@@ -1,0 +1,17 @@
+uuid: 91d768a5-4645-4679-8bf2-1cdc02eb5065
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_11_de_da_all_ages
+label: 'Useful Links 11 DE-da all-ages'
+message: 'No'
+path: 'all-ages/DE_da/useful-links?nid=11'
+redirect_path: DE-da/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

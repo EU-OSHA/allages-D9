@@ -1,0 +1,17 @@
+uuid: 54f8c542-006f-4339-82de-3db3f3b7978c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_fi_fi_all_ages
+label: 'Letter S FI-fi all-ages'
+message: 'No'
+path: all-ages/FI_fi/glossary/letter_s
+redirect_path: FI-fi/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

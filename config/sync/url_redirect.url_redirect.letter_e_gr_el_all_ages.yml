@@ -1,0 +1,17 @@
+uuid: 8793e13a-8f1a-4b5f-a96e-9a6ac212d13e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_gr_el_all_ages
+label: 'Letter Ε GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_ε
+redirect_path: GR-el/glossary/ε
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: d441a5f1-3b24-471c-afc4-47033c4a588e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_ne_nl_all_ages
+label: 'Letter M NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_m
+redirect_path: NE-nl/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: a8c398d9-c771-49dd-ada2-820e5e47e3b3
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_mt_mt_all_ages
+label: 'Letter T MT-mt all-ages'
+message: 'No'
+path: all-ages/MT_mt/glossary/letter_t
+redirect_path: MT-mt/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: c8f81bb3-f808-483f-a00c-cb065cfef41a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_et_et_all_ages
+label: 'Letter S ET-et all-ages'
+message: 'No'
+path: all-ages/ET_et/glossary/letter_s
+redirect_path: ET-et/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

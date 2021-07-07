@@ -1,0 +1,17 @@
+uuid: fd474c88-542e-4faa-89ba-3a949d542c64
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_b_lv_lv_all_ages
+label: 'Letter B LV-lv all-ages'
+message: 'No'
+path: all-ages/LV_lv/glossary/letter_b
+redirect_path: LV-lv/glossary/b
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

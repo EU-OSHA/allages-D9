@@ -1,0 +1,17 @@
+uuid: 7e16190b-b4cd-475e-8085-e92cf564edea
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_lv_lv_all_ages
+label: 'Glossary LV-lv all-ages'
+message: 'No'
+path: all-ages/LV-lv/glossary
+redirect_path: LV-lv/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

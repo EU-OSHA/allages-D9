@@ -1,0 +1,17 @@
+uuid: 35ad5bc2-6764-4d5a-a506-c3c4b6209f2f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_ir_en_all_ages
+label: 'Letter E IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_e
+redirect_path: IR-en/glossary/e
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 6f311d69-3eb7-4084-bb23-286a8f155026
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_hu_hu_all_ages
+label: 'Letter K HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_k
+redirect_path: HU-hu/glossary/k
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

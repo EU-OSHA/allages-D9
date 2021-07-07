@@ -1,0 +1,17 @@
+uuid: 4e3e5e11-75cf-4165-8354-84369288638b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_sv_sv_all_ages
+label: 'Letter S SV-sv all-ages'
+message: 'No'
+path: all-ages/SV_sv/glossary/letter_s
+redirect_path: SV-sv/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

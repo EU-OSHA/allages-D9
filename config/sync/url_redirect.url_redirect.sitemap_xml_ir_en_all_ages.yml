@@ -1,0 +1,17 @@
+uuid: db1e656e-84e1-4c78-8e00-141efe088c3a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_ir_en_all_ages
+label: 'Sitemap xml IR-en all-ages'
+message: 'No'
+path: all-ages/IR-en/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: b318ed1b-222c-4927-a172-00992ad05e3f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_fi_sv_all_ages
+label: 'Sitemap xml FI-sv all-ages'
+message: 'No'
+path: all-ages/FI-sv/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

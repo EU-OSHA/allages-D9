@@ -1,0 +1,17 @@
+uuid: a9e081f0-3c25-42f6-841e-f90f47c9af8c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_cy_el_all_ages
+label: 'Letter Σ CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_σ
+redirect_path: CY-el/glossary/σ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

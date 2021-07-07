@@ -1,0 +1,17 @@
+uuid: 003317d5-54ef-4f08-8371-0559fdeb9e81
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_sk_sk_all_ages
+label: 'Letter č SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_c
+redirect_path: SK-sk/glossary/č
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

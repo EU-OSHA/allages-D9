@@ -1,0 +1,17 @@
+uuid: c6d56896-d0a2-4f4d-a859-fd2603f879df
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_10_bu_bg_all_ages
+label: 'Useful Links 10 BU-bg all-ages'
+message: 'No'
+path: 'all-ages/BU_bg/useful-links?nid=10'
+redirect_path: BU-bg/useful-links_10
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

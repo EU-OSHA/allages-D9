@@ -1,0 +1,17 @@
+uuid: cb729bff-481c-43d5-94dd-99e7148880a7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_sv_sv_all_ages
+label: 'Letter H SV-sv all-ages'
+message: 'No'
+path: all-ages/SV_sv/glossary/letter_h
+redirect_path: SV-sv/glossary/h
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 1def4dfa-521e-4e73-a032-9143b364bfe1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_lv_lv_all_ages
+label: 'Letter E LV-lv all-ages'
+message: 'No'
+path: all-ages/LV_lv/glossary/letter_e
+redirect_path: LV-lv/glossary/e
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

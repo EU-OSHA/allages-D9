@@ -1,0 +1,17 @@
+uuid: 1924e278-c91b-4803-856b-fc10e0f1be7d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_et_et_all_ages
+label: 'Letter K ET-et all-ages'
+message: 'No'
+path: all-ages/ET_et/glossary/letter_k
+redirect_path: ET-et/glossary/k
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

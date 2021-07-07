@@ -1,0 +1,17 @@
+uuid: af009d14-e480-4daa-86ee-4da6690aad84
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_pt_pt_all_ages
+label: 'Letter D PT-pt all-ages'
+message: 'No'
+path: all-ages/PT_pt/glossary/letter_d
+redirect_path: PT-pt/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

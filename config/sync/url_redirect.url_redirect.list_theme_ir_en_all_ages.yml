@@ -1,0 +1,17 @@
+uuid: dfc20599-9c84-41d2-8953-29b17ac7e4e9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_ir_en_all_ages
+label: 'List theme IR-en all-ages'
+message: 'No'
+path: all-ages/IR-en/list-themes
+redirect_path: IR-en/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

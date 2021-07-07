@@ -1,0 +1,17 @@
+uuid: d261c66a-c884-4034-a064-15f89d03a040
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_nn_nn_all_ages
+label: 'Letter S NN-nn all-ages'
+message: 'No'
+path: all-ages/NN_nn/glossary/letter_s
+redirect_path: NN-nn/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

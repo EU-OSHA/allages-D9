@@ -1,0 +1,17 @@
+uuid: 2ba71730-e1fc-4135-af69-a94f84fb4d5b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_ir_en_all_ages
+label: 'Letter O IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_o
+redirect_path: IR-en/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

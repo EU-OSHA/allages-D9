@@ -1,0 +1,17 @@
+uuid: 7a68acce-327e-46fe-91bb-fb69c4383efc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_z_be_nl_all_ages
+label: 'Letter Z BE-nl all-ages'
+message: 'No'
+path: all-ages/BE_nl/glossary/letter_z
+redirect_path: BE-nl/glossary/z
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

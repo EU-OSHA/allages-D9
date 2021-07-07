@@ -1,0 +1,17 @@
+uuid: 8b4b4f8c-b4ca-4d30-b573-e7ea278a2d4f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_z_sk_sk_all_ages
+label: 'Letter Z SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_z
+redirect_path: SK-sk/glossary/z
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

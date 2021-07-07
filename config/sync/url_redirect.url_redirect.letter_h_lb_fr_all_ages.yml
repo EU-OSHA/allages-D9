@@ -1,0 +1,17 @@
+uuid: 2012d523-a7cd-4072-8703-3207260b80e0
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_lb_fr_all_ages
+label: 'Letter H LB-fr all-ages'
+message: 'No'
+path: all-ages/LB_fr/glossary/letter_h
+redirect_path: LB-fr/glossary/h
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

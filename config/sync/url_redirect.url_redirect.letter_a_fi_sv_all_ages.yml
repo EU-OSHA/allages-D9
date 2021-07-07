@@ -1,0 +1,17 @@
+uuid: 75449e8f-51e3-4911-98b3-87a34bbe55bc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_fi_sv_all_ages
+label: 'Letter Å FI-sv all-ages'
+message: 'No'
+path: all-ages/FI_sv/glossary/letter_å
+redirect_path: FI-sv/glossary/å
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

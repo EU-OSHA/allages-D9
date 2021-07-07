@@ -1,0 +1,17 @@
+uuid: a1d5b659-52f9-4317-8a3c-198a1e2a1527
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_sv_sv_all_ages
+label: 'Sitemap xml SV-sv all-ages'
+message: 'No'
+path: all-ages/SV-sv/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

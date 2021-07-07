@@ -1,0 +1,17 @@
+uuid: bc2f312b-d102-4c75-bd8e-394fc222ea0f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_lt_lt_all_ages
+label: 'Letter D LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_d
+redirect_path: LT-lt/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

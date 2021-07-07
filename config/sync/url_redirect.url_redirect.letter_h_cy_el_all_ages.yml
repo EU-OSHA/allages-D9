@@ -1,0 +1,17 @@
+uuid: 2317469d-a062-46cb-8c54-623cf1e6f0bb
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_cy_el_all_ages
+label: 'Letter Χ CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_χ
+redirect_path: CY-el/glossary/χ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

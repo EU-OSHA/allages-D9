@@ -1,0 +1,17 @@
+uuid: 2c2bf8d8-157f-45c3-b063-09b0bf601a70
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_u_cr_hr_all_ages
+label: 'Letter U CR-hr all-ages'
+message: 'No'
+path: all-ages/CR_hr/glossary/letter_u
+redirect_path: CR-hr/glossary/u
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

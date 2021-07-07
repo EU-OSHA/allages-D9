@@ -1,0 +1,17 @@
+uuid: dcdb1c72-c260-46cd-9ce0-9515b8e57a6b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_be_fr_all_ages
+label: 'Letter R BE-fr all-ages'
+message: 'No'
+path: all-ages/BE_fr/glossary/letter_r
+redirect_path: BE-fr/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

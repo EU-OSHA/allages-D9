@@ -1,0 +1,17 @@
+uuid: 24c48ce2-6966-4507-8f5a-c4ddc52d2b42
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_lb_de_all_ages
+label: 'Letter M LB-de all-ages'
+message: 'No'
+path: all-ages/LB_de/glossary/letter_m
+redirect_path: LB-de/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

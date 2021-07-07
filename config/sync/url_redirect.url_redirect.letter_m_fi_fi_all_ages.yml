@@ -1,0 +1,17 @@
+uuid: 701707f0-f5b9-49bc-9029-889dd6cce1a7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_fi_fi_all_ages
+label: 'Letter M FI-fi all-ages'
+message: 'No'
+path: all-ages/FI_fi/glossary/letter_m
+redirect_path: FI-fi/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

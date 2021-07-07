@@ -1,0 +1,17 @@
+uuid: fcbc0862-a19a-4fb1-a11a-a390f3b35d05
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_be_nl_all_ages
+label: 'Letter W BE-nl all-ages'
+message: 'No'
+path: all-ages/BE_nl/glossary/letter_w
+redirect_path: BE-nl/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

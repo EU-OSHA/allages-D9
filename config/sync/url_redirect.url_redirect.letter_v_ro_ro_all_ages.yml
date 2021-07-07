@@ -1,0 +1,17 @@
+uuid: 2c47bd9d-02ef-4fb5-810d-ac07d0365e38
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_v_ro_ro_all_ages
+label: 'Letter V RO-ro all-ages'
+message: 'No'
+path: all-ages/RO_ro/glossary/letter_v
+redirect_path: RO-ro/glossary/v
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

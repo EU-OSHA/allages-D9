@@ -1,0 +1,17 @@
+uuid: 77e11c05-2a93-40da-a5df-d80e8bf6ced1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_u_pl_pl_all_ages
+label: 'Letter U PL-pl all-ages'
+message: 'No'
+path: all-ages/PL_pl/glossary/letter_u
+redirect_path: PL-pl/glossary/u
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

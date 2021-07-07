@@ -1,0 +1,17 @@
+uuid: cf99592c-f615-49c4-9cd6-714b020d6b1d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_ge_de_all_ages
+label: 'Useful Links 9 GE-de all-ages'
+message: 'No'
+path: 'all-ages/GE_de/useful-links?nid=9'
+redirect_path: GE-de/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

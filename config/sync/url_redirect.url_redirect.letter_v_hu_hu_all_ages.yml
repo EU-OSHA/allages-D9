@@ -1,0 +1,17 @@
+uuid: f7858188-d1f4-4054-8938-d0163a458c98
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_v_hu_hu_all_ages
+label: 'Letter V HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_v
+redirect_path: HU-hu/glossary/v
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

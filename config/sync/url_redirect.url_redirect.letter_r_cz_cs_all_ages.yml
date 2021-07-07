@@ -1,0 +1,17 @@
+uuid: 659400bd-2712-48d3-843c-8f73c594771d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_cz_cs_all_ages
+label: 'Letter R CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_r
+redirect_path: CZ-cs/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

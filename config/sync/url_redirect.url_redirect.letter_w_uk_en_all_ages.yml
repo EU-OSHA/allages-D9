@@ -1,0 +1,17 @@
+uuid: d8f9c20f-1c84-458f-8140-59c3f1285010
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_uk_en_all_ages
+label: 'Letter W UK-en all-ages'
+message: 'No'
+path: all-ages/UK_en/glossary/letter_w
+redirect_path: UK-en/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

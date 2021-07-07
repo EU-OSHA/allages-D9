@@ -1,0 +1,17 @@
+uuid: f299688b-6681-46c0-89f9-89d0cd732178
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_g_cr_hr_all_ages
+label: 'Letter G CR-hr all-ages'
+message: 'No'
+path: all-ages/CR_hr/glossary/letter_g
+redirect_path: CR-hr/glossary/g
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

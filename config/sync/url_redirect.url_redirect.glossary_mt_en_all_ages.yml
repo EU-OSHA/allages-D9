@@ -1,0 +1,17 @@
+uuid: abd1d0e7-bcc0-4142-97ba-1208da069f99
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_mt_en_all_ages
+label: 'Glossary MT-en all-ages'
+message: 'No'
+path: all-ages/MT-en/glossary
+redirect_path: MT-en/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

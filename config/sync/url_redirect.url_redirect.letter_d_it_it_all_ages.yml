@@ -1,0 +1,17 @@
+uuid: 59cdb6cd-3589-4723-9237-bfc017dd9c93
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_it_it_all_ages
+label: 'Letter D IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_d
+redirect_path: IT-it/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

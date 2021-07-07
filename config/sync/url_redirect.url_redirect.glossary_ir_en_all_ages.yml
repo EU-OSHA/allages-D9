@@ -1,0 +1,17 @@
+uuid: aeea1f89-0e83-4923-b956-f223bc1b8a39
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_ir_en_all_ages
+label: 'Glossary IR-en all-ages'
+message: 'No'
+path: all-ages/IR-en/glossary
+redirect_path: IR-en/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

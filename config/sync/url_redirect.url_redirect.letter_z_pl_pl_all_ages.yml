@@ -1,0 +1,17 @@
+uuid: ff0d07b4-f3e3-41a3-b240-307002a3df79
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_z_pl_pl_all_ages
+label: 'Letter Z PL-pl all-ages'
+message: 'No'
+path: all-ages/PL_pl/glossary/letter_z
+redirect_path: PL-pl/glossary/z
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

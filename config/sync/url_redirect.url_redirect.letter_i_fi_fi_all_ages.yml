@@ -1,0 +1,17 @@
+uuid: 7715a42c-460a-44a1-9a38-1b6a512ce2da
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_i_fi_fi_all_ages
+label: 'Letter I FI-fi all-ages'
+message: 'No'
+path: all-ages/FI_fi/glossary/letter_i
+redirect_path: FI-fi/glossary/i
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

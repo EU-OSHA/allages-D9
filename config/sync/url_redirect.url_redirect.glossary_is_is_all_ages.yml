@@ -1,0 +1,17 @@
+uuid: 4bceeaa4-d0fd-4ac2-a20d-502c56a82b44
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_is_is_all_ages
+label: 'Glossary IS-is all-ages'
+message: 'No'
+path: all-ages/IS-is/glossary
+redirect_path: IS-is/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

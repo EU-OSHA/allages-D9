@@ -1,0 +1,17 @@
+uuid: 52b24886-058f-4e12-9d36-445fbf5d3715
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_v_mt_en_all_ages
+label: 'Letter V MT-en all-ages'
+message: 'No'
+path: all-ages/MT_en/glossary/letter_v
+redirect_path: MT-en/glossary/v
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

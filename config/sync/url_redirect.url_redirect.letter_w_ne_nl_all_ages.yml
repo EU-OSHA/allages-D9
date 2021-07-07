@@ -1,0 +1,17 @@
+uuid: fe662e30-e42a-41b1-a94e-54f5bcf5b632
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_ne_nl_all_ages
+label: 'Letter W NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_w
+redirect_path: NE-nl/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

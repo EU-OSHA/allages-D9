@@ -1,0 +1,17 @@
+uuid: 1b37f7f2-bdb1-40b0-acb2-25ccdc3f5857
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_fi_sv_all_ages
+label: 'Letter F FI-sv all-ages'
+message: 'No'
+path: all-ages/FI_sv/glossary/letter_f
+redirect_path: FI-sv/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

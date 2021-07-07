@@ -1,0 +1,17 @@
+uuid: 11b3389a-60af-4783-a491-623326c262d1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_swz_de_all_ages
+label: 'Useful Links 9 SWZ-de all-ages'
+message: 'No'
+path: 'all-ages/SWZ_de/useful-links?nid=9'
+redirect_path: SWZ-de/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

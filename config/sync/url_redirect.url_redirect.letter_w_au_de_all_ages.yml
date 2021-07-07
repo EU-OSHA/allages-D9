@@ -1,0 +1,17 @@
+uuid: 2cdf5358-3706-4901-b46e-024c6fe449bd
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_au_de_all_ages
+label: 'Letter W AU-de all-ages'
+message: 'No'
+path: all-ages/AU_de/glossary/letter_w
+redirect_path: AU-de/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

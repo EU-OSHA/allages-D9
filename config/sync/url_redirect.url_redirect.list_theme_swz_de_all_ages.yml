@@ -1,0 +1,17 @@
+uuid: a1066841-0cf2-4ff0-8e10-90450321890f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_swz_de_all_ages
+label: 'List theme SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ-de/list-themes
+redirect_path: SWZ-de/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 48203813-a139-49d3-a56d-427e2d6fc3ec
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_mt_en_all_ages
+label: 'Letter O MT-en all-ages'
+message: 'No'
+path: all-ages/MT_en/glossary/letter_o
+redirect_path: MT-en/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

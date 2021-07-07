@@ -1,0 +1,17 @@
+uuid: 35195e39-e3f2-4b55-ae0c-4b4011ace68b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_ir_en_all_ages
+label: 'Letter M IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_m
+redirect_path: IR-en/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

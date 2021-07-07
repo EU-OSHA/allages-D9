@@ -1,0 +1,17 @@
+uuid: 8a3cd2fe-8d46-404c-8036-052d88510b0c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_b_swz_de_all_ages
+label: 'Letter B SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ_de/glossary/letter_b
+redirect_path: SWZ-de/glossary/b
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

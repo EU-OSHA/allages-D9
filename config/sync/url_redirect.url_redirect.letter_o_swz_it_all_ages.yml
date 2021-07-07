@@ -1,0 +1,17 @@
+uuid: 192902d4-a3f7-491d-b538-6d715eb3a00e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_swz_it_all_ages
+label: 'Letter O SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ_it/glossary/letter_o
+redirect_path: SWZ-it/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

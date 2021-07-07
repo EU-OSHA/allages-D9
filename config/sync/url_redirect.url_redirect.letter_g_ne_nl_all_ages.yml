@@ -1,0 +1,17 @@
+uuid: 4387d304-f875-422b-b4dd-c95cccbcfa74
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_g_ne_nl_all_ages
+label: 'Letter G NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_g
+redirect_path: NE-nl/glossary/g
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

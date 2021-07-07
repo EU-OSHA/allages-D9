@@ -1,0 +1,17 @@
+uuid: c4bbd847-e6ae-423a-a05d-26cb6f973dcc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_lt_lt_all_ages
+label: 'Letter C LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_c
+redirect_path: LT-lt/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

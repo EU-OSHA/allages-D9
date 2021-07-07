@@ -1,0 +1,17 @@
+uuid: 57f22373-c28a-47d6-9748-a7231fd1a2ac
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_mt_en_all_ages
+label: 'Useful Links 9 MT-en all-ages'
+message: 'No'
+path: 'all-ages/MT_en/useful-links?nid=9'
+redirect_path: MT-en/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
