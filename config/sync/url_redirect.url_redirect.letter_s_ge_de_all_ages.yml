@@ -1,0 +1,17 @@
+uuid: 66b3e2bd-73c1-43eb-ba01-46443b1ebb49
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_ge_de_all_ages
+label: 'Letter S GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_s
+redirect_path: GE-de/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

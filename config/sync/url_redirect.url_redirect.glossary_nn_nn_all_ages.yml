@@ -1,0 +1,17 @@
+uuid: a45c8b30-31ed-4d86-accc-ccadea2937a9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_nn_nn_all_ages
+label: 'Glossary NN-nn all-ages'
+message: 'No'
+path: all-ages/NN-nn/glossary
+redirect_path: NN-nn/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 495ec9f5-c9bc-4c0c-8dd9-39be27c42710
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_lv_lv_all_ages
+label: 'Useful Links 9 LV-lv all-ages'
+message: 'No'
+path: 'all-ages/LV_lv/useful-links?nid=9'
+redirect_path: LV-lv/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

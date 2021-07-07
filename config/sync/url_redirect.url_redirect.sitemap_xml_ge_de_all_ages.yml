@@ -1,0 +1,17 @@
+uuid: 0c350136-df3f-450d-b2e2-f6b173eb4268
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_ge_de_all_ages
+label: 'Sitemap xml GE-de all-ages'
+message: 'No'
+path: all-ages/GE-de/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: b5000434-2e6f-4bf8-b91e-c5807b5c1324
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_de_da_all_ages
+label: 'Letter J DE-da all-ages'
+message: 'No'
+path: all-ages/DE_da/glossary/letter_j
+redirect_path: DE-da/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

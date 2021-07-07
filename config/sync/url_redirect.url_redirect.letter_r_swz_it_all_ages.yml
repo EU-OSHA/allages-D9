@@ -1,0 +1,17 @@
+uuid: dad1914f-2fb7-4da8-888b-e9579ce31c60
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_swz_it_all_ages
+label: 'Letter R SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ_it/glossary/letter_r
+redirect_path: SWZ-it/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

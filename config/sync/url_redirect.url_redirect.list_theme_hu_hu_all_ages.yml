@@ -1,0 +1,17 @@
+uuid: a11d931d-d661-40d1-a039-c4bd706e5aff
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_hu_hu_all_ages
+label: 'List theme HU-hu all-ages'
+message: 'No'
+path: all-ages/HU-hu/list-themes
+redirect_path: HU-hu/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

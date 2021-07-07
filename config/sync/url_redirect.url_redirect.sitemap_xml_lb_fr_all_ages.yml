@@ -1,0 +1,17 @@
+uuid: 5f35144c-ac7a-45f1-829a-6b1afba03016
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_lb_fr_all_ages
+label: 'Sitemap xml LB-fr all-ages'
+message: 'No'
+path: all-ages/LB-fr/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

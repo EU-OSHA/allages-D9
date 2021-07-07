@@ -1,0 +1,17 @@
+uuid: 2f63206f-dd64-47b1-8036-9d39d5051936
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_ge_de_all_ages
+label: 'Letter J GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_j
+redirect_path: GE-de/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

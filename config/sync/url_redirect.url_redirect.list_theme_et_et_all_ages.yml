@@ -1,0 +1,17 @@
+uuid: 2277a88b-d58e-4955-9a50-6b2821c74476
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_et_et_all_ages
+label: 'List theme ET-et all-ages'
+message: 'No'
+path: all-ages/ET-et/list-themes
+redirect_path: ET-et/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

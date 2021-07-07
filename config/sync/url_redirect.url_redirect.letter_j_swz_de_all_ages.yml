@@ -1,0 +1,17 @@
+uuid: 9b792589-243c-44a5-8efc-82ea0c916d22
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_swz_de_all_ages
+label: 'Letter J SWZ-de all-ages'
+message: 'No'
+path: all-ages/SWZ_de/glossary/letter_j
+redirect_path: SWZ-de/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

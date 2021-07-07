@@ -1,0 +1,17 @@
+uuid: b28bb1bd-c8cc-481c-8cc8-6440d8b43134
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_de_da_all_ages
+label: 'Letter K DE-da all-ages'
+message: 'No'
+path: all-ages/DE_da/glossary/letter_k
+redirect_path: DE-da/glossary/k
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

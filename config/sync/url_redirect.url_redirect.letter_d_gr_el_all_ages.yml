@@ -1,0 +1,17 @@
+uuid: 0f290d36-f390-483e-a8b7-7c5b23938251
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_gr_el_all_ages
+label: 'Letter Δ GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_δ
+redirect_path: GR-el/glossary/δ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

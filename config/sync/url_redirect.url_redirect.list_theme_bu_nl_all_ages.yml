@@ -1,0 +1,17 @@
+uuid: 82ef64ec-260c-406d-a746-008267011c1f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_bu_nl_all_ages
+label: 'List theme BU-nl all-ages'
+message: 'No'
+path: all-ages/BE-nl/list-themes
+redirect_path: BE-nl/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

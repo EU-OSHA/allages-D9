@@ -1,0 +1,17 @@
+uuid: d4bcd4f9-d546-4044-8e95-777b72da7884
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_cz_cs_all_ages
+label: 'Glossary CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ-cs/glossary
+redirect_path: CZ-cs/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

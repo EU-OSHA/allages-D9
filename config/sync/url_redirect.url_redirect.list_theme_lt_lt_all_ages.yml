@@ -1,0 +1,17 @@
+uuid: 8e765c4c-b510-42b8-aa53-b03ce982a9fd
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_lt_lt_all_ages
+label: 'List theme LT-lt all-ages'
+message: 'No'
+path: all-ages/LT-lt/list-themes
+redirect_path: LT-lt/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

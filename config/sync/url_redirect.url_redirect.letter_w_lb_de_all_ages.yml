@@ -1,0 +1,17 @@
+uuid: f5caa970-ca82-4cf1-8272-ad2879f8c8e4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_lb_de_all_ages
+label: 'Letter W LB-de all-ages'
+message: 'No'
+path: all-ages/LB_de/glossary/letter_w
+redirect_path: LB-de/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

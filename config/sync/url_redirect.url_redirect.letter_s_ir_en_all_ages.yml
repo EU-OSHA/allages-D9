@@ -1,0 +1,17 @@
+uuid: 124bdb8f-d9cb-45fd-b08a-b8690e001a35
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_ir_en_all_ages
+label: 'Letter S IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_s
+redirect_path: IR-en/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

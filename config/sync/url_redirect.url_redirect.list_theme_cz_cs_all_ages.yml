@@ -1,0 +1,17 @@
+uuid: 7aa3d5af-efdc-490a-81fd-a2242311aac9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_cz_cs_all_ages
+label: 'List theme CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ-cs/list-themes
+redirect_path: CZ-cs/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

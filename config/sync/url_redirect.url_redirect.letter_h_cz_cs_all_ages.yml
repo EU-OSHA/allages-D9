@@ -1,0 +1,17 @@
+uuid: 3ee92ba9-f676-4507-9d37-9d7338cc3bad
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_cz_cs_all_ages
+label: 'Letter H CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_h
+redirect_path: CZ-cs/glossary/h
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

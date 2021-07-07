@@ -1,0 +1,17 @@
+uuid: 77025b79-452e-4f02-9f9b-2f269466030d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_it_it_all_ages
+label: 'Letter S IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_s
+redirect_path: IT-it/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

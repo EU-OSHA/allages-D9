@@ -1,0 +1,17 @@
+uuid: 75decbff-a4b0-4edc-a554-f7c2df1cb943
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_gr_el_all_ages
+label: 'Letter Κ GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_κ
+redirect_path: GR-el/glossary/κ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

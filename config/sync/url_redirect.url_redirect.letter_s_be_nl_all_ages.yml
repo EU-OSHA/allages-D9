@@ -1,0 +1,17 @@
+uuid: 65c21a09-c724-48c5-b988-0b96b5f0c548
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_be_nl_all_ages
+label: 'Letter S BE-nl all-ages'
+message: 'No'
+path: all-ages/BE_nl/glossary/letter_s
+redirect_path: BE-nl/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

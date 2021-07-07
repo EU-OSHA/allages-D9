@@ -1,0 +1,17 @@
+uuid: 22b2afa9-a628-4c21-9f75-337682f1b63c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_ro_ro_all_ages
+label: 'Sitemap xml RO-ro all-ages'
+message: 'No'
+path: all-ages/RO-ro/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 7b1ab2a3-c77e-4e33-8a2f-385977b7a9ec
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_hu_hu_all_ages
+label: 'Letter P HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_p
+redirect_path: HU-hu/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

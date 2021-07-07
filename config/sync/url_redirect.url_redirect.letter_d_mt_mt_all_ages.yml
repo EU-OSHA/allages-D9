@@ -1,0 +1,17 @@
+uuid: f90a901c-f970-4fe7-a001-031df3768ebb
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_mt_mt_all_ages
+label: 'Letter D MT-mt all-ages'
+message: 'No'
+path: all-ages/MT_mt/glossary/letter_d
+redirect_path: MT-mt/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

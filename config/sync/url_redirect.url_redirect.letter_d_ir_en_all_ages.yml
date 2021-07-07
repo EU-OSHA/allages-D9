@@ -1,0 +1,17 @@
+uuid: fe3559f0-4667-4fa3-9522-566771fde2ed
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_ir_en_all_ages
+label: 'Letter D IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_d
+redirect_path: IR-en/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

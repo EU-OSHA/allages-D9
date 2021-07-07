@@ -1,0 +1,17 @@
+uuid: 0eafaf0c-18b4-46b9-876e-0c1513c7e233
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_lb_de_all_ages
+label: 'Letter J LB-de all-ages'
+message: 'No'
+path: all-ages/LB_de/glossary/letter_j
+redirect_path: LB-de/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

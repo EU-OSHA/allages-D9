@@ -1,0 +1,17 @@
+uuid: f8cf87db-3bee-4c79-b9d5-1942249eecbe
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_ge_de_all_ages
+label: 'List theme GE-de all-ages'
+message: 'No'
+path: all-ages/GE-de/list-themes
+redirect_path: GE-de/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

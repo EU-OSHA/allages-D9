@@ -1,0 +1,17 @@
+uuid: f20fe603-d030-4684-ab10-cd29feaf448d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_mt_en_all_ages
+label: 'Letter R MT-en all-ages'
+message: 'No'
+path: all-ages/MT_en/glossary/letter_r
+redirect_path: MT-en/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

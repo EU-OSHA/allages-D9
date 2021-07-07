@@ -1,0 +1,17 @@
+uuid: 316ae456-76c7-4e8a-acdc-a1986ca5c8ec
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_lb_fr_all_ages
+label: 'List theme LB-fr all-ages'
+message: 'No'
+path: all-ages/LB-fr/list-themes
+redirect_path: LB-fr/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

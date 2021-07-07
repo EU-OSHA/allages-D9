@@ -1,0 +1,17 @@
+uuid: 0045bc38-006e-4c5a-9d58-b654beec6a55
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_mt_mt_all_ages
+label: 'List theme MT-mt all-ages'
+message: 'No'
+path: all-ages/MT-mt/list-themes
+redirect_path: MT-mt/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

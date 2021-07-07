@@ -1,0 +1,17 @@
+uuid: 9913ef8c-348b-4c5f-a87a-f19c53447588
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_lb_fr_all_ages
+label: 'Useful Links 9 LB-fr all-ages'
+message: 'No'
+path: 'all-ages/LB_fr/useful-links?nid=9'
+redirect_path: LB-fr/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

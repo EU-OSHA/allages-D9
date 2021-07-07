@@ -1,0 +1,17 @@
+uuid: e619fec0-3807-4523-ae95-ac81dffc10e4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_ir_en_all_ages
+label: 'Letter C IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_c
+redirect_path: IR-en/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

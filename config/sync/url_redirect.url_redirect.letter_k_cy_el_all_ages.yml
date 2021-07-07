@@ -1,0 +1,17 @@
+uuid: b1bc02ac-7150-410a-8901-ffc1b0641cfc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_cy_el_all_ages
+label: 'Letter Κ CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_κ
+redirect_path: CY-el/glossary/κ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

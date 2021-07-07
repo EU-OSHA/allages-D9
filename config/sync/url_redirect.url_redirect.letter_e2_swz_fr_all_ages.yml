@@ -1,0 +1,17 @@
+uuid: 1e69bca0-a76d-4efa-b5f1-2cb56da0d844
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e2_swz_fr_all_ages
+label: 'Letter é SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ_fr/glossary/letter_é
+redirect_path: SWZ-fr/glossary/e
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

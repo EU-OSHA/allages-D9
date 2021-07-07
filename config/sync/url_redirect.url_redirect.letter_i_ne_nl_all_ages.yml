@@ -1,0 +1,17 @@
+uuid: 1e8cc1ea-d9f5-4372-8456-923f1de60825
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_i_ne_nl_all_ages
+label: 'Letter I NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_i
+redirect_path: NE-nl/glossary/i
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: c0d3093a-ade6-4b3e-8da3-431dd7accef3
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_ne_nl_all_ages
+label: 'Letter P NE-nl all-ages'
+message: 'No'
+path: all-ages/NE_nl/glossary/letter_p
+redirect_path: NE-nl/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: ef17464f-a846-4908-9d87-5076b7bae94e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_it_it_all_ages
+label: 'Letter A IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_a
+redirect_path: IT-it/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: ec368c80-63ec-4b9a-81d8-65d4e20e0961
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_lb_fr_all_ages
+label: 'Letter S LB-fr all-ages'
+message: 'No'
+path: all-ages/LB_fr/glossary/letter_s
+redirect_path: LB-fr/glossary/s
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

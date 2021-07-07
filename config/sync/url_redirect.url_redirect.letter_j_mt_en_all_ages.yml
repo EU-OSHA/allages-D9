@@ -1,0 +1,17 @@
+uuid: 12b51c74-5b55-46cb-9fa5-176a6ed3fa12
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_mt_en_all_ages
+label: 'Letter J MT-en all-ages'
+message: 'No'
+path: all-ages/MT_en/glossary/letter_j
+redirect_path: MT-en/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

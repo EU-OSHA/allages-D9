@@ -1,0 +1,17 @@
+uuid: a0b8dd01-a2e5-4049-a857-5731fa4f72e3
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_s_gr_el_all_ages
+label: 'Letter Σ GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_β
+redirect_path: GR-el/glossary/β
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

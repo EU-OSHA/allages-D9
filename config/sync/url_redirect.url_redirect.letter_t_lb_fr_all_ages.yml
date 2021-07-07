@@ -1,0 +1,17 @@
+uuid: ebfe1e8b-de3b-41ea-ad9c-9d0167a016fc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_lb_fr_all_ages
+label: 'Letter T LB-fr all-ages'
+message: 'No'
+path: all-ages/LB_fr/glossary/letter_t
+redirect_path: LB-fr/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

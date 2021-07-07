@@ -1,0 +1,17 @@
+uuid: 022115c3-14b3-4c81-ae91-4c39c2eb2805
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_mt_mt_all_ages
+label: 'Letter P MT-mt all-ages'
+message: 'No'
+path: all-ages/MT_mt/glossary/letter_p
+redirect_path: MT-mt/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

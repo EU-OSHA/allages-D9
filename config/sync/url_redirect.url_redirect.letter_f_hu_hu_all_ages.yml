@@ -1,0 +1,17 @@
+uuid: 4e23f4dc-8d59-4e1b-b362-ea8745f2a84f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_hu_hu_all_ages
+label: 'Letter F HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_f
+redirect_path: HU-hu/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

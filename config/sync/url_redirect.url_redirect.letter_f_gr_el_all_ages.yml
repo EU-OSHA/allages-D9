@@ -1,0 +1,17 @@
+uuid: b8f77218-b228-4e3c-92f6-b26656fc9a4a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_gr_el_all_ages
+label: 'Letter Φ GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_φ
+redirect_path: GR-el/glossary/φ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

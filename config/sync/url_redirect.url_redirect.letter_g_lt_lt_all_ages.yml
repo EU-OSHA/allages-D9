@@ -1,0 +1,17 @@
+uuid: eccf62f9-c010-4335-8a35-c6b0955d05bc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_g_lt_lt_all_ages
+label: 'Letter G LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_g
+redirect_path: LT-lt/glossary/g
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

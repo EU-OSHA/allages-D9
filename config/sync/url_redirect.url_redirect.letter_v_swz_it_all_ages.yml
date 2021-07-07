@@ -1,0 +1,17 @@
+uuid: cdf0e035-c378-466d-9cb1-92ac2c0ad5cd
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_v_swz_it_all_ages
+label: 'Letter V SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ_it/glossary/letter_v
+redirect_path: SWZ-it/glossary/v
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

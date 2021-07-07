@@ -1,0 +1,17 @@
+uuid: 9e410019-b8e5-4360-870c-d8e9739488c8
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_11_cy_el_all_ages
+label: 'Useful Links 11 CY-el all-ages'
+message: 'No'
+path: 'all-ages/CY_el/useful-links?nid=11'
+redirect_path: CY-el/useful-links_11
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

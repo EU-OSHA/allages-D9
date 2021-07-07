@@ -1,0 +1,17 @@
+uuid: 342a3b8b-cf03-4a8f-86c3-a152ac6512d6
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_cz_cs_all_ages
+label: 'Letter O CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_o
+redirect_path: CZ-cs/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

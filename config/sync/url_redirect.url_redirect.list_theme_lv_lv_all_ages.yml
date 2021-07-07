@@ -1,0 +1,17 @@
+uuid: c8b99827-90bd-4cdc-83db-3b58eb2a481c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_lv_lv_all_ages
+label: 'List theme LV-lv all-ages'
+message: 'No'
+path: all-ages/LV-lv/list-themes
+redirect_path: LV-lv/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

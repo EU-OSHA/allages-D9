@@ -1,0 +1,17 @@
+uuid: a70865de-e4ba-473e-9476-2a741509066a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_lb_de_all_ages
+label: 'Letter C LB-de all-ages'
+message: 'No'
+path: all-ages/LB_de/glossary/letter_c
+redirect_path: LB-de/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

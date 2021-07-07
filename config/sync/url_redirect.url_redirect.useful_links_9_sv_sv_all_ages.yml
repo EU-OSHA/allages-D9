@@ -1,0 +1,17 @@
+uuid: 600380fa-e473-459d-9ca2-02e194e99e87
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_sv_sv_all_ages
+label: 'Useful Links 9 SV-sv all-ages'
+message: 'No'
+path: 'all-ages/SV_sv/useful-links?nid=9'
+redirect_path: SV-sv/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

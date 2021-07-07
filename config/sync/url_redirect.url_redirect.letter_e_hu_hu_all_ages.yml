@@ -1,0 +1,17 @@
+uuid: 0b1c8021-b815-49ba-b5bf-5a79801c9cde
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_hu_hu_all_ages
+label: 'Letter E HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_e
+redirect_path: HU-hu/glossary/e
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

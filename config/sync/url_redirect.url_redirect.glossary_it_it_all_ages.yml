@@ -1,0 +1,17 @@
+uuid: 90f67c0e-da8c-4ade-9d7c-7497051ec5fb
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_it_it_all_ages
+label: 'Glossary IT-it all-ages'
+message: 'No'
+path: all-ages/IT-it/glossary
+redirect_path: IT-it/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

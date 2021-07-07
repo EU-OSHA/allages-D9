@@ -1,0 +1,17 @@
+uuid: 70739e8f-c085-4368-8177-12bd74d9cad4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_hu_hu_all_ages
+label: 'Letter M HU-hu all-ages'
+message: 'No'
+path: all-ages/HU_hu/glossary/letter_m
+redirect_path: HU-hu/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

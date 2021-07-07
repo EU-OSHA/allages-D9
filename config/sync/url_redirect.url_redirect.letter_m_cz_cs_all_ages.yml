@@ -1,0 +1,17 @@
+uuid: e9ed604d-311c-4e23-bead-61e81212dea7
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_cz_cs_all_ages
+label: 'Letter M CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_m
+redirect_path: CZ-cs/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

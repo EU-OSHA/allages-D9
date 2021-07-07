@@ -1,0 +1,17 @@
+uuid: e07f9146-e468-49f2-bf6a-2557282eb198
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_lt_lt_all_ages
+label: 'Letter A LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_a
+redirect_path: 'LT-lt/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

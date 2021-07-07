@@ -1,0 +1,17 @@
+uuid: fac9868f-e858-47d3-9631-5b6975c9bfdc
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_pl_pl_all_ages
+label: 'Letter D PL-pl all-ages'
+message: 'No'
+path: all-ages/PL_pl/glossary/letter_d
+redirect_path: PL-pl/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

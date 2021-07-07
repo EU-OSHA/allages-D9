@@ -1,0 +1,17 @@
+uuid: 2d50a432-dfc7-4ff4-a87d-7409bc8289c5
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_de_da_all_ages
+label: 'Glossary DE-da all-ages'
+message: 'No'
+path: all-ages/DE-da/glossary
+redirect_path: DE-da/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

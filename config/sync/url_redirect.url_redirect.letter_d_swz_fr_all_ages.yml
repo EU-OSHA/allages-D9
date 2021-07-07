@@ -1,0 +1,17 @@
+uuid: f339f788-6b16-4e00-b6a7-b25b380d0c98
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_swz_fr_all_ages
+label: 'Letter D SWZ-fr all-ages'
+message: 'No'
+path: all-ages/SWZ_fr/glossary/letter_d
+redirect_path: SWZ-fr/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

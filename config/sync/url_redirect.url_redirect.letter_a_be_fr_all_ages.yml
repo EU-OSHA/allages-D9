@@ -1,0 +1,17 @@
+uuid: e0278c60-7df2-4f3f-b2dc-bbaac29adb90
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_be_fr_all_ages
+label: 'Letter A BE-fr all-ages'
+message: 'No'
+path: all-ages/BE_fr/glossary/letter_a
+redirect_path: 'BE-fr/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

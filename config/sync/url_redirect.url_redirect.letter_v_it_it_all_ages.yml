@@ -1,0 +1,17 @@
+uuid: 9c819fdd-f43d-4bdb-9461-8163a35bda3e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_v_it_it_all_ages
+label: 'Letter V IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_v
+redirect_path: IT-it/glossary/v
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

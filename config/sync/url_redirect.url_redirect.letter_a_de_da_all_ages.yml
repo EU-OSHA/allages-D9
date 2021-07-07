@@ -1,0 +1,17 @@
+uuid: b92c8535-f516-4907-b73e-629672a1cc6c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_de_da_all_ages
+label: 'Letter A DE-da all-ages'
+message: 'No'
+path: all-ages/DE_da/glossary/letter_a
+redirect_path: 'DE-da/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

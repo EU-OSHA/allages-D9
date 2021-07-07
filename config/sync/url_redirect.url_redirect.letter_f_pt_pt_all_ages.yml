@@ -1,0 +1,17 @@
+uuid: 546346ff-e544-4ecd-bfa9-d15509a48ce1
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_pt_pt_all_ages
+label: 'Letter F PT-pt all-ages'
+message: 'No'
+path: all-ages/PT_pt/glossary/letter_f
+redirect_path: PT-pt/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

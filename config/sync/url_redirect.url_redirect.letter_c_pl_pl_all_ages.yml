@@ -1,0 +1,17 @@
+uuid: 99963b16-7ebd-4687-bd9c-286c26b8aaec
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_pl_pl_all_ages
+label: 'Letter C PL-pl all-ages'
+message: 'No'
+path: all-ages/PL_pl/glossary/letter_c
+redirect_path: PL-pl/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

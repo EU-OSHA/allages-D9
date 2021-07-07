@@ -1,0 +1,17 @@
+uuid: 9df241c8-c70f-4daa-80fc-35e50b06d799
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_cz_cs_all_ages
+label: 'Sitemap xml CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ-cs/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

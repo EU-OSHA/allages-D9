@@ -1,0 +1,17 @@
+uuid: 42fbac5e-02c3-41ef-8fb6-685d84fd0aa0
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_a_lb_de_all_ages
+label: 'Letter A LB-de all-ages'
+message: 'No'
+path: all-ages/LB_de/glossary/letter_a
+redirect_path: 'LB-de/glossary/a '
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

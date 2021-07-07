@@ -1,0 +1,17 @@
+uuid: 4f57db73-743d-4782-8a1b-df769d6b949a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_cz_cs_all_ages
+label: 'Letter P CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_p
+redirect_path: CZ-cs/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

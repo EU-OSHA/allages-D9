@@ -1,0 +1,17 @@
+uuid: 0ed49ca4-a6c4-4af7-a0bc-d07589d12c72
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_cy_el_all_ages
+label: 'Letter Π CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_π
+redirect_path: CY-el/glossary/π
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

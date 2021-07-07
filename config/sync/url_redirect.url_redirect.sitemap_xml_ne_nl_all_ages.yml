@@ -1,0 +1,17 @@
+uuid: 591a4ae7-9dfe-4030-b01f-251a662de7db
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_ne_nl_all_ages
+label: 'Sitemap xml NE-nl all-ages'
+message: 'No'
+path: all-ages/NE-nl/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

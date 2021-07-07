@@ -1,0 +1,17 @@
+uuid: 9cd90dac-95ba-44ae-95a2-c42b0eaedb19
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_mt_mt_all_ages
+label: 'Letter F MT-mt all-ages'
+message: 'No'
+path: all-ages/MT_mt/glossary/letter_f
+redirect_path: MT-mt/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

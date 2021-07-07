@@ -1,0 +1,17 @@
+uuid: 541be355-b7fa-4421-8ae9-7af795db3455
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_gr_el_all_ages
+label: 'List theme GR-el all-ages'
+message: 'No'
+path: all-ages/GR-el/list-themes
+redirect_path: GR-el/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

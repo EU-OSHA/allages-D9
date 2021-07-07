@@ -1,0 +1,17 @@
+uuid: c8865402-db8c-47ef-8034-0c07daa83cc6
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_fi_fi_all_ages
+label: 'Letter R FI-fi all-ages'
+message: 'No'
+path: all-ages/FI_fi/glossary/letter_r
+redirect_path: FI-fi/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

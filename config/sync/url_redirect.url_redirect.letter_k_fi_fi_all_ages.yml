@@ -1,0 +1,17 @@
+uuid: f58ce849-02dd-42c6-b029-84687cf3d02f
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_k_fi_fi_all_ages
+label: 'Letter K FI-fi all-ages'
+message: 'No'
+path: all-ages/FI_fi/glossary/letter_k
+redirect_path: FI-fi/glossary/k
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

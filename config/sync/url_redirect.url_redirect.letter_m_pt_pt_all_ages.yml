@@ -1,0 +1,17 @@
+uuid: 693b28d8-48ff-4551-ae4a-579022557184
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_pt_pt_all_ages
+label: 'Letter M PT-pt all-ages'
+message: 'No'
+path: all-ages/PT_pt/glossary/letter_m
+redirect_path: PT-pt/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

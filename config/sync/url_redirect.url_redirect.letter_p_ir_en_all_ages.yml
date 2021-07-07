@@ -1,0 +1,17 @@
+uuid: 4e70c795-194a-4cae-8ac4-59ab07e5a946
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_ir_en_all_ages
+label: 'Letter P IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_p
+redirect_path: IR-en/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: e553a7f4-cbdf-4d00-b8d9-edac970ff5d5
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_j_et_et_all_ages
+label: 'Letter J ET-et all-ages'
+message: 'No'
+path: all-ages/ET_et/glossary/letter_j
+redirect_path: ET-et/glossary/j
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 73b41cb1-b532-4e3f-9a1f-642abe73c8a0
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_i_cy_el_all_ages
+label: 'Letter Ι CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_ι
+redirect_path: CY-el/glossary/ι
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

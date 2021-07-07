@@ -1,0 +1,17 @@
+uuid: 9e84889f-e20f-429b-ba4a-2e02cf91f42b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_u_sl_sl_all_ages
+label: 'Letter U SL-sl all-ages'
+message: 'No'
+path: all-ages/SL_sl/glossary/letter_u
+redirect_path: SL-sl/glossary/u
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

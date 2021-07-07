@@ -1,0 +1,17 @@
+uuid: 127ce0a1-60ed-4ad6-916d-a84f782654d5
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_it_it_all_ages
+label: 'Letter M IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_m
+redirect_path: IT-it/glossary/m
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

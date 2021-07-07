@@ -1,0 +1,17 @@
+uuid: dc622476-9d4e-4501-b2e1-44beff4c8b17
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_r_is_is_all_ages
+label: 'Letter R IS-is all-ages'
+message: 'No'
+path: all-ages/IS_is/glossary/letter_r
+redirect_path: IS-is/glossary/r
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

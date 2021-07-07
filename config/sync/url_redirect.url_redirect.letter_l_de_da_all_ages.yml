@@ -1,0 +1,17 @@
+uuid: dd7525ab-c251-4a26-83d6-fb267cae4707
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_l_de_da_all_ages
+label: 'Letter L DE-da all-ages'
+message: 'No'
+path: all-ages/DE_da/glossary/letter_l
+redirect_path: DE-da/glossary/l
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

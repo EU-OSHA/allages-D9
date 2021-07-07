@@ -1,0 +1,17 @@
+uuid: 25f99c18-9424-4127-ae6e-204e3a8dc56e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_au_de_all_ages
+label: 'Letter C AU-de all-ages'
+message: 'No'
+path: all-ages/AU_de/glossary/letter_c
+redirect_path: AU-de/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

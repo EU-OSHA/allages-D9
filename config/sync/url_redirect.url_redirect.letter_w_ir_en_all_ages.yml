@@ -1,0 +1,17 @@
+uuid: 4f078c70-cbdc-4666-bc9b-c6b5d66cec12
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_w_ir_en_all_ages
+label: 'Letter W IR-en all-ages'
+message: 'No'
+path: all-ages/IR_en/glossary/letter_w
+redirect_path: IR-en/glossary/w
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 47ed3e6c-1526-43b0-81a0-ebd5d60de198
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_lt_lt_all_ages
+label: 'Glossary LT-lt all-ages'
+message: 'No'
+path: all-ages/LT-lt/glossary
+redirect_path: LT-lt/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

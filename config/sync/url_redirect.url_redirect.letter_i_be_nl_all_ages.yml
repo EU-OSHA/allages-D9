@@ -1,0 +1,17 @@
+uuid: 472ef912-dd72-41ea-aeb6-3ccbcb370308
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_i_be_nl_all_ages
+label: 'Letter I BE-nl all-ages'
+message: 'No'
+path: all-ages/BE_nl/glossary/letter_i
+redirect_path: BE-nl/glossary/i
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

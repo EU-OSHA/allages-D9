@@ -1,0 +1,17 @@
+uuid: 9f16875b-f93c-4973-8c72-07ce9b5dee61
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_sk_sk_all_ages
+label: 'Letter O SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_o
+redirect_path: SK-sk/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

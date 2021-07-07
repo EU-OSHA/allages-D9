@@ -1,0 +1,17 @@
+uuid: 091b6823-99da-4bc1-8b68-3d094d7ceb2c
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_fi_sv_all_ages
+label: 'Letter T FI-sv all-ages'
+message: 'No'
+path: all-ages/FI_sv/glossary/letter_t
+redirect_path: FI-sv/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

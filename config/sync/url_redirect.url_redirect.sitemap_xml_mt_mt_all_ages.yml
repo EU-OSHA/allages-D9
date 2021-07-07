@@ -1,0 +1,17 @@
+uuid: 1de85f3a-e6ce-4ea1-aa8f-9a086a17e2cd
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_mt_mt_all_ages
+label: 'Sitemap xml MT-mt all-ages'
+message: 'No'
+path: all-ages/MT-mt/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

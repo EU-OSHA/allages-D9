@@ -1,0 +1,17 @@
+uuid: 00c04423-0912-4172-8f46-ee7f22048bc8
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_b_sk_sk_all_ages
+label: 'Letter B SK-sk all-ages'
+message: 'No'
+path: all-ages/SK_sk/glossary/letter_b
+redirect_path: SK-sk/glossary/b
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

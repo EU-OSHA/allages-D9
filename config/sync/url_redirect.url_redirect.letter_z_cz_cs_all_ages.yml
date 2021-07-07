@@ -1,0 +1,17 @@
+uuid: 9bdfda6d-c4ab-4ef9-90c0-dafb550e9510
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_z_cz_cs_all_ages
+label: 'Letter Z CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_z
+redirect_path: CZ-cs/glossary/z
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

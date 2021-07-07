@@ -1,0 +1,17 @@
+uuid: b4115928-e1e9-4d61-8e05-d573cfe6bade
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_l_be_fr_all_ages
+label: 'Letter L BE-fr all-ages'
+message: 'No'
+path: all-ages/BE_fr/glossary/letter_l
+redirect_path: BE-fr/glossary/l
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

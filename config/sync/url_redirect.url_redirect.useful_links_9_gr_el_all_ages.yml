@@ -1,0 +1,17 @@
+uuid: 4e6fddee-2ef0-4c46-a5cd-d7bb9558573e
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_9_gr_el_all_ages
+label: 'Useful Links 9 GR-el all-ages'
+message: 'No'
+path: 'all-ages/GR_el/useful-links?nid=9'
+redirect_path: GR-el/useful-links_9
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

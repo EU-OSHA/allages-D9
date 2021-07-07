@@ -1,0 +1,17 @@
+uuid: 300cbbbe-026e-4e6f-9976-5fc3dbbf3ca4
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_p_lt_lt_all_ages
+label: 'Letter P LT-lt all-ages'
+message: 'No'
+path: all-ages/LT_lt/glossary/letter_p
+redirect_path: LT-lt/glossary/p
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

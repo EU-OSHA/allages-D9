@@ -1,0 +1,17 @@
+uuid: 49058159-9090-40b3-b807-7f13b1a3a096
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_g_it_it_all_ages
+label: 'Letter G IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_g
+redirect_path: IT-it/glossary/g
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

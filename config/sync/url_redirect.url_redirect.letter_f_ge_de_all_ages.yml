@@ -1,0 +1,17 @@
+uuid: 3502629a-926e-410b-9133-c362b2457554
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_ge_de_all_ages
+label: 'Letter F GE-de all-ages'
+message: 'No'
+path: all-ages/GE_de/glossary/letter_f
+redirect_path: GE-de/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

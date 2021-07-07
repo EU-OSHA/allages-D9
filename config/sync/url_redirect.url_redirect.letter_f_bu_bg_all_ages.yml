@@ -1,0 +1,17 @@
+uuid: 90165f5f-0b89-4a0b-ad70-3f12e9f9172d
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_bu_bg_all_ages
+label: 'Letter ф BU-bg all-ages'
+message: 'No'
+path: all-ages/BU_bg/glossary/letter_ф
+redirect_path: BU-bg/glossary/ф
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

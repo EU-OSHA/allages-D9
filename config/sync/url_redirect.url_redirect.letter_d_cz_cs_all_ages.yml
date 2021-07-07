@@ -1,0 +1,17 @@
+uuid: 8c93daf3-7ffb-4a4e-b733-7164303b9eba
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_d_cz_cs_all_ages
+label: 'Letter D CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_d
+redirect_path: CZ-cs/glossary/d
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

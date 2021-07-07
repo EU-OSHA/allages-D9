@@ -1,0 +1,17 @@
+uuid: 49e2d898-90cd-4b97-aebb-e1cea03e5120
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: useful_links_12_fr_fr_all_ages
+label: 'Useful Links 12 FR-fr all-ages'
+message: 'No'
+path: 'all-ages/FR_fr/useful-links?nid=12'
+redirect_path: FR-fr/useful-links_12
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

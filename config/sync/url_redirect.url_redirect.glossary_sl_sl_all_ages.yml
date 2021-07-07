@@ -1,0 +1,17 @@
+uuid: 1f40a84d-2c52-40e4-9e00-be574ceb1edb
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_sl_sl_all_ages
+label: 'Glossary SL-sl all-ages'
+message: 'No'
+path: all-ages/SL-sl/glossary
+redirect_path: SL-sl/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 6d0b7f22-c713-414b-8edf-83eb9f9f66e6
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_y_sv_sv_all_ages
+label: 'Letter Y SV-sv all-ages'
+message: 'No'
+path: all-ages/SV_sv/glossary/letter_y
+redirect_path: SV-sv/glossary/y
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

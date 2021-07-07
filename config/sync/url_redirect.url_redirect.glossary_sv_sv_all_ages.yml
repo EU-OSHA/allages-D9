@@ -1,0 +1,17 @@
+uuid: f8bfee1d-2804-42c2-b317-62c46457d3e9
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: glossary_sv_sv_all_ages
+label: 'Glossary SV-sv all-ages'
+message: 'No'
+path: all-ages/SV-sv/glossary
+redirect_path: SV-sv/glossary/a
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

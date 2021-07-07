@@ -1,0 +1,17 @@
+uuid: 31011c15-c8df-4f7d-a8a8-b283bfbf8bb2
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_h_fi_sv_all_ages
+label: 'Letter H FI-sv all-ages'
+message: 'No'
+path: all-ages/FI_sv/glossary/letter_h
+redirect_path: FI-sv/glossary/h
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

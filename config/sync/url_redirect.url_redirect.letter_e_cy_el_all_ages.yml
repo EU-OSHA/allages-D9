@@ -1,0 +1,17 @@
+uuid: 4ecd341d-05eb-47dd-8c0c-7c7a34919072
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_e_cy_el_all_ages
+label: 'Letter Ε CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_ε
+redirect_path: CY-el/glossary/ε
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

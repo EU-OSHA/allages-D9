@@ -1,0 +1,17 @@
+uuid: 9cecfc1f-ca2d-4c35-b26f-6eb7edb4764a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_f_swz_it_all_ages
+label: 'Letter F SWZ-it all-ages'
+message: 'No'
+path: all-ages/SWZ_it/glossary/letter_f
+redirect_path: SWZ-it/glossary/f
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

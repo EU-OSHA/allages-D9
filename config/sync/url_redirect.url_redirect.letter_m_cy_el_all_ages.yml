@@ -1,0 +1,17 @@
+uuid: b4e28375-02db-4279-b7ec-1604bd64a841
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_m_cy_el_all_ages
+label: 'Letter Μ CY-el all-ages'
+message: 'No'
+path: all-ages/CY_el/glossary/letter_μ
+redirect_path: CY-el/glossary/μ
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

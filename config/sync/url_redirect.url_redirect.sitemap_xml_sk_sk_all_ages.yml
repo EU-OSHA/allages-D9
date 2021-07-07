@@ -1,0 +1,17 @@
+uuid: 2d8f9f19-3f99-4d7d-b542-2e7e35a1af08
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: sitemap_xml_sk_sk_all_ages
+label: 'Sitemap xml SK-sk all-ages'
+message: 'No'
+path: all-ages/SK-sk/sitemap.xml
+redirect_path: UK-en/sitemap.xml
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: fbdcc141-c4ed-489b-ad01-1e43ce4e722a
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_cz_cs_all_ages
+label: 'Letter C CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_c
+redirect_path: CZ-cs/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

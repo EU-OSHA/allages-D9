@@ -1,0 +1,17 @@
+uuid: e1b80685-acba-4343-bbcf-7871c4475d23
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_c_mt_en_all_ages
+label: 'Letter C MT-en all-ages'
+message: 'No'
+path: all-ages/MT_en/glossary/letter_c
+redirect_path: MT-en/glossary/c
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

@@ -1,0 +1,17 @@
+uuid: 6ccfa846-a47a-4d0b-92a5-cda9c0f58c51
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: list_theme_bu_bg_all_ages
+label: 'List theme BU-bg all-ages'
+message: 'No'
+path: all-ages/BU-bg/list-themes
+redirect_path: BU-bg/list-themes/1
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

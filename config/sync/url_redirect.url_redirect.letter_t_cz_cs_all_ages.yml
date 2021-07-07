@@ -1,0 +1,17 @@
+uuid: 5bc98814-f45c-4968-87a5-a1dbb680e534
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_t_cz_cs_all_ages
+label: 'Letter T CZ-cs all-ages'
+message: 'No'
+path: all-ages/CZ_cs/glossary/letter_t
+redirect_path: CZ-cs/glossary/t
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

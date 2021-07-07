@@ -1,0 +1,17 @@
+uuid: e582f825-2cbf-4d91-bbcf-8cd96f926454
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_n_au_de_all_ages
+label: 'Letter N AU-de all-ages'
+message: 'No'
+path: all-ages/AU_de/glossary/letter_n
+redirect_path: AU-de/glossary/n
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

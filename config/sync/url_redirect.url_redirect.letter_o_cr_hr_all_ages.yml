@@ -1,0 +1,17 @@
+uuid: ed57d263-6703-4f91-b531-0bd4c769f72b
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_cr_hr_all_ages
+label: 'Letter O CR-hr all-ages'
+message: 'No'
+path: all-ages/CR_hr/glossary/letter_o
+redirect_path: CR-hr/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

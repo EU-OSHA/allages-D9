@@ -1,0 +1,17 @@
+uuid: d0e53d9b-f8f2-438e-b270-ef8c7a709348
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_i_gr_el_all_ages
+label: 'Letter Ι GR-el all-ages'
+message: 'No'
+path: all-ages/GR_el/glossary/letter_ι
+redirect_path: GR-el/glossary/ι
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor

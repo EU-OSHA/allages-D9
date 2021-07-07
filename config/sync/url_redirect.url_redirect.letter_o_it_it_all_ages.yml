@@ -1,0 +1,17 @@
+uuid: f6db2355-9633-494f-b6ab-a24cb20c8612
+langcode: UK-en
+status: '1'
+dependencies: {  }
+id: letter_o_it_it_all_ages
+label: 'Letter O IT-it all-ages'
+message: 'No'
+path: all-ages/IT_it/glossary/letter_o
+redirect_path: IT-it/glossary/o
+checked_for: Role
+negate: false
+user: null
+roles:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: administrator
+  editor: editor
