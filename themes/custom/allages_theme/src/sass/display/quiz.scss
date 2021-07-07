@@ -240,4 +240,10 @@
       }
     }
   }
+
+  @-moz-document url-prefix() {
+    .quiz-report-score-container{
+      margin-top:-41px;
+    }
+  }
 }
