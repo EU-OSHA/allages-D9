@@ -195,6 +195,9 @@
 }
 
 .quiz-results{
+  fieldset{
+    position:relative;
+  }
   #quiz_score_possible,
   #quiz_score_percent{
     font-size:1rem;
