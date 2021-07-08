@@ -1477,6 +1477,9 @@ section.row {
   background-color: #003399;
 }
 
+.quiz-results fieldset {
+  position: relative;
+}
 .quiz-results #quiz_score_possible,
 .quiz-results #quiz_score_percent {
   font-size: 1rem;
@@ -3242,6 +3245,7 @@ section.row {
     margin: 0;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   #containerMaxLengthTools #containerTools .tabs li {
     width: 100%;
