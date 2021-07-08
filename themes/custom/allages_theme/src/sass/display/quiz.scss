@@ -69,6 +69,7 @@
   .quiz-jumper-form{
     display:inline-block;
     width:auto;
+    .form-select,
     .custom-select{
       border:none;
       padding:0;
@@ -87,6 +88,7 @@
       width:auto;
       height:auto;
       text-align:center;
+      appearance:none;
     }
     input,
     button{

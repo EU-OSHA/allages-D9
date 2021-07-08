@@ -1354,6 +1354,7 @@ section.row {
   display: inline-block;
   width: auto;
 }
+.quiz-report-jumper .quiz-jumper-form .form-select,
 .quiz-report-jumper .quiz-jumper-form .custom-select {
   border: none;
   padding: 0;
@@ -1372,6 +1373,7 @@ section.row {
   width: auto;
   height: auto;
   text-align: center;
+  appearance: none;
 }
 .quiz-report-jumper .quiz-jumper-form input,
 .quiz-report-jumper .quiz-jumper-form button {
@@ -2737,6 +2739,10 @@ section.row {
   font-weight: normal;
   margin: 1rem 0 0;
   padding: 0;
+}
+
+.path-quiz .breadcrumb-item:nth-child(3), .path-quiz .breadcrumb-item:nth-child(4) {
+  display: none;
 }
 
 .path-search .block-system-main-block .search-form {
