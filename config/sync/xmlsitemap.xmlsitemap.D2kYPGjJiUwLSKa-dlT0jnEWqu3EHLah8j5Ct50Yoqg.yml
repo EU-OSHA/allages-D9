@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: D2kYPGjJiUwLSKa-dlT0jnEWqu3EHLah8j5Ct50Yoqg
-label: 'https://testd9-eguides.osha.europa.eu/all-ages/UK-en/sitemap.xml'
+label: 'https://eguides.osha.europa.eu/all-ages/UK-en/sitemap.xml'
 context:
   language: UK-en
